@@ -2,7 +2,13 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const businesses = (await getCollection('businesses', ({ data }) => data.status === 'published')).slice(0, 3);
+const allBusinesses = await getCollection('businesses', ({ data }) => data.status === 'published');
+const businesses = allBusinesses
+  .sort((a, b) => (b.data.ratingCount - a.data.ratingCount) || a.data.name.localeCompare(b.data.name))
+  .slice(0, 3);
+const stories = (await getCollection('stories', ({ data }) => data.status === 'published'))
+  .sort((a, b) => Number(b.data.featured) - Number(a.data.featured))
+  .slice(0, 3);
 ---
 
 <BaseLayout>
@@ -61,11 +67,29 @@ const businesses = (await getCollection('businesses', ({ data }) => data.status 
   </section>
 
   <section class="section">
-    <div class="section-heading"><div><p class="eyebrow">Directory preview</p><h2>Meet the neighbourhood</h2></div><a href="/directory">View the directory →</a></div>
+    <div class="section-heading"><div><p class="eyebrow">{allBusinesses.length} approved places</p><h2>Meet the neighbourhood</h2></div><a href="/directory">Search the full directory →</a></div>
     <div class="grid">
       {businesses.map(({ data }) => (
         <a class="card" href={`/directory/${data.slug}`}>
           <span class="pill">{data.categories.join(' · ')}</span><h3>{data.name}</h3><p>{data.summary}</p>
+          {data.rating && <b class="home-rating">★ {data.rating.toFixed(1)} · {data.ratingCount.toLocaleString()} reviews</b>}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section home-stories">
+    <div class="section-heading">
+      <div><p class="eyebrow">From the source desk</p><h2>Stories of Moalboal</h2></div>
+      <a href="/stories">Read all six stories →</a>
+    </div>
+    <div class="grid">
+      {stories.map(({ data }) => (
+        <a class="card story-preview" href={`/stories/${data.slug}`}>
+          <span class="pill">{data.type.replace('-', ' ')}</span>
+          <h3>{data.title}</h3>
+          <p>{data.summary}</p>
+          <b>{data.readingMinutes} min read · {data.sources.length} sources</b>
         </a>
       ))}
     </div>
@@ -101,6 +125,9 @@ const businesses = (await getCollection('businesses', ({ data }) => data.status 
   .living-topics { display: grid; grid-template-columns: auto 1fr; align-content: center; }
   .living-topics span, .living-topics p { padding: 1rem; margin: 0; border-bottom: 1px solid var(--line); }
   .living-topics span { color: var(--coral); font-weight: 700; }
+  .home-rating, .story-preview b { display: block; margin-top: 1rem; color: var(--sea); font-size: .82rem; }
+  .home-stories { background: var(--cream); }
+  .story-preview { background: var(--paper); }
   @media (max-width: 850px) {
     .hero, .help-section, .living-section { grid-template-columns: 1fr; }
     .hero { min-height: 0; } .town-note { min-height: 430px; }
