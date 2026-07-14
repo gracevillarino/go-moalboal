@@ -1,0 +1,35 @@
+{
+  "name": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal",
+  "slug": "kyro-cafe-coffee-breakfast-pastries-in-moalboal",
+  "summary": "Food and drink in Panagsama. Rated 4.9 from 723 Google reviews.",
+  "description": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.948122,
+    "lng": 123.37116390000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=3152407868175191208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJJTjavenpqzMRqIy6AUGavys",
+  "rating": 4.9,
+  "ratingCount": 723,
+  "tags": [
+    "eat",
+    "cafe",
+    "brunch-restaurant",
+    "internet-cafe",
+    "cafeteria"
+  ],
+  "featured": true,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Need4Speed Motorbike Rental - Moalboal Cebu",
+  "slug": "need4speed-motorbike-rental-moalboal-cebu",
+  "summary": "Transport in Poblacion East. Rated 4.6 from 42 Google reviews.",
+  "description": "Need4Speed Motorbike Rental - Moalboal Cebu is listed at National Hwy, Poblacion East, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport"
+  ],
+  "barangay": "Poblacion East",
+  "address": "National Hwy, Poblacion East, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9411921,
+    "lng": 123.39471909999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=7396706886944946464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ3XO2fQDpqzMRIPkJaLlhpmY",
+  "rating": 4.6,
+  "ratingCount": 42,
+  "tags": [
+    "transport",
+    "car-rental",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

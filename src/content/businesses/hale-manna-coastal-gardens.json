@@ -1,0 +1,35 @@
+{
+  "name": "Hale Manna Coastal Gardens",
+  "slug": "hale-manna-coastal-gardens",
+  "summary": "Accommodation in Saavedra. Rated 4.5 from 513 Google reviews.",
+  "description": "Hale Manna Coastal Gardens is listed at Sitio Basdako, Saavedra, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Saavedra",
+  "address": "Sitio Basdako, Saavedra, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.99083,
+    "lng": 123.371497
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16829057880921528347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJHRgyG0DmqzMRG9jQgPrSjOk",
+  "rating": 4.5,
+  "ratingCount": 513,
+  "tags": [
+    "stay",
+    "resort-hotel",
+    "private-guest-room",
+    "filipino-restaurant",
+    "hotel"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

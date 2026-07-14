@@ -1,0 +1,33 @@
+{
+  "name": "Bombilland Grill and Restaurant",
+  "slug": "bombilland-grill-and-restaurant",
+  "summary": "Food and drink in Moalboal. Rated 4.6 from 38 Google reviews.",
+  "description": "Bombilland Grill and Restaurant is listed at WCC3+26M, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Moalboal",
+  "address": "WCC3+26M, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9200974,
+    "lng": 123.40304409999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=6612095315703132344&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "googlePlaceId": "ChIJU3NRKADpqzMRuHCCQajhwls",
+  "rating": 4.6,
+  "ratingCount": 38,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

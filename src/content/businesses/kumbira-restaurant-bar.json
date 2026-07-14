@@ -1,0 +1,33 @@
+{
+  "name": "Kumbira Restaurant & Bar",
+  "slug": "kumbira-restaurant-bar",
+  "summary": "Food and drink in Panagsama. Rated 4.8 from 131 Google reviews.",
+  "description": "Kumbira Restaurant & Bar is listed at W9X9+X3Q, Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "W9X9+X3Q, Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.949770899999999,
+    "lng": 123.36772789999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=15044288909708079555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJi91vcwDpqzMRw7F_KQ4NyNA",
+  "rating": 4.8,
+  "ratingCount": 131,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

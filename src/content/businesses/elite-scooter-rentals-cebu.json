@@ -1,0 +1,32 @@
+{
+  "name": "Elite Scooter Rentals Cebu",
+  "slug": "elite-scooter-rentals-cebu",
+  "summary": "Transport in Moalboal. Rated 4.8 from 36 Google reviews.",
+  "description": "Elite Scooter Rentals Cebu is listed at Upper Buay Ay, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport"
+  ],
+  "barangay": "Moalboal",
+  "address": "Upper Buay Ay, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.948516999999999,
+    "lng": 123.37114969999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16010715898079769587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJbRGckYDpqzMR83O-6Ed9Md4",
+  "rating": 4.8,
+  "ratingCount": 36,
+  "tags": [
+    "transport",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

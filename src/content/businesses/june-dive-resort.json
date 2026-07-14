@@ -1,0 +1,35 @@
+{
+  "name": "June Dive Resort",
+  "slug": "june-dive-resort",
+  "summary": "Diving and ocean activities in Panagsama. Rated 4.7 from 164 Google reviews.",
+  "description": "June Dive Resort is listed at Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.950930999999999,
+    "lng": 123.36562599999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=11351851473981993079&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJGbsW0MDoqzMRd_CwWcXgiZ0",
+  "rating": 4.7,
+  "ratingCount": 164,
+  "tags": [
+    "dive",
+    "cafeteria",
+    "sports-activity-location",
+    "korean-restaurant",
+    "restaurant"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

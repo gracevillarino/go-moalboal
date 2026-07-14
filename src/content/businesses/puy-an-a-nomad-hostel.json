@@ -1,0 +1,33 @@
+{
+  "name": "Puy-an, A Nomad Hostel",
+  "slug": "puy-an-a-nomad-hostel",
+  "summary": "Accommodation in Moalboal. Rated 4.3 from 40 Google reviews.",
+  "description": "Puy-an, A Nomad Hostel is listed at C.Schmitz Road, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Moalboal",
+  "address": "C.Schmitz Road, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9481567,
+    "lng": 123.37104210000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16067184813441471791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJjW6KF-HpqzMRL9W60XUb-t4",
+  "rating": 4.3,
+  "ratingCount": 40,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

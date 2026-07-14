@@ -1,0 +1,9 @@
+{
+  "name": "Sample Community Group",
+  "slug": "sample-community-group",
+  "summary": "A fictional organization record demonstrating the content model.",
+  "category": "environment",
+  "barangay": "Basdiot",
+  "contact": {},
+  "status": "draft"
+}

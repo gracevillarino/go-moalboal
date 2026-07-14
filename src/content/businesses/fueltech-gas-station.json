@@ -1,0 +1,33 @@
+{
+  "name": "FuelTech Gas Station",
+  "slug": "fueltech-gas-station",
+  "summary": "Transport in Panagsama. Rated 4.3 from 33 Google reviews.",
+  "description": "FuelTech Gas Station is listed at W9QR+MCC, Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport"
+  ],
+  "barangay": "Panagsama",
+  "address": "W9QR+MCC, Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9391997,
+    "lng": 123.3910068
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16675353635450750071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJFyQb4DXpqzMRd4QPGcjBauc",
+  "rating": 4.3,
+  "ratingCount": 33,
+  "tags": [
+    "transport",
+    "gas-station",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

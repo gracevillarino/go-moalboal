@@ -1,0 +1,33 @@
+{
+  "name": "Ohlala Hostel",
+  "slug": "ohlala-hostel",
+  "summary": "Accommodation in Panagsama. Rated 4.8 from 74 Google reviews.",
+  "description": "Ohlala Hostel is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9492465,
+    "lng": 123.36929420000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=12367406143473824762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ37WevArpqzMR-rO9tlzaoas",
+  "rating": 4.8,
+  "ratingCount": 74,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

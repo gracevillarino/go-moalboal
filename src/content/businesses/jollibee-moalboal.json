@@ -1,0 +1,34 @@
+{
+  "name": "Jollibee Moalboal",
+  "slug": "jollibee-moalboal",
+  "summary": "Food and drink in Poblacion West. Rated 4.3 from 620 Google reviews.",
+  "description": "Jollibee Moalboal is listed at Moalboal Plaza, Poblacion West, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Poblacion West",
+  "address": "Moalboal Plaza, Poblacion West, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.936937499999999,
+    "lng": 123.39243749999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=3287728581952564791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJz2LJcZPpqzMRN24u5blboC0",
+  "rating": 4.3,
+  "ratingCount": 620,
+  "tags": [
+    "eat",
+    "fast-food-restaurant",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

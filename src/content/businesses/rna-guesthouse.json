@@ -1,0 +1,33 @@
+{
+  "name": "RNA Guesthouse",
+  "slug": "rna-guesthouse",
+  "summary": "Accommodation in Tongo. Rated 4.8 from 51 Google reviews.",
+  "description": "RNA Guesthouse is listed at Lot 1 Tongo Point Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Tongo",
+  "address": "Lot 1 Tongo Point Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.938506799999999,
+    "lng": 123.3844062
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=8463034704582835937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJocn_ocTpqzMR4X52iDm9cnU",
+  "rating": 4.8,
+  "ratingCount": 51,
+  "tags": [
+    "stay",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

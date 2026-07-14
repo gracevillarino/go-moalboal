@@ -1,0 +1,36 @@
+{
+  "name": "Moalboal Treeshade Resort",
+  "slug": "moalboal-treeshade-resort",
+  "summary": "Accommodation and Local service in Panagsama. Rated 4.9 from 3,773 Google reviews.",
+  "description": "Moalboal Treeshade Resort is listed at Bantayan, Between Beyond Island and Dolce Vita Resort, Basdiot, Panagsama Rd, Uno, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay",
+    "services"
+  ],
+  "barangay": "Panagsama",
+  "address": "Bantayan, Between Beyond Island and Dolce Vita Resort, Basdiot, Panagsama Rd, Uno, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9522909,
+    "lng": 123.36845710000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16693167153538324941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJP6N_G_LpqzMRzdne-hQLquc",
+  "rating": 4.9,
+  "ratingCount": 3773,
+  "tags": [
+    "stay",
+    "services",
+    "resort-hotel",
+    "hotel",
+    "lodging"
+  ],
+  "featured": true,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

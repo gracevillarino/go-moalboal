@@ -1,0 +1,33 @@
+{
+  "name": "Mashiso Restaurant",
+  "slug": "mashiso-restaurant",
+  "summary": "Food and drink in Moalboal. Rated 5.0 from 21 Google reviews.",
+  "description": "Mashiso Restaurant is listed at Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Moalboal",
+  "address": "Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9597904,
+    "lng": 123.37360729999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=3236656697246849774&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "googlePlaceId": "ChIJuxJ5BADpqzMR7ppJGx7q6iw",
+  "rating": 5,
+  "ratingCount": 21,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Petron",
+  "slug": "petron",
+  "summary": "Transport in Moalboal. Rated 4.3 from 34 Google reviews.",
+  "description": "Petron is listed at W9RW+X7M, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport"
+  ],
+  "barangay": "Moalboal",
+  "address": "W9RW+X7M, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9424644,
+    "lng": 123.3956623
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=10916759034393798209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJVZCqO1roqzMRQSaUl4AegJc",
+  "rating": 4.3,
+  "ratingCount": 34,
+  "tags": [
+    "transport",
+    "gas-station",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

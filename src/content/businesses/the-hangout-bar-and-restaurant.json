@@ -1,0 +1,34 @@
+{
+  "name": "The Hangout - Bar and Restaurant",
+  "slug": "the-hangout-bar-and-restaurant",
+  "summary": "Food and drink in Moalboal. Rated 4.8 from 233 Google reviews.",
+  "description": "The Hangout - Bar and Restaurant is listed at Tubli Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Moalboal",
+  "address": "Tubli Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9520283,
+    "lng": 123.36848979999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16428732473669236889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJS7mRt0bpqzMRmbj6QiSV_uM",
+  "rating": 4.8,
+  "ratingCount": 233,
+  "tags": [
+    "eat",
+    "restaurant",
+    "bar",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

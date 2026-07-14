@@ -1,0 +1,35 @@
+{
+  "name": "Dolce Vita Resort",
+  "slug": "dolce-vita-resort",
+  "summary": "Accommodation in Moalboal. Rated 4.5 from 116 Google reviews.",
+  "description": "Dolce Vita Resort is listed at Uno Bantayan Road, Moalboal, 6032 Lalawigan ng Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Moalboal",
+  "address": "Uno Bantayan Road, Moalboal, 6032 Lalawigan ng Cebu",
+  "coordinates": {
+    "lat": 9.9525364,
+    "lng": 123.3685806
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=7816676232443908290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ194tDpjpqzMRwtAOb55pemw",
+  "rating": 4.5,
+  "ratingCount": 116,
+  "tags": [
+    "stay",
+    "resort-hotel",
+    "inn",
+    "swimming-pool",
+    "hostel"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

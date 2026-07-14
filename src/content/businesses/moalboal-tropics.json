@@ -1,0 +1,39 @@
+{
+  "name": "Moalboal Tropics",
+  "slug": "moalboal-tropics",
+  "summary": "Accommodation and Shopping and Local service in Poblacion East. Rated 4.1 from 829 Google reviews.",
+  "description": "Moalboal Tropics is listed at Paramayon, Poblacion East, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay",
+    "shop",
+    "services"
+  ],
+  "barangay": "Poblacion East",
+  "address": "Paramayon, Poblacion East, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9413275,
+    "lng": 123.39770859999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=2131623360769420883&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ_8HTvFnoqzMRU-6VHScMlR0",
+  "rating": 4.1,
+  "ratingCount": 829,
+  "tags": [
+    "stay",
+    "shop",
+    "services",
+    "resort-hotel",
+    "swimming-pool",
+    "bar",
+    "hotel"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

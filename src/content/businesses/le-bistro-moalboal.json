@@ -1,0 +1,33 @@
+{
+  "name": "Le Bistro Moalboal",
+  "slug": "le-bistro-moalboal",
+  "summary": "Food and drink in Panagsama. Rated 4.2 from 279 Google reviews.",
+  "description": "Le Bistro Moalboal is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.950372699999999,
+    "lng": 123.3658801
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16666432797731841941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJXRXrbJbpqzMRlee5tVMQS-c",
+  "rating": 4.2,
+  "ratingCount": 279,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

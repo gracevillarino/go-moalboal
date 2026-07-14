@@ -1,0 +1,37 @@
+{
+  "name": "Bawud Cafe Moalboal",
+  "slug": "bawud-cafe-moalboal",
+  "summary": "Food and drink and Shopping in Panagsama. Rated 4.2 from 1,102 Google reviews.",
+  "description": "Bawud Cafe Moalboal is listed at Panagsama Main Road, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat",
+    "shop"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Main Road, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.950184799999999,
+    "lng": 123.36695119999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=7935593270783138039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJw4LlVxnpqzMR91gCAwnkIG4",
+  "rating": 4.2,
+  "ratingCount": 1102,
+  "tags": [
+    "eat",
+    "shop",
+    "coffee-shop",
+    "cafe",
+    "food-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

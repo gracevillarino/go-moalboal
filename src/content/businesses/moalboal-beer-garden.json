@@ -1,0 +1,35 @@
+{
+  "name": "Moalboal Beer Garden",
+  "slug": "moalboal-beer-garden",
+  "summary": "Food and drink in Panagsama. Rated 5.0 from 24 Google reviews.",
+  "description": "Moalboal Beer Garden is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9494381,
+    "lng": 123.36873489999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=13766967745195099097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJMYJIvbzpqzMR2UOdRjkYDr8",
+  "rating": 5,
+  "ratingCount": 24,
+  "tags": [
+    "eat",
+    "bar",
+    "beer-garden",
+    "sports-bar",
+    "live-music-venue"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

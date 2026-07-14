@@ -1,0 +1,34 @@
+{
+  "name": "Pescadores Suites Moalboal",
+  "slug": "pescadores-suites-moalboal",
+  "summary": "Accommodation in Basdiot. Rated 4.3 from 1,186 Google reviews.",
+  "description": "Pescadores Suites Moalboal is listed at Francisco Road, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "Francisco Road, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.944281,
+    "lng": 123.36886309999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=12917081883059023382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJjSL22cLoqzMRFu5d9oixQrM",
+  "rating": 4.3,
+  "ratingCount": 1186,
+  "tags": [
+    "stay",
+    "resort-hotel",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

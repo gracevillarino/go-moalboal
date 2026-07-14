@@ -1,0 +1,37 @@
+{
+  "name": "Ô délices French Bakery",
+  "slug": "o-delices-french-bakery",
+  "summary": "Food and drink and Shopping in Panagsama. Rated 4.9 from 1,027 Google reviews.",
+  "description": "Ô délices French Bakery is listed at Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat",
+    "shop"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.944826599999999,
+    "lng": 123.3778135
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=1836056665816496966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJx-SKl7DpqzMRRvt6Sc_7ehk",
+  "rating": 4.9,
+  "ratingCount": 1027,
+  "tags": [
+    "eat",
+    "shop",
+    "bakery",
+    "coffee-shop",
+    "breakfast-restaurant",
+    "cafe"
+  ],
+  "featured": true,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

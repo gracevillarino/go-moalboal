@@ -1,0 +1,33 @@
+{
+  "name": "Emok's Guest House",
+  "slug": "emok-s-guest-house",
+  "summary": "Accommodation in Poblacion East. Rated 4.2 from 121 Google reviews.",
+  "description": "Emok's Guest House is listed at Paramayon, Poblacion East,, Moalboal, 6032 Lalawigan ng Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Poblacion East",
+  "address": "Paramayon, Poblacion East,, Moalboal, 6032 Lalawigan ng Cebu",
+  "coordinates": {
+    "lat": 9.942231699999999,
+    "lng": 123.39814840000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=9940506151529419808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJL84Uq1voqzMRIBR_ga3F84k",
+  "rating": 4.2,
+  "ratingCount": 121,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

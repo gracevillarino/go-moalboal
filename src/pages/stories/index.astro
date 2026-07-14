@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const stories = (await getCollection('stories', ({ data }) => data.status === 'published'))
+  .sort((a, b) => Number(b.data.featured) - Number(a.data.featured));
+const sourceCount = stories.reduce((total, story) => total + story.data.sources.length, 0);
+---
+
+<BaseLayout title="Stories — Go Moalboal" description="Research-backed stories about Moalboal's people, coast and community.">
+  <section class="stories-hero section">
+    <p class="eyebrow">Stories / research edition</p>
+    <h1>The place behind<br /><em>the postcard.</em></h1>
+    <div class="hero-meta">
+      <p>Six starting points for understanding Moalboal—built from public records, research, conservation reports and local sources.</p>
+      <span>{sourceCount} source references</span>
+    </div>
+  </section>
+
+  <section class="editorial-note">
+    <strong>Read with us, not at us.</strong>
+    <p>These are research drafts, not the last word. We want residents, researchers and people named by the history to help correct, deepen and localize them.</p>
+  </section>
+
+  <section class="section story-list">
+    {stories.map(({ data }, index) => (
+      <a class:list={['story-card', { featured: data.featured }]} href={`/stories/${data.slug}`}>
+        <div class="story-number">{String(index + 1).padStart(2, '0')}</div>
+        <div>
+          <span class="pill">{data.type.replace('-', ' ')}</span>
+          <h2>{data.title}</h2>
+          <p>{data.summary}</p>
+        </div>
+        <div class="story-meta"><span>{data.readingMinutes} min read</span><span>{data.sources.length} sources</span><b>Read story →</b></div>
+      </a>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .stories-hero { background: var(--cream); }
+  .stories-hero h1 { max-width: 12ch; }
+  .stories-hero em { color: var(--coral); font-weight: inherit; }
+  .hero-meta { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 2rem; margin-top: 2rem; }
+  .hero-meta p { max-width: 42rem; font-size: 1.15rem; }
+  .hero-meta span { padding: .7rem 1rem; border: 1px solid var(--ink); border-radius: 999px; font-weight: 700; }
+  .editorial-note { display: grid; grid-template-columns: .7fr 1.5fr; gap: 3rem; padding: 2rem 5vw; background: var(--sun); }
+  .editorial-note p { margin: 0; max-width: 48rem; }
+  .story-list { padding-top: 2rem; }
+  .story-card { display: grid; grid-template-columns: 80px 1fr 150px; gap: 2rem; padding: 2.5rem 0; border-bottom: 1px solid var(--line); text-decoration: none; align-items: start; }
+  .story-card h2 { font-size: clamp(2rem, 4vw, 3.7rem); max-width: 15ch; }
+  .story-card p { max-width: 44rem; color: #47635d; }
+  .story-card:hover h2 { color: var(--sea); }
+  .story-number { font-family: 'Fraunces', serif; color: var(--coral); font-size: 1.25rem; }
+  .story-meta { display: flex; flex-direction: column; gap: .35rem; font-size: .78rem; }
+  .story-meta b { margin-top: 1rem; color: var(--sea); }
+  @media (max-width: 760px) {
+    .hero-meta, .editorial-note { grid-template-columns: 1fr; }
+    .story-card { grid-template-columns: 40px 1fr; }
+    .story-meta { grid-column: 2; }
+  }
+</style>

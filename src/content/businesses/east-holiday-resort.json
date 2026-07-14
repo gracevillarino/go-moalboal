@@ -1,0 +1,33 @@
+{
+  "name": "East Holiday Resort",
+  "slug": "east-holiday-resort",
+  "summary": "Accommodation in Panagsama. Rated 4.9 from 43 Google reviews.",
+  "description": "East Holiday Resort is listed at Francisco Road, Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Panagsama",
+  "address": "Francisco Road, Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.944415099999999,
+    "lng": 123.3694276
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=12000113499090777254&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ_-w3SkXpqzMRpvSs6aX3iKY",
+  "rating": 4.9,
+  "ratingCount": 43,
+  "tags": [
+    "stay",
+    "private-guest-room",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

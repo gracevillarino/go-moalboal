@@ -1,0 +1,33 @@
+{
+  "name": "Maayong Hostel",
+  "slug": "maayong-hostel",
+  "summary": "Accommodation in Panagsama. Rated 4.8 from 181 Google reviews.",
+  "description": "Maayong Hostel is listed at W9WF+3GX, Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Panagsama",
+  "address": "W9WF+3GX, Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9505126,
+    "lng": 123.36899089999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=253271441019526877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJbV4I0THpqzMR3V64oQjNgwM",
+  "rating": 4.8,
+  "ratingCount": 181,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

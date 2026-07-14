@@ -1,0 +1,32 @@
+{
+  "name": "Grace Bar",
+  "slug": "grace-bar",
+  "summary": "Food and drink in Panagsama. Rated 4.8 from 49 Google reviews.",
+  "description": "Grace Bar is listed at X928+2XC, Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "X928+2XC, Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.950045399999999,
+    "lng": 123.3674526
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=13405875273386957364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJEaKlcwDpqzMRNBpspYg8C7o",
+  "rating": 4.8,
+  "ratingCount": 49,
+  "tags": [
+    "eat",
+    "bar"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Moana Beach House",
+  "slug": "moana-beach-house",
+  "summary": "Accommodation in Panagsama. Rated 4.2 from 76 Google reviews.",
+  "description": "Moana Beach House is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9523573,
+    "lng": 123.36597470000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=15823580291226035838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJV1YXCavpqzMRfmZmHXCmmNs",
+  "rating": 4.2,
+  "ratingCount": 76,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

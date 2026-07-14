@@ -1,0 +1,32 @@
+{
+  "name": "Flores Motorcycle Rental",
+  "slug": "flores-motorcycle-rental",
+  "summary": "Transport in Moalboal. Rated 4.4 from 33 Google reviews.",
+  "description": "Flores Motorcycle Rental is listed at X95G+Q5C, Tubli Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport"
+  ],
+  "barangay": "Moalboal",
+  "address": "X95G+Q5C, Tubli Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9594439,
+    "lng": 123.37540480000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5405812881089515454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJV4TKJRrpqzMRvk-SkyxOBUs",
+  "rating": 4.4,
+  "ratingCount": 33,
+  "tags": [
+    "transport",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

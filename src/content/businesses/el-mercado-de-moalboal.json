@@ -1,0 +1,37 @@
+{
+  "name": "El Mercado de Moalboal",
+  "slug": "el-mercado-de-moalboal",
+  "summary": "Food and drink and Shopping in Panagsama. Rated 4.6 from 580 Google reviews.",
+  "description": "El Mercado de Moalboal is listed at community stage, Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat",
+    "shop"
+  ],
+  "barangay": "Panagsama",
+  "address": "community stage, Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9485783,
+    "lng": 123.37115310000002
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16946553169965496893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJpxa-EJHpqzMRPToQR1JALus",
+  "rating": 4.6,
+  "ratingCount": 580,
+  "tags": [
+    "eat",
+    "shop",
+    "food-court",
+    "dessert-restaurant",
+    "coffee-shop",
+    "cafe"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

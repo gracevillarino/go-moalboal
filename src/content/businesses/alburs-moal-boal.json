@@ -1,0 +1,33 @@
+{
+  "name": "Alburs Moal Boal",
+  "slug": "alburs-moal-boal",
+  "summary": "Food and drink in Panagsama. Rated 4.7 from 298 Google reviews.",
+  "description": "Alburs Moal Boal is listed at X929+53F, Panagsama Beach, tuble Road, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "X929+53F, Panagsama Beach, tuble Road, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9504366,
+    "lng": 123.3676564
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=14595997247992771991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJr1deMQDpqzMRlzUwBSpmj8o",
+  "rating": 4.7,
+  "ratingCount": 298,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

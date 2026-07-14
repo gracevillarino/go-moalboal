@@ -1,0 +1,35 @@
+{
+  "name": "Coffee Spot Moalboal",
+  "slug": "coffee-spot-moalboal",
+  "summary": "Food and drink in Panagsama. Rated 4.4 from 53 Google reviews.",
+  "description": "Coffee Spot Moalboal is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.946263499999999,
+    "lng": 123.3750322
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16382285785977140430&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ0eArJRPpqzMRzjQZEiCSWeM",
+  "rating": 4.4,
+  "ratingCount": 53,
+  "tags": [
+    "eat",
+    "coffee-shop",
+    "cafe",
+    "food-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,60 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const stories = await getCollection('stories', ({ data }) => data.status === 'published');
+  return stories.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content } = await render(entry);
+---
+
+<BaseLayout title={`${data.title} — Go Moalboal`} description={data.summary}>
+  <article>
+    <header class="story-hero section">
+      <a href="/stories">← All stories</a>
+      <div class="story-heading">
+        <div><span class="pill">{data.type.replace('-', ' ')}</span><h1>{data.title}</h1></div>
+        <div><p>{data.summary}</p><span>{data.readingMinutes} minute read · {data.sources.length} sources</span></div>
+      </div>
+    </header>
+    <div class="research-note"><strong>Research draft</strong><span>This story needs local review. Sources support the factual frame; community memory should deepen it.</span></div>
+    <div class="story-layout section">
+      <div class="prose"><Content /></div>
+      <aside>
+        <p class="eyebrow">Source desk</p>
+        <ol>
+          {data.sources.map((source) => <li><a href={source.url} rel="noreferrer" target="_blank">{source.title}</a><span>{source.publisher}</span></li>)}
+        </ol>
+      </aside>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .story-hero { background: var(--forest); color: #fff; }
+  .story-hero > a { display: inline-block; margin-bottom: 4rem; }
+  .story-heading { display: grid; grid-template-columns: 1.5fr .65fr; gap: 5rem; align-items: end; }
+  .story-heading h1 { font-size: clamp(3rem, 7vw, 6.4rem); max-width: 12ch; }
+  .story-heading p { font-size: 1.18rem; }
+  .story-heading div:last-child span { font-size: .8rem; opacity: .78; }
+  .research-note { display: grid; grid-template-columns: .4fr 1.6fr; gap: 2rem; background: var(--sun); padding: 1rem 5vw; }
+  .story-layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: clamp(3rem, 8vw, 8rem); align-items: start; }
+  .prose { max-width: 720px; font-family: Georgia, serif; font-size: 1.08rem; line-height: 1.8; }
+  .prose :global(h2) { font-size: clamp(2rem, 4vw, 3rem); margin-top: 3.5rem; }
+  .prose :global(h3) { margin-top: 2.2rem; }
+  .prose :global(a) { color: var(--sea); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .prose :global(blockquote) { margin: 2.5rem 0; padding: 1.5rem 2rem; border-left: 4px solid var(--coral); background: var(--cream); font-family: 'Fraunces', serif; font-size: 1.4rem; }
+  aside { position: sticky; top: 2rem; border-top: 4px solid var(--coral); padding-top: 1.5rem; }
+  aside ol { padding-left: 1.3rem; }
+  aside li { margin-bottom: 1.25rem; padding-left: .4rem; }
+  aside a { display: block; font-weight: 700; line-height: 1.3; }
+  aside span { display: block; margin-top: .25rem; color: #657b76; font-size: .75rem; }
+  @media (max-width: 850px) {
+    .story-heading, .story-layout, .research-note { grid-template-columns: 1fr; gap: 2rem; }
+    aside { position: static; }
+  }
+</style>

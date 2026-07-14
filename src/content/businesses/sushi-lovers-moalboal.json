@@ -1,0 +1,35 @@
+{
+  "name": "Sushi Lovers Moalboal",
+  "slug": "sushi-lovers-moalboal",
+  "summary": "Food and drink in Panagsama. Rated 4.2 from 53 Google reviews.",
+  "description": "Sushi Lovers Moalboal is listed at W9XC+FFR, Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "W9XC+FFR, Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9501861,
+    "lng": 123.3670307
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=8935298980292390521&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "googlePlaceId": "ChIJxfGqfQDpqzMRee480hSPAHw",
+  "rating": 4.2,
+  "ratingCount": 53,
+  "tags": [
+    "eat",
+    "restaurant",
+    "sushi-restaurant",
+    "japanese-restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

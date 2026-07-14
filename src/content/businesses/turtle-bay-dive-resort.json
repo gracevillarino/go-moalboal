@@ -1,0 +1,34 @@
+{
+  "name": "Turtle Bay Dive Resort",
+  "slug": "turtle-bay-dive-resort",
+  "summary": "Accommodation in Basdiot. Rated 4.5 from 390 Google reviews.",
+  "description": "Turtle Bay Dive Resort is listed at Tongo, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "Tongo, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9349802,
+    "lng": 123.37714220000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5155900931824891703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ4fHDHOPoqzMRNzeHkpRwjUc",
+  "rating": 4.5,
+  "ratingCount": 390,
+  "tags": [
+    "stay",
+    "resort-hotel",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

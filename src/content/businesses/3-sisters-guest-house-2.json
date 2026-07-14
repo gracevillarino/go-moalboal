@@ -1,0 +1,33 @@
+{
+  "name": "3 Sisters Guest House 2",
+  "slug": "3-sisters-guest-house-2",
+  "summary": "Accommodation in Basdiot. Rated 4.8 from 32 Google reviews.",
+  "description": "3 Sisters Guest House 2 is listed at Tubli Road, Bantayan 1, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "Tubli Road, Bantayan 1, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9530504,
+    "lng": 123.36933429999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5665249616005909772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJYXdh59bpqzMRDE3zjYICn04",
+  "rating": 4.8,
+  "ratingCount": 32,
+  "tags": [
+    "stay",
+    "guest-house",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

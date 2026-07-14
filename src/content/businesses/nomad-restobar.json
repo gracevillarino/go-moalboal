@@ -1,0 +1,34 @@
+{
+  "name": "Nomad Restobar",
+  "slug": "nomad-restobar",
+  "summary": "Food and drink in Moalboal. Rated 4.6 from 179 Google reviews.",
+  "description": "Nomad Restobar is listed at C.Schmitz Road, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Moalboal",
+  "address": "C.Schmitz Road, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.948169499999999,
+    "lng": 123.37095049999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=504677233675737671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ1zgfOnrpqzMRRxp4J0X5AAc",
+  "rating": 4.6,
+  "ratingCount": 179,
+  "tags": [
+    "eat",
+    "restaurant",
+    "bar",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Yamz Cebu Tourist Transport",
+  "slug": "yamz-cebu-tourist-transport",
+  "summary": "Transport in Basdiot. Rated 5.0 from 20 Google reviews.",
+  "description": "Yamz Cebu Tourist Transport is listed at purok bolinao, Tap anan Barangay Basdiot, Tomas road, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport"
+  ],
+  "barangay": "Basdiot",
+  "address": "purok bolinao, Tap anan Barangay Basdiot, Tomas road, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.941342800000001,
+    "lng": 123.3732562
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=7618499109680575151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJPQGCi0DMpAYRr_IjYpNYumk",
+  "rating": 5,
+  "ratingCount": 20,
+  "tags": [
+    "transport",
+    "transportation-service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

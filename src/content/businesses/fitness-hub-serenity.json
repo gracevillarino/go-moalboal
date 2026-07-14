@@ -1,0 +1,35 @@
+{
+  "name": "Fitness Hub Serenity",
+  "slug": "fitness-hub-serenity",
+  "summary": "Local service in Basdiot. Rated 4.8 from 53 Google reviews.",
+  "description": "Fitness Hub Serenity is listed at Bantayan, 1 Tubli Rd, Basdiot, Moalboal, 6015 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "services",
+  "categories": [
+    "services"
+  ],
+  "barangay": "Basdiot",
+  "address": "Bantayan, 1 Tubli Rd, Basdiot, Moalboal, 6015 Cebu",
+  "coordinates": {
+    "lat": 9.952871799999999,
+    "lng": 123.37042849999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5315970322415295885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "googlePlaceId": "ChIJXw-qPMHpqzMRjR0V0Ncexkk",
+  "rating": 4.8,
+  "ratingCount": 53,
+  "tags": [
+    "services",
+    "fitness-center",
+    "gym",
+    "sports-activity-location",
+    "health"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

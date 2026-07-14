@@ -1,0 +1,33 @@
+{
+  "name": "Herbs Guest House",
+  "slug": "herbs-guest-house",
+  "summary": "Accommodation in Tongo. Rated 4.5 from 158 Google reviews.",
+  "description": "Herbs Guest House is listed at Tongo Point Road Tongo, W9PG+5FF, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Tongo",
+  "address": "Tongo Point Road Tongo, W9PG+5FF, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9354429,
+    "lng": 123.3761797
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16078573572105745310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJMQNFm-HoqzMRnrNY1HmRIt8",
+  "rating": 4.5,
+  "ratingCount": 158,
+  "tags": [
+    "stay",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

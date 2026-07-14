@@ -1,0 +1,35 @@
+{
+  "name": "Le café Français",
+  "slug": "le-cafe-francais",
+  "summary": "Food and drink in Moalboal. Rated 4.6 from 442 Google reviews.",
+  "description": "Le café Français is listed at W9XC+9GM, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Moalboal",
+  "address": "W9XC+9GM, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9484847,
+    "lng": 123.371374
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=17220650823262731464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ6d5iRQ3pqzMRyPycUa8K_O4",
+  "rating": 4.6,
+  "ratingCount": 442,
+  "tags": [
+    "eat",
+    "french-restaurant",
+    "dessert-shop",
+    "confectionery",
+    "food-store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

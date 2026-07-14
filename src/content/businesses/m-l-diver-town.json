@@ -1,0 +1,33 @@
+{
+  "name": "M&L Diver Town",
+  "slug": "m-l-diver-town",
+  "summary": "Diving and ocean activities in Panagsama. Rated 4.5 from 38 Google reviews.",
+  "description": "M&L Diver Town is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.947793299999999,
+    "lng": 123.36619829999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=13951989114522898619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJAcin-sPoqzMRuxBByS1sn8E",
+  "rating": 4.5,
+  "ratingCount": 38,
+  "tags": [
+    "dive",
+    "sporting-goods-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Moalboal Sardines Run",
+  "slug": "moalboal-sardines-run",
+  "summary": "Diving and ocean activities and Transport in Panagsama. Rated 4.3 from 310 Google reviews.",
+  "description": "Moalboal Sardines Run is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive",
+    "transport"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9489659,
+    "lng": 123.3653626
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=7505367752978782264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ5XeYhgXpqzMRONj4yDRsKGg",
+  "rating": 4.3,
+  "ratingCount": 310,
+  "tags": [
+    "dive",
+    "transport",
+    "tourist-attraction",
+    "tour-agency",
+    "travel-agency",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

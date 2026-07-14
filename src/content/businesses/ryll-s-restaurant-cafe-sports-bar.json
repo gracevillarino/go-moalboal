@@ -1,0 +1,35 @@
+{
+  "name": "Ryll's Restaurant • Café • Sports Bar",
+  "slug": "ryll-s-restaurant-cafe-sports-bar",
+  "summary": "Food and drink in Panagsama. Rated 4.8 from 113 Google reviews.",
+  "description": "Ryll's Restaurant • Café • Sports Bar is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.949501699999999,
+    "lng": 123.3681276
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=1000530620006405407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJjX08rcLpqzMRHxViQEyZ4g0",
+  "rating": 4.8,
+  "ratingCount": 113,
+  "tags": [
+    "eat",
+    "restaurant",
+    "hamburger-restaurant",
+    "pizza-restaurant",
+    "tea-house"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

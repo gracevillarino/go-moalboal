@@ -1,0 +1,35 @@
+{
+  "name": "Laundry Station",
+  "slug": "laundry-station",
+  "summary": "Transport and Local service in Moalboal. Rated 4.7 from 63 Google reviews.",
+  "description": "Laundry Station is listed at W9VV+7P, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport",
+    "services"
+  ],
+  "barangay": "Moalboal",
+  "address": "W9VV+7P, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9432232,
+    "lng": 123.39499400000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=7998207885040624931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJMfalHZfpqzMRIyWT87FX_24",
+  "rating": 4.7,
+  "ratingCount": 63,
+  "tags": [
+    "transport",
+    "services",
+    "laundry",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

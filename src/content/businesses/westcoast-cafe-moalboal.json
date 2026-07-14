@@ -1,0 +1,33 @@
+{
+  "name": "Westcoast Cafe Moalboal",
+  "slug": "westcoast-cafe-moalboal",
+  "summary": "Food and drink in Panagsama. Rated 4.7 from 331 Google reviews.",
+  "description": "Westcoast Cafe Moalboal is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9501589,
+    "lng": 123.3668358
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=1083909997914430132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJg8GtOWvpqzMRtBovembSCg8",
+  "rating": 4.7,
+  "ratingCount": 331,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Ocean Passion Dive Center",
+  "slug": "ocean-passion-dive-center",
+  "summary": "Diving and ocean activities in Panagsama. Rated 4.7 from 45 Google reviews.",
+  "description": "Ocean Passion Dive Center is listed at Panagsama Beach, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9502755,
+    "lng": 123.36581179999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5227333258582212509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJl8_JpkHpqzMRnb9gMOc3i0g",
+  "rating": 4.7,
+  "ratingCount": 45,
+  "tags": [
+    "dive",
+    "sporting-goods-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Ye Old Countrystyle Bakeshop",
+  "slug": "ye-old-countrystyle-bakeshop",
+  "summary": "Food and drink in Panagsama. Rated 4.9 from 101 Google reviews.",
+  "description": "Ye Old Countrystyle Bakeshop is listed at W9WH+23C, Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "W9WH+23C, Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.945073299999999,
+    "lng": 123.37763179999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=6491050762696217014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ0ZLHZKDpqzMRtlGJEUfYFFo",
+  "rating": 4.9,
+  "ratingCount": 101,
+  "tags": [
+    "eat",
+    "bakery",
+    "food-store",
+    "store",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "South Travel Adventures",
+  "slug": "south-travel-adventures",
+  "summary": "Diving and ocean activities and Transport in Panagsama. Rated 4.8 from 45 Google reviews.",
+  "description": "South Travel Adventures is listed at Beside at Floi Diving Center, Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive",
+    "transport"
+  ],
+  "barangay": "Panagsama",
+  "address": "Beside at Floi Diving Center, Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9492224,
+    "lng": 123.36582589999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5701629763982528545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJg3Tt45vpqzMRIRD50g9CIE8",
+  "rating": 4.8,
+  "ratingCount": 45,
+  "tags": [
+    "dive",
+    "transport",
+    "travel-agency",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

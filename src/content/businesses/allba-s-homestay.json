@@ -1,0 +1,33 @@
+{
+  "name": "Allba's Homestay",
+  "slug": "allba-s-homestay",
+  "summary": "Accommodation in Tongo. Rated 4.3 from 186 Google reviews.",
+  "description": "Allba's Homestay is listed at Tongo Point Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Tongo",
+  "address": "Tongo Point Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9344327,
+    "lng": 123.3761772
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=15505560862174133382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJjXiKjeHoqzMRhrwWwXPRLtc",
+  "rating": 4.3,
+  "ratingCount": 186,
+  "tags": [
+    "stay",
+    "private-guest-room",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

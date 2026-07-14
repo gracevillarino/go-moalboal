@@ -1,0 +1,34 @@
+{
+  "name": "Gaisano Town Center - Moalboal",
+  "slug": "gaisano-town-center-moalboal",
+  "summary": "Shopping and Local service in Poblacion East. Rated 4.0 from 188 Google reviews.",
+  "description": "Gaisano Town Center - Moalboal is listed at Poblacion East, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "shop",
+  "categories": [
+    "shop",
+    "services"
+  ],
+  "barangay": "Poblacion East",
+  "address": "Poblacion East, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9346601,
+    "lng": 123.39603559999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=17658595362026883543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJd6T_-8XpqzMR1wn5KezuD_U",
+  "rating": 4,
+  "ratingCount": 188,
+  "tags": [
+    "shop",
+    "services",
+    "shopping-mall"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

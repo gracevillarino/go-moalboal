@@ -1,0 +1,20 @@
+---
+const nav = [
+  ['Explore', '/explore'],
+  ['Directory', '/directory'],
+  ['Living here', '/living'],
+  ['Community', '/community'],
+  ['Stories', '/stories'],
+];
+---
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Go Moalboal home">
+    <span class="brand-mark">GM</span>
+    <span>Go Moalboal</span>
+  </a>
+  <nav aria-label="Primary navigation">
+    {nav.map(([label, href]) => <a href={href}>{label}</a>)}
+  </nav>
+  <a class="help-link" href="/community#help">How can I help?</a>
+</header>

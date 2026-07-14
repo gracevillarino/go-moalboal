@@ -1,0 +1,35 @@
+{
+  "name": "Kasai Village Dive Resort",
+  "slug": "kasai-village-dive-resort",
+  "summary": "Diving and ocean activities in Moalboal. Rated 4.4 from 231 Google reviews.",
+  "description": "Kasai Village Dive Resort is listed at Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive"
+  ],
+  "barangay": "Moalboal",
+  "address": "Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9621009,
+    "lng": 123.36952190000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16558211760192398933&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "googlePlaceId": "ChIJXSXwVWLoqzMRVab24d2VyuU",
+  "rating": 4.4,
+  "ratingCount": 231,
+  "tags": [
+    "dive",
+    "resort-hotel",
+    "sporting-goods-store",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

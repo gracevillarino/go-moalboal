@@ -1,0 +1,38 @@
+{
+  "name": "The Wild Orchid Resort",
+  "slug": "the-wild-orchid-resort",
+  "summary": "Accommodation and Diving and ocean activities and Shopping in Saavedra. Rated 4.3 from 115 Google reviews.",
+  "description": "The Wild Orchid Resort is listed at The Wild Orchid Resort, Saavedra, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay",
+    "dive",
+    "shop"
+  ],
+  "barangay": "Saavedra",
+  "address": "The Wild Orchid Resort, Saavedra, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.995645099999999,
+    "lng": 123.3748122
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=17312670735201938435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJDZ1wIu_nqzMRAywDpU72QvA",
+  "rating": 4.3,
+  "ratingCount": 115,
+  "tags": [
+    "stay",
+    "dive",
+    "shop",
+    "resort-hotel",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

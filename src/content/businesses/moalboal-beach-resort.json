@@ -1,0 +1,34 @@
+{
+  "name": "Moalboal Beach Resort",
+  "slug": "moalboal-beach-resort",
+  "summary": "Accommodation in Moalboal. Rated 4.2 from 280 Google reviews.",
+  "description": "Moalboal Beach Resort is listed at Whitebeach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Moalboal",
+  "address": "Whitebeach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9738186,
+    "lng": 123.37214859999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=3952130759895274699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJQQ_MOjfmqzMRy9RzofzJ2DY",
+  "rating": 4.2,
+  "ratingCount": 280,
+  "tags": [
+    "stay",
+    "resort-hotel",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

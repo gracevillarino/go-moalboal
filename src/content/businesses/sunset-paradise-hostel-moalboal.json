@@ -1,0 +1,33 @@
+{
+  "name": "Sunset Paradise Hostel Moalboal",
+  "slug": "sunset-paradise-hostel-moalboal",
+  "summary": "Accommodation in Basdiot. Rated 4.6 from 37 Google reviews.",
+  "description": "Sunset Paradise Hostel Moalboal is listed at Purok Palata, Opposite to Barangay Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "Purok Palata, Opposite to Barangay Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.946920500000001,
+    "lng": 123.3733465
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16851807323545719641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ3UuTHDTpqzMRWdNE33ml3ek",
+  "rating": 4.6,
+  "ratingCount": 37,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

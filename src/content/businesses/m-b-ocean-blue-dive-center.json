@@ -1,0 +1,35 @@
+{
+  "name": "M.B. Ocean Blue Dive Center",
+  "slug": "m-b-ocean-blue-dive-center",
+  "summary": "Diving and ocean activities in Panagsama. Rated 4.3 from 108 Google reviews.",
+  "description": "M.B. Ocean Blue Dive Center is listed at 6032 Cebu, Moalboal, Panagsama Beach. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive"
+  ],
+  "barangay": "Panagsama",
+  "address": "6032 Cebu, Moalboal, Panagsama Beach",
+  "coordinates": {
+    "lat": 9.949649100000002,
+    "lng": 123.3655274
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=18133591685782181011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJaZ-0l8PoqzMRkxQG9Y91p_s",
+  "rating": 4.3,
+  "ratingCount": 108,
+  "tags": [
+    "dive",
+    "resort-hotel",
+    "hotel",
+    "lodging",
+    "sporting-goods-store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

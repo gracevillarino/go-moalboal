@@ -1,0 +1,102 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'Go Moalboal — Know the town. Find your people.',
+  description = 'A community hub for discovering, living, volunteering and connecting in Moalboal.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href="/favicon.ico" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="page-shell">
+      <Header />
+      <main><slot /></main>
+      <Footer />
+    </div>
+  </body>
+</html>
+
+<style is:global>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap');
+
+  :root {
+    --ink: #17352f;
+    --forest: #0c574d;
+    --sea: #087f78;
+    --coral: #ee7254;
+    --sun: #f4bc4b;
+    --cream: #f8f2e5;
+    --paper: #fffdf8;
+    --line: rgba(23, 53, 47, 0.16);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: #dceae2;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    line-height: 1.55;
+  }
+  a { color: inherit; }
+  .page-shell { max-width: 1480px; margin: 0 auto; background: var(--paper); min-height: 100vh; overflow: hidden; }
+  .site-header {
+    min-height: 82px;
+    padding: 0 4vw;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid var(--line);
+    background: rgba(255, 253, 248, 0.95);
+  }
+  .brand { display: inline-flex; align-items: center; gap: .7rem; font-weight: 700; text-decoration: none; font-size: 1.05rem; margin-right: auto; }
+  .brand-mark { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50% 50% 46% 54%; background: var(--coral); color: #fff; font-family: 'Fraunces', serif; transform: rotate(-4deg); }
+  nav { display: flex; gap: clamp(.8rem, 2vw, 1.8rem); }
+  nav a { text-decoration: none; font-size: .92rem; font-weight: 600; }
+  nav a:hover { color: var(--sea); }
+  .help-link, .button { display: inline-flex; align-items: center; justify-content: center; padding: .8rem 1.2rem; background: var(--ink); color: #fff; border-radius: 999px; text-decoration: none; font-weight: 700; }
+  .button.secondary { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
+  .eyebrow { margin: 0 0 .65rem; text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 800; }
+  h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; line-height: 1.03; letter-spacing: -.025em; }
+  h1 { font-size: clamp(3.4rem, 8vw, 7.6rem); margin: 0; max-width: 10ch; }
+  h2 { font-size: clamp(2.2rem, 4.5vw, 4.4rem); margin: 0; }
+  h3 { font-size: 1.55rem; margin: 0 0 .45rem; }
+  .section { padding: clamp(4rem, 8vw, 8rem) 5vw; }
+  .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 3rem; }
+  .section-heading p { max-width: 34rem; margin: 0; }
+  .grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
+  .card { border: 1px solid var(--line); border-radius: 20px; padding: 1.5rem; background: var(--paper); text-decoration: none; }
+  .card p { margin: 0; color: #47635d; }
+  .card:hover { border-color: var(--sea); transform: translateY(-2px); }
+  .pill { display: inline-block; margin-bottom: 1.25rem; border-radius: 999px; padding: .3rem .7rem; background: var(--cream); font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+  .site-footer { display: grid; grid-template-columns: 2fr 1.4fr auto; gap: 3rem; padding: 4rem 5vw; background: var(--ink); color: #e9f1ec; align-items: end; }
+  .site-footer p { margin: .35rem 0; max-width: 31rem; }
+  .footer-brand { font-family: 'Fraunces', serif; font-size: 2rem; font-weight: 700; }
+
+  @media (max-width: 850px) {
+    .site-header { flex-wrap: wrap; padding-block: 1rem; gap: 1rem; }
+    nav { order: 3; width: 100%; overflow-x: auto; padding-bottom: .25rem; }
+    .help-link { font-size: .82rem; padding: .65rem .85rem; }
+    .grid { grid-template-columns: 1fr; }
+    .section-heading { display: block; }
+    .section-heading p { margin-top: 1rem; }
+    .site-footer { grid-template-columns: 1fr; }
+  }
+</style>

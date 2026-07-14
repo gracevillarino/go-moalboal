@@ -1,0 +1,35 @@
+{
+  "name": "2PM CAFE",
+  "slug": "2pm-cafe",
+  "summary": "Food and drink in Panagsama. Rated 4.9 from 194 Google reviews.",
+  "description": "2PM CAFE is listed at Panagsama Beach, Moalboal, 6042 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, 6042 Cebu",
+  "coordinates": {
+    "lat": 9.9506012,
+    "lng": 123.3661855
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=15433509795280864522&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJYW-p-QnpqzMRCkU6eWPXLtY",
+  "rating": 4.9,
+  "ratingCount": 194,
+  "tags": [
+    "eat",
+    "cafe",
+    "vegetarian-restaurant",
+    "asian-restaurant",
+    "sandwich-shop"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

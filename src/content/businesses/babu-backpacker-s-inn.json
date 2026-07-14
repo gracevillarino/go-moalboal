@@ -1,0 +1,33 @@
+{
+  "name": "Babu Backpacker's Inn",
+  "slug": "babu-backpacker-s-inn",
+  "summary": "Accommodation in Panagsama. Rated 4.1 from 103 Google reviews.",
+  "description": "Babu Backpacker's Inn is listed at Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9480081,
+    "lng": 123.3721532
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=3383536248712484387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJE32XHuroqzMRI1YqnUq89C4",
+  "rating": 4.1,
+  "ratingCount": 103,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

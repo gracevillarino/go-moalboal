@@ -1,0 +1,35 @@
+{
+  "name": "Sabanal Dive",
+  "slug": "sabanal-dive",
+  "summary": "Diving and ocean activities in Panagsama. Rated 4.8 from 84 Google reviews.",
+  "description": "Sabanal Dive is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9499285,
+    "lng": 123.3657477
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=18080741119760364174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJC6ROox3pqzMRjnIdp0Cy6_o",
+  "rating": 4.8,
+  "ratingCount": 84,
+  "tags": [
+    "dive",
+    "sports-coaching",
+    "tour-agency",
+    "travel-agency",
+    "school"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

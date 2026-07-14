@@ -1,0 +1,34 @@
+{
+  "name": "LAST FILLING STATION Restaurant",
+  "slug": "last-filling-station-restaurant",
+  "summary": "Transport in Basdiot. Rated 4.1 from 385 Google reviews.",
+  "description": "LAST FILLING STATION Restaurant is listed at W9W8+MJJ, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport"
+  ],
+  "barangay": "Basdiot",
+  "address": "W9W8+MJJ, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9467138,
+    "lng": 123.36651409999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=15570136164854727291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJc8c3m2boqzMRewKhClk8FNg",
+  "rating": 4.1,
+  "ratingCount": 385,
+  "tags": [
+    "transport",
+    "restaurant",
+    "bar",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

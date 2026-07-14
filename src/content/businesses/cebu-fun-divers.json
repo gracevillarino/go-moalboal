@@ -1,0 +1,35 @@
+{
+  "name": "Cebu Fun Divers",
+  "slug": "cebu-fun-divers",
+  "summary": "Diving and ocean activities in Basdiot. Rated 4.9 from 456 Google reviews.",
+  "description": "Cebu Fun Divers is listed at Sitio Talisay Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive"
+  ],
+  "barangay": "Basdiot",
+  "address": "Sitio Talisay Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9430401,
+    "lng": 123.3691219
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=14473057440936348209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ8QQzNt3oqzMRMcrVnA-h2sg",
+  "rating": 4.9,
+  "ratingCount": 456,
+  "tags": [
+    "dive",
+    "sports-coaching",
+    "school",
+    "educational-institution",
+    "sports-activity-location"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

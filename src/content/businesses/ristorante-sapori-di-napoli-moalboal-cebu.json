@@ -1,0 +1,35 @@
+{
+  "name": "Ristorante Sapori Di Napoli - Moalboal Cebu",
+  "slug": "ristorante-sapori-di-napoli-moalboal-cebu",
+  "summary": "Food and drink in Panagsama. Rated 4.8 from 262 Google reviews.",
+  "description": "Ristorante Sapori Di Napoli - Moalboal Cebu is listed at Brgy, Commercial Haven Bldg, Sitio Cogon, Panagsama Rd, Basdiot, Barangay Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Brgy, Commercial Haven Bldg, Sitio Cogon, Panagsama Rd, Basdiot, Barangay Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9439376,
+    "lng": 123.38093639999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=7718834029547008641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJq9pZPxOdqTMRgbJYW6fOHms",
+  "rating": 4.8,
+  "ratingCount": 262,
+  "tags": [
+    "eat",
+    "italian-restaurant",
+    "pizza-restaurant",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

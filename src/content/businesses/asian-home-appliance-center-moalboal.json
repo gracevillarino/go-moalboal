@@ -1,0 +1,33 @@
+{
+  "name": "Asian Home Appliance Center - Moalboal",
+  "slug": "asian-home-appliance-center-moalboal",
+  "summary": "Shopping in Moalboal. Rated 4.9 from 149 Google reviews.",
+  "description": "Asian Home Appliance Center - Moalboal is listed at Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "shop",
+  "categories": [
+    "shop"
+  ],
+  "barangay": "Moalboal",
+  "address": "Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.938473799999999,
+    "lng": 123.39333060000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16615024451361509606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJUdJSfnvpqzMR5hDVVbVslOY",
+  "rating": 4.9,
+  "ratingCount": 149,
+  "tags": [
+    "shop",
+    "home-goods-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

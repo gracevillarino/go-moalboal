@@ -1,0 +1,35 @@
+{
+  "name": "Gina Store",
+  "slug": "gina-store",
+  "summary": "Shopping in Panagsama. Rated 4.8 from 20 Google reviews.",
+  "description": "Gina Store is listed at W9WG+5HF, Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "shop",
+  "categories": [
+    "shop"
+  ],
+  "barangay": "Panagsama",
+  "address": "W9WG+5HF, Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9454406,
+    "lng": 123.37642999999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=8167896165329498429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ8bZ3vLnpqzMRPXG9eEkyWnE",
+  "rating": 4.8,
+  "ratingCount": 20,
+  "tags": [
+    "shop",
+    "grocery-store",
+    "food-store",
+    "store",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

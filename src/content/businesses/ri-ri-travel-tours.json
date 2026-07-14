@@ -1,0 +1,36 @@
+{
+  "name": "RI RI TRAVEL & TOURS",
+  "slug": "ri-ri-travel-tours",
+  "summary": "Diving and ocean activities and Transport in Moalboal. Rated 4.9 from 67 Google reviews.",
+  "description": "RI RI TRAVEL & TOURS is listed at Moalboal Moal boal, Cebu City, 6000 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive",
+    "transport"
+  ],
+  "barangay": "Moalboal",
+  "address": "Moalboal Moal boal, Cebu City, 6000 Cebu",
+  "coordinates": {
+    "lat": 9.948555599999999,
+    "lng": 123.37086079999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=15838646664751908478&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJCTCrXGbpqzMRfoZ2jzktzts",
+  "rating": 4.9,
+  "ratingCount": 67,
+  "tags": [
+    "dive",
+    "transport",
+    "tour-agency",
+    "travel-agency",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

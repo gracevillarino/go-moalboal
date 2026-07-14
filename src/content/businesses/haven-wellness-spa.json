@@ -1,0 +1,32 @@
+{
+  "name": "Haven Wellness Spa",
+  "slug": "haven-wellness-spa",
+  "summary": "Local service in Panagsama. Rated 4.9 from 26 Google reviews.",
+  "description": "Haven Wellness Spa is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "services",
+  "categories": [
+    "services"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9394074,
+    "lng": 123.3906113
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=6991648534209477676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJYQNBd5rpqzMRLLzva0xTB2E",
+  "rating": 4.9,
+  "ratingCount": 26,
+  "tags": [
+    "services",
+    "spa"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

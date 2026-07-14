@@ -1,0 +1,33 @@
+{
+  "name": "AJ Street Thai Food Moalboal",
+  "slug": "aj-street-thai-food-moalboal",
+  "summary": "Food and drink in Panagsama. Rated 4.6 from 408 Google reviews.",
+  "description": "AJ Street Thai Food Moalboal is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9499791,
+    "lng": 123.36773609999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=15648424649472626644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ7V-19WjpqzMR1E9ITk9fKtk",
+  "rating": 4.6,
+  "ratingCount": 408,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Marcosas Cottages Resort",
+  "slug": "marcosas-cottages-resort",
+  "summary": "Accommodation in Panagsama. Rated 4.1 from 355 Google reviews.",
+  "description": "Marcosas Cottages Resort is listed at Panagsama Beach, Moalboal, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9462963,
+    "lng": 123.3672595
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5656053824377947581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJZ3pspMPoqzMRvYWJePxWfk4",
+  "rating": 4.1,
+  "ratingCount": 355,
+  "tags": [
+    "stay",
+    "resort-hotel",
+    "cottage",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

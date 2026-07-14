@@ -1,0 +1,35 @@
+{
+  "name": "Hungry Monkeys Moalboal",
+  "slug": "hungry-monkeys-moalboal",
+  "summary": "Food and drink in Panagsama. Rated 4.6 from 2,645 Google reviews.",
+  "description": "Hungry Monkeys Moalboal is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9501364,
+    "lng": 123.3670207
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=2226127232283072578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJIyWiPYDpqzMRQlgOWezK5B4",
+  "rating": 4.6,
+  "ratingCount": 2645,
+  "tags": [
+    "eat",
+    "restaurant",
+    "filipino-restaurant",
+    "asian-restaurant",
+    "vegan-restaurant"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

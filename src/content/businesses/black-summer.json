@@ -1,0 +1,35 @@
+{
+  "name": "Black Summer",
+  "slug": "black-summer",
+  "summary": "Food and drink in Panagsama. Rated 4.2 from 106 Google reviews.",
+  "description": "Black Summer is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9492911,
+    "lng": 123.3689384
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5623930712815320493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJT49B_n3pqzMRrT3Eui83DE4",
+  "rating": 4.2,
+  "ratingCount": 106,
+  "tags": [
+    "eat",
+    "bar-and-grill",
+    "bar",
+    "association-or-organization",
+    "restaurant"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

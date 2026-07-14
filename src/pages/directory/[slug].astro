@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const businesses = await getCollection('businesses', ({ data }) => data.status === 'published');
+  return businesses.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+---
+
+<BaseLayout title={`${data.name} — Go Moalboal`} description={data.summary}>
+  <article>
+    <header class="listing-hero section">
+      <a href="/directory">← Back to directory</a>
+      <div class="listing-title"><div><span class="pill">{data.categories.join(' · ')}</span><h1>{data.name}</h1></div><p>{data.summary}</p></div>
+    </header>
+    <div class="listing-body section">
+      <div>
+        {data.sample && <p class="sample-notice"><strong>Fictional sample:</strong> this listing exists only to demonstrate the site and is not a real business.</p>}
+        <h2>About</h2><p>{data.description}</p>
+        <div class="tags">{data.tags.map((tag: string) => <span>#{tag}</span>)}</div>
+      </div>
+      <aside>
+        <p class="eyebrow">At a glance</p>
+        <dl>
+          <dt>Area</dt><dd>{data.barangay}</dd>
+          <dt>Address</dt><dd>{data.address}</dd>
+          {data.rating && <><dt>Google rating</dt><dd>★ {data.rating.toFixed(1)} from {data.ratingCount.toLocaleString()} reviews</dd></>}
+          <dt>Listing status</dt><dd>{data.verified ? 'Owner verified' : 'Community reviewed'}</dd>
+        </dl>
+        {data.googleMapsUri && <a class="maps-link" href={data.googleMapsUri} rel="noreferrer" target="_blank">View on Google Maps →</a>}
+        <p class="attribution">Rating and place information sourced from Google Maps. Check Google Maps for current details.</p>
+      </aside>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .listing-hero { background: var(--sea); color: #fff; }
+  .listing-hero > a { display: inline-block; margin-bottom: 4rem; }
+  .listing-title { display: grid; grid-template-columns: 1.4fr .8fr; align-items: end; gap: 4rem; }
+  .listing-title h1 { font-size: clamp(3.2rem, 7vw, 6.8rem); }
+  .listing-title p { font-size: 1.2rem; }
+  .listing-body { display: grid; grid-template-columns: 1.5fr .7fr; gap: 6rem; }
+  .listing-body h2 { font-size: 3rem; }
+  .sample-notice { padding: 1rem; background: #fff2cc; border-radius: 12px; }
+  aside { background: var(--cream); padding: 2rem; border-radius: 20px; }
+  dl { margin: 0; } dt { font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 800; margin-top: 1.2rem; } dd { margin: .3rem 0 0; }
+  .tags { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: 2rem; color: var(--sea); }
+  .maps-link { display: inline-block; margin-top: 1.5rem; font-weight: 800; color: var(--sea); }
+  .attribution { margin-top: 1.5rem; color: #657b76; font-size: .75rem; }
+  @media (max-width: 750px) { .listing-title, .listing-body { grid-template-columns: 1fr; gap: 2rem; } }
+</style>

@@ -1,0 +1,35 @@
+{
+  "name": "COCOFI",
+  "slug": "cocofi",
+  "summary": "Food and drink in Panagsama. Rated 5.0 from 122 Google reviews.",
+  "description": "COCOFI is listed at Panagsama Beach, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9504419,
+    "lng": 123.36606909999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=18066417027233390502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ20y1XbjpqzMRpp9Q-JDOuPo",
+  "rating": 5,
+  "ratingCount": 122,
+  "tags": [
+    "eat",
+    "coffee-shop",
+    "cafe",
+    "food-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

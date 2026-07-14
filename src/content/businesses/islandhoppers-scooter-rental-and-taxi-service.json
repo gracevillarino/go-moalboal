@@ -1,0 +1,32 @@
+{
+  "name": "IslandHoppers Scooter Rental and Taxi Service",
+  "slug": "islandhoppers-scooter-rental-and-taxi-service",
+  "summary": "Transport in Moalboal. Rated 4.9 from 206 Google reviews.",
+  "description": "IslandHoppers Scooter Rental and Taxi Service is listed at X929+FW3, Klemens Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport"
+  ],
+  "barangay": "Moalboal",
+  "address": "X929+FW3, Klemens Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9509711,
+    "lng": 123.3701057
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=16406491865215617991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJqbtlNAjpqzMRx0uDFG2Rr-M",
+  "rating": 4.9,
+  "ratingCount": 206,
+  "tags": [
+    "transport",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

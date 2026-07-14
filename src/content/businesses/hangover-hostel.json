@@ -1,0 +1,33 @@
+{
+  "name": "Hangover Hostel",
+  "slug": "hangover-hostel",
+  "summary": "Accommodation in Basdiot. Rated 4.6 from 131 Google reviews.",
+  "description": "Hangover Hostel is listed at Barangay, 6032 C.Schmitz Road, Basdiot, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "Barangay, 6032 C.Schmitz Road, Basdiot, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9482802,
+    "lng": 123.37052580000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=4276632192108370617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJoaqDswTpqzMRuZqe9VGmWTs",
+  "rating": 4.6,
+  "ratingCount": 131,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

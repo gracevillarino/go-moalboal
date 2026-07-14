@@ -1,0 +1,37 @@
+{
+  "name": "Smooth Cafe Moalboal",
+  "slug": "smooth-cafe-moalboal",
+  "summary": "Food and drink and Shopping in Panagsama. Rated 4.7 from 3,206 Google reviews.",
+  "description": "Smooth Cafe Moalboal is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat",
+    "shop"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9500942,
+    "lng": 123.36712500000002
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=11668635323081863910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJgX31xrDpqzMR5rLe1QBS76E",
+  "rating": 4.7,
+  "ratingCount": 3206,
+  "tags": [
+    "eat",
+    "shop",
+    "restaurant",
+    "shawarma-restaurant",
+    "cafe",
+    "cocktail-bar"
+  ],
+  "featured": true,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

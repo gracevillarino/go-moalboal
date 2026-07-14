@@ -1,0 +1,35 @@
+{
+  "name": "Island Tea Co. & Ceylon Coffee Club",
+  "slug": "island-tea-co-ceylon-coffee-club",
+  "summary": "Food and drink in Moalboal. Rated 4.6 from 107 Google reviews.",
+  "description": "Island Tea Co. & Ceylon Coffee Club is listed at W9PV+8HP, Santander - Barili - Toledo Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Moalboal",
+  "address": "W9PV+8HP, Santander - Barili - Toledo Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9358493,
+    "lng": 123.3939431
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=11449607147498237296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJZeJDpPXpqzMRcO1nvAkt5Z4",
+  "rating": 4.6,
+  "ratingCount": 107,
+  "tags": [
+    "eat",
+    "coffee-shop",
+    "cafe",
+    "food-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

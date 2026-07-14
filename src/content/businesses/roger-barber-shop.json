@@ -1,0 +1,35 @@
+{
+  "name": "Roger Barber Shop",
+  "slug": "roger-barber-shop",
+  "summary": "Local service in Panagsama. Rated 4.8 from 25 Google reviews.",
+  "description": "Roger Barber Shop is listed at W9QR+GPH, Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "services",
+  "categories": [
+    "services"
+  ],
+  "barangay": "Panagsama",
+  "address": "W9QR+GPH, Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.938811099999999,
+    "lng": 123.3918567
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=17975151489155473334&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJjXUsedXpqzMRth_y_gqRdPk",
+  "rating": 4.8,
+  "ratingCount": 25,
+  "tags": [
+    "services",
+    "barber-shop",
+    "hair-care",
+    "health",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

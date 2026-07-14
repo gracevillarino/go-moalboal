@@ -1,0 +1,33 @@
+{
+  "name": "MOMO Hostel Moalboal",
+  "slug": "momo-hostel-moalboal",
+  "summary": "Accommodation in Basdiot. Rated 4.9 from 64 Google reviews.",
+  "description": "MOMO Hostel Moalboal is listed at Talisay Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "Talisay Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9435068,
+    "lng": 123.37114599999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=8981964513498753766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ1R5TR5LpqzMR5upB9CJZpnw",
+  "rating": 4.9,
+  "ratingCount": 64,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

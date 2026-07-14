@@ -1,0 +1,36 @@
+{
+  "name": "Cebu Seaview Dive Resort",
+  "slug": "cebu-seaview-dive-resort",
+  "summary": "Accommodation and Diving and ocean activities in Panagsama. Rated 4.7 from 367 Google reviews.",
+  "description": "Cebu Seaview Dive Resort is listed at Sitio Talisay, Panagsama Beach, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay",
+    "dive"
+  ],
+  "barangay": "Panagsama",
+  "address": "Sitio Talisay, Panagsama Beach, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9435712,
+    "lng": 123.3688247
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=9688208173201686643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJFyPDd1PpqzMRcwC50QBuc4Y",
+  "rating": 4.7,
+  "ratingCount": 367,
+  "tags": [
+    "stay",
+    "dive",
+    "resort-hotel",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

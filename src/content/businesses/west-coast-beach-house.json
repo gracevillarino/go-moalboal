@@ -1,0 +1,33 @@
+{
+  "name": "West Coast Beach House",
+  "slug": "west-coast-beach-house",
+  "summary": "Accommodation in Panagsama. Rated 4.5 from 217 Google reviews.",
+  "description": "West Coast Beach House is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9502641,
+    "lng": 123.3667764
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=11639029074122383086&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJS-6wI8HoqzMR7h6C1UYjhqE",
+  "rating": 4.5,
+  "ratingCount": 217,
+  "tags": [
+    "stay",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

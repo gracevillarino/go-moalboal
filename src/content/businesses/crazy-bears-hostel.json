@@ -1,0 +1,33 @@
+{
+  "name": "Crazy Bears Hostel",
+  "slug": "crazy-bears-hostel",
+  "summary": "Accommodation in Panagsama. Rated 4.8 from 199 Google reviews.",
+  "description": "Crazy Bears Hostel is listed at Crazy Bears Hostel, Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Panagsama",
+  "address": "Crazy Bears Hostel, Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.949120299999999,
+    "lng": 123.36987209999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=9017444645693497774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJcTXkkH3pqzMRriFP-CBmJH0",
+  "rating": 4.8,
+  "ratingCount": 199,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

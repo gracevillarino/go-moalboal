@@ -1,0 +1,78 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const businesses = await getCollection('businesses', ({ data }) => data.status === 'published');
+const categories = ['all', 'eat', 'stay', 'dive', 'shop', 'transport', 'health', 'services'];
+const sortedBusinesses = businesses.sort((a, b) =>
+  (b.data.ratingCount - a.data.ratingCount) || a.data.name.localeCompare(b.data.name));
+---
+
+<BaseLayout title="Local directory — Go Moalboal" description="Find local businesses and services in Moalboal.">
+  <section class="directory-hero section">
+    <p class="eyebrow">Local directory</p>
+    <h1>Find what you need,<br /><em>close to home.</em></h1>
+    <p>Browse {businesses.length} community-reviewed places with strong, established Google ratings.</p>
+  </section>
+  <section class="section listing-section">
+    <div class="filters" aria-label="Directory categories">
+      {categories.map((category) => <a href={category === 'all' ? '/directory' : `/directory?category=${category}`}>{category}</a>)}
+    </div>
+    <div class="directory-tools">
+      <label for="directory-search">Search the directory</label>
+      <input id="directory-search" type="search" placeholder="Search by name, address or category" autocomplete="off" />
+      <p><span id="visible-count">{businesses.length}</span> places shown</p>
+    </div>
+    <div class="grid">
+      {sortedBusinesses.map(({ data }) => (
+        <a class="card business-card" href={`/directory/${data.slug}`} data-categories={data.categories.join(' ')} data-search={`${data.name} ${data.address} ${data.categories.join(' ')}`.toLowerCase()}>
+          <div class="card-top"><span class="pill">{data.categories.join(' · ')}</span><span>{data.barangay}</span></div>
+          <h3>{data.name}</h3><p>{data.summary}</p>
+          {data.rating && <span class="rating" aria-label={`${data.rating} out of 5 from ${data.ratingCount} Google reviews`}>★ {data.rating.toFixed(1)} <small>({data.ratingCount.toLocaleString()})</small></span>}
+          <span class="arrow">View listing →</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const selected = new URLSearchParams(window.location.search).get('category');
+  const search = document.querySelector<HTMLInputElement>('#directory-search');
+  const count = document.querySelector<HTMLElement>('#visible-count');
+  const cards = [...document.querySelectorAll<HTMLElement>('[data-categories]')];
+  const update = () => {
+    const query = search?.value.trim().toLowerCase() ?? '';
+    let visible = 0;
+    cards.forEach((card) => {
+      const categoryMatch = !selected || card.dataset.categories?.split(' ').includes(selected);
+      const searchMatch = !query || card.dataset.search?.includes(query);
+      card.hidden = !(categoryMatch && searchMatch);
+      if (!card.hidden) visible += 1;
+    });
+    if (count) count.textContent = String(visible);
+  };
+  search?.addEventListener('input', update);
+  update();
+</script>
+
+<style>
+  .directory-hero { background: var(--cream); }
+  .directory-hero h1 { max-width: 12ch; font-size: clamp(3rem, 7vw, 6.5rem); }
+  .directory-hero h1 em { color: var(--coral); font-weight: inherit; }
+  .directory-hero > p:last-child { font-size: 1.15rem; max-width: 38rem; }
+  .listing-section { background: var(--paper); }
+  .filters { display: flex; gap: .55rem; flex-wrap: wrap; margin-bottom: 2rem; }
+  .filters a { padding: .55rem .9rem; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; text-transform: capitalize; font-size: .85rem; font-weight: 700; }
+  .filters a:hover { background: var(--ink); color: #fff; }
+  .directory-tools { display: grid; grid-template-columns: 1fr auto; gap: .5rem 1rem; align-items: center; margin-bottom: 2rem; }
+  .directory-tools label { grid-column: 1 / -1; font-size: .8rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+  .directory-tools input { width: 100%; padding: .9rem 1rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; font: inherit; }
+  .directory-tools p { margin: 0; color: #47635d; font-size: .9rem; }
+  .card-top { display: flex; justify-content: space-between; align-items: start; font-size: .8rem; }
+  .arrow { display: block; margin-top: 2rem; font-weight: 700; color: var(--sea); }
+  .rating { display: block; margin-top: 1.2rem; color: #8a5c00; font-weight: 800; }
+  .rating small { color: #657b76; font-weight: 600; }
+  [hidden] { display: none; }
+  @media (max-width: 600px) { .directory-tools { grid-template-columns: 1fr; } }
+</style>

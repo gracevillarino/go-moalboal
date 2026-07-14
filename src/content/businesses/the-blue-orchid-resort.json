@@ -1,0 +1,35 @@
+{
+  "name": "The Blue Orchid Resort",
+  "slug": "the-blue-orchid-resort",
+  "summary": "Accommodation in Moalboal. Rated 4.5 from 183 Google reviews.",
+  "description": "The Blue Orchid Resort is listed at Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Moalboal",
+  "address": "Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9922424,
+    "lng": 123.3713465
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=15333622653581110829&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJdVqJNEDmqzMRLa6V-o_4y9Q",
+  "rating": 4.5,
+  "ratingCount": 183,
+  "tags": [
+    "stay",
+    "resort-hotel",
+    "sports-coaching",
+    "sporting-goods-store",
+    "hotel"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

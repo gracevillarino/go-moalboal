@@ -1,0 +1,32 @@
+{
+  "name": "Homestay California",
+  "slug": "homestay-california",
+  "summary": "Accommodation in Tongo. Rated 4.7 from 47 Google reviews.",
+  "description": "Homestay California is listed at W9PM+RM2, Tongo Point Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Tongo",
+  "address": "W9PM+RM2, Tongo Point Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9370088,
+    "lng": 123.3841269
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=3553166407386927872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ5cItr_TpqzMRABMmpAViTzE",
+  "rating": 4.7,
+  "ratingCount": 47,
+  "tags": [
+    "stay",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

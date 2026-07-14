@@ -1,0 +1,35 @@
+{
+  "name": "Passion Desserts",
+  "slug": "passion-desserts",
+  "summary": "Food and drink in Panagsama. Rated 4.7 from 21 Google reviews.",
+  "description": "Passion Desserts is listed at El Mercado de Moalboal, Panagsama Rd, Barangay Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "El Mercado de Moalboal, Panagsama Rd, Barangay Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.948593299999999,
+    "lng": 123.3710874
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5207980469256400278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJe8nuGI3pqzMRli0zy6R2Rkg",
+  "rating": 4.7,
+  "ratingCount": 21,
+  "tags": [
+    "eat",
+    "pastry-shop",
+    "bakery",
+    "dessert-shop",
+    "confectionery"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

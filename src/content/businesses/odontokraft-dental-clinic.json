@@ -1,0 +1,33 @@
+{
+  "name": "OdontoKraft Dental Clinic",
+  "slug": "odontokraft-dental-clinic",
+  "summary": "Health in Moalboal. Rated 4.2 from 20 Google reviews.",
+  "description": "OdontoKraft Dental Clinic is listed at 104 Santander - Barili - Toledo Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "health",
+  "categories": [
+    "health"
+  ],
+  "barangay": "Moalboal",
+  "address": "104 Santander - Barili - Toledo Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.938825099999999,
+    "lng": 123.39475819999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=6922601096427682030&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJgcksiBDpqzMR7jhNCgUFEmA",
+  "rating": 4.2,
+  "ratingCount": 20,
+  "tags": [
+    "health",
+    "dental-clinic",
+    "medical-clinic"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

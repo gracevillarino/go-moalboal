@@ -1,0 +1,34 @@
+{
+  "name": "서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal))",
+  "slug": "seoul-kitchen-jonmataeng-moalboal",
+  "summary": "Food and drink in Panagsama. Rated 4.8 from 48 Google reviews.",
+  "description": "서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal)) is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.949368400000001,
+    "lng": 123.36569060000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=4867171772628358891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJW5f_cRnpqzMR61ZSmPCqi0M",
+  "rating": 4.8,
+  "ratingCount": 48,
+  "tags": [
+    "eat",
+    "korean-restaurant",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

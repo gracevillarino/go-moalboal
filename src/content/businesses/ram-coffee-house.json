@@ -1,0 +1,35 @@
+{
+  "name": "Ram Coffee House",
+  "slug": "ram-coffee-house",
+  "summary": "Food and drink in Poblacion West. Rated 4.9 from 170 Google reviews.",
+  "description": "Ram Coffee House is listed at Calumpang Street, Poblacion West, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Poblacion West",
+  "address": "Calumpang Street, Poblacion West, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.942851899999999,
+    "lng": 123.3947244
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=14268258099599576012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJL7TcliTpqzMRzAs5JiUJA8Y",
+  "rating": 4.9,
+  "ratingCount": 170,
+  "tags": [
+    "eat",
+    "coffee-shop",
+    "cafe",
+    "food-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

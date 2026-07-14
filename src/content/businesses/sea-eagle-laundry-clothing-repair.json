@@ -1,0 +1,33 @@
+{
+  "name": "Sea Eagle Laundry & Clothing Repair",
+  "slug": "sea-eagle-laundry-clothing-repair",
+  "summary": "Local service in Panagsama. Rated 4.9 from 25 Google reviews.",
+  "description": "Sea Eagle Laundry & Clothing Repair is listed at Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "services",
+  "categories": [
+    "services"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9495708,
+    "lng": 123.368781
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=7835960766307524161&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJm3z8AwDpqzMRQV6o3czsvmw",
+  "rating": 4.9,
+  "ratingCount": 25,
+  "tags": [
+    "services",
+    "laundry",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

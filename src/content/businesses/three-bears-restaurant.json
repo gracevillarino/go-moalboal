@@ -1,0 +1,33 @@
+{
+  "name": "Three Bears Restaurant",
+  "slug": "three-bears-restaurant",
+  "summary": "Food and drink in Panagsama. Rated 4.7 from 2,792 Google reviews.",
+  "description": "Three Bears Restaurant is listed at 2575 Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "2575 Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9489471,
+    "lng": 123.37003889999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=11448408439972590218&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJB-Rd6cHoqzMRinIm5NHq4J4",
+  "rating": 4.7,
+  "ratingCount": 2792,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": true,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Moalboal Cay Hostel",
+  "slug": "moalboal-cay-hostel",
+  "summary": "Accommodation in Panagsama. Rated 5.0 from 34 Google reviews.",
+  "description": "Moalboal Cay Hostel is listed at brgy, Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Panagsama",
+  "address": "brgy, Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9487276,
+    "lng": 123.3687477
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=7302322849604665694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJH4bDDJ7pqzMRXoHnPfEPV2U",
+  "rating": 5,
+  "ratingCount": 34,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Red Coco Bar",
+  "slug": "red-coco-bar",
+  "summary": "Food and drink in Panagsama. Rated 4.6 from 35 Google reviews.",
+  "description": "Red Coco Bar is listed at W9XC+FFP, Panagsama Rd, Basdiot, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "W9XC+FFP, Panagsama Rd, Basdiot, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9487199,
+    "lng": 123.3712177
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=115686940622836983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJvWlwAwDpqzMR99T52KgAmwE",
+  "rating": 4.6,
+  "ratingCount": 35,
+  "tags": [
+    "eat",
+    "bar"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

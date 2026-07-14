@@ -1,0 +1,33 @@
+{
+  "name": "The Hat Trick Hostel Cebu",
+  "slug": "the-hat-trick-hostel-cebu",
+  "summary": "Accommodation in Moalboal. Rated 4.8 from 73 Google reviews.",
+  "description": "The Hat Trick Hostel Cebu is listed at Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Moalboal",
+  "address": "Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9524904,
+    "lng": 123.3688755
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=14604764428642667093&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJhwj13UzpqzMRVcqBVd6Lrso",
+  "rating": 4.8,
+  "ratingCount": 73,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

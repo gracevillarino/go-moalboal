@@ -1,0 +1,33 @@
+{
+  "name": "OoniHostel Moalboal",
+  "slug": "oonihostel-moalboal",
+  "summary": "Accommodation in Basdiot. Rated 4.0 from 31 Google reviews.",
+  "description": "OoniHostel Moalboal is listed at W9XC+4GQ, Basdiot, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "W9XC+4GQ, Basdiot, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9478307,
+    "lng": 123.3713704
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=2260841325851700844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJA-gUzajpqzMRbO7pGDUfYB8",
+  "rating": 4,
+  "ratingCount": 31,
+  "tags": [
+    "stay",
+    "hostel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

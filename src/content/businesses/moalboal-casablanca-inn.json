@@ -1,0 +1,33 @@
+{
+  "name": "Moalboal Casablanca Inn",
+  "slug": "moalboal-casablanca-inn",
+  "summary": "Accommodation in Moalboal. Rated 4.9 from 51 Google reviews.",
+  "description": "Moalboal Casablanca Inn is listed at Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Moalboal",
+  "address": "Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.960765499999999,
+    "lng": 123.37185009999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=12038102415897926774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ6yNnLdXpqzMRdhxe3V3uD6c",
+  "rating": 4.9,
+  "ratingCount": 51,
+  "tags": [
+    "stay",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

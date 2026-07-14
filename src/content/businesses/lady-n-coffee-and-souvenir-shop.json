@@ -1,0 +1,32 @@
+{
+  "name": "Lady N Coffee and Souvenir Shop",
+  "slug": "lady-n-coffee-and-souvenir-shop",
+  "summary": "Shopping in Panagsama. Rated 4.8 from 84 Google reviews.",
+  "description": "Lady N Coffee and Souvenir Shop is listed at Panagsama Beach, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "shop",
+  "categories": [
+    "shop"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.949969099999999,
+    "lng": 123.3677384
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5132670140401400820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJpxvSiwnpqzMR9Dvhc0zoOkc",
+  "rating": 4.8,
+  "ratingCount": 84,
+  "tags": [
+    "shop",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

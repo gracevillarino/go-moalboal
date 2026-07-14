@@ -1,0 +1,33 @@
+{
+  "name": "Roos Guesthouse",
+  "slug": "roos-guesthouse",
+  "summary": "Accommodation in Basdiot. Rated 4.8 from 148 Google reviews.",
+  "description": "Roos Guesthouse is listed at Batayan Road, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "Batayan Road, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.950843599999999,
+    "lng": 123.36907199999997
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=4327272290831974692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJa3JiAsHoqzMRJEFuvTiPDTw",
+  "rating": 4.8,
+  "ratingCount": 148,
+  "tags": [
+    "stay",
+    "guest-house",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

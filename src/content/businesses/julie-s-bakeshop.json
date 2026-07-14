@@ -1,0 +1,35 @@
+{
+  "name": "Julie's Bakeshop",
+  "slug": "julie-s-bakeshop",
+  "summary": "Food and drink in Moalboal. Rated 4.6 from 29 Google reviews.",
+  "description": "Julie's Bakeshop is listed at W9QV+56V, Santander - Barili - Toledo Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Moalboal",
+  "address": "W9QV+56V, Santander - Barili - Toledo Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.937989,
+    "lng": 123.3930493
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=17064912295462464846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJfzmVhvjoqzMRTm08plG_0uw",
+  "rating": 4.6,
+  "ratingCount": 29,
+  "tags": [
+    "eat",
+    "bakery",
+    "food-store",
+    "store",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

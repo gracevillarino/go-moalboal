@@ -1,0 +1,39 @@
+{
+  "name": "Quo Vadis Dive Resort",
+  "slug": "quo-vadis-dive-resort",
+  "summary": "Accommodation and Diving and ocean activities and Shopping in Panagsama. Rated 4.4 from 436 Google reviews.",
+  "description": "Quo Vadis Dive Resort is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay",
+    "dive",
+    "shop"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9459754,
+    "lng": 123.3669116
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=15745199967445974859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJawERSt3oqzMRS_8b4fIvgto",
+  "rating": 4.4,
+  "ratingCount": 436,
+  "tags": [
+    "stay",
+    "dive",
+    "shop",
+    "resort-hotel",
+    "sports-coaching",
+    "bar",
+    "sporting-goods-store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

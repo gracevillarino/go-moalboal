@@ -1,0 +1,35 @@
+{
+  "name": "Sunset Paradise Moalboal",
+  "slug": "sunset-paradise-moalboal",
+  "summary": "Accommodation and Local service in Panagsama. Rated 4.4 from 147 Google reviews.",
+  "description": "Sunset Paradise Moalboal is listed at X928+4XP, Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay",
+    "services"
+  ],
+  "barangay": "Panagsama",
+  "address": "X928+4XP, Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.95026,
+    "lng": 123.367403
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=2021970026018910741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJS0JgsSDpqzMRFTJYmwZ7Dxw",
+  "rating": 4.4,
+  "ratingCount": 147,
+  "tags": [
+    "stay",
+    "services",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

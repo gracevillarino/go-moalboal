@@ -1,0 +1,37 @@
+{
+  "name": "La Adventura Travel and Tours Moalboal",
+  "slug": "la-adventura-travel-and-tours-moalboal",
+  "summary": "Diving and ocean activities and Transport in Panagsama. Rated 5.0 from 27 Google reviews.",
+  "description": "La Adventura Travel and Tours Moalboal is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive",
+    "transport"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9480808,
+    "lng": 123.36605589999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=13109760238994880873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJQT8i7ZbpqzMRaXnUl3o577U",
+  "rating": 5,
+  "ratingCount": 27,
+  "tags": [
+    "dive",
+    "transport",
+    "travel-agency",
+    "tourist-attraction",
+    "transportation-service",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

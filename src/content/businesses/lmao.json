@@ -1,0 +1,33 @@
+{
+  "name": "Lmao",
+  "slug": "lmao",
+  "summary": "Food and drink in Poblacion East. Rated 4.8 from 81 Google reviews.",
+  "description": "Lmao is listed at Paramayon St, Poblacion East, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Poblacion East",
+  "address": "Paramayon St, Poblacion East, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.941275599999999,
+    "lng": 123.39737989999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=17324004732607087497&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "googlePlaceId": "ChIJVZiENZrpqzMRiUM7joQ6a_A",
+  "rating": 4.8,
+  "ratingCount": 81,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

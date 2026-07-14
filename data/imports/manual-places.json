@@ -1,0 +1,9 @@
+[
+  {
+    "googlePlaceId": "ChIJJQqo0oPpqzMRh3zPgssLoOc",
+    "categories": ["stay", "eat"],
+    "matchedQueries": ["hotel", "restaurant"],
+    "reviewStatus": "approved",
+    "notes": "Manually approved from https://maps.app.goo.gl/s6uizHCaKRKnPii97; Google currently formats the locality as Badian."
+  }
+]

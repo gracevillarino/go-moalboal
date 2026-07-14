@@ -1,0 +1,11 @@
+{
+  "name": "Sample Coastal Cleanup",
+  "slug": "sample-coastal-cleanup",
+  "organization": "sample-community-group",
+  "category": "environment",
+  "barangay": "Basdiot",
+  "commitment": "One morning",
+  "skillsRequired": [],
+  "howToHelp": ["Join the cleanup", "Bring reusable gloves", "Help document the event"],
+  "status": "draft"
+}

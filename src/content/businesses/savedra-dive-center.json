@@ -1,0 +1,34 @@
+{
+  "name": "Savedra Dive Center",
+  "slug": "savedra-dive-center",
+  "summary": "Diving and ocean activities in Panagsama. Rated 4.8 from 971 Google reviews.",
+  "description": "Savedra Dive Center is listed at 6032 Panagsama Beach, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive"
+  ],
+  "barangay": "Panagsama",
+  "address": "6032 Panagsama Beach, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9489353,
+    "lng": 123.36608469999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=3378652117202168423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJk09J2irmqzMRZ-p0ITNi4y4",
+  "rating": 4.8,
+  "ratingCount": 971,
+  "tags": [
+    "dive",
+    "sporting-goods-store",
+    "sports-activity-location",
+    "store"
+  ],
+  "featured": true,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

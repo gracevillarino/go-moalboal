@@ -1,0 +1,110 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const businesses = (await getCollection('businesses', ({ data }) => data.status === 'published')).slice(0, 3);
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">The digital town square</p>
+      <h1>Know the town.<br /><em>Find your people.</em></h1>
+      <p class="intro">A community-made home for discovering Moalboal, finding trusted local services and helping good projects grow.</p>
+      <div class="actions">
+        <a class="button" href="/explore">Explore Moalboal</a>
+        <a class="button secondary" href="/community#help">How can I help?</a>
+      </div>
+    </div>
+    <div class="town-note" aria-label="Welcome note">
+      <span class="sun"></span>
+      <p class="eyebrow">Today in Moalboal</p>
+      <h2>Start local.</h2>
+      <p>Find a neighbourhood business, learn something from a resident, or lend a hand to a community project.</p>
+      <span class="wave">maayong pag-abot</span>
+    </div>
+  </section>
+
+  <section class="ticker" aria-label="Site highlights">
+    <span>Local knowledge</span><i>✦</i><span>Community projects</span><i>✦</i><span>Useful town guides</span><i>✦</i><span>Trusted listings</span>
+  </section>
+
+  <section class="section explore-section">
+    <div class="section-heading">
+      <div><p class="eyebrow">Find your way</p><h2>Explore Moalboal</h2></div>
+      <p>Look beyond the checklist. Discover places through local context, from an early coffee to an afternoon underwater.</p>
+    </div>
+    <div class="explore-grid">
+      <a href="/directory?category=eat" class="feature-card coral"><span>01</span><h3>Eat & drink</h3><p>Local tables, good coffee and where to go next.</p></a>
+      <a href="/directory?category=stay" class="feature-card sea"><span>02</span><h3>Stay awhile</h3><p>Find a base that fits the way you travel.</p></a>
+      <a href="/directory?category=dive" class="feature-card sun-card"><span>03</span><h3>Meet the sea</h3><p>Diving, snorkelling and responsible ocean experiences.</p></a>
+    </div>
+  </section>
+
+  <section class="section help-section" id="help">
+    <div>
+      <p class="eyebrow">A town is something we make together</p>
+      <h2>How can I help?</h2>
+    </div>
+    <div class="help-list">
+      <a href="/community#volunteer"><span>Volunteer locally</span><b>→</b></a>
+      <a href="/community#organizations"><span>Support an organization</span><b>→</b></a>
+      <a href="/community#skills"><span>Share a useful skill</span><b>→</b></a>
+    </div>
+  </section>
+
+  <section class="section living-section">
+    <div class="living-copy"><p class="eyebrow">For more than a holiday</p><h2>Living here,<br />made clearer.</h2><p>Practical, locally reviewed guides for the questions that maps cannot answer.</p><a href="/living">Browse living guides →</a></div>
+    <div class="living-topics">
+      <span>01</span><p>Moving to Moalboal</p><span>02</span><p>Internet & mobile</p><span>03</span><p>Finding a home</p><span>04</span><p>Healthcare</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading"><div><p class="eyebrow">Directory preview</p><h2>Meet the neighbourhood</h2></div><a href="/directory">View the directory →</a></div>
+    <div class="grid">
+      {businesses.map(({ data }) => (
+        <a class="card" href={`/directory/${data.slug}`}>
+          <span class="pill">{data.categories.join(' · ')}</span><h3>{data.name}</h3><p>{data.summary}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero { min-height: 690px; display: grid; grid-template-columns: 1.55fr .8fr; background: var(--cream); }
+  .hero-copy { padding: clamp(5rem, 9vw, 9rem) 5vw; position: relative; }
+  .hero-copy::after { content: ''; position: absolute; right: 4%; top: 16%; width: 9rem; height: 9rem; border: 1px solid var(--coral); border-radius: 48% 52% 55% 45%; transform: rotate(18deg); opacity: .45; }
+  h1 em { color: var(--sea); font-weight: inherit; }
+  .intro { font-size: 1.18rem; max-width: 39rem; margin: 2rem 0; }
+  .actions { display: flex; gap: .8rem; flex-wrap: wrap; }
+  .town-note { background: var(--sea); color: #fff; padding: 5rem 3rem 3rem; display: flex; flex-direction: column; justify-content: end; position: relative; }
+  .town-note h2 { font-size: clamp(3rem, 6vw, 5rem); }
+  .town-note p { max-width: 27rem; }
+  .sun { position: absolute; top: 12%; right: 12%; width: clamp(6rem, 13vw, 12rem); aspect-ratio: 1; border-radius: 50%; background: var(--sun); }
+  .wave { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.35); font-family: 'Fraunces', serif; font-style: italic; }
+  .ticker { display: flex; gap: 2.2rem; justify-content: center; align-items: center; padding: .85rem; white-space: nowrap; overflow: hidden; background: var(--coral); color: #fff; text-transform: uppercase; letter-spacing: .1em; font-weight: 800; font-size: .72rem; }
+  .ticker i { color: var(--sun); }
+  .explore-section { background: var(--paper); }
+  .explore-grid { display: grid; grid-template-columns: 1.2fr .9fr .9fr; gap: 1rem; }
+  .feature-card { min-height: 360px; padding: 2rem; display: flex; flex-direction: column; justify-content: end; border-radius: 24px; text-decoration: none; color: #fff; }
+  .feature-card span { margin-bottom: auto; font-weight: 700; }
+  .feature-card h3 { font-size: 2.2rem; }
+  .feature-card p { max-width: 22rem; }
+  .coral { background: var(--coral); } .sea { background: var(--forest); } .sun-card { background: var(--sun); color: var(--ink); }
+  .help-section { background: var(--ink); color: #fff; display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+  .help-list a { display: flex; justify-content: space-between; padding: 1.35rem 0; border-bottom: 1px solid rgba(255,255,255,.25); text-decoration: none; font-size: 1.2rem; }
+  .help-list b { color: var(--sun); }
+  .living-section { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; background: var(--cream); }
+  .living-copy p { max-width: 32rem; } .living-copy a { font-weight: 700; }
+  .living-topics { display: grid; grid-template-columns: auto 1fr; align-content: center; }
+  .living-topics span, .living-topics p { padding: 1rem; margin: 0; border-bottom: 1px solid var(--line); }
+  .living-topics span { color: var(--coral); font-weight: 700; }
+  @media (max-width: 850px) {
+    .hero, .help-section, .living-section { grid-template-columns: 1fr; }
+    .hero { min-height: 0; } .town-note { min-height: 430px; }
+    .explore-grid { grid-template-columns: 1fr; }
+    .feature-card { min-height: 260px; }
+  }
+</style>

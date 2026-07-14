@@ -1,0 +1,33 @@
+{
+  "name": "Lamika Moalboal Café and Restaurant",
+  "slug": "lamika-moalboal-cafe-and-restaurant",
+  "summary": "Food and drink in Panagsama. Rated 4.9 from 308 Google reviews.",
+  "description": "Lamika Moalboal Café and Restaurant is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.949365,
+    "lng": 123.36915319999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=17464677420796431815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJqUzJNg3pqzMRx01bF5X_XvI",
+  "rating": 4.9,
+  "ratingCount": 308,
+  "tags": [
+    "eat",
+    "cafe",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

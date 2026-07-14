@@ -1,0 +1,35 @@
+{
+  "name": "Moalboal Fruit Stand",
+  "slug": "moalboal-fruit-stand",
+  "summary": "Shopping in Moalboal. Rated 4.1 from 37 Google reviews.",
+  "description": "Moalboal Fruit Stand is listed at W9MR+VQP, Santander - Barili - Toledo Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "shop",
+  "categories": [
+    "shop"
+  ],
+  "barangay": "Moalboal",
+  "address": "W9MR+VQP, Santander - Barili - Toledo Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.934713300000002,
+    "lng": 123.39195559999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=10057294260984387252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJT7dGvPjoqzMRtJaMM9ivkos",
+  "rating": 4.1,
+  "ratingCount": 37,
+  "tags": [
+    "shop",
+    "market",
+    "grocery-store",
+    "food-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

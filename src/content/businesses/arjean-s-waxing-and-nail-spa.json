@@ -1,0 +1,34 @@
+{
+  "name": "Arjean’s waxing and nail spa",
+  "slug": "arjean-s-waxing-and-nail-spa",
+  "summary": "Local service in Moalboal. Rated 5.0 from 86 Google reviews.",
+  "description": "Arjean’s waxing and nail spa is listed at W9VW+PM6, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "services",
+  "categories": [
+    "services"
+  ],
+  "barangay": "Moalboal",
+  "address": "W9VW+PM6, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9529821,
+    "lng": 123.40091369999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=12592462950029055908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ69c-cRbpqzMRpNe_11Vqwa4",
+  "rating": 5,
+  "ratingCount": 86,
+  "tags": [
+    "services",
+    "nail-salon",
+    "beauty-salon",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Moalboal T Breeze Coastal Resort",
+  "slug": "moalboal-t-breeze-coastal-resort",
+  "summary": "Accommodation in Moalboal. Rated 4.1 from 257 Google reviews.",
+  "description": "Moalboal T Breeze Coastal Resort is listed at Looc, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Moalboal",
+  "address": "Looc, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9770097,
+    "lng": 123.37120050000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=13807697288670726988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJD4JLxCHmqzMRTMtXGYfLnr8",
+  "rating": 4.1,
+  "ratingCount": 257,
+  "tags": [
+    "stay",
+    "resort-hotel",
+    "hotel",
+    "lodging",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

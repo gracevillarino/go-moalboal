@@ -1,0 +1,33 @@
+{
+  "name": "Ananas Guesthouse",
+  "slug": "ananas-guesthouse",
+  "summary": "Accommodation in Basdiot. Rated 4.6 from 126 Google reviews.",
+  "description": "Ananas Guesthouse is listed at Tubli Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "Tubli Rd, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9549191,
+    "lng": 123.3693316
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=5409669449222992269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJCQt5Z57pqzMRjTE40bMBE0s",
+  "rating": 4.6,
+  "ratingCount": 126,
+  "tags": [
+    "stay",
+    "guest-house",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

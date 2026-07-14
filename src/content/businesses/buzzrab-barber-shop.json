@@ -1,0 +1,35 @@
+{
+  "name": "BuzzRab Barber Shop",
+  "slug": "buzzrab-barber-shop",
+  "summary": "Local service in Poblacion West. Rated 5.0 from 121 Google reviews.",
+  "description": "BuzzRab Barber Shop is listed at No. 90 Sitio Pook, Barangay Poblacion West, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "services",
+  "categories": [
+    "services"
+  ],
+  "barangay": "Poblacion West",
+  "address": "No. 90 Sitio Pook, Barangay Poblacion West, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.939790799999999,
+    "lng": 123.3901676
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=11959271727574984457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJZ_dCpubpqzMRCad69kXe96U",
+  "rating": 5,
+  "ratingCount": 121,
+  "tags": [
+    "services",
+    "barber-shop",
+    "hair-care",
+    "health",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "YOLO Moalboal Cebu Adventure",
+  "slug": "yolo-moalboal-cebu-adventure",
+  "summary": "Transport in Moalboal. Rated 4.5 from 26 Google reviews.",
+  "description": "YOLO Moalboal Cebu Adventure is listed at YOLO MOALBOAL CEBU ADVENTURE Tubli Rd, Moalboal, Cebu YOLO MOALBOAL, ADVENTURE, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "transport",
+  "categories": [
+    "transport"
+  ],
+  "barangay": "Moalboal",
+  "address": "YOLO MOALBOAL CEBU ADVENTURE Tubli Rd, Moalboal, Cebu YOLO MOALBOAL, ADVENTURE, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9521421,
+    "lng": 123.3683373
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=17185587634578881315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ6QGKEwDpqzMRI3trh-Z4f-4",
+  "rating": 4.5,
+  "ratingCount": 26,
+  "tags": [
+    "transport",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

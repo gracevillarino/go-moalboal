@@ -1,0 +1,33 @@
+{
+  "name": "Laundry Made Easy",
+  "slug": "laundry-made-easy",
+  "summary": "Local service in Panagsama. Rated 4.8 from 99 Google reviews.",
+  "description": "Laundry Made Easy is listed at X-Spot, C. Schmitz Road, Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "services",
+  "categories": [
+    "services"
+  ],
+  "barangay": "Panagsama",
+  "address": "X-Spot, C. Schmitz Road, Panagsama Beach, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9480605,
+    "lng": 123.37129170000001
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=4492445901643559620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJhyEkjILpqzMRxLIf3L5fWD4",
+  "rating": 4.8,
+  "ratingCount": 99,
+  "tags": [
+    "services",
+    "laundry",
+    "service"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

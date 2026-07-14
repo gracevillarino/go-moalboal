@@ -1,0 +1,32 @@
+{
+  "name": "Scuba Princess Moalboal",
+  "slug": "scuba-princess-moalboal",
+  "summary": "Diving and ocean activities in Moalboal. Rated 5.0 from 26 Google reviews.",
+  "description": "Scuba Princess Moalboal is listed at The Blue Orchid Resort Moalboal, Cebu, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "dive",
+  "categories": [
+    "dive"
+  ],
+  "barangay": "Moalboal",
+  "address": "The Blue Orchid Resort Moalboal, Cebu, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9922545,
+    "lng": 123.37161809999999
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=8949795329534145044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJU5K-1PHpqzMRFDJVJW8PNHw",
+  "rating": 5,
+  "ratingCount": 26,
+  "tags": [
+    "dive",
+    "sports-activity-location"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

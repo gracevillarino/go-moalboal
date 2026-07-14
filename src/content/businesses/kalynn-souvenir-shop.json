@@ -1,0 +1,33 @@
+{
+  "name": "Kalynn Souvenir Shop",
+  "slug": "kalynn-souvenir-shop",
+  "summary": "Shopping in Moalboal. Rated 5.0 from 27 Google reviews.",
+  "description": "Kalynn Souvenir Shop is listed at Quisaot Road, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "shop",
+  "categories": [
+    "shop"
+  ],
+  "barangay": "Moalboal",
+  "address": "Quisaot Road, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9466618,
+    "lng": 123.3665292
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=14346013128043099580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJf57YWsPpqzMRvHUZeO5GF8c",
+  "rating": 5,
+  "ratingCount": 27,
+  "tags": [
+    "shop",
+    "clothing-store",
+    "store"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,33 @@
+{
+  "name": "The Lounge Moalboal",
+  "slug": "the-lounge-moalboal",
+  "summary": "Food and drink in Panagsama. Rated 4.5 from 289 Google reviews.",
+  "description": "The Lounge Moalboal is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Panagsama Rd, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9500654,
+    "lng": 123.36708159999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=2930954123898852988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "googlePlaceId": "ChIJ2xjPTl7pqzMRfBb1Lz_XrCg",
+  "rating": 4.5,
+  "ratingCount": 289,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

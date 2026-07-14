@@ -1,0 +1,33 @@
+{
+  "name": "Mila's Restaurant",
+  "slug": "mila-s-restaurant",
+  "summary": "Food and drink in Moalboal. Rated 4.2 from 508 Google reviews.",
+  "description": "Mila's Restaurant is listed at X929+53F, Tubli Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Moalboal",
+  "address": "X929+53F, Tubli Rd, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.950431,
+    "lng": 123.36766389999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "googleMapsUri": "https://maps.google.com/?cid=14809571576763730860&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "googlePlaceId": "ChIJh_6Cfm3pqzMRrEu5dOIqhs0",
+  "rating": 4.2,
+  "ratingCount": 508,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}
