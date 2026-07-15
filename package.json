@@ -6,11 +6,16 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host localhost --port 4331",
     "build": "astro build",
     "build:sites": "astro build && node scripts/prepare-sites-static.mjs",
     "check": "astro check",
     "import:places": "node --env-file-if-exists=.env scripts/import-google-places.mjs",
+    "enrich:places": "node --env-file-if-exists=.env scripts/enrich-approved-places.mjs",
+    "enrich:emails": "node scripts/enrich-place-emails.mjs",
+    "enrich:about": "node scripts/enrich-place-about.mjs",
+    "enrich:reviews": "node --env-file-if-exists=.env scripts/enrich-place-review-themes.mjs",
+    "clean:review-copy": "node scripts/remove-review-about-copy.mjs",
     "publish:places": "node scripts/publish-approved-places.mjs",
     "preview": "astro preview",
     "astro": "astro"

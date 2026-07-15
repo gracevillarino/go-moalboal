@@ -2,7 +2,7 @@
   "name": "Majona’s Motorbike Hire",
   "slug": "majona-s-motorbike-hire",
   "summary": "Transport in Panagsama. Rated 4.1 from 87 Google reviews.",
-  "description": "Majona’s Motorbike Hire is listed at Panagsama Road Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and Majona’s Motorbike Hire serves the Panagsama area. Confirm availability, prices and identification requirements directly.\n\nMajona’s Motorbike Hire is listed as a transport provider in Panagsama, Moalboal, at Panagsama Road Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport"
@@ -13,10 +13,22 @@
     "lat": 9.9500487,
     "lng": 123.36742350000002
   },
-  "phone": "",
+  "phone": "0999 388 9576",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=1417536223130309197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:21.306Z",
+  "sources": [
+    {
+      "title": "Majona’s Motorbike Hire on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=1417536223130309197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=1417536223130309197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJZ6HX-evpqzMRTVLuO68ZrBM",
   "rating": 4.1,

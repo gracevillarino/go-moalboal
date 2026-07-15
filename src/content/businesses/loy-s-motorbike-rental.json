@@ -2,7 +2,7 @@
   "name": "LOY'S MOTORBIKE RENTAL",
   "slug": "loy-s-motorbike-rental",
   "summary": "Transport in Panagsama. Rated 5.0 from 272 Google reviews.",
-  "description": "LOY'S MOTORBIKE RENTAL is listed at Panagsama, Bantayan, 1 Tubli Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and LOY'S MOTORBIKE RENTAL serves the Panagsama area. Confirm availability, prices and identification requirements directly.\n\nLOY'S MOTORBIKE RENTAL is listed as a transport provider in Panagsama, Moalboal, at Panagsama, Bantayan, 1 Tubli Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport"
@@ -13,10 +13,22 @@
     "lat": 9.954999899999999,
     "lng": 123.3692002
   },
-  "phone": "",
+  "phone": "0921 590 7320",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=568962869670566600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:20.703Z",
+  "sources": [
+    {
+      "title": "LOY'S MOTORBIKE RENTAL on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=568962869670566600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=568962869670566600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJkwOQZdzpqzMRyNoZKbdc5Qc",
   "rating": 5,

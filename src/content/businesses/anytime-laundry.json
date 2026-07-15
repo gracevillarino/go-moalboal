@@ -2,7 +2,7 @@
   "name": "Anytime Laundry",
   "slug": "anytime-laundry",
   "summary": "Local service in Panagsama. Rated 4.1 from 93 Google reviews.",
-  "description": "Anytime Laundry is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Panagsama, Anytime Laundry is one of the local services you can contact. Confirm current hours, availability and pricing directly.\n\nAnytime Laundry is listed as a local service in Panagsama, Moalboal, at Panagsama Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,22 @@
     "lat": 9.946909600000001,
     "lng": 123.3736129
   },
-  "phone": "",
+  "phone": "0966 163 0951",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=3252968251783152255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:12.273Z",
+  "sources": [
+    {
+      "title": "Anytime Laundry on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=3252968251783152255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=3252968251783152255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJXxcXhvPpqzMRf4Io2WPdJC0",
   "rating": 4.1,

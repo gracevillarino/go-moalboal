@@ -2,7 +2,7 @@
   "name": "Island Wok Restaurant",
   "slug": "island-wok-restaurant",
   "summary": "Food and drink in Moalboal. Rated 4.4 from 127 Google reviews.",
-  "description": "Island Wok Restaurant is listed at Unnamed Road, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Moalboal, Island Wok Restaurant is a local option to keep on your shortlist. Its published information highlights breakfast, a swimming pool, beach access, and Wi-Fi. Check the latest opening details before making the trip.\n\nIsland Wok Restaurant is listed as a place to eat and drink in Moalboal, Moalboal, at Unnamed Road, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -14,9 +14,48 @@
     "lng": 123.368525
   },
   "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "email": "pescadoreshotel@gmail.com",
+  "website": "http://www.pescadorescebu.com/",
+  "facebook": "https://www.facebook.com/pescadorescebu/",
+  "contactCheckedAt": "2026-07-14T13:40:24.361Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=2403549294597470142&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "http://www.pescadorescebu.com/",
+    "https://www.pescadorescebu.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:20.341Z",
+  "sources": [
+    {
+      "title": "Island Wok Restaurant on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=2403549294597470142&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    {
+      "title": "Pescadores Suites Beachfront Hotel",
+      "publisher": "pescadorescebu.com",
+      "url": "https://www.pescadorescebu.com/"
+    },
+    {
+      "title": "Island Wok Restaurant Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/pescadorescebu/"
+    },
+    {
+      "title": "Hotel Rooms",
+      "publisher": "pescadorescebu.com",
+      "url": "https://www.pescadorescebu.com/hotelrooms/"
+    },
+    {
+      "title": "About Pescadores Cebu: Your Beachfront Hotel",
+      "publisher": "pescadorescebu.com",
+      "url": "https://www.pescadorescebu.com/w-aboutus/"
+    },
+    {
+      "title": "Island Wok Restaurant on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/pescadorescebu/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=2403549294597470142&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   "googlePlaceId": "ChIJdSu94MLoqzMRvnefUFkfWyE",
   "rating": 4.4,
@@ -29,5 +68,40 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:08:06.824Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "food",
+          "mentions": 8,
+          "reviews": 4
+        },
+        {
+          "term": "staff and service",
+          "mentions": 4,
+          "reviews": 4
+        },
+        {
+          "term": "table",
+          "mentions": 6,
+          "reviews": 3
+        },
+        {
+          "term": "live",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

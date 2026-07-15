@@ -2,7 +2,7 @@
   "name": "D` Gecko hotel",
   "slug": "d-gecko-hotel",
   "summary": "Accommodation in Panagsama. Rated 4.1 from 323 Google reviews.",
-  "description": "D` Gecko hotel is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Panagsama, D` Gecko hotel is one of the local stays you can compare. Its published information highlights coffee and Wi-Fi. Check current room details and booking terms directly before you travel.\n\nD` Gecko hotel is listed as a place to stay in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,43 @@
     "lat": 9.9472341,
     "lng": 123.36649759999999
   },
-  "phone": "",
-  "email": "",
-  "website": "",
+  "phone": "(032) 474 3781",
+  "email": "booking@d-geckohotel.com",
+  "website": "https://d-gecko-hotel.mydirectstay.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T13:40:18.353Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=17500921831751063633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://d-gecko-hotel.mydirectstay.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:14.976Z",
+  "sources": [
+    {
+      "title": "D` Gecko hotel on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=17500921831751063633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Home",
+      "publisher": "d-gecko-hotel.mydirectstay.com",
+      "url": "https://d-gecko-hotel.mydirectstay.com/"
+    },
+    {
+      "title": "Rooms",
+      "publisher": "d-gecko-hotel.mydirectstay.com",
+      "url": "https://d-gecko-hotel.mydirectstay.com/rooms.html"
+    },
+    {
+      "title": "About Us",
+      "publisher": "d-gecko-hotel.mydirectstay.com",
+      "url": "https://d-gecko-hotel.mydirectstay.com/about-us.html"
+    },
+    {
+      "title": "D` Gecko hotel on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d13074602-Reviews-D\"Gecko_Hotel-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=17500921831751063633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJV1hfk8PoqzMRUZhmn67D3_I",
   "rating": 4.1,
@@ -29,5 +62,71 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:33.693Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 8,
+          "reviews": 4
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 4,
+          "reviews": 4
+        },
+        {
+          "term": "rooms",
+          "mentions": 7,
+          "reviews": 3
+        },
+        {
+          "term": "value",
+          "mentions": 6,
+          "reviews": 3
+        },
+        {
+          "term": "water",
+          "mentions": 4,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "13074602",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d13074602-Reviews-D\"Gecko_Hotel-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 7,
+          "reviews": 3
+        },
+        {
+          "term": "rooms",
+          "mentions": 6,
+          "reviews": 2
+        },
+        {
+          "term": "beachfront",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "location",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "minute",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

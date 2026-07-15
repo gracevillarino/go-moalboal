@@ -10,12 +10,13 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { data } = entry;
 const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <BaseLayout title={`${data.title} — Go Moalboal`} description={data.summary}>
   <article>
     <header class="story-hero section">
-      <a href="/stories">← All stories</a>
+      <a href={`${base}/stories`}>← All stories</a>
       <div class="story-heading">
         <div><span class="pill">{data.type.replace('-', ' ')}</span><h1>{data.title}</h1></div>
         <div><p>{data.summary}</p><span>{data.readingMinutes} minute read · {data.sources.length} sources</span></div>

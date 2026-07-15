@@ -2,7 +2,7 @@
   "name": "Petron",
   "slug": "petron",
   "summary": "Transport in Moalboal. Rated 4.3 from 34 Google reviews.",
-  "description": "Petron is listed at W9RW+X7M, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and Petron serves the Moalboal area. Confirm availability, prices and identification requirements directly.\n\nPetron is listed as a transport provider in Moalboal, Moalboal, at W9RW+X7M, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport"
@@ -17,6 +17,18 @@
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=10916759034393798209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:26.949Z",
+  "sources": [
+    {
+      "title": "Petron on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=10916759034393798209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=10916759034393798209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJVZCqO1roqzMRQSaUl4AegJc",
   "rating": 4.3,

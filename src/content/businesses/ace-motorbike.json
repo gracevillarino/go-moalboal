@@ -2,7 +2,7 @@
   "name": "ace motorbike",
   "slug": "ace-motorbike",
   "summary": "Transport in Moalboal. Rated 4.8 from 46 Google reviews.",
-  "description": "ace motorbike is listed at 1 Bantayan Road, Moalboal, 6032 Lalawigan ng Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and ace motorbike serves the Moalboal area. Confirm availability, prices and identification requirements directly.\n\nace motorbike is listed as a transport provider in Moalboal, Moalboal, at 1 Bantayan Road, Moalboal, 6032 Lalawigan ng Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport"
@@ -13,10 +13,22 @@
     "lat": 9.9567342,
     "lng": 123.36969929999998
   },
-  "phone": "",
+  "phone": "0968 734 6697",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=9494453978119812755&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:12.171Z",
+  "sources": [
+    {
+      "title": "ace motorbike on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=9494453978119812755&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=9494453978119812755&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJdzCKBwDpqzMRkzYg3pYTw4M",
   "rating": 4.8,

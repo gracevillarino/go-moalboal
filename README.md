@@ -41,6 +41,66 @@ Run `pnpm publish:places` after review to replace sample businesses with approve
 publication-ready content entries. Only approved records meeting the 4.0 rating and
 20-review minimum are published.
 
+After publication, run `pnpm enrich:places` to request phone numbers and official
+websites for approved Place IDs. If the listed website is a Facebook page, or an
+official website links to one, the Facebook URL is recorded separately. The script
+does not guess Facebook pages from name-only web searches. Re-running the publisher
+preserves enriched contact fields.
+
+For a confirmed manual correction, edit `data/imports/place-contact-overrides.json`.
+Use the Google Place ID as the key and include only fields that should override the
+enriched record:
+
+```json
+{
+  "ChIJ-example-place-id": {
+    "phone": "+63 900 000 0000",
+    "website": "https://example.com/",
+    "facebook": "https://www.facebook.com/example/"
+  }
+}
+```
+
+Run `pnpm publish:places` after saving overrides. To deliberately clear a value,
+set it to an empty string. The review CSV remains the source for approval, categories,
+matched queries and editorial notes; it is not the durable source for contact corrections.
+
+Google Place photos are not downloaded into this static repository. Photo resource
+names can expire, must not be cached, and may require author attribution. Add Google
+photos later through an on-demand service, or use business-owner supplied photos with
+documented permission.
+
+Run `pnpm enrich:about` to regenerate the two-part About copy and source lists for
+published places. The first paragraph is visitor-oriented; the second supplies clear
+business-category and Moalboal location context. The script uses Google Maps, the listed
+website, confirmed Facebook page, accessible official-site pages and reputable profiles
+linked by the official site. It records no more than six sources and does not invent
+first-person experiences or unsupported amenities.
+
+Place pages load qualifying reviews dynamically through `/api/reviews`; review text is
+not written into the static HTML or the business JSON files. Google Maps can return at
+most five relevance-sorted reviews, which the page filters to 5 stars and displays newest
+first. Tripadvisor Terra is requested for up to six most-recent 5-star reviews from the
+account's available review pool. Add both `GOOGLE_MAPS_API_KEY` and
+`TRIPADVISOR_API_KEY` to `.env` for local development.
+
+The production review endpoint is a Cloudflare Pages Function in
+`functions/api/reviews.js`. Add the same two values as encrypted Cloudflare Pages secrets.
+GitHub Pages can host the static site but cannot execute this endpoint, so the live review
+carousels require the Cloudflare deployment. `/api/reviews` is blocked in `robots.txt` and
+returns `no-store` and `noindex` headers.
+
+Instagram sections show up to six posts in a three-column carousel. Verified public post
+or reel URLs work as embeds without extra setup. To load the latest six posts for a
+professional account, add `INSTAGRAM_BUSINESS_ACCOUNT_ID` and `INSTAGRAM_ACCESS_TOKEN` to
+`.env` and to the corresponding Cloudflare secrets. The live endpoint uses Instagram
+Business Discovery and does not scrape profiles; personal accounts that are unavailable
+through the API fall back to their verified profile link.
+
+Run `pnpm enrich:emails` to check listed official websites for public email addresses.
+Email is displayed only when found. Weekly opening hours are requested live from Google
+Places and appear in At a glance without being stored in the static business records.
+
 The staging file records a 30-day expiry for cached Google coordinates. Do not combine
 Google Places coordinates with a non-Google map. Google Place IDs can be retained for later
 refreshes.

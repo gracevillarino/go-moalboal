@@ -2,7 +2,7 @@
   "name": "Lamika Moalboal Café and Restaurant",
   "slug": "lamika-moalboal-cafe-and-restaurant",
   "summary": "Food and drink in Panagsama. Rated 4.9 from 308 Google reviews.",
-  "description": "Lamika Moalboal Café and Restaurant is listed at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Panagsama, Lamika Moalboal Café and Restaurant is a local option to keep on your shortlist. Check the latest opening details before making the trip.\n\nLamika Moalboal Café and Restaurant is listed as a place to eat and drink in Panagsama, Moalboal, at Panagsama Rd, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -13,10 +13,27 @@
     "lat": 9.949365,
     "lng": 123.36915319999999
   },
-  "phone": "",
+  "phone": "0947 373 3198",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=17464677420796431815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:19.957Z",
+  "sources": [
+    {
+      "title": "Lamika Moalboal Café and Restaurant on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=17464677420796431815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Lamika Moalboal Café and Restaurant on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d34085168-Reviews-Lamika_Moalboal_Cafe_And_Restaurant-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=17464677420796431815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJqUzJNg3pqzMRx01bF5X_XvI",
   "rating": 4.9,
@@ -29,5 +46,56 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:08:24.488Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "food",
+          "mentions": 5,
+          "reviews": 5
+        },
+        {
+          "term": "staff and service",
+          "mentions": 7,
+          "reviews": 3
+        },
+        {
+          "term": "atmosphere",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "coconut",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "comfort",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "34085168",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d34085168-Reviews-Lamika_Moalboal_Cafe_And_Restaurant-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "food",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "atmosphere",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

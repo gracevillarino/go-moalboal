@@ -2,7 +2,7 @@
   "name": "Arjean’s waxing and nail spa",
   "slug": "arjean-s-waxing-and-nail-spa",
   "summary": "Local service in Moalboal. Rated 5.0 from 86 Google reviews.",
-  "description": "Arjean’s waxing and nail spa is listed at W9VW+PM6, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Moalboal, Arjean’s waxing and nail spa is one of the local services you can contact. Confirm current hours, availability and pricing directly.\n\nArjean’s waxing and nail spa is listed as a local service in Moalboal, Moalboal, at W9VW+PM6, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,28 @@
     "lat": 9.9529821,
     "lng": 123.40091369999999
   },
-  "phone": "",
+  "phone": "0995 461 7255",
   "email": "",
-  "website": "",
+  "website": "https://wa.me/639993243260",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=12592462950029055908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://wa.me/639993243260"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:12.535Z",
+  "sources": [
+    {
+      "title": "Arjean’s waxing and nail spa on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=12592462950029055908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Arjean’s waxing and nail spa website",
+      "publisher": "wa.me",
+      "url": "https://wa.me/639993243260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=12592462950029055908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ69c-cRbpqzMRpNe_11Vqwa4",
   "rating": 5,

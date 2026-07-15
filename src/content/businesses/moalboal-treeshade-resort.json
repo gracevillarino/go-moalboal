@@ -2,7 +2,7 @@
   "name": "Moalboal Treeshade Resort",
   "slug": "moalboal-treeshade-resort",
   "summary": "Accommodation and Local service in Panagsama. Rated 4.9 from 3,773 Google reviews.",
-  "description": "Moalboal Treeshade Resort is listed at Bantayan, Between Beyond Island and Dolce Vita Resort, Basdiot, Panagsama Rd, Uno, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Panagsama, Moalboal Treeshade Resort is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nMoalboal Treeshade Resort is listed as a place to stay in Panagsama, Moalboal, at Bantayan, Between Beyond Island and Dolce Vita Resort, Basdiot, Panagsama Rd, Uno, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay",
@@ -14,10 +14,33 @@
     "lat": 9.9522909,
     "lng": 123.36845710000001
   },
-  "phone": "",
+  "phone": "0915 842 1459",
   "email": "",
-  "website": "",
+  "website": "https://treeshademoalboal.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=16693167153538324941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://treeshademoalboal.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:23.152Z",
+  "sources": [
+    {
+      "title": "Moalboal Treeshade Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=16693167153538324941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Under Maintenance",
+      "publisher": "treeshademoalboal.com",
+      "url": "https://treeshademoalboal.com/"
+    },
+    {
+      "title": "Moalboal Treeshade Resort on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d27995491-Reviews-Moalboal_Treeshade_Resort-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=16693167153538324941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJP6N_G_LpqzMRzdne-hQLquc",
   "rating": 4.9,
@@ -32,5 +55,45 @@
   "featured": true,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:08:57.980Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 11,
+          "reviews": 5
+        },
+        {
+          "term": "comfort",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "overall",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "relaxing",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "trip",
+          "mentions": 3,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "27995491",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d27995491-Reviews-Moalboal_Treeshade_Resort-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

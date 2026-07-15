@@ -2,7 +2,7 @@
   "name": "Cebu Seaview Dive Resort",
   "slug": "cebu-seaview-dive-resort",
   "summary": "Accommodation and Diving and ocean activities in Panagsama. Rated 4.7 from 367 Google reviews.",
-  "description": "Cebu Seaview Dive Resort is listed at Sitio Talisay, Panagsama Beach, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Panagsama, Cebu Seaview Dive Resort is one of the local stays you can compare. Its published information highlights breakfast, coffee, a swimming pool, and beach access. Check current room details and booking terms directly before you travel.\n\nCebu Seaview Dive Resort is listed as a place to stay in Panagsama, Moalboal, at Sitio Talisay, Panagsama Beach, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay",
@@ -14,10 +14,49 @@
     "lat": 9.9435712,
     "lng": 123.3688247
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "(032) 474 3759",
+  "email": "info@cebu-seaview.com",
+  "website": "http://www.cebu-seaview.com/",
+  "facebook": "http://www.facebook.com/cebuseaview",
+  "contactCheckedAt": "2026-07-14T13:40:17.429Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=9688208173201686643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.cebu-seaview.com/",
+    "https://cebu-seaview.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:15.218Z",
+  "sources": [
+    {
+      "title": "Cebu Seaview Dive Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=9688208173201686643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Home",
+      "publisher": "cebu-seaview.com",
+      "url": "https://cebu-seaview.com/"
+    },
+    {
+      "title": "Cebu Seaview Dive Resort Facebook page",
+      "publisher": "Facebook",
+      "url": "http://www.facebook.com/cebuseaview"
+    },
+    {
+      "title": "Rooms",
+      "publisher": "cebu-seaview.com",
+      "url": "https://cebu-seaview.com/rooms/"
+    },
+    {
+      "title": "Seaview Premium Room",
+      "publisher": "cebu-seaview.com",
+      "url": "https://cebu-seaview.com/rooms/premium-sea-view-deluxe/"
+    },
+    {
+      "title": "Cebu Seaview Dive Resort on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d21345955-Reviews-Cebu_Seaview_Dive_Resort-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=9688208173201686643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJFyPDd1PpqzMRcwC50QBuc4Y",
   "rating": 4.7,
@@ -32,5 +71,71 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:12.688Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 7,
+          "reviews": 4
+        },
+        {
+          "term": "rooms",
+          "mentions": 11,
+          "reviews": 3
+        },
+        {
+          "term": "breakfast",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "diving",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "food",
+          "mentions": 4,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "21345955",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d21345955-Reviews-Cebu_Seaview_Dive_Resort-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 7,
+          "reviews": 3
+        },
+        {
+          "term": "rooms",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "boat",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "diving",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "went",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

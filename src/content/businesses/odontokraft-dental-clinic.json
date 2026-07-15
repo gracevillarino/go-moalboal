@@ -2,7 +2,7 @@
   "name": "OdontoKraft Dental Clinic",
   "slug": "odontokraft-dental-clinic",
   "summary": "Health in Moalboal. Rated 4.2 from 20 Google reviews.",
-  "description": "OdontoKraft Dental Clinic is listed at 104 Santander - Barili - Toledo Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you need practical health support around Moalboal, OdontoKraft Dental Clinic is a local service to have on hand. Its published information highlights coffee. Call ahead to confirm hours, services and whether an appointment is needed.\n\nOdontoKraft Dental Clinic is listed as a health service in Moalboal, Moalboal, at 104 Santander - Barili - Toledo Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "health",
   "categories": [
     "health"
@@ -13,10 +13,48 @@
     "lat": 9.938825099999999,
     "lng": 123.39475819999998
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0970 234 4827",
+  "email": "odontokraftdentalclinic@gmail.com",
+  "website": "https://cebudentalimplants.com/content/odontokraft-dental-clinic",
+  "facebook": "https://www.facebook.com/profile.php?id=100072159476932&amp;sk=about",
+  "contactCheckedAt": "2026-07-14T13:40:34.364Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=6922601096427682030&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://cebudentalimplants.com/content/odontokraft-dental-clinic"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:26.186Z",
+  "sources": [
+    {
+      "title": "OdontoKraft Dental Clinic on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=6922601096427682030&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "OdontoKraft Dental Clinic",
+      "publisher": "cebudentalimplants.com",
+      "url": "https://cebudentalimplants.com/content/odontokraft-dental-clinic"
+    },
+    {
+      "title": "OdontoKraft Dental Clinic Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100072159476932&amp;sk=about"
+    },
+    {
+      "title": "Services",
+      "publisher": "cebudentalimplants.com",
+      "url": "https://cebudentalimplants.com/content/services"
+    },
+    {
+      "title": "The White Flag in Your Mouth: What Oral Thrush Reveals About a Cebu & Manila Lifestyle",
+      "publisher": "cebudentalimplants.com",
+      "url": "https://cebudentalimplants.com/content/white-flag-your-mouth-what-oral-thrush-reveals-about-cebu-manila-lifestyle"
+    },
+    {
+      "title": "OdontoKraft Dental Clinic on Facebook",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100072159476932&sk=about"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=6922601096427682030&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJgcksiBDpqzMR7jhNCgUFEmA",
   "rating": 4.2,

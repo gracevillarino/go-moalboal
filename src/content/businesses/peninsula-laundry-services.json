@@ -2,7 +2,7 @@
   "name": "Peninsula Laundry Services",
   "slug": "peninsula-laundry-services",
   "summary": "Local service in Moalboal. Rated 4.2 from 33 Google reviews.",
-  "description": "Peninsula Laundry Services is listed at W9WF+9VJ, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Moalboal, Peninsula Laundry Services is one of the local services you can contact. Confirm current hours, availability and pricing directly.\n\nPeninsula Laundry Services is listed as a local service in Moalboal, Moalboal, at W9WF+9VJ, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,22 @@
     "lat": 9.946550799999999,
     "lng": 123.37474429999999
   },
-  "phone": "",
+  "phone": "0910 102 0711",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=9454366057891051606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:26.189Z",
+  "sources": [
+    {
+      "title": "Peninsula Laundry Services on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=9454366057891051606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=9454366057891051606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJxwr1fQDpqzMRVjgbmdanNIM",
   "rating": 4.2,

@@ -2,7 +2,7 @@
   "name": "Alpha Fitness Center",
   "slug": "alpha-fitness-center",
   "summary": "Local service in Panagsama. Rated 4.9 from 96 Google reviews.",
-  "description": "Alpha Fitness Center is listed at Talisay Road, Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Panagsama, Alpha Fitness Center is one of the local services you can contact. Confirm current hours, availability and pricing directly.\n\nAlpha Fitness Center is listed as a local service in Panagsama, Moalboal, at Talisay Road, Panagsama Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,28 @@
     "lat": 9.9466583,
     "lng": 123.37246169999997
   },
-  "phone": "",
+  "phone": "0970 297 7707",
   "email": "",
-  "website": "",
+  "website": "https://moalboal-fitness.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=6779857738768486176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://moalboal-fitness.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:13.534Z",
+  "sources": [
+    {
+      "title": "Alpha Fitness Center on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=6779857738768486176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Alpha Fitness Center and Gym",
+      "publisher": "moalboal-fitness.com",
+      "url": "https://moalboal-fitness.com/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=6779857738768486176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJj9OUWC3pqzMRII_6MrHkFl4",
   "rating": 4.9,

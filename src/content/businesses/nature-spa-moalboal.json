@@ -2,7 +2,7 @@
   "name": "Nature Spa Moalboal",
   "slug": "nature-spa-moalboal",
   "summary": "Local service in Panagsama. Rated 4.7 from 516 Google reviews.",
-  "description": "Nature Spa Moalboal is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Panagsama, Nature Spa Moalboal is one of the local services you can contact. Confirm current hours, availability and pricing directly.\n\nNature Spa Moalboal is listed as a local service in Panagsama, Moalboal, at Panagsama Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,22 @@
     "lat": 9.9501931,
     "lng": 123.36696900000001
   },
-  "phone": "",
+  "phone": "0965 961 1720",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=8087809809237571459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:23.457Z",
+  "sources": [
+    {
+      "title": "Nature Spa Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=8087809809237571459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=8087809809237571459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJMRlM-3jpqzMRg3eGoiusPXA",
   "rating": 4.7,

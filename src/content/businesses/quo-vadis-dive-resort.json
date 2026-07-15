@@ -2,7 +2,7 @@
   "name": "Quo Vadis Dive Resort",
   "slug": "quo-vadis-dive-resort",
   "summary": "Accommodation and Diving and ocean activities and Shopping in Panagsama. Rated 4.4 from 436 Google reviews.",
-  "description": "Quo Vadis Dive Resort is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Panagsama, Quo Vadis Dive Resort is one of the local stays you can compare. Its published information highlights breakfast, coffee, a swimming pool, and beach access. Check current room details and booking terms directly before you travel.\n\nQuo Vadis Dive Resort is listed as a place to stay in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay",
@@ -15,10 +15,49 @@
     "lat": 9.9459754,
     "lng": 123.3669116
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0919 687 9466",
+  "email": "reservation@quovadisresort.com",
+  "website": "https://www.quovadisresort.com/",
+  "facebook": "https://www.facebook.com/QuoVadisDiveResort/",
+  "contactCheckedAt": "2026-07-14T13:40:40.187Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=15745199967445974859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://www.quovadisresort.com/",
+    "https://quovadisresort.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:34.885Z",
+  "sources": [
+    {
+      "title": "Quo Vadis Dive Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=15745199967445974859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Quo Vadis Dive Resort Moalboal",
+      "publisher": "quovadisresort.com",
+      "url": "https://quovadisresort.com/"
+    },
+    {
+      "title": "Quo Vadis Dive Resort Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/QuoVadisDiveResort/"
+    },
+    {
+      "title": "Rooms & Prices",
+      "publisher": "quovadisresort.com",
+      "url": "https://quovadisresort.com/rooms-prices/"
+    },
+    {
+      "title": "Quo Vadis Dive Resort on YouTube",
+      "publisher": "YouTube",
+      "url": "https://www.youtube.com/channel/UCDyQ-WbjaToG_8Z9maBIuNw"
+    },
+    {
+      "title": "Quo Vadis Dive Resort on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d1511802-Reviews-Quo_Vadis_Dive_Resort-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=15745199967445974859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJawERSt3oqzMRS_8b4fIvgto",
   "rating": 4.4,
@@ -35,5 +74,56 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:22.312Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 9,
+          "reviews": 5
+        },
+        {
+          "term": "comfort",
+          "mentions": 5,
+          "reviews": 5
+        },
+        {
+          "term": "rooms",
+          "mentions": 10,
+          "reviews": 4
+        },
+        {
+          "term": "water",
+          "mentions": 9,
+          "reviews": 4
+        },
+        {
+          "term": "instructor",
+          "mentions": 4,
+          "reviews": 4
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "1511802",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d1511802-Reviews-Quo_Vadis_Dive_Resort-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "diving",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "padi",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

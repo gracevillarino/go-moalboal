@@ -2,7 +2,7 @@
   "name": "Herbs Guest House",
   "slug": "herbs-guest-house",
   "summary": "Accommodation in Tongo. Rated 4.5 from 158 Google reviews.",
-  "description": "Herbs Guest House is listed at Tongo Point Road Tongo, W9PG+5FF, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Tongo, Herbs Guest House is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nHerbs Guest House is listed as a place to stay in Tongo, Moalboal, at Tongo Point Road Tongo, W9PG+5FF, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,32 @@
     "lat": 9.9354429,
     "lng": 123.3761797
   },
-  "phone": "",
+  "phone": "0939 045 1368",
   "email": "",
   "website": "",
-  "facebook": "",
+  "facebook": "http://www.facebook.com/herbsguesthouse",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=16078573572105745310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:17.572Z",
+  "sources": [
+    {
+      "title": "Herbs Guest House on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=16078573572105745310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Herbs Guest House Facebook page",
+      "publisher": "Facebook",
+      "url": "http://www.facebook.com/herbsguesthouse"
+    },
+    {
+      "title": "Herbs Guest House on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d12318539-Reviews-Herbs_Guest_House-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=16078573572105745310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJMQNFm-HoqzMRnrNY1HmRIt8",
   "rating": 4.5,
@@ -29,5 +51,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:58.029Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 4,
+          "reviews": 4
+        },
+        {
+          "term": "rooms",
+          "mentions": 4,
+          "reviews": 2
+        },
+        {
+          "term": "accommodation",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "beach",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "next",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "12318539",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d12318539-Reviews-Herbs_Guest_House-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

@@ -2,7 +2,7 @@
   "name": "Emok's Guest House",
   "slug": "emok-s-guest-house",
   "summary": "Accommodation in Poblacion East. Rated 4.2 from 121 Google reviews.",
-  "description": "Emok's Guest House is listed at Paramayon, Poblacion East,, Moalboal, 6032 Lalawigan ng Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Poblacion East, Emok's Guest House is one of the local stays you can compare. Its published information highlights coffee and motorbike rental. Check current room details and booking terms directly before you travel.\n\nEmok's Guest House is listed as a place to stay in Poblacion East, Moalboal, at Paramayon, Poblacion East,, Moalboal, 6032 Lalawigan ng Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,33 @@
     "lat": 9.942231699999999,
     "lng": 123.39814840000001
   },
-  "phone": "",
+  "phone": "0923 404 0575",
   "email": "",
-  "website": "",
+  "website": "https://emoksguesthouse.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=9940506151529419808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://emoksguesthouse.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:16.176Z",
+  "sources": [
+    {
+      "title": "Emok's Guest House on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=9940506151529419808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Home",
+      "publisher": "emoksguesthouse.com",
+      "url": "https://emoksguesthouse.com/"
+    },
+    {
+      "title": "Emok's Guest House on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d8111195-Reviews-Emok_s_Guest_House-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=9940506151529419808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJL84Uq1voqzMRIBR_ga3F84k",
   "rating": 4.2,
@@ -29,5 +52,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:32.750Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "rooms",
+          "mentions": 6,
+          "reviews": 4
+        },
+        {
+          "term": "staff and service",
+          "mentions": 6,
+          "reviews": 3
+        },
+        {
+          "term": "value",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "aircon",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "alcohol",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "8111195",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d8111195-Reviews-Emok_s_Guest_House-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

@@ -1,0 +1,58 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides', ({ data }) => data.status === 'published');
+  return guides.map((guide) => ({ params: { slug: guide.id }, props: { guide } }));
+}
+
+const { guide } = Astro.props;
+const { Content } = await render(guide);
+const { data } = guide;
+const label = data.reviewStatus === 'locally-reviewed' ? 'Locally reviewed' : 'Local review draft';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<BaseLayout title={`${data.title} — Go Moalboal`} description={data.summary}>
+  <article class="guide-page">
+    <header class="guide-hero">
+      <a href={`${base}/explore/`}>← Explore</a>
+      <p class="eyebrow">{data.category.replace('-', ' ')} guide</p>
+      <h1>{data.title}</h1>
+      <p class="dek">{data.summary}</p>
+      <div class="guide-meta"><span>{data.readingMinutes} min read</span><span>{label}</span><span>Updated {data.publishedAt.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}</span></div>
+    </header>
+    <div class="guide-body"><Content /></div>
+    <aside class="sources">
+      <p class="eyebrow">Research desk</p>
+      <h2>Sources checked</h2>
+      <ul>{data.sources.map((source) => <li><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a><span>{source.publisher}</span></li>)}</ul>
+      {data.reviewStatus !== 'locally-reviewed' && <p class="review-note">This guide is published as an editorial draft. Local residents and operators should flag anything that has changed before it receives the locally reviewed badge.</p>}
+    </aside>
+  </article>
+</BaseLayout>
+
+<style>
+  .guide-page { background: var(--paper); }
+  .guide-hero { padding: clamp(4rem, 8vw, 8rem) max(5vw, calc((100% - 1100px) / 2)); background: var(--cream); }
+  .guide-hero > a { display: inline-block; margin-bottom: 4rem; text-decoration: none; font-weight: 700; }
+  .guide-hero h1 { max-width: 13ch; font-size: clamp(3rem, 7vw, 6.5rem); }
+  .dek { max-width: 46rem; margin: 2rem 0; font-size: 1.25rem; color: #47635d; }
+  .guide-meta { display: flex; flex-wrap: wrap; gap: .6rem; }
+  .guide-meta span { padding: .35rem .7rem; border: 1px solid var(--line); border-radius: 999px; font-size: .75rem; font-weight: 700; }
+  .guide-body { max-width: 760px; margin: 0 auto; padding: clamp(4rem, 8vw, 7rem) 5vw; font-size: 1.08rem; }
+  .guide-body :global(h2) { margin: 3.2rem 0 1rem; font-size: clamp(2rem, 4vw, 3.2rem); }
+  .guide-body :global(h3) { margin-top: 2.2rem; }
+  .guide-body :global(p), .guide-body :global(li) { color: #38534d; }
+  .guide-body :global(a) { color: var(--sea); }
+  .guide-body :global(blockquote) { margin: 2rem 0; padding: 1.2rem 1.4rem; border-left: 4px solid var(--coral); background: var(--cream); }
+  .sources { padding: clamp(3rem, 6vw, 5rem) max(5vw, calc((100% - 1100px) / 2)); background: var(--ink); color: #eff5f1; }
+  .sources h2 { font-size: 2.6rem; }
+  .sources ul { display: grid; grid-template-columns: repeat(2, 1fr); gap: .7rem; margin: 2rem 0; padding: 0; list-style: none; }
+  .sources li { padding: 1rem; border: 1px solid rgba(255,255,255,.17); border-radius: 14px; }
+  .sources a { display: block; color: #fff; font-weight: 700; }
+  .sources li span { color: #a9c2ba; font-size: .78rem; }
+  .review-note { max-width: 50rem; color: #bdd0c9; }
+  @media (max-width: 650px) { .sources ul { grid-template-columns: 1fr; } }
+</style>

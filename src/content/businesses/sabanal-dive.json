@@ -2,7 +2,7 @@
   "name": "Sabanal Dive",
   "slug": "sabanal-dive",
   "summary": "Diving and ocean activities in Panagsama. Rated 4.8 from 84 Google reviews.",
-  "description": "Sabanal Dive is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, Sabanal Dive is a local operator worth including in your research. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nSabanal Dive is listed as a diving and ocean activity provider in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -16,7 +16,24 @@
   "phone": "",
   "email": "",
   "website": "",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/seasunandfunadventures/",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=18080741119760364174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:28.976Z",
+  "sources": [
+    {
+      "title": "Sabanal Dive on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=18080741119760364174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Sabanal Dive Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/seasunandfunadventures/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=18080741119760364174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJC6ROox3pqzMRjnIdp0Cy6_o",
   "rating": 4.8,

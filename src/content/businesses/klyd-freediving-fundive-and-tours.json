@@ -2,7 +2,7 @@
   "name": "Klyd-Freediving/FunDive And Tours",
   "slug": "klyd-freediving-fundive-and-tours",
   "summary": "Diving and ocean activities in Moalboal. Rated 4.9 from 105 Google reviews.",
-  "description": "Klyd-Freediving/FunDive And Tours is listed at C.Schmitz Road, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Moalboal, Klyd-Freediving/FunDive And Tours is a local operator worth including in your research. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nKlyd-Freediving/FunDive And Tours is listed as a diving and ocean activity provider in Moalboal, Moalboal, at C.Schmitz Road, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,28 @@
     "lat": 9.9478865,
     "lng": 123.37021329999997
   },
-  "phone": "",
+  "phone": "0921 849 9460",
   "email": "",
-  "website": "",
+  "website": "https://wa.me/message/LLIWO2SDQ4KCP1",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=257710203787729123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://wa.me/message/LLIWO2SDQ4KCP1"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:19.004Z",
+  "sources": [
+    {
+      "title": "Klyd-Freediving/FunDive And Tours on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=257710203787729123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Klyd-Freediving/FunDive And Tours website",
+      "publisher": "wa.me",
+      "url": "https://wa.me/message/LLIWO2SDQ4KCP1"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=257710203787729123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJWdmV9UbpqzMR49jCnxCSkwM",
   "rating": 4.9,

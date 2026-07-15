@@ -2,7 +2,7 @@
   "name": "Dolphin House Resort",
   "slug": "dolphin-house-resort",
   "summary": "Local service in Moalboal. Rated 4.1 from 278 Google reviews.",
-  "description": "Dolphin House Resort is listed at Dolphin House Resort, Moalboal, 6032 Lalawigan ng Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Moalboal, Dolphin House Resort is one of the local services you can contact. Its published information highlights coffee, seafood, a swimming pool, and air-conditioned rooms. Confirm current hours, availability and pricing directly.\n\nDolphin House Resort is listed as a local service in Moalboal, Moalboal, at Dolphin House Resort, Moalboal, 6032 Lalawigan ng Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,48 @@
     "lat": 9.9807624,
     "lng": 123.3706472
   },
-  "phone": "",
+  "phone": "(032) 513 2009",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "http://www.dolphin-house.com/",
+  "facebook": "https://facebook.com/303809669727816",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=16430375493144477750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.dolphin-house.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:20.918Z",
+  "sources": [
+    {
+      "title": "Dolphin House Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=16430375493144477750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Dolphin-House",
+      "publisher": "dolphin-house.com",
+      "url": "https://www.dolphin-house.com/"
+    },
+    {
+      "title": "Dolphin House Resort Facebook page",
+      "publisher": "Facebook",
+      "url": "https://facebook.com/303809669727816"
+    },
+    {
+      "title": "Dive College – Dolphin",
+      "publisher": "dolphin-house.com",
+      "url": "https://www.dolphin-house.com/dive-college/"
+    },
+    {
+      "title": "Rooms – Dolphin",
+      "publisher": "dolphin-house.com",
+      "url": "https://www.dolphin-house.com/the-rooms/"
+    },
+    {
+      "title": "Dolphin House Resort on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d1182281-Reviews-Dolphin_House_Resort_SPA_Diving-Moalboal_Cebu_Island_Visayas.html"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=16430375493144477750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJxz8hHRjmqzMRNgApi3VrBOQ",
   "rating": 4.1,

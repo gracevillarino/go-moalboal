@@ -388,6 +388,13 @@ async function run() {
     if (!override) continue;
     if (override.reviewStatus) record.reviewStatus = override.reviewStatus;
     if (override.suggestedCategory) record.suggestedCategory = override.suggestedCategory;
+    if (override.categories) {
+      record.categories = override.categories.split(' | ').filter(Boolean);
+      record.alternateCategories = record.categories.filter((item) => item !== record.suggestedCategory);
+    }
+    if (override.matchedQueries) {
+      record.matchedQueries = override.matchedQueries.split(' | ').filter(Boolean);
+    }
     if (override.notes) record.notes = override.notes;
   }
 

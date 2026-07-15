@@ -2,7 +2,7 @@
   "name": "Bawud Cafe Moalboal",
   "slug": "bawud-cafe-moalboal",
   "summary": "Food and drink and Shopping in Panagsama. Rated 4.2 from 1,102 Google reviews.",
-  "description": "Bawud Cafe Moalboal is listed at Panagsama Main Road, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Panagsama, Bawud Cafe Moalboal is a local option to keep on your shortlist. Check the latest opening details before making the trip.\n\nBawud Cafe Moalboal is listed as a place to eat and drink in Panagsama, Moalboal, at Panagsama Main Road, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat",
@@ -14,10 +14,27 @@
     "lat": 9.950184799999999,
     "lng": 123.36695119999999
   },
-  "phone": "",
+  "phone": "0927 011 9591",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=7935593270783138039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:12.275Z",
+  "sources": [
+    {
+      "title": "Bawud Cafe Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=7935593270783138039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Bawud Cafe Moalboal on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d27095806-Reviews-Bawud_Cafe_Moalboal-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=7935593270783138039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJw4LlVxnpqzMR91gCAwnkIG4",
   "rating": 4.2,
@@ -33,5 +50,71 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:11.353Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "coffee",
+          "mentions": 4,
+          "reviews": 4
+        },
+        {
+          "term": "food",
+          "mentions": 11,
+          "reviews": 3
+        },
+        {
+          "term": "bowl",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "menu",
+          "mentions": 4,
+          "reviews": 2
+        },
+        {
+          "term": "actually",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "27095806",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d27095806-Reviews-Bawud_Cafe_Moalboal-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "looks",
+          "mentions": 5,
+          "reviews": 2
+        },
+        {
+          "term": "overpriced",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "taste",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "fruits",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "matcha",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

@@ -2,7 +2,7 @@
   "name": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal",
   "slug": "kyro-cafe-coffee-breakfast-pastries-in-moalboal",
   "summary": "Food and drink in Panagsama. Rated 4.9 from 723 Google reviews.",
-  "description": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Panagsama, KYRO Café – Coffee, Breakfast & Pastries in Moalboal is a local option to keep on your shortlist. Its published information highlights breakfast, coffee, Wi-Fi, and air-conditioned rooms. Check the latest opening details before making the trip.\n\nKYRO Café – Coffee, Breakfast & Pastries in Moalboal is listed as a place to eat and drink in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -13,10 +13,48 @@
     "lat": 9.948122,
     "lng": 123.37116390000001
   },
-  "phone": "",
+  "phone": "0920 644 5363",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "https://kyro.cafe/moalboal/cafe",
+  "facebook": "https://www.facebook.com/Cafe.KYRO",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=3152407868175191208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://kyro.cafe/moalboal/cafe"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:20.697Z",
+  "sources": [
+    {
+      "title": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=3152407868175191208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "KYRO Café — Dine",
+      "publisher": "kyro.cafe",
+      "url": "https://kyro.cafe/moalboal/cafe"
+    },
+    {
+      "title": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/Cafe.KYRO"
+    },
+    {
+      "title": "KYRO Café Menu",
+      "publisher": "kyro.cafe",
+      "url": "https://kyro.cafe/moalboal/cafe/menu"
+    },
+    {
+      "title": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/p/DJs5xDUPhOg/"
+    },
+    {
+      "title": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d33009015-Reviews-KYRO_Cafe__Coffee_Breakfast_&_Pastries_in_Moalboal-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=3152407868175191208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJJTjavenpqzMRqIy6AUGavys",
   "rating": 4.9,
@@ -31,5 +69,56 @@
   "featured": true,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:08:22.810Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 10,
+          "reviews": 3
+        },
+        {
+          "term": "food",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "comfort",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "modern",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "33009015",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d33009015-Reviews-KYRO_Cafe__Coffee_Breakfast_&_Pastries_in_Moalboal-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "yummy",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

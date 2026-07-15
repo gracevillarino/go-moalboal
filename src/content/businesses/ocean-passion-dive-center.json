@@ -2,7 +2,7 @@
   "name": "Ocean Passion Dive Center",
   "slug": "ocean-passion-dive-center",
   "summary": "Diving and ocean activities in Panagsama. Rated 4.7 from 45 Google reviews.",
-  "description": "Ocean Passion Dive Center is listed at Panagsama Beach, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, Ocean Passion Dive Center is a local operator worth including in your research. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nOcean Passion Dive Center is listed as a diving and ocean activity provider in Panagsama, Moalboal, at Panagsama Beach, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,22 @@
     "lat": 9.9502755,
     "lng": 123.36581179999999
   },
-  "phone": "",
+  "phone": "0947 520 3454",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=5227333258582212509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:24.363Z",
+  "sources": [
+    {
+      "title": "Ocean Passion Dive Center on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=5227333258582212509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=5227333258582212509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJl8_JpkHpqzMRnb9gMOc3i0g",
   "rating": 4.7,

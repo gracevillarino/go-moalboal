@@ -4592,12 +4592,14 @@
       "rating": 4.5,
       "reviewCount": 364,
       "matchedQueries": [
-        "hospital"
+        "hotel",
+        "restaurant"
       ],
       "categories": [
-        "health"
+        "stay",
+        "eat"
       ],
-      "notes": ""
+      "notes": "Corrected from an erroneous hospital query match."
     },
     {
       "reviewStatus": "approved",

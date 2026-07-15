@@ -2,7 +2,7 @@
   "name": "Gaisano Town Center - Moalboal",
   "slug": "gaisano-town-center-moalboal",
   "summary": "Shopping and Local service in Poblacion East. Rated 4.0 from 188 Google reviews.",
-  "description": "Gaisano Town Center - Moalboal is listed at Poblacion East, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you need to pick something up around Poblacion East, Gaisano Town Center - Moalboal is one of the nearby places to know about. Check current stock and opening times before heading over.\n\nGaisano Town Center - Moalboal is listed as a local shop in Poblacion East, Moalboal, at Poblacion East, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "shop",
   "categories": [
     "shop",
@@ -14,10 +14,27 @@
     "lat": 9.9346601,
     "lng": 123.39603559999999
   },
-  "phone": "",
+  "phone": "(032) 474 8428",
   "email": "",
   "website": "",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/GaisanoMoalboal",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=17658595362026883543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:16.178Z",
+  "sources": [
+    {
+      "title": "Gaisano Town Center - Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=17658595362026883543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Gaisano Town Center - Moalboal Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/GaisanoMoalboal"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=17658595362026883543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJd6T_-8XpqzMR1wn5KezuD_U",
   "rating": 4,

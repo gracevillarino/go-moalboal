@@ -2,7 +2,7 @@
   "name": "Chicken from Yura",
   "slug": "chicken-from-yura",
   "summary": "Food and drink in Panagsama. Rated 4.9 from 40 Google reviews.",
-  "description": "Chicken from Yura is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Panagsama, Chicken from Yura is a local option to keep on your shortlist. Check the latest opening details before making the trip.\n\nChicken from Yura is listed as a place to eat and drink in Panagsama, Moalboal, at Panagsama Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -13,10 +13,22 @@
     "lat": 9.9490425,
     "lng": 123.36959039999998
   },
-  "phone": "",
+  "phone": "0939 634 2183",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=6616117794152142443&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:13.535Z",
+  "sources": [
+    {
+      "title": "Chicken from Yura on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=6616117794152142443&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=6616117794152142443&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ9x0jtrTpqzMRa1aUgBQs0Vs",
   "rating": 4.9,
@@ -31,5 +43,35 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:18.043Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "food",
+          "mentions": 14,
+          "reviews": 5
+        },
+        {
+          "term": "staff and service",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "value",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "owner",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

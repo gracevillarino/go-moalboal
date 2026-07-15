@@ -2,7 +2,7 @@
   "name": "Nelson's Dive Center",
   "slug": "nelson-s-dive-center",
   "summary": "Diving and ocean activities in Panagsama. Rated 4.4 from 98 Google reviews.",
-  "description": "Nelson's Dive Center is listed at X928+2C7, Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, Nelson's Dive Center is a local operator worth including in your research. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nNelson's Dive Center is listed as a diving and ocean activity provider in Panagsama, Moalboal, at X928+2C7, Panagsama Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,38 @@
     "lat": 9.9500342,
     "lng": 123.36603950000001
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0995 223 9771",
+  "email": "oceansafariphilippines@hotmail.com",
+  "website": "https://www.ibara.ne.jp/~bitoon/",
+  "facebook": "https://www.facebook.com/Nelsons-Dive-Shop-496671933821313/?fref=ts",
+  "contactCheckedAt": "2026-07-14T13:40:33.326Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=13910767864629063315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://www.ibara.ne.jp/~bitoon/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:25.020Z",
+  "sources": [
+    {
+      "title": "Nelson's Dive Center on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=13910767864629063315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Moalboal OSP",
+      "publisher": "ibara.ne.jp",
+      "url": "https://www.ibara.ne.jp/~bitoon/"
+    },
+    {
+      "title": "Nelson's Dive Center Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/Nelsons-Dive-Shop-496671933821313/?fref=ts"
+    },
+    {
+      "title": "Activities",
+      "publisher": "ibara.ne.jp",
+      "url": "https://www.ibara.ne.jp/~bitoon/activities.htm"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=13910767864629063315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJQ5rbNsHoqzMRk24ipKv5DME",
   "rating": 4.4,

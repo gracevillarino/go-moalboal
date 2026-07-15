@@ -2,7 +2,7 @@
   "name": "The Hangout - Bar and Restaurant",
   "slug": "the-hangout-bar-and-restaurant",
   "summary": "Food and drink in Moalboal. Rated 4.8 from 233 Google reviews.",
-  "description": "The Hangout - Bar and Restaurant is listed at Tubli Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Moalboal, The Hangout - Bar and Restaurant is a local option to keep on your shortlist. Its published information highlights coffee, vegetarian options, and Wi-Fi. Check the latest opening details before making the trip.\n\nThe Hangout - Bar and Restaurant is listed as a place to eat and drink in Moalboal, Moalboal, at Tubli Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -13,10 +13,43 @@
     "lat": 9.9520283,
     "lng": 123.36848979999999
   },
-  "phone": "",
+  "phone": "0995 610 8921",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "https://thehangoutmoalboal.com/",
+  "facebook": "https://www.facebook.com/thehangoutmoalboal",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=16428732473669236889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://thehangoutmoalboal.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:35.190Z",
+  "sources": [
+    {
+      "title": "The Hangout - Bar and Restaurant on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=16428732473669236889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "The Hangout",
+      "publisher": "thehangoutmoalboal.com",
+      "url": "https://thehangoutmoalboal.com/"
+    },
+    {
+      "title": "The Hangout - Bar and Restaurant Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/thehangoutmoalboal"
+    },
+    {
+      "title": "Menu | The Hangout",
+      "publisher": "thehangoutmoalboal.com",
+      "url": "https://thehangoutmoalboal.com/menu/"
+    },
+    {
+      "title": "The Hangout - Bar and Restaurant on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/kuan_bar/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=16428732473669236889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJS7mRt0bpqzMRmbj6QiSV_uM",
   "rating": 4.8,
@@ -30,5 +63,40 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:56.904Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "food",
+          "mentions": 7,
+          "reviews": 4
+        },
+        {
+          "term": "staff and service",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "cocktails",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "atmosphere",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "drinks",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

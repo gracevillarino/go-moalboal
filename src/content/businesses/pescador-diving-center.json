@@ -2,7 +2,7 @@
   "name": "Pescador Diving Center",
   "slug": "pescador-diving-center",
   "summary": "Diving and ocean activities in Basdiot. Rated 4.9 from 158 Google reviews.",
-  "description": "Pescador Diving Center is listed at Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Basdiot, Pescador Diving Center is a local operator worth including in your research. Its published information highlights dive courses, guided dives, equipment rental, and freediving. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nPescador Diving Center is listed as a diving and ocean activity provider in Basdiot, Moalboal, at Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,43 @@
     "lat": 9.9486051,
     "lng": 123.37079580000001
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0927 587 8352",
+  "email": "impallari@gmail.com",
+  "website": "https://pescadordivingcenter.com/",
+  "facebook": "https://www.facebook.com/239563412567728",
+  "contactCheckedAt": "2026-07-14T13:40:35.695Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=8779855657933677405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://pescadordivingcenter.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:27.418Z",
+  "sources": [
+    {
+      "title": "Pescador Diving Center on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=8779855657933677405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Pescador Diving Center",
+      "publisher": "pescadordivingcenter.com",
+      "url": "https://pescadordivingcenter.com/"
+    },
+    {
+      "title": "Pescador Diving Center Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/239563412567728"
+    },
+    {
+      "title": "Pescador Diving Center",
+      "publisher": "pescadordivingcenter.com",
+      "url": "https://pescadordivingcenter.com/dive-sites"
+    },
+    {
+      "title": "Pescador Diving Center",
+      "publisher": "pescadordivingcenter.com",
+      "url": "https://pescadordivingcenter.com/fun-dive"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=8779855657933677405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJrb8WGO3pqzMRXSNXBjRQ2Hk",
   "rating": 4.9,

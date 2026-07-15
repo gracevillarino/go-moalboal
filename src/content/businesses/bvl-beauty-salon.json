@@ -2,7 +2,7 @@
   "name": "BVL BEAUTY SALON",
   "slug": "bvl-beauty-salon",
   "summary": "Shopping and Local service in Moalboal. Rated 4.1 from 300 Google reviews.",
-  "description": "BVL BEAUTY SALON is listed at Pob. East, Lucbon, W9MW+R9J, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you need to pick something up around Moalboal, BVL BEAUTY SALON is one of the nearby places to know about. Check current stock and opening times before heading over.\n\nBVL BEAUTY SALON is listed as a local shop in Moalboal, Moalboal, at Pob. East, Lucbon, W9MW+R9J, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "shop",
   "categories": [
     "shop",
@@ -14,10 +14,22 @@
     "lat": 9.9345764,
     "lng": 123.39589139999998
   },
-  "phone": "",
+  "phone": "0949 360 5111",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=18330220561065337673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:12.276Z",
+  "sources": [
+    {
+      "title": "BVL BEAUTY SALON on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=18330220561065337673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=18330220561065337673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ4Ubq3lXoqzMRSWPcjHsGYv4",
   "rating": 4.1,

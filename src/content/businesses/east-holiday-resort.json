@@ -2,7 +2,7 @@
   "name": "East Holiday Resort",
   "slug": "east-holiday-resort",
   "summary": "Accommodation in Panagsama. Rated 4.9 from 43 Google reviews.",
-  "description": "East Holiday Resort is listed at Francisco Road, Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Panagsama, East Holiday Resort is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nEast Holiday Resort is listed as a place to stay in Panagsama, Moalboal, at Francisco Road, Panagsama Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,27 @@
     "lat": 9.944415099999999,
     "lng": 123.3694276
   },
-  "phone": "",
+  "phone": "0921 848 9923",
   "email": "",
   "website": "",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/profile.php?id=61556465074604&mibextid=JRoKGi",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=12000113499090777254&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:15.477Z",
+  "sources": [
+    {
+      "title": "East Holiday Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=12000113499090777254&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "East Holiday Resort Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61556465074604&mibextid=JRoKGi"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=12000113499090777254&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ_-w3SkXpqzMRpvSs6aX3iKY",
   "rating": 4.9,
@@ -29,5 +46,40 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:32.547Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 7,
+          "reviews": 4
+        },
+        {
+          "term": "beach",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "rooms",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "breakfast",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

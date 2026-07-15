@@ -2,7 +2,7 @@
   "name": "Raymonds Barbershop",
   "slug": "raymonds-barbershop",
   "summary": "Local service in Panagsama. Rated 5.0 from 53 Google reviews.",
-  "description": "Raymonds Barbershop is listed at W9XC+24X, Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Panagsama, Raymonds Barbershop is one of the local services you can contact. Confirm current hours, availability and pricing directly.\n\nRaymonds Barbershop is listed as a local service in Panagsama, Moalboal, at W9XC+24X, Panagsama Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -17,6 +17,18 @@
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=18414588919885650784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:27.421Z",
+  "sources": [
+    {
+      "title": "Raymonds Barbershop on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=18414588919885650784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=18414588919885650784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJpYXFeQDpqzMRYNug1g7Djf8",
   "rating": 5,

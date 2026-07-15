@@ -2,7 +2,7 @@
   "name": "Sunset Beach Resort",
   "slug": "sunset-beach-resort",
   "summary": "Accommodation in Panagsama. Rated 4.1 from 125 Google reviews.",
-  "description": "Sunset Beach Resort is listed at 411, 6032 Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Panagsama, Sunset Beach Resort is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nSunset Beach Resort is listed as a place to stay in Panagsama, Moalboal, at 411, 6032 Panagsama Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -14,9 +14,27 @@
     "lng": 123.36585939999999
   },
   "phone": "",
-  "email": "",
-  "website": "",
+  "email": "sunsetbeachmoalboalph@gmail.com",
+  "website": "https://sunsetbeachmoalboal.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T13:40:41.673Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=12029943874811116736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://sunsetbeachmoalboal.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:30.473Z",
+  "sources": [
+    {
+      "title": "Sunset Beach Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=12029943874811116736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Sunset Beach Resort",
+      "publisher": "sunsetbeachmoalboal.com",
+      "url": "https://sunsetbeachmoalboal.com/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=12029943874811116736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJxYIAsFLpqzMRwLwAfjfy8qY",
   "rating": 4.1,
@@ -30,5 +48,40 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:49.163Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "rooms",
+          "mentions": 22,
+          "reviews": 5
+        },
+        {
+          "term": "location",
+          "mentions": 4,
+          "reviews": 4
+        },
+        {
+          "term": "since",
+          "mentions": 7,
+          "reviews": 3
+        },
+        {
+          "term": "fine",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "pool",
+          "mentions": 4,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

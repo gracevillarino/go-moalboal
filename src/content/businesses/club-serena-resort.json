@@ -2,7 +2,7 @@
   "name": "Club Serena Resort",
   "slug": "club-serena-resort",
   "summary": "Accommodation in Moalboal. Rated 4.2 from 367 Google reviews.",
-  "description": "Club Serena Resort is listed at Basdako Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Moalboal, Club Serena Resort is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nClub Serena Resort is listed as a place to stay in Moalboal, Moalboal, at Basdako Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,49 @@
     "lat": 9.9870821,
     "lng": 123.370358
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0917 872 6367",
+  "email": "sayhello@clubserenaresort.com",
+  "website": "http://clubserenaresort.com/",
+  "facebook": "https://www.facebook.com/clubserenaresort",
+  "contactCheckedAt": "2026-07-14T13:40:20.425Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=11196744789838464087&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "http://clubserenaresort.com/",
+    "https://www.clubserenaresort.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:17.559Z",
+  "sources": [
+    {
+      "title": "Club Serena Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=11196744789838464087&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    {
+      "title": "Set off on a blissful getaway",
+      "publisher": "clubserenaresort.com",
+      "url": "https://www.clubserenaresort.com/"
+    },
+    {
+      "title": "Club Serena Resort Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/clubserenaresort"
+    },
+    {
+      "title": "Make time stop",
+      "publisher": "clubserenaresort.com",
+      "url": "https://www.clubserenaresort.com/rooms/"
+    },
+    {
+      "title": "Club Serena Resort on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/clubserenaresort/"
+    },
+    {
+      "title": "Club Serena Resort on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d656173-Reviews-Club_Serena_Resort-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=11196744789838464087&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   "googlePlaceId": "ChIJA65sVRXmqzMRVwQHPxDUYps",
   "rating": 4.2,
@@ -30,5 +69,61 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:26.954Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 9,
+          "reviews": 4
+        },
+        {
+          "term": "rooms",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "beach",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "night",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "overall",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "656173",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d656173-Reviews-Club_Serena_Resort-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 9,
+          "reviews": 3
+        },
+        {
+          "term": "food",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "rooms",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

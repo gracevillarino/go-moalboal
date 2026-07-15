@@ -2,6 +2,9 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const path = (value: string) => `${base}${value}`;
+
 const businesses = await getCollection('businesses', ({ data }) => data.status === 'published');
 const categories = ['all', 'eat', 'stay', 'dive', 'shop', 'transport', 'health', 'services'];
 const sortedBusinesses = businesses.sort((a, b) =>
@@ -16,7 +19,7 @@ const sortedBusinesses = businesses.sort((a, b) =>
   </section>
   <section class="section listing-section">
     <div class="filters" aria-label="Directory categories">
-      {categories.map((category) => <a href={category === 'all' ? '/directory' : `/directory?category=${category}`}>{category}</a>)}
+      {categories.map((category) => <a href={path(category === 'all' ? '/directory' : `/directory?category=${category}`)}>{category}</a>)}
     </div>
     <div class="directory-tools">
       <label for="directory-search">Search the directory</label>
@@ -25,7 +28,7 @@ const sortedBusinesses = businesses.sort((a, b) =>
     </div>
     <div class="grid">
       {sortedBusinesses.map(({ data }) => (
-        <a class="card business-card" href={`/directory/${data.slug}`} data-categories={data.categories.join(' ')} data-search={`${data.name} ${data.address} ${data.categories.join(' ')}`.toLowerCase()}>
+        <a class="card business-card" href={path(`/directory/${data.slug}`)} data-categories={data.categories.join(' ')} data-search={`${data.name} ${data.address} ${data.categories.join(' ')}`.toLowerCase()}>
           <div class="card-top"><span class="pill">{data.categories.join(' · ')}</span><span>{data.barangay}</span></div>
           <h3>{data.name}</h3><p>{data.summary}</p>
           {data.rating && <span class="rating" aria-label={`${data.rating} out of 5 from ${data.ratingCount} Google reviews`}>★ {data.rating.toFixed(1)} <small>({data.ratingCount.toLocaleString()})</small></span>}

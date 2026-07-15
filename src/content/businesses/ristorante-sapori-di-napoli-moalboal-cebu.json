@@ -2,7 +2,7 @@
   "name": "Ristorante Sapori Di Napoli - Moalboal Cebu",
   "slug": "ristorante-sapori-di-napoli-moalboal-cebu",
   "summary": "Food and drink in Panagsama. Rated 4.8 from 262 Google reviews.",
-  "description": "Ristorante Sapori Di Napoli - Moalboal Cebu is listed at Brgy, Commercial Haven Bldg, Sitio Cogon, Panagsama Rd, Basdiot, Barangay Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Panagsama, Ristorante Sapori Di Napoli - Moalboal Cebu is a local option to keep on your shortlist. Check the latest opening details before making the trip.\n\nRistorante Sapori Di Napoli - Moalboal Cebu is listed as a place to eat and drink in Panagsama, Moalboal, at Brgy, Commercial Haven Bldg, Sitio Cogon, Panagsama Rd, Basdiot, Barangay Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -13,10 +13,32 @@
     "lat": 9.9439376,
     "lng": 123.38093639999998
   },
-  "phone": "",
+  "phone": "0917 505 3609",
   "email": "",
   "website": "",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/saporidinapolicebuph/",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=7718834029547008641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:27.423Z",
+  "sources": [
+    {
+      "title": "Ristorante Sapori Di Napoli - Moalboal Cebu on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=7718834029547008641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Ristorante Sapori Di Napoli - Moalboal Cebu Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/saporidinapolicebuph/"
+    },
+    {
+      "title": "Ristorante Sapori Di Napoli - Moalboal Cebu on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d33338687-Reviews-Ristorante_Sapori_di_Napoli__Moalboal_Cebu-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=7718834029547008641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJq9pZPxOdqTMRgbJYW6fOHms",
   "rating": 4.8,
@@ -31,5 +53,66 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:23.802Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "food",
+          "mentions": 10,
+          "reviews": 5
+        },
+        {
+          "term": "italian",
+          "mentions": 8,
+          "reviews": 4
+        },
+        {
+          "term": "pizza",
+          "mentions": 8,
+          "reviews": 4
+        },
+        {
+          "term": "staff and service",
+          "mentions": 8,
+          "reviews": 4
+        },
+        {
+          "term": "real",
+          "mentions": 3,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "33338687",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d33338687-Reviews-Ristorante_Sapori_di_Napoli__Moalboal_Cebu-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "food",
+          "mentions": 6,
+          "reviews": 3
+        },
+        {
+          "term": "pizza",
+          "mentions": 6,
+          "reviews": 3
+        },
+        {
+          "term": "italian",
+          "mentions": 4,
+          "reviews": 2
+        },
+        {
+          "term": "real",
+          "mentions": 4,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

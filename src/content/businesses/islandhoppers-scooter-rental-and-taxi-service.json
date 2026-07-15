@@ -2,7 +2,7 @@
   "name": "IslandHoppers Scooter Rental and Taxi Service",
   "slug": "islandhoppers-scooter-rental-and-taxi-service",
   "summary": "Transport in Moalboal. Rated 4.9 from 206 Google reviews.",
-  "description": "IslandHoppers Scooter Rental and Taxi Service is listed at X929+FW3, Klemens Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and IslandHoppers Scooter Rental and Taxi Service serves the Moalboal area. Confirm availability, prices and identification requirements directly.\n\nIslandHoppers Scooter Rental and Taxi Service is listed as a transport provider in Moalboal, Moalboal, at X929+FW3, Klemens Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport"
@@ -13,10 +13,28 @@
     "lat": 9.9509711,
     "lng": 123.3701057
   },
-  "phone": "",
+  "phone": "0945 695 6622",
   "email": "",
-  "website": "",
+  "website": "http://wa.me/639456956622",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=16406491865215617991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://wa.me/639456956622"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:18.423Z",
+  "sources": [
+    {
+      "title": "IslandHoppers Scooter Rental and Taxi Service on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=16406491865215617991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "IslandHoppers Scooter Rental and Taxi Service website",
+      "publisher": "wa.me",
+      "url": "http://wa.me/639456956622"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=16406491865215617991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJqbtlNAjpqzMRx0uDFG2Rr-M",
   "rating": 4.9,

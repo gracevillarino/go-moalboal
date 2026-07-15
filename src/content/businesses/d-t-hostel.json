@@ -2,7 +2,7 @@
   "name": "D&T Hostel",
   "slug": "d-t-hostel",
   "summary": "Accommodation in Panagsama. Rated 5.0 from 20 Google reviews.",
-  "description": "D&T Hostel is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Panagsama, D&T Hostel is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nD&T Hostel is listed as a place to stay in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,27 @@
     "lat": 9.949109,
     "lng": 123.3670219
   },
-  "phone": "",
+  "phone": "0995 285 1410",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=10641883192708881496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:14.977Z",
+  "sources": [
+    {
+      "title": "D&T Hostel on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=10641883192708881496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "D&T Hostel on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g11800928-d34177451-Reviews-D&t_Hostel-Ronda_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=10641883192708881496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJY-58-hTpqzMRWNyccmGQr5M",
   "rating": 5,
@@ -29,5 +46,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:34.719Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 9,
+          "reviews": 4
+        },
+        {
+          "term": "rooms",
+          "mentions": 6,
+          "reviews": 3
+        },
+        {
+          "term": "comfort",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "value",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 3,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "34177451",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g11800928-d34177451-Reviews-D&t_Hostel-Ronda_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

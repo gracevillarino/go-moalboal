@@ -2,7 +2,7 @@
   "name": "The Blue Abyss Dive Shop",
   "slug": "the-blue-abyss-dive-shop",
   "summary": "Diving and ocean activities in Panagsama. Rated 4.5 from 72 Google reviews.",
-  "description": "The Blue Abyss Dive Shop is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, The Blue Abyss Dive Shop is a local operator worth including in your research. Its published information highlights dive courses. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nThe Blue Abyss Dive Shop is listed as a diving and ocean activity provider in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,38 @@
     "lat": 9.9461299,
     "lng": 123.36678540000001
   },
-  "phone": "",
+  "phone": "0906 412 0134",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "http://www.blueabyssdiving.com/",
+  "facebook": "https://www.facebook.com/TheBlueAbyssDiveShop",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=17368224308240409156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.blueabyssdiving.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:36.936Z",
+  "sources": [
+    {
+      "title": "The Blue Abyss Dive Shop on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=17368224308240409156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "My front page",
+      "publisher": "blueabyssdiving.com",
+      "url": "http://www.blueabyssdiving.com/"
+    },
+    {
+      "title": "The Blue Abyss Dive Shop Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/TheBlueAbyssDiveShop"
+    },
+    {
+      "title": "About",
+      "publisher": "blueabyssdiving.com",
+      "url": "http://www.blueabyssdiving.com/about"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=17368224308240409156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJD5k9P73oqzMRRGL5z_xTCPE",
   "rating": 4.5,

@@ -2,7 +2,7 @@
   "name": "Mahinay Family Medical Clinic",
   "slug": "mahinay-family-medical-clinic",
   "summary": "Health in Moalboal. Rated 4.3 from 44 Google reviews.",
-  "description": "Mahinay Family Medical Clinic is listed at 190 Pet Babiera St, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you need practical health support around Moalboal, Mahinay Family Medical Clinic is a local service to have on hand. Call ahead to confirm hours, services and whether an appointment is needed.\n\nMahinay Family Medical Clinic is listed as a health service in Moalboal, Moalboal, at 190 Pet Babiera St, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "health",
   "categories": [
     "health"
@@ -13,10 +13,22 @@
     "lat": 9.9403466,
     "lng": 123.39206809999999
   },
-  "phone": "",
+  "phone": "(032) 234 4349",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=10918259641014975936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:21.306Z",
+  "sources": [
+    {
+      "title": "Mahinay Family Medical Clinic on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=10918259641014975936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=10918259641014975936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJS8hSlWHpqzMRwH0uzEtzhZc",
   "rating": 4.3,

@@ -2,7 +2,7 @@
   "name": "YOLO Moalboal Cebu Adventure",
   "slug": "yolo-moalboal-cebu-adventure",
   "summary": "Transport in Moalboal. Rated 4.5 from 26 Google reviews.",
-  "description": "YOLO Moalboal Cebu Adventure is listed at YOLO MOALBOAL CEBU ADVENTURE Tubli Rd, Moalboal, Cebu YOLO MOALBOAL, ADVENTURE, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and YOLO Moalboal Cebu Adventure serves the Moalboal area. Confirm availability, prices and identification requirements directly.\n\nYOLO Moalboal Cebu Adventure is listed as a transport provider in Moalboal, Moalboal, at YOLO MOALBOAL CEBU ADVENTURE Tubli Rd, Moalboal, Cebu YOLO MOALBOAL, ADVENTURE, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport"
@@ -13,10 +13,27 @@
     "lat": 9.9521421,
     "lng": 123.3683373
   },
-  "phone": "",
+  "phone": "0992 244 0728",
   "email": "",
   "website": "",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/profile.php?id=61564193189243&mibextid=ZbWKwL",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=17185587634578881315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:35.645Z",
+  "sources": [
+    {
+      "title": "YOLO Moalboal Cebu Adventure on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=17185587634578881315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "YOLO Moalboal Cebu Adventure Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61564193189243&mibextid=ZbWKwL"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=17185587634578881315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ6QGKEwDpqzMRI3trh-Z4f-4",
   "rating": 4.5,

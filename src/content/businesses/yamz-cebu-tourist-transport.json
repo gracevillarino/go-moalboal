@@ -2,7 +2,7 @@
   "name": "Yamz Cebu Tourist Transport",
   "slug": "yamz-cebu-tourist-transport",
   "summary": "Transport in Basdiot. Rated 5.0 from 20 Google reviews.",
-  "description": "Yamz Cebu Tourist Transport is listed at purok bolinao, Tap anan Barangay Basdiot, Tomas road, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and Yamz Cebu Tourist Transport serves the Basdiot area. Confirm availability, prices and identification requirements directly.\n\nYamz Cebu Tourist Transport is listed as a transport provider in Basdiot, Moalboal, at purok bolinao, Tap anan Barangay Basdiot, Tomas road, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport"
@@ -13,10 +13,27 @@
     "lat": 9.941342800000001,
     "lng": 123.3732562
   },
-  "phone": "",
+  "phone": "0961 629 2395",
   "email": "",
   "website": "",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/share/15ZGoN4aGP/",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=7618499109680575151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:35.644Z",
+  "sources": [
+    {
+      "title": "Yamz Cebu Tourist Transport on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=7618499109680575151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Yamz Cebu Tourist Transport Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/share/15ZGoN4aGP/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=7618499109680575151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJPQGCi0DMpAYRr_IjYpNYumk",
   "rating": 5,

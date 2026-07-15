@@ -2,7 +2,7 @@
   "name": "Kasai Village Dive Resort",
   "slug": "kasai-village-dive-resort",
   "summary": "Diving and ocean activities in Moalboal. Rated 4.4 from 231 Google reviews.",
-  "description": "Kasai Village Dive Resort is listed at Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Moalboal, Kasai Village Dive Resort is a local operator worth including in your research. Its published information highlights breakfast, coffee, a swimming pool, and Wi-Fi. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nKasai Village Dive Resort is listed as a diving and ocean activity provider in Moalboal, Moalboal, at Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,38 @@
     "lat": 9.9621009,
     "lng": 123.36952190000001
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0917 622 0251",
+  "email": "info@kasaivillage.com",
+  "website": "https://www.kasaivillage.com/",
+  "facebook": "https://www.facebook.com/kasaivillage/",
+  "contactCheckedAt": "2026-07-14T13:40:25.807Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=16558211760192398933&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "https://www.kasaivillage.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:22.327Z",
+  "sources": [
+    {
+      "title": "Kasai Village Dive Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=16558211760192398933&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    {
+      "title": "Visit a first class dive resort in the Philippines",
+      "publisher": "kasaivillage.com",
+      "url": "https://www.kasaivillage.com/"
+    },
+    {
+      "title": "Kasai Village Dive Resort Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/kasaivillage/"
+    },
+    {
+      "title": "Large & Luxurious Sea View Rooms",
+      "publisher": "kasaivillage.com",
+      "url": "https://www.kasaivillage.com/rooms/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=16558211760192398933&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   "googlePlaceId": "ChIJXSXwVWLoqzMRVab24d2VyuU",
   "rating": 4.4,

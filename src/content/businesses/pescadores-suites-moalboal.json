@@ -2,7 +2,7 @@
   "name": "Pescadores Suites Moalboal",
   "slug": "pescadores-suites-moalboal",
   "summary": "Accommodation in Basdiot. Rated 4.3 from 1,186 Google reviews.",
-  "description": "Pescadores Suites Moalboal is listed at Francisco Road, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Basdiot, Pescadores Suites Moalboal is one of the local stays you can compare. Its published information highlights breakfast, a swimming pool, beach access, and Wi-Fi. Check current room details and booking terms directly before you travel.\n\nPescadores Suites Moalboal is listed as a place to stay in Basdiot, Moalboal, at Francisco Road, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,49 @@
     "lat": 9.944281,
     "lng": 123.36886309999998
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "(032) 505 6733",
+  "email": "pescadoreshotel@gmail.com",
+  "website": "http://www.pescadorescebu.com/",
+  "facebook": "https://www.facebook.com/pescadorescebu/",
+  "contactCheckedAt": "2026-07-14T13:40:36.292Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=12917081883059023382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.pescadorescebu.com/",
+    "https://www.pescadorescebu.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:28.967Z",
+  "sources": [
+    {
+      "title": "Pescadores Suites Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=12917081883059023382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Pescadores Suites Beachfront Hotel",
+      "publisher": "pescadorescebu.com",
+      "url": "https://www.pescadorescebu.com/"
+    },
+    {
+      "title": "Pescadores Suites Moalboal Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/pescadorescebu/"
+    },
+    {
+      "title": "Hotel Rooms",
+      "publisher": "pescadorescebu.com",
+      "url": "https://www.pescadorescebu.com/hotelrooms/"
+    },
+    {
+      "title": "About Pescadores Cebu: Your Beachfront Hotel",
+      "publisher": "pescadorescebu.com",
+      "url": "https://www.pescadorescebu.com/w-aboutus/"
+    },
+    {
+      "title": "Pescadores Suites Moalboal on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d12007441-Reviews-Pescadores_Suites_Moalboal-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=12917081883059023382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJjSL22cLoqzMRFu5d9oixQrM",
   "rating": 4.3,
@@ -30,5 +69,66 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:28.285Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 11,
+          "reviews": 5
+        },
+        {
+          "term": "rooms",
+          "mentions": 15,
+          "reviews": 4
+        },
+        {
+          "term": "space",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "beach",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "big",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "12007441",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d12007441-Reviews-Pescadores_Suites_Moalboal-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "rooms",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "breakfast",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "staff and service",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "staffs",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

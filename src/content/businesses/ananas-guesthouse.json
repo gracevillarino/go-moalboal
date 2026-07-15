@@ -2,7 +2,7 @@
   "name": "Ananas Guesthouse",
   "slug": "ananas-guesthouse",
   "summary": "Accommodation in Basdiot. Rated 4.6 from 126 Google reviews.",
-  "description": "Ananas Guesthouse is listed at Tubli Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Basdiot, Ananas Guesthouse is one of the local stays you can compare. Its published information highlights breakfast, a swimming pool, Wi-Fi, and air-conditioned rooms. Check current room details and booking terms directly before you travel.\n\nAnanas Guesthouse is listed as a place to stay in Basdiot, Moalboal, at Tubli Rd, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,48 @@
     "lat": 9.9549191,
     "lng": 123.3693316
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0954 298 8097",
+  "email": "info@ananas-guesthouse.com",
+  "website": "https://ananas-guesthouse.com/",
+  "facebook": "https://www.facebook.com/ananasguesthouse",
+  "contactCheckedAt": "2026-07-14T13:40:15.953Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=5409669449222992269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://ananas-guesthouse.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:13.907Z",
+  "sources": [
+    {
+      "title": "Ananas Guesthouse on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=5409669449222992269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Ananas Guesthouse",
+      "publisher": "ananas-guesthouse.com",
+      "url": "https://ananas-guesthouse.com/"
+    },
+    {
+      "title": "Ananas Guesthouse Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/ananasguesthouse"
+    },
+    {
+      "title": "Find Ananas Guesthouse Guesthouse deals and discounts.",
+      "publisher": "ananas-guesthouse.com",
+      "url": "https://ananas-guesthouse.com/aboutus.html"
+    },
+    {
+      "title": "Rooms",
+      "publisher": "ananas-guesthouse.com",
+      "url": "https://ananas-guesthouse.com/rooms.html"
+    },
+    {
+      "title": "Ananas Guesthouse on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d16774437-Reviews-Ananas_Guesthouse-Moalboal_Cebu_Island_Visayas.html"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=5409669449222992269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJCQt5Z57pqzMRjTE40bMBE0s",
   "rating": 4.6,
@@ -29,5 +67,56 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:06:57.585Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 12,
+          "reviews": 5
+        },
+        {
+          "term": "breakfast",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "comfort",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "rooms",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "value",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "16774437",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d16774437-Reviews-Ananas_Guesthouse-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 2,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 5,
+          "reviews": 2
+        },
+        {
+          "term": "simple",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

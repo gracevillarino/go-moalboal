@@ -2,7 +2,7 @@
   "name": "Moalboal Sardines Run",
   "slug": "moalboal-sardines-run",
   "summary": "Diving and ocean activities and Transport in Panagsama. Rated 4.3 from 310 Google reviews.",
-  "description": "Moalboal Sardines Run is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, Moalboal Sardines Run is a local operator worth including in your research. Its published information highlights online booking. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nMoalboal Sardines Run is listed as a diving and ocean activity provider in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive",
@@ -14,10 +14,48 @@
     "lat": 9.9489659,
     "lng": 123.3653626
   },
-  "phone": "",
+  "phone": "0918 202 7630",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "https://blurangetours.com/trip/moalboal-sardines-run-private-tour/",
+  "facebook": "https://facebook.com/blurangetours",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=7505367752978782264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://blurangetours.com/trip/moalboal-sardines-run-private-tour/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:29.462Z",
+  "sources": [
+    {
+      "title": "Moalboal Sardines Run on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=7505367752978782264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Moalboal Sardines Run Private Tour",
+      "publisher": "blurangetours.com",
+      "url": "https://blurangetours.com/trip/moalboal-sardines-run-private-tour/"
+    },
+    {
+      "title": "Moalboal Sardines Run Facebook page",
+      "publisher": "Facebook",
+      "url": "https://facebook.com/blurangetours"
+    },
+    {
+      "title": "About Us",
+      "publisher": "blurangetours.com",
+      "url": "https://blurangetours.com/about-us/"
+    },
+    {
+      "title": "Activities:Sardines Run",
+      "publisher": "blurangetours.com",
+      "url": "https://blurangetours.com/activities/sardines-run/"
+    },
+    {
+      "title": "Moalboal Sardines Run on Instagram",
+      "publisher": "Instagram",
+      "url": "https://instagram.com/blurangetours"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=7505367752978782264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ5XeYhgXpqzMRONj4yDRsKGg",
   "rating": 4.3,

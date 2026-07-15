@@ -2,7 +2,7 @@
   "name": "Sunset Paradise Hostel Moalboal",
   "slug": "sunset-paradise-hostel-moalboal",
   "summary": "Accommodation in Basdiot. Rated 4.6 from 37 Google reviews.",
-  "description": "Sunset Paradise Hostel Moalboal is listed at Purok Palata, Opposite to Barangay Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Basdiot, Sunset Paradise Hostel Moalboal is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nSunset Paradise Hostel Moalboal is listed as a place to stay in Basdiot, Moalboal, at Purok Palata, Opposite to Barangay Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,33 @@
     "lat": 9.946920500000001,
     "lng": 123.3733465
   },
-  "phone": "",
+  "phone": "0956 718 4624",
   "email": "",
-  "website": "",
+  "website": "https://www.sunsetparadise-moalboal.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=16851807323545719641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://www.sunsetparadise-moalboal.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:31.270Z",
+  "sources": [
+    {
+      "title": "Sunset Paradise Hostel Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=16851807323545719641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Sunset Paradise Hostel Moalboal website",
+      "publisher": "sunsetparadise-moalboal.com",
+      "url": "https://www.sunsetparadise-moalboal.com/"
+    },
+    {
+      "title": "Sunset Paradise Hostel Moalboal on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g11800928-d33701461-Reviews-Sunset_Paradise_Hostel-Ronda_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=16851807323545719641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ3UuTHDTpqzMRWdNE33ml3ek",
   "rating": 4.6,
@@ -29,5 +52,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:55.754Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 10,
+          "reviews": 5
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "rooms",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "comfort",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "available",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "33701461",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g11800928-d33701461-Reviews-Sunset_Paradise_Hostel-Ronda_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

@@ -1,0 +1,77 @@
+---
+import { youtubeVideos, mediaReviewedAt } from '../data/explore-media';
+
+const number = new Intl.NumberFormat('en', { notation: 'compact', maximumFractionDigits: 1 });
+---
+
+<section class="video-carousel" aria-labelledby="video-heading">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Watch Moalboal</p>
+      <h2 id="video-heading">Ten videos worth<br />your screen time.</h2>
+    </div>
+    <p>Ranked using public views and like-to-view engagement. Counts checked {mediaReviewedAt} and will naturally change.</p>
+  </div>
+
+  <div class="video-track" data-video-track tabindex="0" aria-label="Moalboal YouTube video carousel">
+    {youtubeVideos.map((video, index) => (
+      <article class="video-card">
+        <div class="video-frame">
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/${video.id}`}
+            title={video.title}
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <span class="video-rank">#{index + 1}</span>
+        </div>
+        <div class="video-copy">
+          <p class="video-channel">{video.channel}</p>
+          <h3>{video.title}</h3>
+          <p class="video-stats">{number.format(video.views)} views <span>·</span> {number.format(video.likes)} likes</p>
+        </div>
+      </article>
+    ))}
+  </div>
+
+  <div class="carousel-controls" aria-label="YouTube carousel controls">
+    <button type="button" data-video-direction="-1" aria-label="Previous videos">←</button>
+    <button type="button" data-video-direction="1" aria-label="Next videos">→</button>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.video-carousel').forEach((carousel) => {
+    const track = carousel.querySelector<HTMLElement>('[data-video-track]');
+    if (!track) return;
+    carousel.querySelectorAll<HTMLButtonElement>('[data-video-direction]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const direction = Number(button.dataset.videoDirection || 1);
+        track.scrollBy({ left: track.clientWidth * 0.88 * direction, behavior: 'smooth' });
+      });
+    });
+  });
+</script>
+
+<style>
+  .video-carousel { padding: clamp(4rem, 8vw, 8rem) 5vw; background: var(--ink); color: #f7f0e2; }
+  .section-heading p:last-child { color: #bcd0c8; }
+  .video-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 2rem) / 3); gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .video-track::-webkit-scrollbar { display: none; }
+  .video-card { min-width: 0; scroll-snap-align: start; overflow: hidden; border: 1px solid rgba(255,255,255,.16); border-radius: 22px; background: #123f38; }
+  .video-frame { position: relative; aspect-ratio: 16 / 9; background: #061e1a; }
+  iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .video-rank { position: absolute; left: .75rem; top: .75rem; padding: .3rem .62rem; border-radius: 999px; color: var(--ink); background: var(--sun); font-size: .72rem; font-weight: 800; }
+  .video-copy { padding: 1.2rem; }
+  .video-channel { margin: 0 0 .35rem; color: #9bc4ba; font-size: .76rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .video-copy h3 { font-family: 'DM Sans', sans-serif; font-size: 1rem; line-height: 1.35; min-height: 2.7em; }
+  .video-stats { margin: .9rem 0 0; color: #d4e1dc; font-size: .85rem; }
+  .video-stats span { margin: 0 .25rem; color: var(--coral); }
+  .carousel-controls { display: flex; gap: .6rem; justify-content: flex-end; margin-top: 1.4rem; }
+  .carousel-controls button { width: 44px; height: 44px; border: 1px solid rgba(255,255,255,.3); border-radius: 50%; background: transparent; color: #fff; font-size: 1.25rem; cursor: pointer; }
+  .carousel-controls button:hover { background: var(--coral); border-color: var(--coral); }
+  @media (max-width: 950px) { .video-track { grid-auto-columns: calc((100% - 1rem) / 2); } }
+  @media (max-width: 650px) { .video-track { grid-auto-columns: 92%; } }
+</style>

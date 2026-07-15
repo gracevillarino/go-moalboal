@@ -2,7 +2,7 @@
   "name": "MOMO Hostel Moalboal",
   "slug": "momo-hostel-moalboal",
   "summary": "Accommodation in Basdiot. Rated 4.9 from 64 Google reviews.",
-  "description": "MOMO Hostel Moalboal is listed at Talisay Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Basdiot, MOMO Hostel Moalboal is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nMOMO Hostel Moalboal is listed as a place to stay in Basdiot, Moalboal, at Talisay Rd, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,33 @@
     "lat": 9.9435068,
     "lng": 123.37114599999998
   },
-  "phone": "",
+  "phone": "0968 540 7037",
   "email": "",
-  "website": "",
+  "website": "https://www.momo-hostel.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=8981964513498753766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://www.momo-hostel.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:33.275Z",
+  "sources": [
+    {
+      "title": "MOMO Hostel Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=8981964513498753766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "MOMO Hostel Moalboal website",
+      "publisher": "momo-hostel.com",
+      "url": "https://www.momo-hostel.com/"
+    },
+    {
+      "title": "MOMO Hostel Moalboal on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d23999747-Reviews-MOMO_Hostel_Moalboal-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=8981964513498753766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ1R5TR5LpqzMR5upB9CJZpnw",
   "rating": 4.9,
@@ -29,5 +52,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:01.288Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "rooms",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "water",
+          "mentions": 4,
+          "reviews": 2
+        },
+        {
+          "term": "comfort",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "23999747",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d23999747-Reviews-MOMO_Hostel_Moalboal-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

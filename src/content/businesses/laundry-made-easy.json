@@ -2,7 +2,7 @@
   "name": "Laundry Made Easy",
   "slug": "laundry-made-easy",
   "summary": "Local service in Panagsama. Rated 4.8 from 99 Google reviews.",
-  "description": "Laundry Made Easy is listed at X-Spot, C. Schmitz Road, Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Panagsama, Laundry Made Easy is one of the local services you can contact. Its published information highlights laundry services and online booking. Confirm current hours, availability and pricing directly.\n\nLaundry Made Easy is listed as a local service in Panagsama, Moalboal, at X-Spot, C. Schmitz Road, Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,33 @@
     "lat": 9.9480605,
     "lng": 123.37129170000001
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0948 730 7115",
+  "email": "info@laundrymoalboal.com",
+  "website": "https://laundrymoalboal.com/",
+  "facebook": "https://www.facebook.com/laundrymadeeasy/",
+  "contactCheckedAt": "2026-07-14T13:40:27.231Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=4492445901643559620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://laundrymoalboal.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:22.446Z",
+  "sources": [
+    {
+      "title": "Laundry Made Easy on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=4492445901643559620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Laundry Made Easy",
+      "publisher": "laundrymoalboal.com",
+      "url": "https://laundrymoalboal.com/"
+    },
+    {
+      "title": "Laundry Made Easy Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/laundrymadeeasy/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=4492445901643559620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJhyEkjILpqzMRxLIf3L5fWD4",
   "rating": 4.8,

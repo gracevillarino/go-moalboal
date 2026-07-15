@@ -2,7 +2,7 @@
   "name": "DIVESTORY MOALBOAL SCUBA DIVING CENTER",
   "slug": "divestory-moalboal-scuba-diving-center",
   "summary": "Diving and ocean activities in Panagsama. Rated 4.8 from 271 Google reviews.",
-  "description": "DIVESTORY MOALBOAL SCUBA DIVING CENTER is listed at DIVESTORY MOALBOAL, Panagsama Beach, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, DIVESTORY MOALBOAL SCUBA DIVING CENTER is a local operator worth including in your research. Its published information highlights dive courses. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nDIVESTORY MOALBOAL SCUBA DIVING CENTER is listed as a diving and ocean activity provider in Panagsama, Moalboal, at DIVESTORY MOALBOAL, Panagsama Beach, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,44 @@
     "lat": 9.949910599999999,
     "lng": 123.36584979999999
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0961 827 3321",
+  "email": "divestory01@gmail.com",
+  "website": "https://www.divestory.co.kr/",
+  "facebook": "https://www.facebook.com/DivestoryMoalboal",
+  "contactCheckedAt": "2026-07-14T13:40:21.514Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=1263549945713625321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://www.divestory.co.kr/",
+    "https://divestory.co.kr/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:18.253Z",
+  "sources": [
+    {
+      "title": "DIVESTORY MOALBOAL SCUBA DIVING CENTER on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=1263549945713625321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "DIVESTORY MOALBOAL 다이브스토리 모알보알",
+      "publisher": "divestory.co.kr",
+      "url": "https://divestory.co.kr/"
+    },
+    {
+      "title": "DIVESTORY MOALBOAL SCUBA DIVING CENTER Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/DivestoryMoalboal"
+    },
+    {
+      "title": "DIVESTORY MOALBOAL SCUBA DIVING CENTER on YouTube",
+      "publisher": "YouTube",
+      "url": "https://www.youtube.com/@divestory01"
+    },
+    {
+      "title": "DIVESTORY MOALBOAL SCUBA DIVING CENTER on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/divestorymoalboal"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=1263549945713625321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ2UTerTPpqzMR6Yg5JvsHiRE",
   "rating": 4.8,

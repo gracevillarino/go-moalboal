@@ -1,12 +1,24 @@
 ## Development
 
-When starting the dev server, use background mode:
+The one canonical local URL is `http://localhost:4331/`.
+
+Before starting or restarting the development server, stop the currently
+managed background server first:
 
 ```
-astro dev --background
+astro dev stop
 ```
 
-Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
+Then start it again on the canonical port in background mode:
+
+```
+astro dev --host localhost --port 4331 --background
+```
+
+Never allow Astro to select another port. The project configuration uses
+`strictPort`, so if 4331 is occupied, inspect or stop that existing server
+instead of starting a second instance. Manage the background server with
+`astro dev stop`, `astro dev status`, and `astro dev logs`.
 
 ## Documentation
 

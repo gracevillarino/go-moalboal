@@ -2,7 +2,7 @@
   "name": "서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal))",
   "slug": "seoul-kitchen-jonmataeng-moalboal",
   "summary": "Food and drink in Panagsama. Rated 4.8 from 48 Google reviews.",
-  "description": "서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal)) is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Panagsama, 서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal)) is a local option to keep on your shortlist. Check the latest opening details before making the trip.\n\n서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal)) is listed as a place to eat and drink in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -13,10 +13,22 @@
     "lat": 9.949368400000001,
     "lng": 123.36569060000001
   },
-  "phone": "",
+  "phone": "0995 976 9404",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=4867171772628358891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:29.469Z",
+  "sources": [
+    {
+      "title": "서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal)) on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=4867171772628358891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=4867171772628358891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJW5f_cRnpqzMR61ZSmPCqi0M",
   "rating": 4.8,
@@ -30,5 +42,35 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:40.365Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "food",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "home",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "kimchi",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

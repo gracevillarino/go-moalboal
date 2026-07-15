@@ -2,7 +2,7 @@
   "name": "Fire & Ice - Burgers and Sizzlers",
   "slug": "fire-ice-burgers-and-sizzlers",
   "summary": "Food and drink in Poblacion West. Rated 4.7 from 80 Google reviews.",
-  "description": "Fire & Ice - Burgers and Sizzlers is listed at Bao street, Poblacion West, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Poblacion West, Fire & Ice - Burgers and Sizzlers is a local option to keep on your shortlist. Check the latest opening details before making the trip.\n\nFire & Ice - Burgers and Sizzlers is listed as a place to eat and drink in Poblacion West, Moalboal, at Bao street, Poblacion West, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -13,10 +13,32 @@
     "lat": 9.9398017,
     "lng": 123.39240110000001
   },
-  "phone": "",
+  "phone": "0998 218 1352",
   "email": "",
   "website": "",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/FireandIceMoalboal",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=12180014832920405007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:15.760Z",
+  "sources": [
+    {
+      "title": "Fire & Ice - Burgers and Sizzlers on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=12180014832920405007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Fire & Ice - Burgers and Sizzlers Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/FireandIceMoalboal"
+    },
+    {
+      "title": "Fire & Ice - Burgers and Sizzlers on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d27483392-Reviews-Fire_&_Ice__Burgers_and_Sizzlers-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=12180014832920405007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJNazvSFjpqzMRD6Q1Q_UaCKk",
   "rating": 4.7,
@@ -29,5 +51,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:46.898Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "burger",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "food",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "staff and service",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "flavor",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "atmosphere",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "27483392",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d27483392-Reviews-Fire_&_Ice__Burgers_and_Sizzlers-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

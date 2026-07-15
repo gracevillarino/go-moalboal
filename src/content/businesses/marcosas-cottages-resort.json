@@ -2,7 +2,7 @@
   "name": "Marcosas Cottages Resort",
   "slug": "marcosas-cottages-resort",
   "summary": "Accommodation in Panagsama. Rated 4.1 from 355 Google reviews.",
-  "description": "Marcosas Cottages Resort is listed at Panagsama Beach, Moalboal, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Panagsama, Marcosas Cottages Resort is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nMarcosas Cottages Resort is listed as a place to stay in Panagsama, Moalboal, at Panagsama Beach, Moalboal, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,33 @@
     "lat": 9.9462963,
     "lng": 123.3672595
   },
-  "phone": "",
+  "phone": "(032) 474 3027",
   "email": "",
-  "website": "",
+  "website": "http://marcosas-moalboal.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=5656053824377947581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://marcosas-moalboal.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:21.919Z",
+  "sources": [
+    {
+      "title": "Marcosas Cottages Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=5656053824377947581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "welcome in Moalboal at Marcosas Cottages Resort",
+      "publisher": "marcosas-moalboal.com",
+      "url": "http://marcosas-moalboal.com/"
+    },
+    {
+      "title": "Marcosas Cottages Resort on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d1143180-Reviews-Marcosas_Cottages_Resort-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=5656053824377947581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJZ3pspMPoqzMRvYWJePxWfk4",
   "rating": 4.1,
@@ -31,5 +54,71 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:08:36.987Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "rooms",
+          "mentions": 8,
+          "reviews": 5
+        },
+        {
+          "term": "food",
+          "mentions": 6,
+          "reviews": 4
+        },
+        {
+          "term": "staff and service",
+          "mentions": 7,
+          "reviews": 3
+        },
+        {
+          "term": "space",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "value",
+          "mentions": 4,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "1143180",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d1143180-Reviews-Marcosas_Cottages_Resort-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 2,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "garden",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "long",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "minutes",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "pool",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

@@ -2,7 +2,7 @@
   "name": "Savedra Dive Center",
   "slug": "savedra-dive-center",
   "summary": "Diving and ocean activities in Panagsama. Rated 4.8 from 971 Google reviews.",
-  "description": "Savedra Dive Center is listed at 6032 Panagsama Beach, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, Savedra Dive Center is a local operator worth including in your research. Its published information highlights breakfast, coffee, a swimming pool, and dive courses. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nSavedra Dive Center is listed as a diving and ocean activity provider in Panagsama, Moalboal, at 6032 Panagsama Beach, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,49 @@
     "lat": 9.9489353,
     "lng": 123.36608469999999
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0917 321 1475",
+  "email": "info@savedra.com",
+  "website": "http://savedra.com/",
+  "facebook": "https://www.facebook.com/SavedraDiveCenter",
+  "contactCheckedAt": "2026-07-14T13:40:41.210Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=3378652117202168423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://savedra.com/",
+    "https://www.savedra.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:30.592Z",
+  "sources": [
+    {
+      "title": "Savedra Dive Center on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=3378652117202168423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Savedra Dive Center | PADI 5",
+      "publisher": "savedra.com",
+      "url": "https://www.savedra.com/"
+    },
+    {
+      "title": "Savedra Dive Center Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/SavedraDiveCenter"
+    },
+    {
+      "title": "Moalboal Dive Spots",
+      "publisher": "savedra.com",
+      "url": "https://www.savedra.com/moalboal-dive-spots/"
+    },
+    {
+      "title": "Dive Safari Philippines",
+      "publisher": "savedra.com",
+      "url": "https://www.savedra.com/dive-safari-philippines/"
+    },
+    {
+      "title": "Savedra Dive Center on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/dive.savedra/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=3378652117202168423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJk09J2irmqzMRZ-p0ITNi4y4",
   "rating": 4.8,

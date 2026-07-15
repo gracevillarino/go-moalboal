@@ -2,7 +2,7 @@
   "name": "Turtle Bay Dive Resort",
   "slug": "turtle-bay-dive-resort",
   "summary": "Accommodation in Basdiot. Rated 4.5 from 390 Google reviews.",
-  "description": "Turtle Bay Dive Resort is listed at Tongo, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Basdiot, Turtle Bay Dive Resort is one of the local stays you can compare. Its published information highlights dive courses. Check current room details and booking terms directly before you travel.\n\nTurtle Bay Dive Resort is listed as a place to stay in Basdiot, Moalboal, at Tongo, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,49 @@
     "lat": 9.9349802,
     "lng": 123.37714220000001
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0977 214 3206",
+  "email": "reservations@turtlebaydiveresort.com",
+  "website": "http://www.turtlebaydiveresort.com/",
+  "facebook": "https://www.facebook.com/TurtleBayDiver",
+  "contactCheckedAt": "2026-07-14T13:40:49.388Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=5155900931824891703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.turtlebaydiveresort.com/",
+    "https://www.turtlebaydiveresort.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:35.941Z",
+  "sources": [
+    {
+      "title": "Turtle Bay Dive Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=5155900931824891703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Diving Moalboal Cebu: well",
+      "publisher": "turtlebaydiveresort.com",
+      "url": "https://www.turtlebaydiveresort.com/"
+    },
+    {
+      "title": "Turtle Bay Dive Resort Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/TurtleBayDiver"
+    },
+    {
+      "title": "Turtle Bay Dive Resort on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/turtlebaydiveresort/"
+    },
+    {
+      "title": "Turtle Bay Dive Resort on YouTube",
+      "publisher": "YouTube",
+      "url": "https://www.youtube.com/channel/UCqOXYw00cSJKgBnyXUkpuvg"
+    },
+    {
+      "title": "Turtle Bay Dive Resort on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d1062928-Reviews-Turtle_Bay_Dive_Resort-Moalboal_Cebu_Island_Visayas.html"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=5155900931824891703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ4fHDHOPoqzMRNzeHkpRwjUc",
   "rating": 4.5,
@@ -30,5 +69,71 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:10:21.760Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 14,
+          "reviews": 5
+        },
+        {
+          "term": "rooms",
+          "mentions": 6,
+          "reviews": 4
+        },
+        {
+          "term": "everyone",
+          "mentions": 4,
+          "reviews": 2
+        },
+        {
+          "term": "cozy",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "beautiful",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "1062928",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d1062928-Reviews-Turtle_Bay_Dive_Resort-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "rooms",
+          "mentions": 8,
+          "reviews": 3
+        },
+        {
+          "term": "pool",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "staff and service",
+          "mentions": 4,
+          "reviews": 2
+        },
+        {
+          "term": "diving",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "early",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

@@ -2,7 +2,7 @@
   "name": "Rose Pharmacy Gaisano Grand Mall Poblacion East Moalboal",
   "slug": "rose-pharmacy-gaisano-grand-mall-poblacion-east-moalboal",
   "summary": "Health in Poblacion East. Rated 4.3 from 44 Google reviews.",
-  "description": "Rose Pharmacy Gaisano Grand Mall Poblacion East Moalboal is listed at Gaisano Grand Mall.,Poblacion East, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you need practical health support around Poblacion East, Rose Pharmacy Gaisano Grand Mall Poblacion East Moalboal is a local service to have on hand. Its published information highlights laundry services. Call ahead to confirm hours, services and whether an appointment is needed.\n\nRose Pharmacy Gaisano Grand Mall Poblacion East Moalboal is listed as a health service in Poblacion East, Moalboal, at Gaisano Grand Mall.,Poblacion East, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "health",
   "categories": [
     "health"
@@ -13,10 +13,33 @@
     "lat": 9.943613,
     "lng": 123.39639570000001
   },
-  "phone": "",
+  "phone": "0999 884 9795",
   "email": "",
-  "website": "",
+  "website": "http://www.rosepharmacy.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=3006157215354542288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.rosepharmacy.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:30.164Z",
+  "sources": [
+    {
+      "title": "Rose Pharmacy Gaisano Grand Mall Poblacion East Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=3006157215354542288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Rose Pharmacy",
+      "publisher": "rosepharmacy.com",
+      "url": "https://www.rosepharmacy.com/"
+    },
+    {
+      "title": "5 Things Doctors Want You to Know about Buying Generic Medicines",
+      "publisher": "rosepharmacy.com",
+      "url": "https://www.rosepharmacy.com/5-things-doctors-want-you-to-know-about-buying-generic-medicines/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=3006157215354542288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJdfaKG1noqzMR0FgvYA8EuCk",
   "rating": 4.3,

@@ -1,4 +1,43 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const articleOrder = ['moving-to-moalboal', 'cost-of-living', 'internet-and-mobile-data', 'finding-a-long-term-rental', 'healthcare-in-moalboal'];
+const articles = (await getCollection('living', ({ data }) => data.status === 'published'))
+  .sort((a, b) => articleOrder.indexOf(a.id) - articleOrder.indexOf(b.id));
+const labels: Record<string, string> = { moving: 'Moving', 'cost-of-living': 'Budget', internet: 'Connectivity', renting: 'Housing', healthcare: 'Healthcare' };
 ---
-<BaseLayout title="Living in Moalboal — Go Moalboal"><section class="section"><p class="eyebrow">Living here</p><h1>Practical answers<br />for daily life.</h1><p>Locally reviewed guides to moving, housing, internet, transport and healthcare are being prepared here.</p></section></BaseLayout>
+<BaseLayout title="Living in Moalboal — Practical local guides" description="Practical guides to moving, renting, connectivity, healthcare and everyday costs in Moalboal.">
+  <section class="living-hero section">
+    <p class="eyebrow">Living here</p>
+    <h1>Practical answers<br />for daily life.</h1>
+    <p>Five research-backed starting points for making a home in Moalboal—written to help you ask better local questions before making expensive decisions.</p>
+  </section>
+  <section class="living-list section">
+    <div class="section-heading"><div><p class="eyebrow">The essentials</p><h2>Start with what<br />affects every day.</h2></div><p>These are local-review drafts. Prices, availability and services change, so every guide shows when it was checked and where its facts came from.</p></div>
+    <div class="living-grid">
+      {articles.map((article, index) => <a class="living-card" href={`${base}/living/${article.id}/`}>
+        <span class="card-index">0{index + 1}</span><span class="pill">{labels[article.data.category]}</span>
+        <h3>{article.data.title}</h3><p>{article.data.summary}</p>
+        <footer><span>{article.data.readingMinutes} min read</span><strong>Read guide →</strong></footer>
+      </a>)}
+    </div>
+  </section>
+</BaseLayout>
+<style>
+  .living-hero { min-height: 620px; display: flex; flex-direction: column; justify-content: center; background: linear-gradient(120deg, var(--cream), rgba(244,188,75,.22)); }
+  .living-hero > p:last-child { max-width: 46rem; margin: 2rem 0 0; color: #47635d; font-size: 1.2rem; }
+  .living-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  .living-card { position: relative; min-height: 310px; display: flex; flex-direction: column; padding: 1.7rem; overflow: hidden; border: 1px solid var(--line); border-radius: 22px; text-decoration: none; }
+  .living-card:first-child { grid-column: span 2; min-height: 360px; background: var(--ink); color: #fff; }
+  .living-card:hover { transform: translateY(-3px); border-color: var(--sea); }
+  .living-card h3 { max-width: 15ch; font-size: clamp(2rem, 4vw, 3.2rem); }
+  .living-card > p { max-width: 38rem; color: #526b65; }
+  .living-card:first-child > p { color: #bad0c8; }
+  .card-index { position: absolute; right: 1rem; top: -1rem; color: rgba(8,127,120,.1); font: 7rem/1 'Fraunces', serif; }
+  .living-card:first-child .card-index { color: rgba(255,255,255,.08); }
+  .living-card footer { display: flex; justify-content: space-between; margin-top: auto; padding-top: 1.4rem; font-size: .82rem; }
+  @media (max-width: 700px) { .living-grid { grid-template-columns: 1fr; } .living-card:first-child { grid-column: auto; } }
+</style>

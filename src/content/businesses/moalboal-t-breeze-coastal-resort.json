@@ -2,7 +2,7 @@
   "name": "Moalboal T Breeze Coastal Resort",
   "slug": "moalboal-t-breeze-coastal-resort",
   "summary": "Accommodation in Moalboal. Rated 4.1 from 257 Google reviews.",
-  "description": "Moalboal T Breeze Coastal Resort is listed at Looc, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Moalboal, Moalboal T Breeze Coastal Resort is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nMoalboal T Breeze Coastal Resort is listed as a place to stay in Moalboal, Moalboal, at Looc, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,27 @@
     "lat": 9.9770097,
     "lng": 123.37120050000001
   },
-  "phone": "",
+  "phone": "(032) 354 9219",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=13807697288670726988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:22.334Z",
+  "sources": [
+    {
+      "title": "Moalboal T Breeze Coastal Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=13807697288670726988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Moalboal T Breeze Coastal Resort on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d6369939-Reviews-Moalboal_T_Breeze_Coastal_Resort-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=13807697288670726988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJD4JLxCHmqzMRTMtXGYfLnr8",
   "rating": 4.1,
@@ -31,5 +48,66 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:08:57.039Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "beach",
+          "mentions": 4,
+          "reviews": 4
+        },
+        {
+          "term": "water",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "rooms",
+          "mentions": 6,
+          "reviews": 2
+        },
+        {
+          "term": "food",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "sea",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "6369939",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d6369939-Reviews-Moalboal_T_Breeze_Coastal_Resort-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 2,
+      "topTerms": [
+        {
+          "term": "quiet setting",
+          "mentions": 8,
+          "reviews": 2
+        },
+        {
+          "term": "road",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "front",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "staff and service",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

@@ -2,7 +2,7 @@
   "name": "Homestay California",
   "slug": "homestay-california",
   "summary": "Accommodation in Tongo. Rated 4.7 from 47 Google reviews.",
-  "description": "Homestay California is listed at W9PM+RM2, Tongo Point Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Tongo, Homestay California is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nHomestay California is listed as a place to stay in Tongo, Moalboal, at W9PM+RM2, Tongo Point Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,22 @@
     "lat": 9.9370088,
     "lng": 123.3841269
   },
-  "phone": "",
+  "phone": "0915 841 2373",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=3553166407386927872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:17.855Z",
+  "sources": [
+    {
+      "title": "Homestay California on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=3553166407386927872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=3553166407386927872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ5cItr_TpqzMRABMmpAViTzE",
   "rating": 4.7,
@@ -28,5 +40,40 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:59.068Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 5,
+          "reviews": 4
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "homey",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "private",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "love",
+          "mentions": 4,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

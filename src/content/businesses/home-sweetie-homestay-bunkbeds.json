@@ -2,7 +2,7 @@
   "name": "Home Sweetie Homestay & Bunkbeds",
   "slug": "home-sweetie-homestay-bunkbeds",
   "summary": "Accommodation in Moalboal. Rated 4.8 from 66 Google reviews.",
-  "description": "Home Sweetie Homestay & Bunkbeds is listed at C.Schmitz Road, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Moalboal, Home Sweetie Homestay & Bunkbeds is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nHome Sweetie Homestay & Bunkbeds is listed as a place to stay in Moalboal, Moalboal, at C.Schmitz Road, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,33 @@
     "lat": 9.947709999999999,
     "lng": 123.37013609999998
   },
-  "phone": "",
+  "phone": "0919 921 2612",
   "email": "",
-  "website": "",
+  "website": "https://www.booking.com/Share-02Mdo4",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=3144376829345819313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://www.booking.com/Share-02Mdo4"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:18.591Z",
+  "sources": [
+    {
+      "title": "Home Sweetie Homestay & Bunkbeds on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=3144376829345819313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Home Sweetie Homestay & Bunkbeds website",
+      "publisher": "booking.com",
+      "url": "https://www.booking.com/Share-02Mdo4"
+    },
+    {
+      "title": "Home Sweetie Homestay & Bunkbeds on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d27991260-Reviews-Home_Sweetie_Homestay_&_Bunkbeds-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=3144376829345819313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJbbzYRNXpqzMRsWogERESoys",
   "rating": 4.8,
@@ -29,5 +52,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:08:01.279Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 8,
+          "reviews": 5
+        },
+        {
+          "term": "rooms",
+          "mentions": 6,
+          "reviews": 4
+        },
+        {
+          "term": "max",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "dorm",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "enough",
+          "mentions": 4,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "27991260",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d27991260-Reviews-Home_Sweetie_Homestay_&_Bunkbeds-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

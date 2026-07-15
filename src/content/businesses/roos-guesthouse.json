@@ -2,7 +2,7 @@
   "name": "Roos Guesthouse",
   "slug": "roos-guesthouse",
   "summary": "Accommodation in Basdiot. Rated 4.8 from 148 Google reviews.",
-  "description": "Roos Guesthouse is listed at Batayan Road, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Basdiot, Roos Guesthouse is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nRoos Guesthouse is listed as a place to stay in Basdiot, Moalboal, at Batayan Road, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,33 @@
     "lat": 9.950843599999999,
     "lng": 123.36907199999997
   },
-  "phone": "",
-  "email": "",
-  "website": "",
+  "phone": "0945 280 6625",
+  "email": "info@roosguesthouse.com",
+  "website": "http://www.roosguesthouse.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T13:40:38.631Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=4327272290831974692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.roosguesthouse.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:28.265Z",
+  "sources": [
+    {
+      "title": "Roos Guesthouse on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=4327272290831974692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Roos Guesthouse",
+      "publisher": "roosguesthouse.com",
+      "url": "http://www.roosguesthouse.com/"
+    },
+    {
+      "title": "Roos Guesthouse on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d13807527-Reviews-Roos_Guesthouse-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=4327272290831974692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJa3JiAsHoqzMRJEFuvTiPDTw",
   "rating": 4.8,
@@ -29,5 +52,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:35.972Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 17,
+          "reviews": 5
+        },
+        {
+          "term": "breakfast",
+          "mentions": 6,
+          "reviews": 5
+        },
+        {
+          "term": "rooms",
+          "mentions": 6,
+          "reviews": 4
+        },
+        {
+          "term": "value",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 4,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "13807527",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d13807527-Reviews-Roos_Guesthouse-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

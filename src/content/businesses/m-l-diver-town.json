@@ -2,7 +2,7 @@
   "name": "M&L Diver Town",
   "slug": "m-l-diver-town",
   "summary": "Diving and ocean activities in Panagsama. Rated 4.5 from 38 Google reviews.",
-  "description": "M&L Diver Town is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, M&L Diver Town is a local operator worth including in your research. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nM&L Diver Town is listed as a diving and ocean activity provider in Panagsama, Moalboal, at Panagsama Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -15,8 +15,31 @@
   },
   "phone": "",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "https://mldt.storeinfo.jp/",
+  "facebook": "https://www.facebook.com/1451041281582500",
+  "contactCheckedAt": "2026-07-14T13:40:28.039Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=13951989114522898619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://mldt.storeinfo.jp/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:21.887Z",
+  "sources": [
+    {
+      "title": "M&L Diver Town on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=13951989114522898619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "M&L Diver Town",
+      "publisher": "mldt.storeinfo.jp",
+      "url": "https://mldt.storeinfo.jp/"
+    },
+    {
+      "title": "M&L Diver Town Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/1451041281582500"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=13951989114522898619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJAcin-sPoqzMRuxBByS1sn8E",
   "rating": 4.5,

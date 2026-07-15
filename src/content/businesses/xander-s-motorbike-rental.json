@@ -2,7 +2,7 @@
   "name": "XANDER'S MOTORBIKE RENTAL",
   "slug": "xander-s-motorbike-rental",
   "summary": "Transport in Moalboal. Rated 5.0 from 33 Google reviews.",
-  "description": "XANDER'S MOTORBIKE RENTAL is listed at Tubli Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and XANDER'S MOTORBIKE RENTAL serves the Moalboal area. Confirm availability, prices and identification requirements directly.\n\nXANDER'S MOTORBIKE RENTAL is listed as a transport provider in Moalboal, Moalboal, at Tubli Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport"
@@ -13,10 +13,22 @@
     "lat": 9.9551258,
     "lng": 123.3690713
   },
-  "phone": "",
+  "phone": "0949 916 7631",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=14216433042795124023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:35.642Z",
+  "sources": [
+    {
+      "title": "XANDER'S MOTORBIKE RENTAL on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=14216433042795124023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=14216433042795124023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ5cnOu-vpqzMRN9Xt0IfqSsU",
   "rating": 5,

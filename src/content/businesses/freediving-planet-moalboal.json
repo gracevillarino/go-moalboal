@@ -2,7 +2,7 @@
   "name": "Freediving Planet Moalboal",
   "slug": "freediving-planet-moalboal",
   "summary": "Diving and ocean activities in Basdiot. Rated 4.8 from 203 Google reviews.",
-  "description": "Freediving Planet Moalboal is listed at Brgy, Tuble Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Basdiot, Freediving Planet Moalboal is a local operator worth including in your research. Its published information highlights dive courses and freediving. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nFreediving Planet Moalboal is listed as a diving and ocean activity provider in Basdiot, Moalboal, at Brgy, Tuble Rd, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,49 @@
     "lat": 9.9528761,
     "lng": 123.367051
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0939 524 1269",
+  "email": "moalboal@freediving-planet.com",
+  "website": "http://www.freediving-planet.com/",
+  "facebook": "https://www.facebook.com/freedivingplanetmoalboal",
+  "contactCheckedAt": "2026-07-14T13:40:22.151Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=1212549068720739461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.freediving-planet.com/",
+    "https://www.freediving-planet.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:18.713Z",
+  "sources": [
+    {
+      "title": "Freediving Planet Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=1212549068720739461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Freediving Planet Philippines (Moalboal)",
+      "publisher": "freediving-planet.com",
+      "url": "https://www.freediving-planet.com/"
+    },
+    {
+      "title": "Freediving Planet Moalboal Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/freedivingplanetmoalboal"
+    },
+    {
+      "title": "Our team",
+      "publisher": "freediving-planet.com",
+      "url": "https://www.freediving-planet.com/ourteam"
+    },
+    {
+      "title": "Freediving Planet Moalboal on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/freedivingplanet/"
+    },
+    {
+      "title": "Freediving Planet Moalboal on YouTube",
+      "publisher": "YouTube",
+      "url": "https://www.youtube.com/channel/UCAzj4gbwwDhBx44haMGyC5w"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=1212549068720739461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJZSkPib7oqzMRhZTUIfTW0xA",
   "rating": 4.8,

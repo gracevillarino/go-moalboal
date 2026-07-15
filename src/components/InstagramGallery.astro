@@ -1,0 +1,99 @@
+---
+interface Source { title: string; publisher: string; url: string }
+interface Props { name: string; sources: Source[] }
+
+const { name, sources } = Astro.props;
+const instagramUrls = [...new Set(sources.map((source) => source.url).filter((url) => /instagram\.com\//i.test(url)))];
+const postUrls = instagramUrls.filter((url) => /instagram\.com\/(?:p|reel|tv)\//i.test(url)).slice(0, 6);
+const profileUrl = instagramUrls.find((url) => !/instagram\.com\/(?:p|reel|tv)\//i.test(url)) ?? '';
+const profileUsername = profileUrl ? new URL(profileUrl).pathname.split('/').filter(Boolean)[0] ?? '' : '';
+const embedUrl = (value: string) => {
+  const url = new URL(value);
+  url.search = '';
+  url.hash = '';
+  return `${url.origin}${url.pathname.replace(/\/?$/, '/')}embed/`;
+};
+---
+
+{instagramUrls.length > 0 && <section class="instagram-gallery" aria-labelledby="instagram-gallery-title" data-instagram-gallery data-instagram-username={profileUsername}>
+  <div>
+    <p class="eyebrow">From Instagram</p>
+    <h2 id="instagram-gallery-title">Photos from {name}</h2>
+  </div>
+  <p class="instagram-status" data-instagram-status aria-live="polite">{profileUsername ? 'Loading latest Instagram posts…' : ''}</p>
+  <div class="instagram-track" data-instagram-track tabindex="0" aria-label={`${name} Instagram post carousel`} hidden={postUrls.length === 0}>
+      {postUrls.map((url) => <iframe
+        src={embedUrl(url)}
+        title={`${name} Instagram post`}
+        loading="lazy"
+        allowtransparency="true"
+      ></iframe>)}
+  </div>
+  <div class="instagram-controls" data-instagram-controls hidden={postUrls.length <= 3}>
+    <button type="button" data-instagram-direction="-1" aria-label="Previous Instagram posts">←</button>
+    <button type="button" data-instagram-direction="1" aria-label="Next Instagram posts">→</button>
+  </div>
+  {profileUrl && <a class="instagram-link" href={profileUrl} rel="noreferrer" target="_blank">View {name} on Instagram ↗</a>}
+</section>}
+
+<script>
+  interface InstagramPost { caption: string; imageUrl: string; permalink: string; publishedAt: string }
+  interface InstagramPayload { available: boolean; posts: InstagramPost[] }
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+  for (const gallery of document.querySelectorAll<HTMLElement>('[data-instagram-gallery]')) {
+    const track = gallery.querySelector<HTMLElement>('[data-instagram-track]');
+    const controls = gallery.querySelector<HTMLElement>('[data-instagram-controls]');
+    const status = gallery.querySelector<HTMLElement>('[data-instagram-status]');
+    if (!track || !controls || !status) continue;
+    for (const button of controls.querySelectorAll<HTMLButtonElement>('[data-instagram-direction]')) {
+      button.addEventListener('click', () => track.scrollBy({ left: Number(button.dataset.instagramDirection) * track.clientWidth, behavior: 'smooth' }));
+    }
+    const username = gallery.dataset.instagramUsername;
+    if (!username) continue;
+    fetch(`${base}/api/instagram?username=${encodeURIComponent(username)}`, { headers: { Accept: 'application/json' }, cache: 'no-store' })
+      .then((response) => response.json())
+      .then((payload: InstagramPayload) => {
+        if (!payload.available || !payload.posts.length) {
+          status.textContent = 'The live six-post feed is unavailable; open Instagram for the latest photos.';
+          return;
+        }
+        track.replaceChildren();
+        for (const post of payload.posts.slice(0, 6)) {
+          const card = document.createElement('a');
+          card.className = 'instagram-post-card';
+          card.href = post.permalink;
+          card.target = '_blank';
+          card.rel = 'noreferrer';
+          const image = document.createElement('img');
+          image.src = post.imageUrl;
+          image.alt = post.caption ? post.caption.slice(0, 140) : 'Instagram post';
+          image.loading = 'lazy';
+          const caption = document.createElement('span');
+          caption.textContent = post.caption ? post.caption.slice(0, 120) : 'View on Instagram';
+          card.append(image, caption);
+          track.append(card);
+        }
+        track.hidden = false;
+        controls.hidden = payload.posts.length <= 3;
+        status.hidden = true;
+      })
+      .catch(() => { status.textContent = 'The live six-post feed is unavailable; open Instagram for the latest photos.'; });
+  }
+</script>
+
+<style is:global>
+  .instagram-gallery { margin-top: 4.5rem; padding-top: 3rem; border-top: 1px solid var(--line); }
+  .instagram-gallery h2 { margin: .2rem 0 1.5rem; font-size: clamp(2.2rem, 4vw, 3.5rem); }
+  .instagram-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 2rem) / 3); gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 1rem; }
+  .instagram-track iframe { width: 100%; min-height: 520px; border: 0; border-radius: 16px; background: var(--cream); scroll-snap-align: start; }
+  .instagram-post-card { display: grid; grid-template-rows: 1fr auto; min-height: 360px; border-radius: 16px; overflow: hidden; background: var(--cream); color: var(--ink); scroll-snap-align: start; }
+  .instagram-post-card img { width: 100%; height: 320px; object-fit: cover; }
+  .instagram-post-card span { padding: .9rem; font-size: .82rem; }
+  .instagram-controls { display: flex; justify-content: flex-end; gap: .5rem; }
+  .instagram-controls button { width: 42px; height: 42px; border: 1px solid var(--line); border-radius: 50%; background: var(--paper); cursor: pointer; }
+  .instagram-link { display: inline-block; margin-top: 1.25rem; color: var(--sea); font-weight: 800; }
+  .instagram-status { color: #657b76; max-width: 62ch; }
+  @media (min-width: 651px) and (max-width: 950px) { .instagram-track { grid-auto-columns: calc((100% - 1rem) / 2); } }
+  @media (max-width: 650px) { .instagram-track { grid-auto-columns: 92%; } }
+</style>

@@ -2,7 +2,7 @@
   "name": "Asian Home Appliance Center - Moalboal",
   "slug": "asian-home-appliance-center-moalboal",
   "summary": "Shopping in Moalboal. Rated 4.9 from 149 Google reviews.",
-  "description": "Asian Home Appliance Center - Moalboal is listed at Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you need to pick something up around Moalboal, Asian Home Appliance Center - Moalboal is one of the nearby places to know about. Check current stock and opening times before heading over.\n\nAsian Home Appliance Center - Moalboal is listed as a local shop in Moalboal, Moalboal, at Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "shop",
   "categories": [
     "shop"
@@ -13,10 +13,43 @@
     "lat": 9.938473799999999,
     "lng": 123.39333060000001
   },
-  "phone": "",
+  "phone": "0908 818 7829",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "http://asianhomeappliance.com/",
+  "facebook": "https://www.facebook.com/asianhomeappliance",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=16615024451361509606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://asianhomeappliance.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:14.125Z",
+  "sources": [
+    {
+      "title": "Asian Home Appliance Center - Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=16615024451361509606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Home",
+      "publisher": "asianhomeappliance.com",
+      "url": "https://www.asianhomeappliance.com/"
+    },
+    {
+      "title": "Asian Home Appliance Center - Moalboal Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/asianhomeappliance"
+    },
+    {
+      "title": "Asian Home Appliance",
+      "publisher": "asianhomeappliance.com",
+      "url": "https://www.asianhomeappliance.com/AboutUs"
+    },
+    {
+      "title": "Asian Home Appliance Center - Moalboal on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/asianhomeappliance/?hl=en"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=16615024451361509606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJUdJSfnvpqzMR5hDVVbVslOY",
   "rating": 4.9,

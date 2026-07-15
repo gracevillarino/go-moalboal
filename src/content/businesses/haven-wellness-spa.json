@@ -2,7 +2,7 @@
   "name": "Haven Wellness Spa",
   "slug": "haven-wellness-spa",
   "summary": "Local service in Panagsama. Rated 4.9 from 26 Google reviews.",
-  "description": "Haven Wellness Spa is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Panagsama, Haven Wellness Spa is one of the local services you can contact. Confirm current hours, availability and pricing directly.\n\nHaven Wellness Spa is listed as a local service in Panagsama, Moalboal, at Panagsama Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,28 @@
     "lat": 9.9394074,
     "lng": 123.3906113
   },
-  "phone": "",
+  "phone": "0991 171 6531",
   "email": "",
-  "website": "",
+  "website": "https://www.havenwellnessspamoalboal.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=6991648534209477676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://www.havenwellnessspamoalboal.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:17.854Z",
+  "sources": [
+    {
+      "title": "Haven Wellness Spa on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=6991648534209477676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Calm Haven Wellness Spa",
+      "publisher": "havenwellnessspamoalboal.com",
+      "url": "https://www.havenwellnessspamoalboal.com/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=6991648534209477676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJYQNBd5rpqzMRLLzva0xTB2E",
   "rating": 4.9,

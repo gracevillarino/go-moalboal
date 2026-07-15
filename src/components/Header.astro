@@ -1,4 +1,7 @@
 ---
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const path = (value: string) => `${base}${value}`;
+
 const nav = [
   ['Explore', '/explore'],
   ['Directory', '/directory'],
@@ -9,12 +12,16 @@ const nav = [
 ---
 
 <header class="site-header">
-  <a class="brand" href="/" aria-label="Go Moalboal home">
-    <span class="brand-mark">GM</span>
-    <span>Go Moalboal</span>
+  <a class="brand" href={path('/')} aria-label="Go Moalboal home">
+    <img
+      src={path('/brand/go-moalboal-logo.png?v=3804c887')}
+      alt="Go Moalboal"
+      width="1672"
+      height="941"
+    />
   </a>
   <nav aria-label="Primary navigation">
-    {nav.map(([label, href]) => <a href={href}>{label}</a>)}
+    {nav.map(([label, href]) => <a href={path(href)}>{label}</a>)}
   </nav>
-  <a class="help-link" href="/community#help">How can I help?</a>
+  <a class="help-link" href={path('/community#help')}>How can I help?</a>
 </header>

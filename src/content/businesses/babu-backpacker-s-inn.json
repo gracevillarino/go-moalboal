@@ -2,7 +2,7 @@
   "name": "Babu Backpacker's Inn",
   "slug": "babu-backpacker-s-inn",
   "summary": "Accommodation in Panagsama. Rated 4.1 from 103 Google reviews.",
-  "description": "Babu Backpacker's Inn is listed at Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Panagsama, Babu Backpacker's Inn is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nBabu Backpacker's Inn is listed as a place to stay in Panagsama, Moalboal, at Panagsama Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,22 @@
     "lat": 9.9480081,
     "lng": 123.3721532
   },
-  "phone": "",
+  "phone": "0962 051 8404",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=3383536248712484387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:12.275Z",
+  "sources": [
+    {
+      "title": "Babu Backpacker's Inn on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=3383536248712484387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=3383536248712484387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJE32XHuroqzMRI1YqnUq89C4",
   "rating": 4.1,
@@ -29,5 +41,40 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:05.433Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "rooms",
+          "mentions": 16,
+          "reviews": 5
+        },
+        {
+          "term": "air",
+          "mentions": 6,
+          "reviews": 4
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 6,
+          "reviews": 3
+        },
+        {
+          "term": "conditioning",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "free",
+          "mentions": 3,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

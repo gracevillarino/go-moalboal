@@ -2,7 +2,7 @@
   "name": "Moalboal Dive Center",
   "slug": "moalboal-dive-center",
   "summary": "Diving and ocean activities in Panagsama. Rated 4.9 from 32 Google reviews.",
-  "description": "Moalboal Dive Center is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, Moalboal Dive Center is a local operator worth including in your research. Its published information highlights dive courses and guided dives. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nMoalboal Dive Center is listed as a diving and ocean activity provider in Panagsama, Moalboal, at Panagsama Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,34 @@
     "lat": 9.949876,
     "lng": 123.36784029999998
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0956 034 3371",
+  "email": "moalboaldivecenter@gmail.com",
+  "website": "http://www.moalboaldivecenter.com/",
+  "facebook": "https://www.facebook.com/wix",
+  "contactCheckedAt": "2026-07-14T13:40:29.372Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=11347663136160573076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.moalboaldivecenter.com/",
+    "https://www.moalboaldivecenter.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:23.036Z",
+  "sources": [
+    {
+      "title": "Moalboal Dive Center on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=11347663136160573076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Moalboal Dive Center",
+      "publisher": "moalboaldivecenter.com",
+      "url": "https://www.moalboaldivecenter.com/"
+    },
+    {
+      "title": "Moalboal Dive Center Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/wix"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=11347663136160573076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJjU1NEgDpqzMRlGal9X__ep0",
   "rating": 4.9,

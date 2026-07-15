@@ -2,7 +2,7 @@
   "name": "Laundry Station",
   "slug": "laundry-station",
   "summary": "Transport and Local service in Moalboal. Rated 4.7 from 63 Google reviews.",
-  "description": "Laundry Station is listed at W9VV+7P, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and Laundry Station serves the Moalboal area. Its published information highlights Wi-Fi and laundry services. Confirm availability, prices and identification requirements directly.\n\nLaundry Station is listed as a transport provider in Moalboal, Moalboal, at W9VV+7P, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport",
@@ -14,10 +14,48 @@
     "lat": 9.9432232,
     "lng": 123.39499400000001
   },
-  "phone": "",
+  "phone": "0968 502 2947",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "https://laundryloungecebu.ph/",
+  "facebook": "https://www.facebook.com/LaundryMoalboal",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=7998207885040624931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://laundryloungecebu.ph/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:26.432Z",
+  "sources": [
+    {
+      "title": "Laundry Station on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=7998207885040624931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Laundry Moalboal",
+      "publisher": "laundryloungecebu.ph",
+      "url": "https://laundryloungecebu.ph/"
+    },
+    {
+      "title": "Laundry Station Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/LaundryMoalboal"
+    },
+    {
+      "title": "Our story",
+      "publisher": "laundryloungecebu.ph",
+      "url": "https://laundryloungecebu.ph/our-story/"
+    },
+    {
+      "title": "Laundry Station on Facebook",
+      "publisher": "Facebook",
+      "url": "https://facebook.com/101336352555572"
+    },
+    {
+      "title": "Laundry Station on Facebook",
+      "publisher": "Facebook",
+      "url": "https://facebook.com/101336352555572/reviews"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=7998207885040624931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJMfalHZfpqzMRIyWT87FX_24",
   "rating": 4.7,

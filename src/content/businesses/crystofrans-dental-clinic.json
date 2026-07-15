@@ -2,7 +2,7 @@
   "name": "CRYSTOFRANS Dental Clinic",
   "slug": "crystofrans-dental-clinic",
   "summary": "Health in Poblacion East. Rated 4.8 from 30 Google reviews.",
-  "description": "CRYSTOFRANS Dental Clinic is listed at 2nd floor, Gaisano Grand, Poblacion East, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you need practical health support around Poblacion East, CRYSTOFRANS Dental Clinic is a local service to have on hand. Call ahead to confirm hours, services and whether an appointment is needed.\n\nCRYSTOFRANS Dental Clinic is listed as a health service in Poblacion East, Moalboal, at 2nd floor, Gaisano Grand, Poblacion East, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "health",
   "categories": [
     "health"
@@ -13,10 +13,22 @@
     "lat": 9.9436497,
     "lng": 123.3964945
   },
-  "phone": "",
+  "phone": "0995 234 8041",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=9639702526803709091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:14.126Z",
+  "sources": [
+    {
+      "title": "CRYSTOFRANS Dental Clinic on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=9639702526803709091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=9639702526803709091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJEQxlfsDpqzMRowyS8l8ax4U",
   "rating": 4.8,

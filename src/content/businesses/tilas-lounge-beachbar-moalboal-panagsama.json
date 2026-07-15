@@ -2,7 +2,7 @@
   "name": "Tilas Lounge Beachbar Moalboal Panagsama",
   "slug": "tilas-lounge-beachbar-moalboal-panagsama",
   "summary": "Food and drink in Panagsama. Rated 4.7 from 60 Google reviews.",
-  "description": "Tilas Lounge Beachbar Moalboal Panagsama is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Panagsama, Tilas Lounge Beachbar Moalboal Panagsama is a local option to keep on your shortlist. Its published information highlights coffee, beach access, and Wi-Fi. Check the latest opening details before making the trip.\n\nTilas Lounge Beachbar Moalboal Panagsama is listed as a place to eat and drink in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -14,9 +14,42 @@
     "lng": 123.36586539999999
   },
   "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "email": "info@tilas.vip",
+  "website": "https://tilas.vip/",
+  "facebook": "https://www.facebook.com/TilasLounge/",
+  "contactCheckedAt": "2026-07-14T13:40:48.499Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=4809710934077021967&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://tilas.vip/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:35.108Z",
+  "sources": [
+    {
+      "title": "Tilas Lounge Beachbar Moalboal Panagsama on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=4809710934077021967&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Tilas Lounge & Bar",
+      "publisher": "tilas.vip",
+      "url": "https://tilas.vip/"
+    },
+    {
+      "title": "Tilas Lounge Beachbar Moalboal Panagsama Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/TilasLounge/"
+    },
+    {
+      "title": "Menu | Tilas Lounge & Bar",
+      "publisher": "tilas.vip",
+      "url": "https://tilas.vip/menu.html"
+    },
+    {
+      "title": "Tilas Lounge Beachbar Moalboal Panagsama on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/tilaslounge/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=4809710934077021967&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJUyjYtNHpqzMRDx_5kZyGv0I",
   "rating": 4.7,
@@ -30,5 +63,40 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:10:11.217Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "atmosphere",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "staff and service",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "food",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "chill",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "drinks",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

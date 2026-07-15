@@ -2,7 +2,7 @@
   "name": "Panagsama Relaxing Massage and Spa",
   "slug": "panagsama-relaxing-massage-and-spa",
   "summary": "Local service in Panagsama. Rated 4.4 from 178 Google reviews.",
-  "description": "Panagsama Relaxing Massage and Spa is listed at Panagsama Beach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Panagsama, Panagsama Relaxing Massage and Spa is one of the local services you can contact. Confirm current hours, availability and pricing directly.\n\nPanagsama Relaxing Massage and Spa is listed as a local service in Panagsama, Moalboal, at Panagsama Beach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,22 @@
     "lat": 9.950075799999999,
     "lng": 123.36726660000001
   },
-  "phone": "",
+  "phone": "0960 314 1179",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=7955040390765540190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:25.023Z",
+  "sources": [
+    {
+      "title": "Panagsama Relaxing Massage and Spa on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=7955040390765540190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=7955040390765540190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ37VZrJHpqzMRXvN2eRb7ZW4",
   "rating": 4.4,

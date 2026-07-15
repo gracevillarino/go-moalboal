@@ -2,7 +2,7 @@
   "name": "Puy-an, A Nomad Hostel",
   "slug": "puy-an-a-nomad-hostel",
   "summary": "Accommodation in Moalboal. Rated 4.3 from 40 Google reviews.",
-  "description": "Puy-an, A Nomad Hostel is listed at C.Schmitz Road, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Moalboal, Puy-an, A Nomad Hostel is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nPuy-an, A Nomad Hostel is listed as a place to stay in Moalboal, Moalboal, at C.Schmitz Road, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,27 @@
     "lat": 9.9481567,
     "lng": 123.37104210000001
   },
-  "phone": "",
+  "phone": "0916 765 1350",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=16067184813441471791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:26.950Z",
+  "sources": [
+    {
+      "title": "Puy-an, A Nomad Hostel on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=16067184813441471791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Puy-an, A Nomad Hostel on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d33431956-Reviews-Puy_an_A_Nomad_Hostel-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=16067184813441471791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJjW6KF-HpqzMRL9W60XUb-t4",
   "rating": 4.3,
@@ -29,5 +46,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:31.639Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "rooms",
+          "mentions": 13,
+          "reviews": 4
+        },
+        {
+          "term": "staff and service",
+          "mentions": 8,
+          "reviews": 3
+        },
+        {
+          "term": "night",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "booked",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "comfort",
+          "mentions": 3,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "33431956",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d33431956-Reviews-Puy_an_A_Nomad_Hostel-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

@@ -2,7 +2,7 @@
   "name": "Purple Heart Guest House",
   "slug": "purple-heart-guest-house",
   "summary": "Accommodation in Moalboal. Rated 4.9 from 25 Google reviews.",
-  "description": "Purple Heart Guest House is listed at X929+84G, Tubli Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Moalboal, Purple Heart Guest House is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nPurple Heart Guest House is listed as a place to stay in Moalboal, Moalboal, at X929+84G, Tubli Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,22 @@
     "lat": 9.9509031,
     "lng": 123.36786289999999
   },
-  "phone": "",
+  "phone": "0969 127 2052",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=2808623980202764069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:26.950Z",
+  "sources": [
+    {
+      "title": "Purple Heart Guest House on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=2808623980202764069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=2808623980202764069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJo1Xm7gfpqzMRJSehF6E8-iY",
   "rating": 4.9,
@@ -29,5 +41,40 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:09:25.019Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "location",
+          "mentions": 4,
+          "reviews": 4
+        },
+        {
+          "term": "rooms",
+          "mentions": 4,
+          "reviews": 4
+        },
+        {
+          "term": "owner",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "genevieve",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "staff and service",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": null,
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

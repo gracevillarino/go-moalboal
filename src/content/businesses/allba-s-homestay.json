@@ -2,7 +2,7 @@
   "name": "Allba's Homestay",
   "slug": "allba-s-homestay",
   "summary": "Accommodation in Tongo. Rated 4.3 from 186 Google reviews.",
-  "description": "Allba's Homestay is listed at Tongo Point Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Tongo, Allba's Homestay is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nAllba's Homestay is listed as a place to stay in Tongo, Moalboal, at Tongo Point Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,27 @@
     "lat": 9.9344327,
     "lng": 123.3761772
   },
-  "phone": "",
+  "phone": "0968 201 2235",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=15505560862174133382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:12.272Z",
+  "sources": [
+    {
+      "title": "Allba's Homestay on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=15505560862174133382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Allba's Homestay on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d13326787-Reviews-Allba_s_Homestay-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=15505560862174133382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJjXiKjeHoqzMRhrwWwXPRLtc",
   "rating": 4.3,
@@ -29,5 +46,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:07:08.008Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "food",
+          "mentions": 4,
+          "reviews": 4
+        },
+        {
+          "term": "rooms",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "quiet setting",
+          "mentions": 4,
+          "reviews": 3
+        },
+        {
+          "term": "far",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "location",
+          "mentions": 3,
+          "reviews": 3
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "13326787",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d13326787-Reviews-Allba_s_Homestay-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

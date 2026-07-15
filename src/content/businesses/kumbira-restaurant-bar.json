@@ -2,7 +2,7 @@
   "name": "Kumbira Restaurant & Bar",
   "slug": "kumbira-restaurant-bar",
   "summary": "Food and drink in Panagsama. Rated 4.8 from 131 Google reviews.",
-  "description": "Kumbira Restaurant & Bar is listed at W9X9+X3Q, Panagsama Rd, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you are deciding where to eat around Panagsama, Kumbira Restaurant & Bar is a local option to keep on your shortlist. Check the latest opening details before making the trip.\n\nKumbira Restaurant & Bar is listed as a place to eat and drink in Panagsama, Moalboal, at W9X9+X3Q, Panagsama Rd, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "eat",
   "categories": [
     "eat"
@@ -16,7 +16,29 @@
   "phone": "",
   "email": "",
   "website": "",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/profile.php?id=61559494216227&mibextid=ZbWKwL",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=15044288909708079555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:18.807Z",
+  "sources": [
+    {
+      "title": "Kumbira Restaurant & Bar on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=15044288909708079555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Kumbira Restaurant & Bar Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61559494216227&mibextid=ZbWKwL"
+    },
+    {
+      "title": "Kumbira Restaurant & Bar on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d28986868-Reviews-Kumbira_Restaurant_And_Bar-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=15044288909708079555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJi91vcwDpqzMRw7F_KQ4NyNA",
   "rating": 4.8,
@@ -29,5 +51,66 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:08:10.344Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 6,
+          "reviews": 4
+        },
+        {
+          "term": "steak",
+          "mentions": 7,
+          "reviews": 3
+        },
+        {
+          "term": "brisket",
+          "mentions": 5,
+          "reviews": 3
+        },
+        {
+          "term": "atmosphere",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "dishes",
+          "mentions": 3,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "28986868",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g663539-d28986868-Reviews-Kumbira_Restaurant_And_Bar-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 3,
+      "topTerms": [
+        {
+          "term": "chicken",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "main",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "money",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "street",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

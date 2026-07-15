@@ -2,7 +2,7 @@
   "name": "Moalboal Beach Resort",
   "slug": "moalboal-beach-resort",
   "summary": "Accommodation in Moalboal. Rated 4.2 from 280 Google reviews.",
-  "description": "Moalboal Beach Resort is listed at Whitebeach, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "If you want to base yourself around Moalboal, Moalboal Beach Resort is one of the local stays you can compare. Check current room details and booking terms directly before you travel.\n\nMoalboal Beach Resort is listed as a place to stay in Moalboal, Moalboal, at Whitebeach, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "stay",
   "categories": [
     "stay"
@@ -13,10 +13,27 @@
     "lat": 9.9738186,
     "lng": 123.37214859999999
   },
-  "phone": "",
+  "phone": "0943 256 1327",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=3952130759895274699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:21.888Z",
+  "sources": [
+    {
+      "title": "Moalboal Beach Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=3952130759895274699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Moalboal Beach Resort on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d19907408-Reviews-Moalboal_Beach_Resort-Moalboal_Cebu_Island.html?m=70260"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=3952130759895274699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJQQ_MOjfmqzMRy9RzofzJ2DY",
   "rating": 4.2,
@@ -30,5 +47,45 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "reviewInsights": {
+    "generatedAt": "2026-07-14T12:08:37.204Z",
+    "google": {
+      "reviewCount": 5,
+      "topTerms": [
+        {
+          "term": "staff and service",
+          "mentions": 3,
+          "reviews": 3
+        },
+        {
+          "term": "food",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "rooms",
+          "mentions": 3,
+          "reviews": 2
+        },
+        {
+          "term": "cleanliness",
+          "mentions": 2,
+          "reviews": 2
+        },
+        {
+          "term": "walk",
+          "mentions": 2,
+          "reviews": 2
+        }
+      ]
+    },
+    "tripadvisor": {
+      "locationId": "19907408",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g663539-d19907408-Reviews-Moalboal_Beach_Resort-Moalboal_Cebu_Island.html?m=70260",
+      "reviewCount": 0,
+      "topTerms": []
+    },
+    "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
+  }
 }

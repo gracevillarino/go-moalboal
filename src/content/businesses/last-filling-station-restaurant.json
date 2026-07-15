@@ -2,7 +2,7 @@
   "name": "LAST FILLING STATION Restaurant",
   "slug": "last-filling-station-restaurant",
   "summary": "Transport in Basdiot. Rated 4.1 from 385 Google reviews.",
-  "description": "LAST FILLING STATION Restaurant is listed at W9W8+MJJ, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "Getting around is easier when you know the local options, and LAST FILLING STATION Restaurant serves the Basdiot area. Its published information highlights breakfast, coffee, vegetarian options, and seafood. Confirm availability, prices and identification requirements directly.\n\nLAST FILLING STATION Restaurant is listed as a transport provider in Basdiot, Moalboal, at W9W8+MJJ, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "transport",
   "categories": [
     "transport"
@@ -13,10 +13,33 @@
     "lat": 9.9467138,
     "lng": 123.36651409999999
   },
-  "phone": "",
+  "phone": "0967 019 3367",
   "email": "",
-  "website": "",
+  "website": "http://restaurant.tipoloresort.com/",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=15570136164854727291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://restaurant.tipoloresort.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:21.304Z",
+  "sources": [
+    {
+      "title": "LAST FILLING STATION Restaurant on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=15570136164854727291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Last Filling Station Restaurant – Moalboal Cebu",
+      "publisher": "restaurant.tipoloresort.com",
+      "url": "https://restaurant.tipoloresort.com/"
+    },
+    {
+      "title": "Menu – Last Filling Station Restaurant",
+      "publisher": "restaurant.tipoloresort.com",
+      "url": "https://restaurant.tipoloresort.com/menu/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=15570136164854727291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJc8c3m2boqzMRewKhClk8FNg",
   "rating": 4.1,

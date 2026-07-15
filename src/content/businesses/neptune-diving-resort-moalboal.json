@@ -2,7 +2,7 @@
   "name": "Neptune Diving Resort Moalboal",
   "slug": "neptune-diving-resort-moalboal",
   "summary": "Diving and ocean activities in Panagsama. Rated 4.7 from 416 Google reviews.",
-  "description": "Neptune Diving Resort Moalboal is listed at W9X8+99G, Panagsama Beach, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, Neptune Diving Resort Moalboal is a local operator worth including in your research. Its published information highlights coffee, dive courses, guided dives, and online booking. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nNeptune Diving Resort Moalboal is listed as a diving and ocean activity provider in Panagsama, Moalboal, at W9X8+99G, Panagsama Beach, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,49 @@
     "lat": 9.948438,
     "lng": 123.36606739999999
   },
-  "phone": "",
-  "email": "",
-  "website": "",
-  "facebook": "",
+  "phone": "0991 654 5330",
+  "email": "moalboal@neptunediving.com",
+  "website": "http://www.neptunediving.com/",
+  "facebook": "https://www.facebook.com/neptunedivingadventure",
+  "contactCheckedAt": "2026-07-14T13:40:34.777Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=6453084128571441502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.neptunediving.com/",
+    "https://www.neptunediving.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:27.444Z",
+  "sources": [
+    {
+      "title": "Neptune Diving Resort Moalboal on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=6453084128571441502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Scuba Diving and PADI Dive Courses in Moalboal and Santander Cebu",
+      "publisher": "neptunediving.com",
+      "url": "https://www.neptunediving.com/"
+    },
+    {
+      "title": "Neptune Diving Resort Moalboal Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/neptunedivingadventure"
+    },
+    {
+      "title": "Accommodation and Beach Resorts in Moalboal and Santander Cebu:",
+      "publisher": "neptunediving.com",
+      "url": "https://www.neptunediving.com/our-rooms-moalboal/"
+    },
+    {
+      "title": "Moalboal Resort Facilities",
+      "publisher": "neptunediving.com",
+      "url": "https://www.neptunediving.com/moalboal-resort-facilities/"
+    },
+    {
+      "title": "Neptune Diving Resort Moalboal on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/neptunedivingresortmoalboal/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=6453084128571441502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJg5dcOsHoqzMRXkE2NdP1jVk",
   "rating": 4.7,

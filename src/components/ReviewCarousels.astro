@@ -1,0 +1,258 @@
+---
+interface Props {
+  googlePlaceId: string;
+  googleMapsUri: string;
+  tripadvisorLocationId?: string;
+  tripadvisorUrl?: string;
+}
+
+const { googlePlaceId, googleMapsUri, tripadvisorLocationId = '', tripadvisorUrl = '' } = Astro.props;
+---
+
+<section
+  class="reviews-section"
+  aria-labelledby="guest-reviews-title"
+  data-review-widget
+  data-google-place-id={googlePlaceId}
+  data-google-maps-uri={googleMapsUri}
+  data-tripadvisor-location-id={tripadvisorLocationId}
+  data-tripadvisor-url={tripadvisorUrl}
+>
+  <div class="reviews-intro">
+    <p class="eyebrow">Recent experiences</p>
+    <h2 id="guest-reviews-title">Guest reviews</h2>
+    <p>Only reviews rated above 4.5 are shown.</p>
+  </div>
+
+  <section class="provider-carousel google-carousel" data-review-provider="google" aria-labelledby="google-reviews-title">
+    <header>
+      <h3 id="google-reviews-title"><span class="google-maps-attribution" translate="no">Google Maps</span> reviews</h3>
+      {googleMapsUri && <a href={googleMapsUri} rel="noreferrer" target="_blank">View all on Google Maps ↗</a>}
+    </header>
+    <p class="review-status" data-review-status aria-live="polite">Loading live reviews…</p>
+    <div class="review-track" data-review-track tabindex="0" aria-label="Google Maps review carousel"></div>
+    <div class="carousel-controls" data-carousel-controls hidden>
+      <button type="button" data-direction="-1" aria-label="Previous Google Maps review">←</button>
+      <button type="button" data-direction="1" aria-label="Next Google Maps review">→</button>
+    </div>
+    <p class="provider-notice" data-provider-notice></p>
+    <p class="provider-attributions" data-provider-attributions></p>
+  </section>
+
+  <section class="provider-carousel tripadvisor-carousel" data-review-provider="tripadvisor" aria-labelledby="tripadvisor-reviews-title">
+    <header>
+      <h3 id="tripadvisor-reviews-title">Tripadvisor reviews</h3>
+      {tripadvisorUrl && <a href={tripadvisorUrl} rel="noreferrer" target="_blank">View all on Tripadvisor ↗</a>}
+    </header>
+    <p class="review-status" data-review-status aria-live="polite">Loading live reviews…</p>
+    <div class="review-track" data-review-track tabindex="0" aria-label="Tripadvisor review carousel"></div>
+    <div class="carousel-controls" data-carousel-controls hidden>
+      <button type="button" data-direction="-1" aria-label="Previous Tripadvisor review">←</button>
+      <button type="button" data-direction="1" aria-label="Next Tripadvisor review">→</button>
+    </div>
+    <p class="provider-notice" data-provider-notice></p>
+  </section>
+</section>
+
+<script>
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  interface LiveReview {
+    rating: number;
+    title?: string;
+    text: string;
+    originalText?: string;
+    translated?: boolean;
+    publishedAt?: string;
+    relativePublishedAt?: string;
+    author: string;
+    authorUrl?: string;
+    authorAvatar?: string;
+    sourceUrl?: string;
+    reportUrl?: string;
+  }
+  interface ProviderPayload {
+    available?: boolean;
+    reviews?: LiveReview[];
+    notice?: string;
+    attributions?: Array<{ name: string; url: string }>;
+    openingHours?: { openNow?: boolean; weekdayDescriptions?: string[] };
+  }
+  interface ReviewResponse { google: ProviderPayload; tripadvisor: ProviderPayload }
+
+  const httpUrl = (value?: string) => {
+    if (!value) return '';
+    try {
+      const url = new URL(value);
+      return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
+    } catch {
+      return '';
+    }
+  };
+
+  const element = (tag: keyof HTMLElementTagNameMap, className: string, text = ''): HTMLElement => {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text) node.textContent = text;
+    return node;
+  };
+
+  const link = (label: string, url?: string, className = ''): HTMLElement => {
+    const safeUrl = httpUrl(url);
+    if (!safeUrl) return element('span', className, label);
+    const node = document.createElement('a');
+    node.className = className;
+    node.textContent = label;
+    node.href = safeUrl;
+    node.target = '_blank';
+    node.rel = 'noreferrer';
+    return node;
+  };
+
+  const reviewCard = (review: LiveReview, provider: 'google' | 'tripadvisor') => {
+    const article = element('article', 'review-card');
+    const top = element('div', 'review-card-top');
+    const author = element('div', 'review-author');
+    const avatarUrl = httpUrl(review.authorAvatar);
+    if (provider !== 'google' && avatarUrl) {
+      const avatar = document.createElement('img');
+      avatar.src = avatarUrl;
+      avatar.alt = '';
+      avatar.loading = 'lazy';
+      author.append(avatar);
+    }
+    const authorText = element('div', 'review-author-text');
+    authorText.append(link(review.author, review.authorUrl, 'review-author-name'));
+    if (review.relativePublishedAt || review.publishedAt) {
+      const publishedAt = review.publishedAt ?? '';
+      const date = document.createElement('time');
+      date.className = 'review-date';
+      date.textContent = review.relativePublishedAt || (publishedAt ? new Date(publishedAt).toLocaleDateString(undefined, { month: 'short', year: 'numeric' }) : '');
+      if (publishedAt) date.dateTime = publishedAt;
+      authorText.append(date);
+    }
+    author.append(authorText);
+    top.append(author, element('span', 'review-stars', '★★★★★'));
+    article.append(top);
+    if (review.title) article.append(element('h4', '', review.title));
+    article.append(element('p', 'review-copy', review.text));
+    if (review.translated) article.append(element('p', 'review-translation', 'Translated by Google Maps.'));
+    const actions = element('p', 'review-actions');
+    actions.append(link(`Read on ${provider === 'google' ? 'Google Maps' : 'Tripadvisor'} ↗`, review.sourceUrl));
+    if (provider === 'google' && review.reportUrl) {
+      actions.append(document.createTextNode(' · '), link('Report review', review.reportUrl));
+    }
+    article.append(actions);
+    return article;
+  };
+
+  const renderProvider = (widget: HTMLElement, provider: 'google' | 'tripadvisor', payload: ProviderPayload) => {
+    const panel = widget.querySelector(`[data-review-provider="${provider}"]`);
+    if (!panel) return;
+    const status = panel.querySelector('[data-review-status]');
+    const track = panel.querySelector('[data-review-track]');
+    const controls = panel.querySelector('[data-carousel-controls]');
+    const notice = panel.querySelector('[data-provider-notice]');
+    if (!(status instanceof HTMLElement) || !(track instanceof HTMLElement) || !(controls instanceof HTMLElement) || !(notice instanceof HTMLElement)) return;
+    track.replaceChildren();
+    const reviews = payload?.reviews ?? [];
+    if (!reviews.length) {
+      status.textContent = payload?.available === false
+        ? 'Live reviews are not available for this listing yet.'
+        : 'No qualifying 5-star reviews were returned for this listing.';
+      notice.textContent = '';
+      return;
+    }
+    status.hidden = true;
+    for (const review of reviews) track.append(reviewCard(review, provider));
+    notice.textContent = payload.notice ?? '';
+    controls.hidden = reviews.length < 2;
+    for (const button of controls.querySelectorAll<HTMLButtonElement>('button')) {
+      button.addEventListener('click', () => track.scrollBy({ left: Number(button.dataset.direction) * track.clientWidth * 0.9, behavior: 'smooth' }));
+    }
+    if (provider === 'google') {
+      const attributions = panel.querySelector('[data-provider-attributions]');
+      if (attributions instanceof HTMLElement && payload.attributions?.length) {
+        attributions.append('Additional data: ');
+        payload.attributions.forEach((item, index) => {
+          if (index) attributions.append(', ');
+          attributions.append(link(item.name, item.url));
+        });
+      }
+    }
+  };
+
+  const renderOpeningHours = (widget: HTMLElement, openingHours?: ProviderPayload['openingHours']) => {
+    const article = widget.closest('article');
+    const label = article?.querySelector<HTMLElement>('[data-live-hours-label]');
+    const value = article?.querySelector<HTMLElement>('[data-live-hours]');
+    const descriptions = openingHours?.weekdayDescriptions ?? [];
+    if (!label || !value || !descriptions.length) return;
+    label.hidden = false;
+    value.hidden = false;
+    const details = document.createElement('details');
+    const summary = document.createElement('summary');
+    summary.textContent = openingHours?.openNow === true ? 'Open now · View weekly hours' : openingHours?.openNow === false ? 'Closed now · View weekly hours' : 'View weekly hours';
+    const list = document.createElement('ul');
+    for (const description of descriptions) list.append(element('li', '', description));
+    details.append(summary, list);
+    value.replaceChildren(details);
+  };
+
+  for (const widget of document.querySelectorAll('[data-review-widget]')) {
+    if (!(widget instanceof HTMLElement)) continue;
+    const query = new URLSearchParams({
+      googlePlaceId: widget.dataset.googlePlaceId ?? '',
+      tripadvisorLocationId: widget.dataset.tripadvisorLocationId ?? '',
+    });
+    fetch(`${base}/api/reviews?${query}`, { headers: { Accept: 'application/json' }, cache: 'no-store' })
+      .then((response) => {
+        if (!response.ok) throw new Error('Review service unavailable');
+        return response.json();
+      })
+      .then((payload: ReviewResponse) => {
+        renderProvider(widget, 'google', payload.google);
+        renderProvider(widget, 'tripadvisor', payload.tripadvisor);
+        renderOpeningHours(widget, payload.google.openingHours);
+      })
+      .catch(() => {
+        renderProvider(widget, 'google', { available: false, reviews: [] });
+        renderProvider(widget, 'tripadvisor', { available: false, reviews: [] });
+      });
+  }
+</script>
+
+<style is:global>
+  .reviews-section { margin-top: 4.5rem; display: grid; gap: 2.25rem; }
+  .reviews-intro h2 { margin: .15rem 0 .5rem; font-size: clamp(2.4rem, 5vw, 4rem); }
+  .reviews-intro > p:last-child { color: #657b76; }
+  .provider-carousel { padding: 1.5rem; border: 1px solid var(--line); border-radius: 22px; background: var(--paper); overflow: hidden; }
+  .provider-carousel > header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+  .provider-carousel h3 { margin: 0; font-size: 1.45rem; }
+  .provider-carousel header a { color: var(--sea); font-weight: 700; font-size: .9rem; }
+  .google-maps-attribution { font-family: Roboto, sans-serif; font-style: normal; font-weight: 400; white-space: nowrap; color: #5e5e5e; }
+  .review-track { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(280px, 72%); gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; padding: .25rem .1rem 1rem; }
+  .google-carousel .review-track { grid-auto-columns: calc((100% - 2rem) / 3); }
+  .review-card { scroll-snap-align: start; min-height: 255px; padding: 1.25rem; border-radius: 16px; background: var(--cream); display: flex; flex-direction: column; }
+  .review-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: .75rem; }
+  .review-author { display: flex; align-items: center; gap: .65rem; min-width: 0; }
+  .review-author img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
+  .review-author-text { display: grid; }
+  .review-author-name { color: var(--ink); font-weight: 800; overflow-wrap: anywhere; }
+  .review-date { color: #657b76; font-size: .78rem; }
+  .review-stars { color: #e79b16; letter-spacing: .08em; white-space: nowrap; }
+  .review-card h4 { margin: 1.1rem 0 .2rem; font-size: 1rem; }
+  .review-copy { margin: 1rem 0; line-height: 1.65; }
+  .review-translation, .review-actions { color: #657b76; font-size: .78rem; }
+  .review-actions { margin-top: auto; }
+  .review-actions a { color: var(--sea); }
+  .carousel-controls { display: flex; justify-content: flex-end; gap: .5rem; }
+  .carousel-controls button { width: 42px; height: 42px; border: 1px solid var(--line); border-radius: 50%; background: var(--paper); color: var(--ink); cursor: pointer; font-size: 1.15rem; }
+  .provider-notice, .provider-attributions, .review-status { color: #657b76; font-size: .76rem; }
+  .provider-attributions a { color: inherit; }
+  @media (max-width: 650px) {
+    .provider-carousel > header { align-items: flex-start; flex-direction: column; }
+    .review-track { grid-auto-columns: 92%; }
+    .google-carousel .review-track { grid-auto-columns: 92%; }
+  }
+  @media (min-width: 651px) and (max-width: 950px) { .google-carousel .review-track { grid-auto-columns: calc((100% - 1rem) / 2); } }
+</style>

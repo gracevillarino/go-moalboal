@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import InstagramGallery from '../../components/InstagramGallery.astro';
+import ReviewCarousels from '../../components/ReviewCarousels.astro';
 
 export async function getStaticPaths() {
   const businesses = await getCollection('businesses', ({ data }) => data.status === 'published');
@@ -9,31 +11,53 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { data } = entry;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <BaseLayout title={`${data.name} — Go Moalboal`} description={data.summary}>
   <article>
     <header class="listing-hero section">
-      <a href="/directory">← Back to directory</a>
+      <a href={`${base}/directory`}>← Back to directory</a>
       <div class="listing-title"><div><span class="pill">{data.categories.join(' · ')}</span><h1>{data.name}</h1></div><p>{data.summary}</p></div>
     </header>
     <div class="listing-body section">
       <div>
         {data.sample && <p class="sample-notice"><strong>Fictional sample:</strong> this listing exists only to demonstrate the site and is not a real business.</p>}
-        <h2>About</h2><p>{data.description}</p>
+        <h2>About</h2>
+        {data.description.split(/\n\n+/).map((paragraph: string) => <p>{paragraph}</p>)}
         <div class="tags">{data.tags.map((tag: string) => <span>#{tag}</span>)}</div>
+        {data.sources.length > 0 && <section class="listing-sources" aria-labelledby="listing-sources-title">
+          <h3 id="listing-sources-title">Sources</h3>
+          <ol>
+            {data.sources.map((source) => <li><a href={source.url} rel="noreferrer" target="_blank">{source.title}</a> <span>— {source.publisher}</span></li>)}
+          </ol>
+        </section>}
       </div>
       <aside>
         <p class="eyebrow">At a glance</p>
         <dl>
           <dt>Area</dt><dd>{data.barangay}</dd>
           <dt>Address</dt><dd>{data.address}</dd>
+          {data.phone && <><dt>Phone</dt><dd><a href={`tel:${data.phone.replace(/[^+\d]/g, '')}`}>{data.phone}</a></dd></>}
+          {data.email && <><dt>Email</dt><dd><a href={`mailto:${data.email}`}>{data.email}</a></dd></>}
+          {data.website && <><dt>Website</dt><dd><a href={data.website} rel="noreferrer" target="_blank">Visit official website ↗</a></dd></>}
+          {data.facebook && <><dt>Facebook</dt><dd><a href={data.facebook} rel="noreferrer" target="_blank">Open Facebook page ↗</a></dd></>}
+          <dt data-live-hours-label hidden>Hours</dt><dd data-live-hours hidden></dd>
           {data.rating && <><dt>Google rating</dt><dd>★ {data.rating.toFixed(1)} from {data.ratingCount.toLocaleString()} reviews</dd></>}
           <dt>Listing status</dt><dd>{data.verified ? 'Owner verified' : 'Community reviewed'}</dd>
         </dl>
         {data.googleMapsUri && <a class="maps-link" href={data.googleMapsUri} rel="noreferrer" target="_blank">View on Google Maps →</a>}
         <p class="attribution">Rating and place information sourced from Google Maps. Check Google Maps for current details.</p>
       </aside>
+    </div>
+    <div class="listing-extras section">
+      <ReviewCarousels
+        googlePlaceId={data.googlePlaceId}
+        googleMapsUri={data.googleMapsUri}
+        tripadvisorLocationId={data.reviewInsights?.tripadvisor?.locationId}
+        tripadvisorUrl={data.reviewInsights?.tripadvisor?.url}
+      />
+      <InstagramGallery name={data.name} sources={data.sources} />
     </div>
   </article>
 </BaseLayout>
@@ -49,7 +73,16 @@ const { data } = entry;
   .sample-notice { padding: 1rem; background: #fff2cc; border-radius: 12px; }
   aside { background: var(--cream); padding: 2rem; border-radius: 20px; }
   dl { margin: 0; } dt { font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 800; margin-top: 1.2rem; } dd { margin: .3rem 0 0; }
+  dd a { color: var(--sea); overflow-wrap: anywhere; }
+  dd details summary { cursor: pointer; color: var(--sea); font-weight: 700; }
+  dd details ul { padding-left: 1rem; font-size: .8rem; }
   .tags { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: 2rem; color: var(--sea); }
+  .listing-sources { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+  .listing-sources h3 { font-size: 1.35rem; }
+  .listing-sources ol { padding-left: 1.25rem; }
+  .listing-sources li { margin: .6rem 0; }
+  .listing-sources span { color: #657b76; font-size: .9rem; }
+  .listing-extras { padding-top: 0; }
   .maps-link { display: inline-block; margin-top: 1.5rem; font-weight: 800; color: var(--sea); }
   .attribution { margin-top: 1.5rem; color: #657b76; font-size: .75rem; }
   @media (max-width: 750px) { .listing-title, .listing-body { grid-template-columns: 1fr; gap: 2rem; } }

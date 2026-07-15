@@ -2,6 +2,9 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const path = (value: string) => `${base}${value}`;
+
 const allBusinesses = await getCollection('businesses', ({ data }) => data.status === 'published');
 const businesses = allBusinesses
   .sort((a, b) => (b.data.ratingCount - a.data.ratingCount) || a.data.name.localeCompare(b.data.name))
@@ -18,8 +21,8 @@ const stories = (await getCollection('stories', ({ data }) => data.status === 'p
       <h1>Know the town.<br /><em>Find your people.</em></h1>
       <p class="intro">A community-made home for discovering Moalboal, finding trusted local services and helping good projects grow.</p>
       <div class="actions">
-        <a class="button" href="/explore">Explore Moalboal</a>
-        <a class="button secondary" href="/community#help">How can I help?</a>
+        <a class="button" href={path('/explore')}>Explore Moalboal</a>
+        <a class="button secondary" href={path('/community#help')}>How can I help?</a>
       </div>
     </div>
     <div class="town-note" aria-label="Welcome note">
@@ -41,9 +44,9 @@ const stories = (await getCollection('stories', ({ data }) => data.status === 'p
       <p>Look beyond the checklist. Discover places through local context, from an early coffee to an afternoon underwater.</p>
     </div>
     <div class="explore-grid">
-      <a href="/directory?category=eat" class="feature-card coral"><span>01</span><h3>Eat & drink</h3><p>Local tables, good coffee and where to go next.</p></a>
-      <a href="/directory?category=stay" class="feature-card sea"><span>02</span><h3>Stay awhile</h3><p>Find a base that fits the way you travel.</p></a>
-      <a href="/directory?category=dive" class="feature-card sun-card"><span>03</span><h3>Meet the sea</h3><p>Diving, snorkelling and responsible ocean experiences.</p></a>
+      <a href={path('/directory?category=eat')} class="feature-card coral"><span>01</span><h3>Eat & drink</h3><p>Local tables, good coffee and where to go next.</p></a>
+      <a href={path('/directory?category=stay')} class="feature-card sea"><span>02</span><h3>Stay awhile</h3><p>Find a base that fits the way you travel.</p></a>
+      <a href={path('/directory?category=dive')} class="feature-card sun-card"><span>03</span><h3>Meet the sea</h3><p>Diving, snorkelling and responsible ocean experiences.</p></a>
     </div>
   </section>
 
@@ -53,24 +56,24 @@ const stories = (await getCollection('stories', ({ data }) => data.status === 'p
       <h2>How can I help?</h2>
     </div>
     <div class="help-list">
-      <a href="/community#volunteer"><span>Volunteer locally</span><b>→</b></a>
-      <a href="/community#organizations"><span>Support an organization</span><b>→</b></a>
-      <a href="/community#skills"><span>Share a useful skill</span><b>→</b></a>
+      <a href={path('/community#volunteer')}><span>Volunteer locally</span><b>→</b></a>
+      <a href={path('/community#organizations')}><span>Support an organization</span><b>→</b></a>
+      <a href={path('/community#skills')}><span>Share a useful skill</span><b>→</b></a>
     </div>
   </section>
 
   <section class="section living-section">
-    <div class="living-copy"><p class="eyebrow">For more than a holiday</p><h2>Living here,<br />made clearer.</h2><p>Practical, locally reviewed guides for the questions that maps cannot answer.</p><a href="/living">Browse living guides →</a></div>
+    <div class="living-copy"><p class="eyebrow">For more than a holiday</p><h2>Living here,<br />made clearer.</h2><p>Practical, locally reviewed guides for the questions that maps cannot answer.</p><a href={path('/living')}>Browse living guides →</a></div>
     <div class="living-topics">
       <span>01</span><p>Moving to Moalboal</p><span>02</span><p>Internet & mobile</p><span>03</span><p>Finding a home</p><span>04</span><p>Healthcare</p>
     </div>
   </section>
 
   <section class="section">
-    <div class="section-heading"><div><p class="eyebrow">{allBusinesses.length} approved places</p><h2>Meet the neighbourhood</h2></div><a href="/directory">Search the full directory →</a></div>
+    <div class="section-heading"><div><p class="eyebrow">{allBusinesses.length} approved places</p><h2>Meet the neighbourhood</h2></div><a href={path('/directory')}>Search the full directory →</a></div>
     <div class="grid">
       {businesses.map(({ data }) => (
-        <a class="card" href={`/directory/${data.slug}`}>
+        <a class="card" href={path(`/directory/${data.slug}`)}>
           <span class="pill">{data.categories.join(' · ')}</span><h3>{data.name}</h3><p>{data.summary}</p>
           {data.rating && <b class="home-rating">★ {data.rating.toFixed(1)} · {data.ratingCount.toLocaleString()} reviews</b>}
         </a>
@@ -81,11 +84,11 @@ const stories = (await getCollection('stories', ({ data }) => data.status === 'p
   <section class="section home-stories">
     <div class="section-heading">
       <div><p class="eyebrow">From the source desk</p><h2>Stories of Moalboal</h2></div>
-      <a href="/stories">Read all six stories →</a>
+      <a href={path('/stories')}>Read all six stories →</a>
     </div>
     <div class="grid">
       {stories.map(({ data }) => (
-        <a class="card story-preview" href={`/stories/${data.slug}`}>
+        <a class="card story-preview" href={path(`/stories/${data.slug}`)}>
           <span class="pill">{data.type.replace('-', ' ')}</span>
           <h3>{data.title}</h3>
           <p>{data.summary}</p>

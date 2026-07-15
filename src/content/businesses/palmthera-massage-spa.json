@@ -2,7 +2,7 @@
   "name": "PALMTHERA MASSAGE & SPA",
   "slug": "palmthera-massage-spa",
   "summary": "Local service in Moalboal. Rated 4.6 from 179 Google reviews.",
-  "description": "PALMTHERA MASSAGE & SPA is listed at W9XC+G38, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For an everyday task around Moalboal, PALMTHERA MASSAGE & SPA is one of the local services you can contact. Confirm current hours, availability and pricing directly.\n\nPALMTHERA MASSAGE & SPA is listed as a local service in Moalboal, Moalboal, at W9XC+G38, Moalboal, Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "services",
   "categories": [
     "services"
@@ -13,10 +13,22 @@
     "lat": 9.9487954,
     "lng": 123.37020260000001
   },
-  "phone": "",
+  "phone": "0912 286 4914",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=910876270386786941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:25.022Z",
+  "sources": [
+    {
+      "title": "PALMTHERA MASSAGE & SPA on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=910876270386786941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=910876270386786941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ1TggdS_pqzMRfbK8UiQVpAw",
   "rating": 4.6,

@@ -2,7 +2,7 @@
   "name": "Johns Adventure And Tours",
   "slug": "johns-adventure-and-tours",
   "summary": "Diving and ocean activities and Transport in Panagsama. Rated 4.9 from 73 Google reviews.",
-  "description": "Johns Adventure And Tours is listed at Panagsama Rd, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Panagsama, Johns Adventure And Tours is a local operator worth including in your research. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nJohns Adventure And Tours is listed as a diving and ocean activity provider in Panagsama, Moalboal, at Panagsama Rd, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive",
@@ -14,10 +14,22 @@
     "lat": 9.9503925,
     "lng": 123.36587709999999
   },
-  "phone": "",
+  "phone": "0915 139 1615",
   "email": "",
   "website": "",
   "facebook": "",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=17452488931802613829&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:18.264Z",
+  "sources": [
+    {
+      "title": "Johns Adventure And Tours on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=17452488931802613829&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=17452488931802613829&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJufuP5w_pqzMRRQiIWjeyM_I",
   "rating": 4.9,

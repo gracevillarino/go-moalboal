@@ -2,7 +2,7 @@
   "name": "PAPABO Adventure Village",
   "slug": "papabo-adventure-village",
   "summary": "Shopping in Tuble. Rated 4.7 from 150 Google reviews.",
-  "description": "PAPABO Adventure Village is listed at Barangay, Pet Babiera St, Tuble, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "When you need to pick something up around Tuble, PAPABO Adventure Village is one of the nearby places to know about. Its published information highlights coffee and motorbike rental. Check current stock and opening times before heading over.\n\nPAPABO Adventure Village is listed as a local shop in Tuble, Moalboal, at Barangay, Pet Babiera St, Tuble, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "shop",
   "categories": [
     "shop"
@@ -13,10 +13,48 @@
     "lat": 9.956087799999999,
     "lng": 123.382565
   },
-  "phone": "",
+  "phone": "(032) 520 5358",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "https://papabo.ph/",
+  "facebook": "https://www.facebook.com/profile.php?id=100094178107799",
+  "contactCheckedAt": "2026-07-14T08:01:27.785Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=10552720121020596748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "https://papabo.ph/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:26.948Z",
+  "sources": [
+    {
+      "title": "PAPABO Adventure Village on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=10552720121020596748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "PAPABO Adventure Village",
+      "publisher": "papabo.ph",
+      "url": "https://papabo.ph/"
+    },
+    {
+      "title": "PAPABO Adventure Village Facebook page",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100094178107799"
+    },
+    {
+      "title": "About the PAPABO experience",
+      "publisher": "papabo.ph",
+      "url": "https://papabo.ph/features/about"
+    },
+    {
+      "title": "PAPABO Adventure Village on Instagram",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/papaboadventurevillage/?igsh=MjI3ZWF2ZnM4dnVn&fbclid=IwAR0ZXVxPf5pd5VKCLjLYS-yGDOQli_U6cYeSXqL15jt_b4_xw03K-w0tf70"
+    },
+    {
+      "title": "PAPABO Adventure Village on Facebook",
+      "publisher": "Facebook",
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https://papabo.ph/"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=10552720121020596748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJqRhB64DpqzMRDMKMEwrLcpI",
   "rating": 4.7,

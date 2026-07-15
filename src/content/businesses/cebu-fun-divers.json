@@ -2,7 +2,7 @@
   "name": "Cebu Fun Divers",
   "slug": "cebu-fun-divers",
   "summary": "Diving and ocean activities in Basdiot. Rated 4.9 from 456 Google reviews.",
-  "description": "Cebu Fun Divers is listed at Sitio Talisay Rd, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "description": "For time in the water around Basdiot, Cebu Fun Divers is a local operator worth including in your research. Its published information highlights a swimming pool, dive courses, and guided dives. Contact the operator directly to confirm conditions, schedules and experience requirements.\n\nCebu Fun Divers is listed as a diving and ocean activity provider in Basdiot, Moalboal, at Sitio Talisay Rd, Basdiot, Moalboal, 6032 Cebu. Use the contact and source links on this page to verify current services, hours and availability.",
   "category": "dive",
   "categories": [
     "dive"
@@ -13,10 +13,44 @@
     "lat": 9.9430401,
     "lng": 123.3691219
   },
-  "phone": "",
+  "phone": "0906 412 3660",
   "email": "",
-  "website": "",
-  "facebook": "",
+  "website": "http://www.cebufundivers.com/",
+  "facebook": "http://www.facebook.com/cebufundivers",
+  "contactCheckedAt": "2026-07-14T13:40:17.941Z",
+  "contactSources": [
+    "https://maps.google.com/?cid=14473057440936348209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "http://www.cebufundivers.com/",
+    "https://cebufundivers.com/"
+  ],
+  "aboutGeneratedAt": "2026-07-14T08:38:15.107Z",
+  "sources": [
+    {
+      "title": "Cebu Fun Divers on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=14473057440936348209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+    },
+    {
+      "title": "Cebu Fun Divers",
+      "publisher": "cebufundivers.com",
+      "url": "https://cebufundivers.com/"
+    },
+    {
+      "title": "Cebu Fun Divers Facebook page",
+      "publisher": "Facebook",
+      "url": "http://www.facebook.com/cebufundivers"
+    },
+    {
+      "title": "Cebu Fun Divers on YouTube",
+      "publisher": "YouTube",
+      "url": "http://www.youtube.com/user/CebuFunDivers"
+    },
+    {
+      "title": "Cebu Fun Divers on Tripadvisor",
+      "publisher": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g663539-d4103392-Reviews-Cebu_Fun_Divers-Moalboal_Cebu_Island_Visayas.html"
+    }
+  ],
   "googleMapsUri": "https://maps.google.com/?cid=14473057440936348209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
   "googlePlaceId": "ChIJ8QQzNt3oqzMRMcrVnA-h2sg",
   "rating": 4.9,
