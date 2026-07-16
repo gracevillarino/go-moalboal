@@ -1,0 +1,68 @@
+{
+  "name": "Michael's Apartment",
+  "slug": "michael-s-apartment",
+  "summary": "Spacious self-catering apartments for couples, families and groups in Poblacion West.",
+  "description": "Michael's Apartment offers self-catering accommodation in a quiet part of Poblacion West, within reach of Moalboal town and the coast. Guests can choose between two-bedroom apartments with a balcony or terrace and a smaller one-bedroom option.\n\nThe larger apartments include two bedrooms, a living area, kitchen, air conditioning and outdoor space, with room for families or groups. Wi-Fi and on-site parking are available, and scooter rental may be arranged directly with the property. Check the official website or booking links for current rates, availability and accommodation terms.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Poblacion West",
+  "address": "Sitio Kabansoy, Poblacion West, Moalboal, 6032 Cebu, Philippines",
+  "coordinates": {
+    "lat": 9.9389496,
+    "lng": 123.3835321
+  },
+  "phone": "+63 945 820 0487",
+  "email": "",
+  "website": "https://www.michaels-apartment.com/",
+  "facebook": "",
+  "contactCheckedAt": "2026-07-16T00:00:00.000Z",
+  "contactSources": [
+    "https://www.google.com/maps/place/Michael's+Apartment/@9.9389496,123.3835321,17z/data=!4m6!3m5!1s0x33abe90063cea82b:0xbea9405910adee7a!8m2!3d9.9389496!4d123.3835321!16s%2Fg%2F11y3ypshtr",
+    "https://www.michaels-apartment.com/"
+  ],
+  "sources": [
+    {
+      "title": "Michael's Apartment official website",
+      "publisher": "Michael's Apartment",
+      "url": "https://www.michaels-apartment.com/"
+    },
+    {
+      "title": "Michael's Apartment on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://www.google.com/maps/place/Michael's+Apartment/@9.9389496,123.3835321,17z/data=!4m6!3m5!1s0x33abe90063cea82b:0xbea9405910adee7a!8m2!3d9.9389496!4d123.3835321!16s%2Fg%2F11y3ypshtr"
+    },
+    {
+      "title": "Michael's Apartment on Booking.com",
+      "publisher": "Booking.com",
+      "url": "https://www.booking.com/hotel/ph/michaels-apartment-moalboal5.en-gb.html"
+    },
+    {
+      "title": "Michael's Apartment on Agoda",
+      "publisher": "Agoda",
+      "url": "https://www.agoda.com/en-sg/michael-s-apartment/hotel/moalboal-ph.html"
+    },
+    {
+      "title": "Michael's Apartment (Balcony) on Airbnb",
+      "publisher": "Airbnb",
+      "url": "https://www.airbnb.com/rooms/1116734926817530153"
+    }
+  ],
+  "googleMapsUri": "https://www.google.com/maps/place/Michael's+Apartment/@9.9389496,123.3835321,17z/data=!4m6!3m5!1s0x33abe90063cea82b:0xbea9405910adee7a!8m2!3d9.9389496!4d123.3835321!16s%2Fg%2F11y3ypshtr",
+  "googlePlaceId": "",
+  "rating": null,
+  "ratingCount": 0,
+  "tags": [
+    "stay",
+    "apartment",
+    "self-catering",
+    "family-friendly",
+    "kitchen",
+    "parking"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

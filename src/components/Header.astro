@@ -1,13 +1,15 @@
 ---
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const path = (value: string) => `${base}${value}`;
+const currentPath = Astro.url.pathname.slice(base.length) || '/';
 
 const nav = [
-  ['Explore', '/explore'],
-  ['Directory', '/directory'],
-  ['Living here', '/living'],
-  ['Community', '/community'],
-  ['Stories', '/stories'],
+  { label: 'Explore', mobileLabel: 'Explore', href: '/explore', icon: '✦' },
+  { label: 'Barangay map', mobileLabel: 'Map', href: '/map', icon: '⌖' },
+  { label: 'Directory', mobileLabel: 'Directory', href: '/directory', icon: '▦' },
+  { label: 'Living here', mobileLabel: 'Living', href: '/living', icon: '⌂' },
+  { label: 'Community', mobileLabel: 'Community', href: '/community', icon: '◎' },
+  { label: 'Stories', mobileLabel: 'Stories', href: '/stories', icon: '▤' },
 ];
 ---
 
@@ -20,8 +22,18 @@ const nav = [
       height="941"
     />
   </a>
-  <nav aria-label="Primary navigation">
-    {nav.map(([label, href]) => <a href={path(href)}>{label}</a>)}
+  <nav class="primary-nav" aria-label="Primary navigation">
+    {nav.map(({ label, mobileLabel, href, icon }) => {
+      const isActive = currentPath === href || currentPath.startsWith(`${href}/`);
+
+      return (
+        <a href={path(href)} aria-current={isActive ? 'page' : undefined}>
+          <span class="nav-icon" aria-hidden="true">{icon}</span>
+          <span class="nav-label nav-label-desktop">{label}</span>
+          <span class="nav-label nav-label-mobile">{mobileLabel}</span>
+        </a>
+      );
+    })}
   </nav>
-  <a class="help-link" href={path('/community#help')}>How can I help?</a>
+  <a class="help-link" href={path('/contact')}>Contact us</a>
 </header>

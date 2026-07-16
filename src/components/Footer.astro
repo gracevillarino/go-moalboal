@@ -1,7 +1,13 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const path = (value: string) => `${base}${value}`;
+---
+
 <footer class="site-footer">
   <div>
     <p class="footer-brand">Go Moalboal</p>
     <p>A community-made guide to discovering, living and helping in Moalboal.</p>
+    <p>Information on this website is community-maintained. Spotted something wrong? <a href={path('/contact')}>Let us know.</a></p>
   </div>
   <div>
     <p class="eyebrow">Independent, community-first</p>

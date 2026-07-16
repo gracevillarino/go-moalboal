@@ -90,12 +90,14 @@ GitHub Pages can host the static site but cannot execute this endpoint, so the l
 carousels require the Cloudflare deployment. `/api/reviews` is blocked in `robots.txt` and
 returns `no-store` and `noindex` headers.
 
-Instagram sections show up to six posts in a three-column carousel. Verified public post
-or reel URLs work as embeds without extra setup. To load the latest six posts for a
-professional account, add `INSTAGRAM_BUSINESS_ACCOUNT_ID` and `INSTAGRAM_ACCESS_TOKEN` to
-`.env` and to the corresponding Cloudflare secrets. The live endpoint uses Instagram
-Business Discovery and does not scrape profiles; personal accounts that are unavailable
-through the API fall back to their verified profile link.
+Place pages link to a confirmed public Instagram profile in At a glance when one is
+included in the listing sources. Live Instagram feed carousels are deferred until Meta
+Business Verification and Advanced Access are approved; the project does not scrape
+Instagram or imply that arbitrary public profiles are available through the API.
+
+The contact form posts to FormSubmit and sends notifications to `hello@gomoalboal.com`.
+The first live submission triggers a one-time activation email that must be approved in
+that inbox before later submissions will be delivered.
 
 Run `pnpm enrich:emails` to check listed official websites for public email addresses.
 Email is displayed only when found. Weekly opening hours are requested live from Google

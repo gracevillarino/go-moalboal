@@ -1,0 +1,438 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import boundaryData from '../data/moalboal-boundaries.json';
+import { barangayFacts, mapPlaces, mapSources } from '../data/moalboal-map';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+type Point = [number, number];
+type Geometry = { type: 'Polygon' | 'MultiPolygon'; coordinates: Point[][] | Point[][][] };
+type Feature = { properties: { name: string; code: string; areaSqKm: number }; geometry: Geometry };
+
+const features = boundaryData.features as unknown as Feature[];
+const polygons = (geometry: Geometry): Point[][][] =>
+  geometry.type === 'Polygon' ? [geometry.coordinates as Point[][]] : geometry.coordinates as Point[][][];
+
+const inRing = ([x, y]: Point, ring: Point[]) => {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i];
+    const [xj, yj] = ring[j];
+    if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+};
+
+const inGeometry = (point: Point, geometry: Geometry) =>
+  polygons(geometry).some((polygon) => inRing(point, polygon[0]) && !polygon.slice(1).some((hole) => inRing(point, hole)));
+
+const segmentDistanceSquared = (point: Point, a: Point, b: Point) => {
+  let [x, y] = a;
+  const dx = b[0] - x;
+  const dy = b[1] - y;
+  const length = dx * dx + dy * dy;
+  const t = length ? Math.max(0, Math.min(1, ((point[0] - x) * dx + (point[1] - y) * dy) / length)) : 0;
+  x += t * dx;
+  y += t * dy;
+  return (point[0] - x) ** 2 + (point[1] - y) ** 2;
+};
+
+const distanceToGeometry = (point: Point, geometry: Geometry) => {
+  if (inGeometry(point, geometry)) return 0;
+  let closest = Number.POSITIVE_INFINITY;
+  for (const polygon of polygons(geometry)) {
+    for (const ring of polygon) {
+      for (let i = 1; i < ring.length; i++) closest = Math.min(closest, segmentDistanceSquared(point, ring[i - 1], ring[i]));
+    }
+  }
+  return closest;
+};
+
+const closestFeature = (point: Point) => features.reduce((closest, feature) =>
+  distanceToGeometry(point, feature.geometry) < distanceToGeometry(point, closest.geometry) ? feature : closest
+);
+
+const ringCentroid = (ring: Point[]) => {
+  let area = 0;
+  let x = 0;
+  let y = 0;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const cross = ring[j][0] * ring[i][1] - ring[i][0] * ring[j][1];
+    area += cross;
+    x += (ring[j][0] + ring[i][0]) * cross;
+    y += (ring[j][1] + ring[i][1]) * cross;
+  }
+  area /= 2;
+  return { area, x: x / (6 * area), y: y / (6 * area) };
+};
+
+const geometryCentroid = (geometry: Geometry): Point => {
+  let totalArea = 0;
+  let x = 0;
+  let y = 0;
+  for (const polygon of polygons(geometry)) {
+    for (const ring of polygon) {
+      const centroid = ringCentroid(ring);
+      totalArea += centroid.area;
+      x += centroid.x * centroid.area;
+      y += centroid.y * centroid.area;
+    }
+  }
+  return [x / totalArea, y / totalArea];
+};
+
+const haversine = (from: Point, to: { lat: number; lng: number }) => {
+  const radians = (value: number) => value * Math.PI / 180;
+  const dLat = radians(to.lat - from[1]);
+  const dLng = radians(to.lng - from[0]);
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(radians(from[1])) * Math.cos(radians(to.lat)) * Math.sin(dLng / 2) ** 2;
+  return 6371 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+};
+
+const publishedBusinesses = await getCollection('businesses', ({ data }) => data.status === 'published' && Boolean(data.coordinates));
+const availability = Object.fromEntries(features.map(({ properties }) => [properties.name, { stay: 0, eat: 0 }]));
+
+for (const business of publishedBusinesses) {
+  const coordinates = business.data.coordinates;
+  if (!coordinates) continue;
+  const point: Point = [coordinates.lng, coordinates.lat];
+  const feature = features.find(({ geometry }) => inGeometry(point, geometry)) ?? closestFeature(point);
+  const counts = availability[feature.properties.name];
+  if (business.data.categories.includes('stay')) counts.stay += 1;
+  if (business.data.categories.includes('eat')) counts.eat += 1;
+}
+
+const allPoints = features.flatMap(({ geometry }) => polygons(geometry).flat(2));
+const minLng = Math.min(...allPoints.map(([lng]) => lng), mapPlaces.white.lng, mapPlaces.panagsama.lng, mapPlaces.tongo.lng);
+const maxLng = Math.max(...allPoints.map(([lng]) => lng));
+const minLat = Math.min(...allPoints.map(([, lat]) => lat));
+const maxLat = Math.max(...allPoints.map(([, lat]) => lat));
+const mapWidth = 690;
+const mapHeight = 640;
+const padding = 30;
+const scale = Math.min((mapWidth - padding * 2) / (maxLng - minLng), (mapHeight - padding * 2) / (maxLat - minLat));
+const project = ([lng, lat]: Point): Point => [padding + (lng - minLng) * scale, mapHeight - padding - (lat - minLat) * scale];
+const geometryPath = (geometry: Geometry) => polygons(geometry).map((polygon) => polygon.map((ring) =>
+  ring.map((point, index) => `${index ? 'L' : 'M'}${project(point).map((value) => value.toFixed(1)).join(',')}`).join(' ') + ' Z'
+).join(' ')).join(' ');
+
+const barangays = features.map((feature) => {
+  const name = feature.properties.name;
+  const centroid = geometryCentroid(feature.geometry);
+  const counts = availability[name];
+  const totalListings = counts.stay + counts.eat;
+  return {
+    name,
+    code: feature.properties.code,
+    area: feature.properties.areaSqKm,
+    population: barangayFacts[name].population,
+    highlight: barangayFacts[name].highlight,
+    localities: barangayFacts[name].localities ?? [],
+    stay: counts.stay,
+    eat: counts.eat,
+    tier: totalListings >= 20 ? 'many' : totalListings > 0 ? 'some' : 'none',
+    centroid,
+    labelPoint: project(centroid),
+    path: geometryPath(feature.geometry),
+    distances: {
+      town: haversine(centroid, mapPlaces.town),
+      white: haversine(centroid, mapPlaces.white),
+      panagsama: haversine(centroid, mapPlaces.panagsama),
+      tongo: haversine(centroid, mapPlaces.tongo),
+    },
+  };
+}).sort((a, b) => a.name.localeCompare(b.name));
+
+const clientData = Object.fromEntries(barangays.map((barangay) => [barangay.name, barangay]));
+const selected = clientData.Basdiot;
+const totalPopulation = barangays.reduce((sum, barangay) => sum + barangay.population, 0);
+const formatDistance = (value: number) => `${value.toFixed(1)} km`;
+const markerPoints = Object.entries(mapPlaces).map(([key, place]) => ({ key, ...place, point: project([place.lng, place.lat]) }));
+---
+
+<BaseLayout
+  title="Moalboal Barangay Map — Population, places and distances"
+  description="Explore all 15 Moalboal barangays with 2024 population, accommodation and restaurant listings, beach distances and local highlights."
+  image="/og-map.png"
+>
+  <section class="map-hero section">
+    <div>
+      <p class="eyebrow">Know the whole town</p>
+      <h1>Moalboal,<br /><em>barangay by barangay.</em></h1>
+    </div>
+    <div class="hero-note">
+      <p>Choose a barangay to compare where people live, where visitor services cluster and how the beaches relate to the town centre.</p>
+      <div class="hero-stats" aria-label="Map summary">
+        <span><strong>15</strong> barangays</span>
+        <span><strong>{totalPopulation.toLocaleString()}</strong> residents · 2024</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="geography-guide section" aria-labelledby="geography-heading">
+    <div><p class="eyebrow">How the names fit together</p><h2 id="geography-heading">One town,<br />several layers.</h2></div>
+    <div class="geography-steps">
+      <div><span>01</span><strong>Municipality</strong><p>Moalboal is the municipality—the whole town shown on this map.</p></div>
+      <div><span>02</span><strong>Barangay</strong><p>An official local government area, such as Basdiot or Saavedra.</p></div>
+      <div><span>03</span><strong>Locality or sitio</strong><p>A smaller, familiar place name such as Panagsama, Tongo or Basdaku.</p></div>
+      <div><span>04</span><strong>Place</strong><p>A beach, restaurant, accommodation or service within that locality.</p></div>
+    </div>
+    <p class="example-path"><strong>Example:</strong> Moalboal <i>→</i> Barangay Basdiot <i>→</i> Panagsama <i>→</i> a place in the directory</p>
+  </section>
+
+  <section class="map-section section" aria-labelledby="map-heading">
+    <div class="section-heading map-heading">
+      <div><p class="eyebrow">Pick a place</p><h2 id="map-heading">Explore the barangays</h2></div>
+      <div class="legend" aria-label="Directory listing availability">
+        <span><i class="legend-many"></i>Many listings</span>
+        <span><i class="legend-some"></i>Some listings</span>
+        <span><i class="legend-none"></i>None listed</span>
+      </div>
+    </div>
+
+    <div class="map-layout">
+      <div class="map-wrap">
+        <svg class="barangay-map" viewBox={`0 0 ${mapWidth} ${mapHeight}`} role="img" aria-labelledby="svg-title svg-description">
+          <title id="svg-title">Map of Moalboal’s 15 barangays</title>
+          <desc id="svg-description">Select a barangay boundary to show its population, local directory listings, distances and highlight.</desc>
+          <g class="boundaries">
+            {barangays.map((barangay) => (
+              <path
+                class={`barangay-shape availability-${barangay.tier} ${barangay.name === 'Basdiot' ? 'is-selected' : ''}`}
+                d={barangay.path}
+                data-barangay={barangay.name}
+                role="button"
+                tabindex="0"
+                aria-label={`Show ${barangay.name}`}
+                aria-pressed={barangay.name === 'Basdiot' ? 'true' : 'false'}
+              />
+            ))}
+          </g>
+          <g class="map-labels" aria-hidden="true">
+            {barangays.map((barangay) => (
+              <text x={barangay.labelPoint[0]} y={barangay.labelPoint[1]}>{barangay.name.replace('Poblacion ', 'Pobl. ')}</text>
+            ))}
+          </g>
+          <g class="place-markers" aria-hidden="true">
+            {markerPoints.map((marker) => (
+              <g transform={`translate(${marker.point[0]} ${marker.point[1]})`}>
+                <circle r="5"></circle>
+                <text x="9" y="4">{marker.name}</text>
+              </g>
+            ))}
+          </g>
+        </svg>
+        <p class="map-caption">Barangay boundaries are approximate. Distances use each barangay’s geographic centre and are straight-line estimates, not road distances.</p>
+      </div>
+
+      <aside class="detail-panel" aria-live="polite">
+        <p class="eyebrow">Selected barangay</p>
+        <div class="detail-title"><h2 id="detail-name">{selected.name}</h2><span id="detail-population">{selected.population.toLocaleString()} people</span></div>
+        <p class="highlight" id="detail-highlight">{selected.highlight}</p>
+        <p class="localities" id="detail-localities">{selected.localities.length ? `Known localities: ${selected.localities.join(' · ')}` : 'No locality names are documented in this guide yet.'}</p>
+
+        <div class="availability-block">
+          <p class="detail-label">In the Go Moalboal directory</p>
+          <div class="availability-counts">
+            <span><strong id="detail-stay">{selected.stay}</strong> places to stay</span>
+            <span><strong id="detail-eat">{selected.eat}</strong> places to eat</span>
+          </div>
+        </div>
+
+        <div class="distance-block">
+          <p class="detail-label">Approx. distance from barangay centre</p>
+          <dl>
+            <div><dt>Town centre</dt><dd id="distance-town">{formatDistance(selected.distances.town)}</dd></div>
+            <div><dt>White Beach</dt><dd id="distance-white">{formatDistance(selected.distances.white)}</dd></div>
+            <div><dt>Panagsama Beach</dt><dd id="distance-panagsama">{formatDistance(selected.distances.panagsama)}</dd></div>
+            <div><dt>Tongo Beach</dt><dd id="distance-tongo">{formatDistance(selected.distances.tongo)}</dd></div>
+          </dl>
+        </div>
+        <div class="directory-actions">
+          <a id="detail-directory-link" href={`${base}/directory?barangay=${encodeURIComponent(selected.name)}`}>Browse all listed places →</a>
+          <a id="detail-stay-link" href={`${base}/directory?barangay=${encodeURIComponent(selected.name)}&category=stay`}>Places to stay</a>
+          <a id="detail-eat-link" href={`${base}/directory?barangay=${encodeURIComponent(selected.name)}&category=eat`}>Places to eat</a>
+        </div>
+      </aside>
+    </div>
+
+    <div class="barangay-picker" aria-label="Choose a barangay">
+      {barangays.map((barangay) => (
+        <button class={barangay.name === 'Basdiot' ? 'is-selected' : ''} type="button" data-pick={barangay.name} aria-pressed={barangay.name === 'Basdiot' ? 'true' : 'false'}>{barangay.name}</button>
+      ))}
+    </div>
+  </section>
+
+  <section class="compare-section section" aria-labelledby="compare-heading">
+    <div class="section-heading">
+      <div><p class="eyebrow">All 15 at a glance</p><h2 id="compare-heading">Compare barangays</h2></div>
+      <p>Availability is based on approved places currently published in this site’s directory. A zero means none are listed here yet, not that none exist locally.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Barangay</th><th>Population</th><th>Stay</th><th>Eat</th><th>Town</th><th>White Beach</th><th>Panagsama</th><th>Tongo</th></tr></thead>
+        <tbody>
+          {barangays.map((barangay) => (
+            <tr>
+              <th scope="row"><button type="button" data-pick={barangay.name}>{barangay.name}</button></th>
+              <td>{barangay.population.toLocaleString()}</td><td>{barangay.stay}</td><td>{barangay.eat}</td>
+              <td>{formatDistance(barangay.distances.town)}</td><td>{formatDistance(barangay.distances.white)}</td>
+              <td>{formatDistance(barangay.distances.panagsama)}</td><td>{formatDistance(barangay.distances.tongo)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="sources-section section">
+    <div><p class="eyebrow">Method & sources</p><h2>Useful estimates,<br />clearly labelled.</h2></div>
+    <div>
+      <p>Population uses the official 2024 POPCEN. Boundaries come from open PSGC-aligned administrative data. Beach and town markers are reference points; the kilometre figures are calculated from barangay geographic centres.</p>
+      <ul>{mapSources.map((source) => <li><a href={source.url} target="_blank" rel="noreferrer">{source.label} ↗</a></li>)}</ul>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ barangayData: clientData, siteBase: base }}>
+    const formatNumber = new Intl.NumberFormat('en');
+    const setText = (id, value) => {
+      const element = document.getElementById(id);
+      if (element) element.textContent = value;
+    };
+    const selectBarangay = (name, shouldScroll = false) => {
+      const barangay = barangayData[name];
+      if (!barangay) return;
+      setText('detail-name', barangay.name);
+      setText('detail-population', `${formatNumber.format(barangay.population)} people`);
+      setText('detail-highlight', barangay.highlight);
+      setText('detail-localities', barangay.localities.length ? `Known localities: ${barangay.localities.join(' · ')}` : 'No locality names are documented in this guide yet.');
+      setText('detail-stay', String(barangay.stay));
+      setText('detail-eat', String(barangay.eat));
+      for (const [key, value] of Object.entries(barangay.distances)) setText(`distance-${key}`, `${value.toFixed(1)} km`);
+      const directoryLink = document.getElementById('detail-directory-link');
+      const stayLink = document.getElementById('detail-stay-link');
+      const eatLink = document.getElementById('detail-eat-link');
+      const directoryUrl = `${siteBase}/directory?barangay=${encodeURIComponent(name)}`;
+      if (directoryLink) directoryLink.setAttribute('href', directoryUrl);
+      if (stayLink) { stayLink.setAttribute('href', `${directoryUrl}&category=stay`); stayLink.hidden = barangay.stay === 0; }
+      if (eatLink) { eatLink.setAttribute('href', `${directoryUrl}&category=eat`); eatLink.hidden = barangay.eat === 0; }
+      document.querySelectorAll('[data-barangay]').forEach((element) => {
+        const selected = element.getAttribute('data-barangay') === name;
+        element.classList.toggle('is-selected', selected);
+        element.setAttribute('aria-pressed', String(selected));
+      });
+      document.querySelectorAll('[data-pick]').forEach((element) => {
+        const selected = element.getAttribute('data-pick') === name;
+        element.classList.toggle('is-selected', selected);
+        element.setAttribute('aria-pressed', String(selected));
+      });
+      if (shouldScroll && window.innerWidth < 900) document.querySelector('.detail-panel')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    };
+    document.querySelectorAll('[data-barangay]').forEach((element) => {
+      element.addEventListener('click', () => selectBarangay(element.getAttribute('data-barangay'), true));
+      element.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          selectBarangay(element.getAttribute('data-barangay'), true);
+        }
+      });
+    });
+    document.querySelectorAll('[data-pick]').forEach((element) => element.addEventListener('click', () => selectBarangay(element.getAttribute('data-pick'), true)));
+    const requestedBarangay = new URLSearchParams(window.location.search).get('barangay');
+    if (requestedBarangay && barangayData[requestedBarangay]) selectBarangay(requestedBarangay);
+  </script>
+</BaseLayout>
+
+<style>
+  .map-hero { min-height: 540px; display: grid; grid-template-columns: 1.25fr .75fr; gap: 5vw; align-items: end; background: linear-gradient(135deg, var(--cream) 55%, rgba(244,188,75,.34)); }
+  .map-hero h1 { max-width: 12ch; font-size: clamp(3.4rem, 7vw, 6.8rem); }
+  .map-hero h1 em { color: var(--sea); font-weight: inherit; }
+  .hero-note { max-width: 34rem; padding-bottom: .5rem; }
+  .hero-note > p { font-size: 1.12rem; color: #47635d; }
+  .hero-stats { display: flex; gap: 2rem; margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
+  .hero-stats span { display: flex; flex-direction: column; font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
+  .hero-stats strong { font-family: 'Fraunces', serif; font-size: 2rem; line-height: 1.1; letter-spacing: 0; text-transform: none; }
+  .geography-guide { display: grid; grid-template-columns: .65fr 1.35fr; gap: 4rem; background: var(--sea); color: #fff; }
+  .geography-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 2rem; }
+  .geography-steps div { position: relative; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.28); }
+  .geography-steps span { color: var(--sun); font-size: .72rem; font-weight: 800; }
+  .geography-steps strong { display: block; margin-top: .25rem; font-family: 'Fraunces', serif; font-size: 1.4rem; }
+  .geography-steps p { margin: .35rem 0 0; color: #d7edeb; font-size: .88rem; }
+  .example-path { grid-column: 2; margin: 0; padding: 1rem 1.2rem; background: rgba(255,255,255,.1); border-radius: 14px; }
+  .example-path i { color: var(--sun); padding: 0 .35rem; }
+  .map-section { background: var(--paper); }
+  .map-heading { align-items: center; }
+  .legend { display: flex; flex-wrap: wrap; gap: .65rem 1rem; font-size: .78rem; color: #526b65; }
+  .legend span { display: flex; gap: .4rem; align-items: center; }
+  .legend i { width: .85rem; height: .85rem; border-radius: 3px; }
+  .legend-many { background: var(--sea); } .legend-some { background: var(--sun); } .legend-none { background: #dfe6de; }
+  .map-layout { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(310px, .75fr); gap: clamp(1.25rem, 4vw, 4rem); align-items: start; }
+  .map-wrap { min-width: 0; }
+  .barangay-map { display: block; width: 100%; max-height: 720px; overflow: visible; }
+  .barangay-shape { stroke: var(--paper); stroke-width: 2.2; vector-effect: non-scaling-stroke; cursor: pointer; transition: fill .2s ease, opacity .2s ease, stroke .2s ease; }
+  .barangay-shape:hover, .barangay-shape:focus { opacity: .82; outline: none; stroke: var(--ink); stroke-width: 3; }
+  .barangay-shape.is-selected { stroke: var(--coral); stroke-width: 5; }
+  .availability-many { fill: var(--sea); } .availability-some { fill: var(--sun); } .availability-none { fill: #dfe6de; }
+  .map-labels { pointer-events: none; }
+  .map-labels text { fill: var(--ink); font-family: 'DM Sans', sans-serif; font-size: 9px; font-weight: 700; text-anchor: middle; paint-order: stroke; stroke: rgba(255,253,248,.9); stroke-width: 2.5px; stroke-linejoin: round; }
+  .place-markers { pointer-events: none; }
+  .place-markers circle { fill: var(--coral); stroke: var(--paper); stroke-width: 2; }
+  .place-markers text { fill: var(--ink); font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 800; paint-order: stroke; stroke: var(--paper); stroke-width: 3px; }
+  .map-caption { max-width: 52rem; margin: .5rem 0 0; color: #60766f; font-size: .78rem; }
+  .detail-panel { position: sticky; top: 1.5rem; padding: clamp(1.5rem, 3vw, 2.3rem); border-radius: 26px; background: var(--ink); color: #fff; }
+  .detail-panel .eyebrow { color: var(--sun); }
+  .detail-title { display: flex; align-items: end; justify-content: space-between; gap: 1rem; padding-bottom: 1.2rem; border-bottom: 1px solid rgba(255,255,255,.2); }
+  .detail-title h2 { font-size: clamp(2.3rem, 4vw, 3.7rem); }
+  .detail-title span { max-width: 8rem; text-align: right; font-size: .8rem; }
+  .highlight { min-height: 6.2rem; margin: 1.3rem 0; color: #d9e7e2; }
+  .localities { margin: -1rem 0 1.3rem; color: var(--sun); font-size: .78rem; }
+  .detail-label { margin: 0 0 .75rem; color: #91b3aa; font-size: .7rem; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; }
+  .availability-block { padding: 1.2rem 0; border-top: 1px solid rgba(255,255,255,.2); border-bottom: 1px solid rgba(255,255,255,.2); }
+  .availability-counts { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .availability-counts span { display: flex; flex-direction: column; font-size: .75rem; }
+  .availability-counts strong { color: var(--sun); font-family: 'Fraunces', serif; font-size: 2.1rem; line-height: 1; }
+  .distance-block { padding-top: 1.2rem; }
+  .distance-block dl { margin: 0; }
+  .distance-block dl div { display: flex; justify-content: space-between; gap: 1rem; padding: .48rem 0; }
+  .distance-block dt { color: #d9e7e2; } .distance-block dd { margin: 0; color: var(--sun); font-weight: 800; }
+  .directory-actions { display: grid; grid-template-columns: 1fr 1fr; gap: .55rem; margin-top: 1.3rem; }
+  .directory-actions a { padding: .65rem .75rem; border: 1px solid rgba(255,255,255,.3); border-radius: 10px; color: #fff; text-align: center; text-decoration: none; font-size: .75rem; font-weight: 800; }
+  .directory-actions a:first-child { grid-column: 1 / -1; background: var(--sun); color: var(--ink); border-color: var(--sun); }
+  .directory-actions a:hover { border-color: #fff; }
+  .barangay-picker { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 2.5rem; }
+  .barangay-picker button, table button { border: 0; font: inherit; color: inherit; cursor: pointer; }
+  .barangay-picker button { padding: .55rem .85rem; border: 1px solid var(--line); border-radius: 999px; background: transparent; font-size: .78rem; font-weight: 700; }
+  .barangay-picker button:hover, .barangay-picker button.is-selected { border-color: var(--sea); background: var(--sea); color: #fff; }
+  .compare-section { background: var(--cream); }
+  .table-wrap { overflow-x: auto; border-top: 2px solid var(--ink); }
+  table { width: 100%; min-width: 900px; border-collapse: collapse; font-size: .84rem; }
+  th, td { padding: .9rem .75rem; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  thead th { color: #60766f; font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; }
+  tbody th { font-family: 'Fraunces', serif; font-size: 1rem; }
+  table button { padding: 0; background: transparent; font-family: inherit; font-weight: 700; }
+  table button:hover { color: var(--sea); text-decoration: underline; }
+  .sources-section { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; background: var(--sea); color: #fff; }
+  .sources-section p { max-width: 36rem; color: #d7edeb; }
+  .sources-section ul { margin: 1.5rem 0 0; padding: 0; list-style: none; }
+  .sources-section li { padding: .65rem 0; border-top: 1px solid rgba(255,255,255,.25); }
+  .sources-section a { font-weight: 700; }
+  @media (max-width: 900px) {
+    .map-hero, .map-layout, .sources-section, .geography-guide { grid-template-columns: 1fr; }
+    .example-path { grid-column: 1; }
+    .map-hero { min-height: 0; align-items: start; }
+    .detail-panel { position: relative; top: 0; }
+    .highlight { min-height: 0; }
+  }
+  @media (max-width: 620px) {
+    .map-heading { display: block; }
+    .legend { margin-top: 1rem; }
+    .hero-stats { flex-direction: column; gap: 1rem; }
+    .geography-steps { grid-template-columns: 1fr; }
+    .map-wrap { margin-inline: -4vw; }
+    .map-caption { margin-inline: 4vw; }
+    .map-labels text { font-size: 8px; }
+    .place-markers text { font-size: 9px; }
+  }
+</style>

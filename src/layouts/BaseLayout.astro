@@ -5,13 +5,16 @@ import Footer from '../components/Footer.astro';
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
 }
 
 const {
   title = 'Go Moalboal — Know the town. Find your people.',
   description = 'A community hub for discovering, living, volunteering and connecting in Moalboal.',
+  image,
 } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const socialImage = image ? new URL(`${base}${image}`, Astro.url).href : undefined;
 ---
 
 <!doctype html>
@@ -20,6 +23,15 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url.href} />
+    {socialImage && <meta property="og:image" content={socialImage} />}
+    <meta name="twitter:card" content={socialImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {socialImage && <meta name="twitter:image" content={socialImage} />}
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/png" href={`${base}/brand/go-moalboal-icon.png?v=d3ea0597`} />
     <link rel="apple-touch-icon" href={`${base}/brand/go-moalboal-icon.png?v=d3ea0597`} />
@@ -82,9 +94,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     object-fit: cover;
     object-position: center;
   }
-  nav { display: flex; gap: clamp(.8rem, 2vw, 1.8rem); }
-  nav a { text-decoration: none; font-size: .92rem; font-weight: 600; }
-  nav a:hover { color: var(--sea); }
+  .primary-nav { display: flex; gap: clamp(.8rem, 2vw, 1.8rem); }
+  .primary-nav a { text-decoration: none; font-size: .92rem; font-weight: 600; }
+  .primary-nav a:hover,
+  .primary-nav a[aria-current='page'] { color: var(--sea); }
+  .nav-icon,
+  .nav-label-mobile { display: none; }
   .help-link, .button { display: inline-flex; align-items: center; justify-content: center; padding: .8rem 1.2rem; background: var(--ink); color: #fff; border-radius: 999px; text-decoration: none; font-weight: 700; }
   .button.secondary { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
   .eyebrow { margin: 0 0 .65rem; text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 800; }
@@ -104,14 +119,76 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .site-footer p { margin: .35rem 0; max-width: 31rem; }
   .footer-brand { font-family: 'Fraunces', serif; font-size: 2rem; font-weight: 700; }
 
+  @media (max-width: 1024px) {
+    body { padding-bottom: calc(70px + env(safe-area-inset-bottom)); }
+    .site-header { min-height: 72px; padding-inline: clamp(1rem, 4vw, 2rem); gap: 1rem; }
+    .primary-nav {
+      position: fixed;
+      z-index: 50;
+      inset-inline: max(0px, calc((100vw - 1480px) / 2));
+      bottom: 0;
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 0;
+      min-height: calc(64px + env(safe-area-inset-bottom));
+      padding: .35rem .35rem calc(.35rem + env(safe-area-inset-bottom));
+      border-top: 1px solid var(--line);
+      background: rgba(255, 253, 248, .97);
+      box-shadow: 0 -8px 28px rgba(23, 53, 47, .12);
+      backdrop-filter: blur(16px);
+    }
+    .primary-nav a {
+      position: relative;
+      display: flex;
+      min-width: 0;
+      min-height: 56px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: .08rem;
+      border-radius: 14px;
+      color: #59716c;
+      font-size: .62rem;
+      font-weight: 700;
+      line-height: 1.1;
+      text-align: center;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .primary-nav a[aria-current='page'] { background: rgba(8, 127, 120, .1); }
+    .nav-icon {
+      display: block;
+      min-height: 1.45rem;
+      color: currentColor;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.28rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .nav-label-desktop { display: none; }
+    .nav-label-mobile {
+      display: block;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
   @media (max-width: 850px) {
-    .site-header { flex-wrap: wrap; padding-block: 1rem; gap: 1rem; }
+    .site-header { padding-block: .65rem; gap: .75rem; }
     .brand { width: 180px; height: 52px; }
-    nav { order: 3; width: 100%; overflow-x: auto; padding-bottom: .25rem; }
     .help-link { font-size: .82rem; padding: .65rem .85rem; }
     .grid { grid-template-columns: 1fr; }
     .section-heading { display: block; }
     .section-heading p { margin-top: 1rem; }
     .site-footer { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 430px) {
+    .site-header { gap: .5rem; }
+    .brand { width: 150px; height: 46px; }
+    .help-link { padding: .6rem .72rem; font-size: .74rem; }
+    .primary-nav { padding-inline: .15rem; }
+    .primary-nav a { font-size: .58rem; }
   }
 </style>

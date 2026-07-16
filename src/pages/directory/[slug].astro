@@ -1,8 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import InstagramGallery from '../../components/InstagramGallery.astro';
 import ReviewCarousels from '../../components/ReviewCarousels.astro';
+import { getPlaceGeography } from '../../data/place-geography';
 
 export async function getStaticPaths() {
   const businesses = await getCollection('businesses', ({ data }) => data.status === 'published');
@@ -12,6 +12,11 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { data } = entry;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const geography = getPlaceGeography(data);
+const mapUrl = `${base}/map?barangay=${encodeURIComponent(geography.barangay)}`;
+const instagramUrl = data.sources
+  .map((source) => source.url)
+  .find((url) => /instagram\.com\//i.test(url) && !/instagram\.com\/(?:p|reel|tv)\//i.test(url));
 ---
 
 <BaseLayout title={`${data.name} — Go Moalboal`} description={data.summary}>
@@ -23,6 +28,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <div class="listing-body section">
       <div>
         {data.sample && <p class="sample-notice"><strong>Fictional sample:</strong> this listing exists only to demonstrate the site and is not a real business.</p>}
+        <nav class="place-hierarchy" aria-label="Place geography">
+          {geography.hierarchy.map((level: string, index: number) => <><span class={index === geography.hierarchy.length - 1 ? 'current' : ''}>{level}</span>{index < geography.hierarchy.length - 1 && <i>→</i>}</>)}
+        </nav>
+        <p class="geography-explainer">A <strong>barangay</strong> is an official local government area. {geography.locality ? <><strong>{geography.locality}</strong> is the locality or neighbourhood name people are more likely to use day to day.</> : <>This place is identified directly by its official barangay.</>}</p>
         <h2>About</h2>
         {data.description.split(/\n\n+/).map((paragraph: string) => <p>{paragraph}</p>)}
         <div class="tags">{data.tags.map((tag: string) => <span>#{tag}</span>)}</div>
@@ -36,16 +45,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <aside>
         <p class="eyebrow">At a glance</p>
         <dl>
-          <dt>Area</dt><dd>{data.barangay}</dd>
+          {geography.locality && <><dt>Locality or sitio</dt><dd>{geography.locality}</dd></>}
+          <dt>Official barangay</dt><dd><a href={mapUrl}>Barangay {geography.barangay}</a></dd>
           <dt>Address</dt><dd>{data.address}</dd>
           {data.phone && <><dt>Phone</dt><dd><a href={`tel:${data.phone.replace(/[^+\d]/g, '')}`}>{data.phone}</a></dd></>}
           {data.email && <><dt>Email</dt><dd><a href={`mailto:${data.email}`}>{data.email}</a></dd></>}
           {data.website && <><dt>Website</dt><dd><a href={data.website} rel="noreferrer" target="_blank">Visit official website ↗</a></dd></>}
           {data.facebook && <><dt>Facebook</dt><dd><a href={data.facebook} rel="noreferrer" target="_blank">Open Facebook page ↗</a></dd></>}
+          {instagramUrl && <><dt>Instagram</dt><dd><a href={instagramUrl} rel="noreferrer" target="_blank">Open Instagram profile ↗</a></dd></>}
           <dt data-live-hours-label hidden>Hours</dt><dd data-live-hours hidden></dd>
           {data.rating && <><dt>Google rating</dt><dd>★ {data.rating.toFixed(1)} from {data.ratingCount.toLocaleString()} reviews</dd></>}
           <dt>Listing status</dt><dd>{data.verified ? 'Owner verified' : 'Community reviewed'}</dd>
         </dl>
+        <a class="barangay-link" href={mapUrl}>Explore Barangay {geography.barangay} →</a>
         {data.googleMapsUri && <a class="maps-link" href={data.googleMapsUri} rel="noreferrer" target="_blank">View on Google Maps →</a>}
         <p class="attribution">Rating and place information sourced from Google Maps. Check Google Maps for current details.</p>
       </aside>
@@ -57,7 +69,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         tripadvisorLocationId={data.reviewInsights?.tripadvisor?.locationId}
         tripadvisorUrl={data.reviewInsights?.tripadvisor?.url}
       />
-      <InstagramGallery name={data.name} sources={data.sources} />
     </div>
   </article>
 </BaseLayout>
@@ -71,6 +82,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .listing-body { display: grid; grid-template-columns: 1.5fr .7fr; gap: 6rem; }
   .listing-body h2 { font-size: 3rem; }
   .sample-notice { padding: 1rem; background: #fff2cc; border-radius: 12px; }
+  .place-hierarchy { display: flex; align-items: center; gap: .55rem; flex-wrap: wrap; margin-bottom: 1rem; color: #47635d; font-size: .78rem; }
+  .place-hierarchy span { padding: .4rem .65rem; border-radius: 999px; background: var(--cream); }
+  .place-hierarchy .current { background: var(--sea); color: #fff; }
+  .place-hierarchy i { color: var(--coral); }
+  .geography-explainer { max-width: 46rem; margin: 0 0 3rem; padding-left: 1rem; border-left: 3px solid var(--sun); color: #526b65; }
   aside { background: var(--cream); padding: 2rem; border-radius: 20px; }
   dl { margin: 0; } dt { font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 800; margin-top: 1.2rem; } dd { margin: .3rem 0 0; }
   dd a { color: var(--sea); overflow-wrap: anywhere; }
@@ -83,7 +99,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .listing-sources li { margin: .6rem 0; }
   .listing-sources span { color: #657b76; font-size: .9rem; }
   .listing-extras { padding-top: 0; }
-  .maps-link { display: inline-block; margin-top: 1.5rem; font-weight: 800; color: var(--sea); }
+  .barangay-link, .maps-link { display: block; margin-top: 1.5rem; font-weight: 800; color: var(--sea); }
+  .barangay-link { padding: .8rem 1rem; border: 1px solid var(--sea); border-radius: 12px; text-decoration: none; }
   .attribution { margin-top: 1.5rem; color: #657b76; font-size: .75rem; }
   @media (max-width: 750px) { .listing-title, .listing-body { grid-template-columns: 1fr; gap: 2rem; } }
 </style>
