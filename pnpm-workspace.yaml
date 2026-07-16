@@ -4,3 +4,9 @@ packages:
 onlyBuiltDependencies:
   - esbuild
   - sharp
+
+# pnpm 11 replaced onlyBuiltDependencies with allowBuilds. Keep both forms so
+# Cloudflare's pnpm 10 builder and GitHub's pnpm 11 workflow share one policy.
+allowBuilds:
+  esbuild: true
+  sharp: true
