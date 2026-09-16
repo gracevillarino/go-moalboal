@@ -52,5 +52,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/m-l-diver-town/1.jpg",
+      "width": 1280,
+      "height": 960,
+      "attribution": {
+        "displayName": "M&L Diver Town",
+        "uri": "https://maps.google.com/maps/contrib/109041443496962662428"
+      }
+    },
+    {
+      "path": "/photos/m-l-diver-town/2.jpg",
+      "width": 1280,
+      "height": 720,
+      "attribution": {
+        "displayName": "M&L Diver Town",
+        "uri": "https://maps.google.com/maps/contrib/109041443496962662428"
+      }
+    },
+    {
+      "path": "/photos/m-l-diver-town/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "M&L Diver Town",
+        "uri": "https://maps.google.com/maps/contrib/109041443496962662428"
+      }
+    },
+    {
+      "path": "/photos/m-l-diver-town/4.jpg",
+      "width": 1280,
+      "height": 960,
+      "attribution": {
+        "displayName": "M&L Diver Town",
+        "uri": "https://maps.google.com/maps/contrib/109041443496962662428"
+      }
+    },
+    {
+      "path": "/photos/m-l-diver-town/5.jpg",
+      "width": 3468,
+      "height": 4624,
+      "attribution": {
+        "displayName": "McRey Banderlipe II",
+        "uri": "https://maps.google.com/maps/contrib/102792490421839688251"
+      }
+    }
+  ]
 }

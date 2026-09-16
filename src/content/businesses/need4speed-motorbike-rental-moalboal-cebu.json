@@ -46,5 +46,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/need4speed-motorbike-rental-moalboal-cebu/1.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Need4Speed Motorbike Rental - Moalboal Cebu",
+        "uri": "https://maps.google.com/maps/contrib/110153198716410347265"
+      }
+    },
+    {
+      "path": "/photos/need4speed-motorbike-rental-moalboal-cebu/2.jpg",
+      "width": 3648,
+      "height": 2736,
+      "attribution": {
+        "displayName": "Michael Magallanes",
+        "uri": "https://maps.google.com/maps/contrib/100522718832379770925"
+      }
+    },
+    {
+      "path": "/photos/need4speed-motorbike-rental-moalboal-cebu/3.jpg",
+      "width": 3648,
+      "height": 2736,
+      "attribution": {
+        "displayName": "Michael Magallanes",
+        "uri": "https://maps.google.com/maps/contrib/100522718832379770925"
+      }
+    },
+    {
+      "path": "/photos/need4speed-motorbike-rental-moalboal-cebu/4.jpg",
+      "width": 3648,
+      "height": 2736,
+      "attribution": {
+        "displayName": "Michael Magallanes",
+        "uri": "https://maps.google.com/maps/contrib/100522718832379770925"
+      }
+    },
+    {
+      "path": "/photos/need4speed-motorbike-rental-moalboal-cebu/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "19sms",
+        "uri": "https://maps.google.com/maps/contrib/112646480912869720427"
+      }
+    }
+  ]
 }

@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/ocean-passion-dive-center/1.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Ocean Passion Dive Center",
+        "uri": "https://maps.google.com/maps/contrib/117151479511946099661"
+      }
+    },
+    {
+      "path": "/photos/ocean-passion-dive-center/2.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Charlene Bulabos",
+        "uri": "https://maps.google.com/maps/contrib/111823795725981019943"
+      }
+    },
+    {
+      "path": "/photos/ocean-passion-dive-center/3.jpg",
+      "width": 960,
+      "height": 720,
+      "attribution": {
+        "displayName": "Kristina Luz Tapales",
+        "uri": "https://maps.google.com/maps/contrib/108184846900821465651"
+      }
+    },
+    {
+      "path": "/photos/ocean-passion-dive-center/4.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Kristina Luz Tapales",
+        "uri": "https://maps.google.com/maps/contrib/108184846900821465651"
+      }
+    },
+    {
+      "path": "/photos/ocean-passion-dive-center/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Ocean Passion Dive Center",
+        "uri": "https://maps.google.com/maps/contrib/117151479511946099661"
+      }
+    }
+  ]
 }

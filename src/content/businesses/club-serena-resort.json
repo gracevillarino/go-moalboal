@@ -125,5 +125,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/club-serena-resort/1.jpg",
+      "width": 3500,
+      "height": 2333,
+      "attribution": {
+        "displayName": "Club Serena Resort",
+        "uri": "https://maps.google.com/maps/contrib/106276558000196987989"
+      }
+    },
+    {
+      "path": "/photos/club-serena-resort/2.jpg",
+      "width": 1440,
+      "height": 960,
+      "attribution": {
+        "displayName": "Romelyn Dagaas",
+        "uri": "https://maps.google.com/maps/contrib/113119103862533327572"
+      }
+    },
+    {
+      "path": "/photos/club-serena-resort/3.jpg",
+      "width": 3120,
+      "height": 3120,
+      "attribution": {
+        "displayName": "Riza Gelacio",
+        "uri": "https://maps.google.com/maps/contrib/105762329339270169137"
+      }
+    },
+    {
+      "path": "/photos/club-serena-resort/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Leylan Romarate",
+        "uri": "https://maps.google.com/maps/contrib/100449341715527324577"
+      }
+    },
+    {
+      "path": "/photos/club-serena-resort/5.jpg",
+      "width": 1440,
+      "height": 960,
+      "attribution": {
+        "displayName": "Club Serena Resort",
+        "uri": "https://maps.google.com/maps/contrib/106276558000196987989"
+      }
+    }
+  ]
 }

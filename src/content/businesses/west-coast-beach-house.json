@@ -92,5 +92,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/west-coast-beach-house/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "West Coast Beach House",
+        "uri": "https://maps.google.com/maps/contrib/117642878221779597054"
+      }
+    },
+    {
+      "path": "/photos/west-coast-beach-house/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "West Coast Beach House",
+        "uri": "https://maps.google.com/maps/contrib/117642878221779597054"
+      }
+    },
+    {
+      "path": "/photos/west-coast-beach-house/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "West Coast Beach House",
+        "uri": "https://maps.google.com/maps/contrib/117642878221779597054"
+      }
+    },
+    {
+      "path": "/photos/west-coast-beach-house/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "West Coast Beach House",
+        "uri": "https://maps.google.com/maps/contrib/117642878221779597054"
+      }
+    },
+    {
+      "path": "/photos/west-coast-beach-house/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "West Coast Beach House",
+        "uri": "https://maps.google.com/maps/contrib/117642878221779597054"
+      }
+    }
+  ]
 }

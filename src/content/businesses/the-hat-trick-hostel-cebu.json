@@ -92,5 +92,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/the-hat-trick-hostel-cebu/1.jpg",
+      "width": 1496,
+      "height": 1496,
+      "attribution": {
+        "displayName": "The Hat Trick Hostel Cebu",
+        "uri": "https://maps.google.com/maps/contrib/106707404325198479664"
+      }
+    },
+    {
+      "path": "/photos/the-hat-trick-hostel-cebu/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Hageun Hwang",
+        "uri": "https://maps.google.com/maps/contrib/104850274875310403760"
+      }
+    },
+    {
+      "path": "/photos/the-hat-trick-hostel-cebu/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Ziv Satt",
+        "uri": "https://maps.google.com/maps/contrib/113933204298103713197"
+      }
+    },
+    {
+      "path": "/photos/the-hat-trick-hostel-cebu/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Emily Tros",
+        "uri": "https://maps.google.com/maps/contrib/114019285587868576187"
+      }
+    },
+    {
+      "path": "/photos/the-hat-trick-hostel-cebu/5.jpg",
+      "width": 748,
+      "height": 748,
+      "attribution": {
+        "displayName": "Ziv Satt",
+        "uri": "https://maps.google.com/maps/contrib/113933204298103713197"
+      }
+    }
+  ]
 }

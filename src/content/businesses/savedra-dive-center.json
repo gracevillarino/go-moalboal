@@ -69,5 +69,52 @@
   "featured": true,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/savedra-dive-center/1.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Justin Malécot",
+        "uri": "https://maps.google.com/maps/contrib/110585397734624210066"
+      }
+    },
+    {
+      "path": "/photos/savedra-dive-center/2.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Marcous Kim",
+        "uri": "https://maps.google.com/maps/contrib/115344373720147547326"
+      }
+    },
+    {
+      "path": "/photos/savedra-dive-center/3.jpg",
+      "width": 2704,
+      "height": 1520,
+      "attribution": {
+        "displayName": "Neil Fraser",
+        "uri": "https://maps.google.com/maps/contrib/103341059330953807632"
+      }
+    },
+    {
+      "path": "/photos/savedra-dive-center/4.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Kamile Gzibovskyte",
+        "uri": "https://maps.google.com/maps/contrib/113212598319920550442"
+      }
+    },
+    {
+      "path": "/photos/savedra-dive-center/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Liam Lindemann",
+        "uri": "https://maps.google.com/maps/contrib/104106014053199433342"
+      }
+    }
+  ]
 }

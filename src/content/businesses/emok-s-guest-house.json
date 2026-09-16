@@ -92,5 +92,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/emok-s-guest-house/1.jpg",
+      "width": 4800,
+      "height": 2700,
+      "attribution": {
+        "displayName": "Michal Bednarek",
+        "uri": "https://maps.google.com/maps/contrib/102718606437674539696"
+      }
+    },
+    {
+      "path": "/photos/emok-s-guest-house/2.jpg",
+      "width": 1920,
+      "height": 1442,
+      "attribution": {
+        "displayName": "Resti Tito H. Villarino",
+        "uri": "https://maps.google.com/maps/contrib/104519979301432768948"
+      }
+    },
+    {
+      "path": "/photos/emok-s-guest-house/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "성춘",
+        "uri": "https://maps.google.com/maps/contrib/105625417792993916569"
+      }
+    },
+    {
+      "path": "/photos/emok-s-guest-house/4.jpg",
+      "width": 1024,
+      "height": 768,
+      "attribution": {
+        "displayName": "Emok's Guest House",
+        "uri": "https://maps.google.com/maps/contrib/104979162639406765211"
+      }
+    },
+    {
+      "path": "/photos/emok-s-guest-house/5.jpg",
+      "width": 1920,
+      "height": 1148,
+      "attribution": {
+        "displayName": "Resti Tito H. Villarino",
+        "uri": "https://maps.google.com/maps/contrib/104519979301432768948"
+      }
+    }
+  ]
 }

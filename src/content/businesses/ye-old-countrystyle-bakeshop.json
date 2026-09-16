@@ -78,5 +78,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ye-old-countrystyle-bakeshop/1.jpg",
+      "width": 3968,
+      "height": 2976,
+      "attribution": {
+        "displayName": "Ye Old Countrystyle Bakeshop",
+        "uri": "https://maps.google.com/maps/contrib/111064590967664517930"
+      }
+    },
+    {
+      "path": "/photos/ye-old-countrystyle-bakeshop/2.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Yvonne Hsu",
+        "uri": "https://maps.google.com/maps/contrib/105310447772158868357"
+      }
+    },
+    {
+      "path": "/photos/ye-old-countrystyle-bakeshop/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Gordon Walker",
+        "uri": "https://maps.google.com/maps/contrib/109371315808468005898"
+      }
+    },
+    {
+      "path": "/photos/ye-old-countrystyle-bakeshop/4.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Jesse Townsend",
+        "uri": "https://maps.google.com/maps/contrib/110612437168185677275"
+      }
+    },
+    {
+      "path": "/photos/ye-old-countrystyle-bakeshop/5.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Gordon Walker",
+        "uri": "https://maps.google.com/maps/contrib/109371315808468005898"
+      }
+    }
+  ]
 }

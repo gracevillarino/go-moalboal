@@ -59,5 +59,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/kasai-village-dive-resort/1.jpg",
+      "width": 2000,
+      "height": 1460,
+      "attribution": {
+        "displayName": "Kasai Village Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/101605618741261793687"
+      }
+    },
+    {
+      "path": "/photos/kasai-village-dive-resort/2.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Christopher “Boyet” Sapong",
+        "uri": "https://maps.google.com/maps/contrib/109122694902083252726"
+      }
+    },
+    {
+      "path": "/photos/kasai-village-dive-resort/3.jpg",
+      "width": 4608,
+      "height": 2592,
+      "attribution": {
+        "displayName": "Chris Chandler",
+        "uri": "https://maps.google.com/maps/contrib/106905246753717777241"
+      }
+    },
+    {
+      "path": "/photos/kasai-village-dive-resort/4.jpg",
+      "width": 1280,
+      "height": 800,
+      "attribution": {
+        "displayName": "Kasai Village Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/101605618741261793687"
+      }
+    },
+    {
+      "path": "/photos/kasai-village-dive-resort/5.jpg",
+      "width": 3992,
+      "height": 2992,
+      "attribution": {
+        "displayName": "Kasai Village Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/101605618741261793687"
+      }
+    }
+  ]
 }

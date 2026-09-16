@@ -40,5 +40,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/ace-motorbike/1.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Anarose Bayot",
+        "uri": "https://maps.google.com/maps/contrib/101953215040167167339"
+      }
+    },
+    {
+      "path": "/photos/ace-motorbike/2.jpg",
+      "width": 2016,
+      "height": 1512,
+      "attribution": {
+        "displayName": "Anarose Bayot",
+        "uri": "https://maps.google.com/maps/contrib/101953215040167167339"
+      }
+    },
+    {
+      "path": "/photos/ace-motorbike/3.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Anarose Bayot",
+        "uri": "https://maps.google.com/maps/contrib/101953215040167167339"
+      }
+    },
+    {
+      "path": "/photos/ace-motorbike/4.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Anarose Bayot",
+        "uri": "https://maps.google.com/maps/contrib/101953215040167167339"
+      }
+    },
+    {
+      "path": "/photos/ace-motorbike/5.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Anarose Bayot",
+        "uri": "https://maps.google.com/maps/contrib/101953215040167167339"
+      }
+    }
+  ]
 }

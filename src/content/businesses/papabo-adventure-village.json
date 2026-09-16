@@ -69,5 +69,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/papabo-adventure-village/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "PAPABO Adventure Village",
+        "uri": "https://maps.google.com/maps/contrib/108547359043602370814"
+      }
+    },
+    {
+      "path": "/photos/papabo-adventure-village/2.jpg",
+      "width": 2048,
+      "height": 923,
+      "attribution": {
+        "displayName": "PAPABO Adventure Village",
+        "uri": "https://maps.google.com/maps/contrib/108547359043602370814"
+      }
+    },
+    {
+      "path": "/photos/papabo-adventure-village/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "PAPABO Adventure Village",
+        "uri": "https://maps.google.com/maps/contrib/108547359043602370814"
+      }
+    },
+    {
+      "path": "/photos/papabo-adventure-village/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Jamie",
+        "uri": "https://maps.google.com/maps/contrib/115377977559764073400"
+      }
+    },
+    {
+      "path": "/photos/papabo-adventure-village/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Ria Redoble",
+        "uri": "https://maps.google.com/maps/contrib/113897571836799258986"
+      }
+    }
+  ]
 }

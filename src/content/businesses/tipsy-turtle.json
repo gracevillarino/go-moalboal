@@ -77,5 +77,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/tipsy-turtle/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Roj Ecin",
+        "uri": "https://maps.google.com/maps/contrib/110961083776874468014"
+      }
+    },
+    {
+      "path": "/photos/tipsy-turtle/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Tipsy Turtle",
+        "uri": "https://maps.google.com/maps/contrib/105235183679455774229"
+      }
+    },
+    {
+      "path": "/photos/tipsy-turtle/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Tipsy Turtle",
+        "uri": "https://maps.google.com/maps/contrib/105235183679455774229"
+      }
+    },
+    {
+      "path": "/photos/tipsy-turtle/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Mizu",
+        "uri": "https://maps.google.com/maps/contrib/101795303595670956240"
+      }
+    },
+    {
+      "path": "/photos/tipsy-turtle/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Just Carter",
+        "uri": "https://maps.google.com/maps/contrib/102279844632102816037"
+      }
+    }
+  ]
 }

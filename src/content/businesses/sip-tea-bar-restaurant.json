@@ -82,5 +82,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/sip-tea-bar-restaurant/1.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Sip Tea Bar & Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/110387566172101813385"
+      }
+    },
+    {
+      "path": "/photos/sip-tea-bar-restaurant/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Sip Tea Bar & Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/110387566172101813385"
+      }
+    },
+    {
+      "path": "/photos/sip-tea-bar-restaurant/3.jpg",
+      "width": 1290,
+      "height": 2092,
+      "attribution": {
+        "displayName": "Sip Tea Bar & Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/110387566172101813385"
+      }
+    },
+    {
+      "path": "/photos/sip-tea-bar-restaurant/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Sip Tea Bar & Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/110387566172101813385"
+      }
+    },
+    {
+      "path": "/photos/sip-tea-bar-restaurant/5.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Maria Sorokina",
+        "uri": "https://maps.google.com/maps/contrib/118080259062152543572"
+      }
+    }
+  ]
 }

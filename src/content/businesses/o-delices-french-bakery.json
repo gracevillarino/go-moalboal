@@ -80,5 +80,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/o-delices-french-bakery/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Kenny Hawley",
+        "uri": "https://maps.google.com/maps/contrib/106128477027843391779"
+      }
+    },
+    {
+      "path": "/photos/o-delices-french-bakery/2.jpg",
+      "width": 2605,
+      "height": 1737,
+      "attribution": {
+        "displayName": "Ô délices French Bakery",
+        "uri": "https://maps.google.com/maps/contrib/106819031983204497385"
+      }
+    },
+    {
+      "path": "/photos/o-delices-french-bakery/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Gordon Walker",
+        "uri": "https://maps.google.com/maps/contrib/109371315808468005898"
+      }
+    },
+    {
+      "path": "/photos/o-delices-french-bakery/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "정가군자",
+        "uri": "https://maps.google.com/maps/contrib/113184935011959833136"
+      }
+    },
+    {
+      "path": "/photos/o-delices-french-bakery/5.jpg",
+      "width": 3960,
+      "height": 2970,
+      "attribution": {
+        "displayName": "Nazeem p",
+        "uri": "https://maps.google.com/maps/contrib/103175562910049534499"
+      }
+    }
+  ]
 }

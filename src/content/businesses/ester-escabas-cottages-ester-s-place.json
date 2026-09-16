@@ -91,5 +91,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ester-escabas-cottages-ester-s-place/1.jpg",
+      "width": 3472,
+      "height": 4624,
+      "attribution": {
+        "displayName": "Krislyn Kuan",
+        "uri": "https://maps.google.com/maps/contrib/105278214734291832047"
+      }
+    },
+    {
+      "path": "/photos/ester-escabas-cottages-ester-s-place/2.jpg",
+      "width": 3472,
+      "height": 4624,
+      "attribution": {
+        "displayName": "Krislyn Kuan",
+        "uri": "https://maps.google.com/maps/contrib/105278214734291832047"
+      }
+    },
+    {
+      "path": "/photos/ester-escabas-cottages-ester-s-place/3.jpg",
+      "width": 3840,
+      "height": 2160,
+      "attribution": {
+        "displayName": "Jorge Jr Ramonida",
+        "uri": "https://maps.google.com/maps/contrib/111074241252483377702"
+      }
+    },
+    {
+      "path": "/photos/ester-escabas-cottages-ester-s-place/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Genesis Garcia",
+        "uri": "https://maps.google.com/maps/contrib/107907708646820489632"
+      }
+    },
+    {
+      "path": "/photos/ester-escabas-cottages-ester-s-place/5.jpg",
+      "width": 3264,
+      "height": 2448,
+      "attribution": {
+        "displayName": "ianeth bartolata",
+        "uri": "https://maps.google.com/maps/contrib/116881799876304483256"
+      }
+    }
+  ]
 }

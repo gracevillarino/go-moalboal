@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/moalboal-spa-and-massage/1.jpg",
+      "width": 4800,
+      "height": 3199,
+      "attribution": {
+        "displayName": "Moalboal Spa And Massage",
+        "uri": "https://maps.google.com/maps/contrib/114897627394759634106"
+      }
+    },
+    {
+      "path": "/photos/moalboal-spa-and-massage/2.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Steph",
+        "uri": "https://maps.google.com/maps/contrib/105580240134969360548"
+      }
+    },
+    {
+      "path": "/photos/moalboal-spa-and-massage/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Fritz Harvey Aballe",
+        "uri": "https://maps.google.com/maps/contrib/117301583273647662560"
+      }
+    },
+    {
+      "path": "/photos/moalboal-spa-and-massage/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "HL",
+        "uri": "https://maps.google.com/maps/contrib/117933322651301446343"
+      }
+    },
+    {
+      "path": "/photos/moalboal-spa-and-massage/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "蔡叔朋",
+        "uri": "https://maps.google.com/maps/contrib/101864518977459184312"
+      }
+    }
+  ]
 }

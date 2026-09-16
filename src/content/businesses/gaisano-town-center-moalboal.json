@@ -47,5 +47,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/gaisano-town-center-moalboal/1.jpg",
+      "width": 4608,
+      "height": 2128,
+      "attribution": {
+        "displayName": "Caryl Vanessa",
+        "uri": "https://maps.google.com/maps/contrib/100222025399892152682"
+      }
+    },
+    {
+      "path": "/photos/gaisano-town-center-moalboal/2.jpg",
+      "width": 4000,
+      "height": 1840,
+      "attribution": {
+        "displayName": "Caryl Vanessa",
+        "uri": "https://maps.google.com/maps/contrib/100222025399892152682"
+      }
+    },
+    {
+      "path": "/photos/gaisano-town-center-moalboal/3.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Antonio Stark",
+        "uri": "https://maps.google.com/maps/contrib/108541258576048211901"
+      }
+    },
+    {
+      "path": "/photos/gaisano-town-center-moalboal/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "KRISTINE MARIE OVILLE",
+        "uri": "https://maps.google.com/maps/contrib/113704066013708345195"
+      }
+    },
+    {
+      "path": "/photos/gaisano-town-center-moalboal/5.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Cenon Oliver",
+        "uri": "https://maps.google.com/maps/contrib/111837361288227037357"
+      }
+    }
+  ]
 }

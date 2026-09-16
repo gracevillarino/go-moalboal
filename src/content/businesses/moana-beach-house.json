@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moana-beach-house/1.jpg",
+      "width": 1290,
+      "height": 935,
+      "attribution": {
+        "displayName": "Moana Beach House",
+        "uri": "https://maps.google.com/maps/contrib/106620865279296635278"
+      }
+    },
+    {
+      "path": "/photos/moana-beach-house/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Moana Beach House",
+        "uri": "https://maps.google.com/maps/contrib/106620865279296635278"
+      }
+    },
+    {
+      "path": "/photos/moana-beach-house/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Moana Beach House",
+        "uri": "https://maps.google.com/maps/contrib/106620865279296635278"
+      }
+    },
+    {
+      "path": "/photos/moana-beach-house/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Moana Beach House",
+        "uri": "https://maps.google.com/maps/contrib/106620865279296635278"
+      }
+    },
+    {
+      "path": "/photos/moana-beach-house/5.jpg",
+      "width": 1290,
+      "height": 1559,
+      "attribution": {
+        "displayName": "Moana Beach House",
+        "uri": "https://maps.google.com/maps/contrib/106620865279296635278"
+      }
+    }
+  ]
 }

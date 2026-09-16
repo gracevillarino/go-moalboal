@@ -112,5 +112,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/the-lounge-moalboal/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "The Lounge Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/116266615168128875351"
+      }
+    },
+    {
+      "path": "/photos/the-lounge-moalboal/2.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "The Lounge Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/116266615168128875351"
+      }
+    },
+    {
+      "path": "/photos/the-lounge-moalboal/3.jpg",
+      "width": 3376,
+      "height": 1900,
+      "attribution": {
+        "displayName": "The Lounge Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/116266615168128875351"
+      }
+    },
+    {
+      "path": "/photos/the-lounge-moalboal/4.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Christian Lauer",
+        "uri": "https://maps.google.com/maps/contrib/117939940660794031042"
+      }
+    },
+    {
+      "path": "/photos/the-lounge-moalboal/5.jpg",
+      "width": 960,
+      "height": 1280,
+      "attribution": {
+        "displayName": "Роман Петров (qwertyui)",
+        "uri": "https://maps.google.com/maps/contrib/111740432696163322323"
+      }
+    }
+  ]
 }

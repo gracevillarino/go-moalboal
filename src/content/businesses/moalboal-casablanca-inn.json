@@ -112,5 +112,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moalboal-casablanca-inn/1.jpg",
+      "width": 743,
+      "height": 495,
+      "attribution": {
+        "displayName": "Moalboal Casablanca Inn",
+        "uri": "https://maps.google.com/maps/contrib/103615859971659559191"
+      }
+    },
+    {
+      "path": "/photos/moalboal-casablanca-inn/2.jpg",
+      "width": 4000,
+      "height": 1848,
+      "attribution": {
+        "displayName": "Fabian Tipa",
+        "uri": "https://maps.google.com/maps/contrib/115730772828870857067"
+      }
+    },
+    {
+      "path": "/photos/moalboal-casablanca-inn/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "pranay tawake",
+        "uri": "https://maps.google.com/maps/contrib/114660454170510304949"
+      }
+    },
+    {
+      "path": "/photos/moalboal-casablanca-inn/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Mariam MOUMNI",
+        "uri": "https://maps.google.com/maps/contrib/100120725606830560221"
+      }
+    },
+    {
+      "path": "/photos/moalboal-casablanca-inn/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "pranay tawake",
+        "uri": "https://maps.google.com/maps/contrib/114660454170510304949"
+      }
+    }
+  ]
 }

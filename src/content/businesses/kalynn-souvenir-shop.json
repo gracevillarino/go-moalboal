@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/kalynn-souvenir-shop/1.jpg",
+      "width": 1808,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Kalynn Souvenir Shop",
+        "uri": "https://maps.google.com/maps/contrib/116140034063176412635"
+      }
+    },
+    {
+      "path": "/photos/kalynn-souvenir-shop/2.jpg",
+      "width": 4000,
+      "height": 1808,
+      "attribution": {
+        "displayName": "Kalynn Souvenir Shop",
+        "uri": "https://maps.google.com/maps/contrib/116140034063176412635"
+      }
+    },
+    {
+      "path": "/photos/kalynn-souvenir-shop/3.jpg",
+      "width": 788,
+      "height": 996,
+      "attribution": {
+        "displayName": "Kalynn Souvenir Shop",
+        "uri": "https://maps.google.com/maps/contrib/116140034063176412635"
+      }
+    },
+    {
+      "path": "/photos/kalynn-souvenir-shop/4.jpg",
+      "width": 948,
+      "height": 1288,
+      "attribution": {
+        "displayName": "Kalynn Souvenir Shop",
+        "uri": "https://maps.google.com/maps/contrib/116140034063176412635"
+      }
+    },
+    {
+      "path": "/photos/kalynn-souvenir-shop/5.jpg",
+      "width": 768,
+      "height": 1024,
+      "attribution": {
+        "displayName": "Kalynn Souvenir Shop",
+        "uri": "https://maps.google.com/maps/contrib/116140034063176412635"
+      }
+    }
+  ]
 }

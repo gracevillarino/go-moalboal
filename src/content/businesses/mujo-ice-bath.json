@@ -63,5 +63,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/mujo-ice-bath/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Shayne Hare",
+        "uri": "https://maps.google.com/maps/contrib/109654429205984472040"
+      }
+    },
+    {
+      "path": "/photos/mujo-ice-bath/2.jpg",
+      "width": 1080,
+      "height": 1440,
+      "attribution": {
+        "displayName": "Kai Ying Lim",
+        "uri": "https://maps.google.com/maps/contrib/117611229462482685900"
+      }
+    },
+    {
+      "path": "/photos/mujo-ice-bath/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Honellie Claire Tirol",
+        "uri": "https://maps.google.com/maps/contrib/101472690753915658070"
+      }
+    },
+    {
+      "path": "/photos/mujo-ice-bath/4.jpg",
+      "width": 1600,
+      "height": 900,
+      "attribution": {
+        "displayName": "MUJO Ice Bath",
+        "uri": "https://maps.google.com/maps/contrib/100516050863880672005"
+      }
+    },
+    {
+      "path": "/photos/mujo-ice-bath/5.jpg",
+      "width": 1080,
+      "height": 1440,
+      "attribution": {
+        "displayName": "Phoebe Espejo",
+        "uri": "https://maps.google.com/maps/contrib/104782496418194642468"
+      }
+    }
+  ]
 }

@@ -128,5 +128,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/d-gecko-hotel/1.jpg",
+      "width": 1544,
+      "height": 822,
+      "attribution": {
+        "displayName": "D` Gecko hotel",
+        "uri": "https://maps.google.com/maps/contrib/103470543347291448411"
+      }
+    },
+    {
+      "path": "/photos/d-gecko-hotel/2.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Roy Gutierrez",
+        "uri": "https://maps.google.com/maps/contrib/116373364633208067456"
+      }
+    },
+    {
+      "path": "/photos/d-gecko-hotel/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Kevin Dukho Lee",
+        "uri": "https://maps.google.com/maps/contrib/113566800097679941605"
+      }
+    },
+    {
+      "path": "/photos/d-gecko-hotel/4.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Michael Gage",
+        "uri": "https://maps.google.com/maps/contrib/110359741618603704630"
+      }
+    },
+    {
+      "path": "/photos/d-gecko-hotel/5.jpg",
+      "width": 3648,
+      "height": 2736,
+      "attribution": {
+        "displayName": "Eugenijus Anuzis",
+        "uri": "https://maps.google.com/maps/contrib/115379813912378768536"
+      }
+    }
+  ]
 }

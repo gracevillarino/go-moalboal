@@ -85,5 +85,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/el-mercado-de-moalboal/1.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Leo Shingha",
+        "uri": "https://maps.google.com/maps/contrib/111059470282864820646"
+      }
+    },
+    {
+      "path": "/photos/el-mercado-de-moalboal/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "RS",
+        "uri": "https://maps.google.com/maps/contrib/107154823772265150181"
+      }
+    },
+    {
+      "path": "/photos/el-mercado-de-moalboal/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Rahul Tuli",
+        "uri": "https://maps.google.com/maps/contrib/108304545204157497395"
+      }
+    },
+    {
+      "path": "/photos/el-mercado-de-moalboal/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Assia M",
+        "uri": "https://maps.google.com/maps/contrib/113396249059658464016"
+      }
+    },
+    {
+      "path": "/photos/el-mercado-de-moalboal/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Olly Standen",
+        "uri": "https://maps.google.com/maps/contrib/106402325977724435361"
+      }
+    }
+  ]
 }

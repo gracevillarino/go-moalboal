@@ -118,5 +118,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ananas-guesthouse/1.jpg",
+      "width": 1024,
+      "height": 768,
+      "attribution": {
+        "displayName": "Ananas Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/101991986313502438416"
+      }
+    },
+    {
+      "path": "/photos/ananas-guesthouse/2.jpg",
+      "width": 1024,
+      "height": 768,
+      "attribution": {
+        "displayName": "Ananas Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/101991986313502438416"
+      }
+    },
+    {
+      "path": "/photos/ananas-guesthouse/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Alix Charpentier",
+        "uri": "https://maps.google.com/maps/contrib/103669815410751975881"
+      }
+    },
+    {
+      "path": "/photos/ananas-guesthouse/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Ananas Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/101991986313502438416"
+      }
+    },
+    {
+      "path": "/photos/ananas-guesthouse/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Ananas Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/101991986313502438416"
+      }
+    }
+  ]
 }

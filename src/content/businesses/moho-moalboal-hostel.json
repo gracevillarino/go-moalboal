@@ -118,5 +118,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moho-moalboal-hostel/1.jpg",
+      "width": 4208,
+      "height": 2368,
+      "attribution": {
+        "displayName": "Ronnie Rodelas",
+        "uri": "https://maps.google.com/maps/contrib/110020739727806706684"
+      }
+    },
+    {
+      "path": "/photos/moho-moalboal-hostel/2.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "MoHo - Moalboal Hostel",
+        "uri": "https://maps.google.com/maps/contrib/103562093645374721883"
+      }
+    },
+    {
+      "path": "/photos/moho-moalboal-hostel/3.jpg",
+      "width": 2448,
+      "height": 3264,
+      "attribution": {
+        "displayName": "MoHo - Moalboal Hostel",
+        "uri": "https://maps.google.com/maps/contrib/103562093645374721883"
+      }
+    },
+    {
+      "path": "/photos/moho-moalboal-hostel/4.jpg",
+      "width": 1042,
+      "height": 1300,
+      "attribution": {
+        "displayName": "MoHo - Moalboal Hostel",
+        "uri": "https://maps.google.com/maps/contrib/103562093645374721883"
+      }
+    },
+    {
+      "path": "/photos/moho-moalboal-hostel/5.jpg",
+      "width": 3264,
+      "height": 2448,
+      "attribution": {
+        "displayName": "MoHo - Moalboal Hostel",
+        "uri": "https://maps.google.com/maps/contrib/103562093645374721883"
+      }
+    }
+  ]
 }

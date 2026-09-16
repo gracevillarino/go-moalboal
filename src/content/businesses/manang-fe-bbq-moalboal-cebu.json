@@ -77,5 +77,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/manang-fe-bbq-moalboal-cebu/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Loui Canama",
+        "uri": "https://maps.google.com/maps/contrib/117533355987617990136"
+      }
+    },
+    {
+      "path": "/photos/manang-fe-bbq-moalboal-cebu/2.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Eric KAY",
+        "uri": "https://maps.google.com/maps/contrib/102929521672068060199"
+      }
+    },
+    {
+      "path": "/photos/manang-fe-bbq-moalboal-cebu/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Loui Canama",
+        "uri": "https://maps.google.com/maps/contrib/117533355987617990136"
+      }
+    },
+    {
+      "path": "/photos/manang-fe-bbq-moalboal-cebu/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Loui Canama",
+        "uri": "https://maps.google.com/maps/contrib/117533355987617990136"
+      }
+    },
+    {
+      "path": "/photos/manang-fe-bbq-moalboal-cebu/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Yun Cholyong",
+        "uri": "https://maps.google.com/maps/contrib/106875044279973209926"
+      }
+    }
+  ]
 }

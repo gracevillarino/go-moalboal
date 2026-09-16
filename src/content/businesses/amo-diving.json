@@ -46,5 +46,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/amo-diving/1.jpg",
+      "width": 3456,
+      "height": 4608,
+      "attribution": {
+        "displayName": "양광",
+        "uri": "https://maps.google.com/maps/contrib/103353634134241766186"
+      }
+    },
+    {
+      "path": "/photos/amo-diving/2.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Bucanero",
+        "uri": "https://maps.google.com/maps/contrib/111092272503596142350"
+      }
+    },
+    {
+      "path": "/photos/amo-diving/3.jpg",
+      "width": 1080,
+      "height": 810,
+      "attribution": {
+        "displayName": "宋小娟",
+        "uri": "https://maps.google.com/maps/contrib/109263933741049181955"
+      }
+    },
+    {
+      "path": "/photos/amo-diving/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "TAKA",
+        "uri": "https://maps.google.com/maps/contrib/107015549689201838286"
+      }
+    },
+    {
+      "path": "/photos/amo-diving/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "열정열",
+        "uri": "https://maps.google.com/maps/contrib/100855524023432423250"
+      }
+    }
+  ]
 }

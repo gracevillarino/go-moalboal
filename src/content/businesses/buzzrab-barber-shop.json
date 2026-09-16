@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/buzzrab-barber-shop/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Franca",
+        "uri": "https://maps.google.com/maps/contrib/109670695667301071557"
+      }
+    },
+    {
+      "path": "/photos/buzzrab-barber-shop/2.jpg",
+      "width": 1440,
+      "height": 1578,
+      "attribution": {
+        "displayName": "BuzzRab Barber Shop",
+        "uri": "https://maps.google.com/maps/contrib/103881823115546025280"
+      }
+    },
+    {
+      "path": "/photos/buzzrab-barber-shop/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Mihai Roatis",
+        "uri": "https://maps.google.com/maps/contrib/106780507225110344726"
+      }
+    },
+    {
+      "path": "/photos/buzzrab-barber-shop/4.jpg",
+      "width": 2322,
+      "height": 4128,
+      "attribution": {
+        "displayName": "BuzzRab Barber Shop",
+        "uri": "https://maps.google.com/maps/contrib/103881823115546025280"
+      }
+    },
+    {
+      "path": "/photos/buzzrab-barber-shop/5.jpg",
+      "width": 3072,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Roddy",
+        "uri": "https://maps.google.com/maps/contrib/111370448718828445384"
+      }
+    }
+  ]
 }

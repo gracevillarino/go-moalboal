@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/palmthera-massage-spa/1.jpg",
+      "width": 3456,
+      "height": 4608,
+      "attribution": {
+        "displayName": "Era Cababat",
+        "uri": "https://maps.google.com/maps/contrib/112254913231164346331"
+      }
+    },
+    {
+      "path": "/photos/palmthera-massage-spa/2.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "한소희",
+        "uri": "https://maps.google.com/maps/contrib/116739444604877626321"
+      }
+    },
+    {
+      "path": "/photos/palmthera-massage-spa/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "SICILIAN-AMERICAN",
+        "uri": "https://maps.google.com/maps/contrib/105840348049779128534"
+      }
+    },
+    {
+      "path": "/photos/palmthera-massage-spa/4.jpg",
+      "width": 4608,
+      "height": 3456,
+      "attribution": {
+        "displayName": "Era Cababat",
+        "uri": "https://maps.google.com/maps/contrib/112254913231164346331"
+      }
+    },
+    {
+      "path": "/photos/palmthera-massage-spa/5.jpg",
+      "width": 3456,
+      "height": 4608,
+      "attribution": {
+        "displayName": "Era Cababat",
+        "uri": "https://maps.google.com/maps/contrib/112254913231164346331"
+      }
+    }
+  ]
 }

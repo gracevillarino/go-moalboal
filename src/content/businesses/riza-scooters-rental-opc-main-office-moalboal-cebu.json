@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/riza-scooters-rental-opc-main-office-moalboal-cebu/1.jpg",
+      "width": 1080,
+      "height": 1440,
+      "attribution": {
+        "displayName": "RIZA SCOOTER RENTAL OPC - Moalboal Main Office",
+        "uri": "https://maps.google.com/maps/contrib/116696268837412648858"
+      }
+    },
+    {
+      "path": "/photos/riza-scooters-rental-opc-main-office-moalboal-cebu/2.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Riza Scooters Rental OPC Main Office - Moalboal Cebu",
+        "uri": "https://maps.google.com/maps/contrib/106455335762038259429"
+      }
+    },
+    {
+      "path": "/photos/riza-scooters-rental-opc-main-office-moalboal-cebu/3.jpg",
+      "width": 1280,
+      "height": 960,
+      "attribution": {
+        "displayName": "Ken Laing",
+        "uri": "https://maps.google.com/maps/contrib/104337259756629696223"
+      }
+    },
+    {
+      "path": "/photos/riza-scooters-rental-opc-main-office-moalboal-cebu/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Riza Scooters Rental OPC Main Office - Moalboal Cebu",
+        "uri": "https://maps.google.com/maps/contrib/106455335762038259429"
+      }
+    },
+    {
+      "path": "/photos/riza-scooters-rental-opc-main-office-moalboal-cebu/5.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Reales, Angela",
+        "uri": "https://maps.google.com/maps/contrib/118100052368469182816"
+      }
+    }
+  ]
 }

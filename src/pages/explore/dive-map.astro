@@ -1,0 +1,198 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import boundaryData from '../../data/moalboal-boundaries.json';
+import { mapPlaces } from '../../data/moalboal-map';
+import { diveSites, iNaturalistUrl, moalboalINaturalistUrl, type DiveSite } from '../../data/dive-sites';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+type Point = [number, number];
+type Geometry = { type: 'Polygon' | 'MultiPolygon'; coordinates: Point[][] | Point[][][] };
+type Feature = { properties: { name: string }; geometry: Geometry };
+
+const features = boundaryData.features as unknown as Feature[];
+const polygons = (geometry: Geometry): Point[][][] =>
+  geometry.type === 'Polygon' ? [geometry.coordinates as Point[][]] : geometry.coordinates as Point[][][];
+
+// Frame the map on the dive sites themselves (mostly offshore, west of the coast)
+// rather than the whole municipality, so the inland barangays don't dominate the view.
+const siteLats = diveSites.map((site) => site.lat);
+const siteLngs = diveSites.map((site) => site.lng);
+const latSpan = Math.max(...siteLats) - Math.min(...siteLats);
+const lngSpan = Math.max(...siteLngs) - Math.min(...siteLngs);
+const latPad = latSpan * 0.32 + 0.014;
+const lngPad = lngSpan * 0.22 + 0.014;
+const minLat = Math.min(...siteLats) - latPad;
+const maxLat = Math.max(...siteLats) + latPad;
+const minLng = Math.min(...siteLngs) - lngPad;
+const maxLng = Math.max(...siteLngs) + lngPad;
+
+const mapWidth = 560;
+const mapHeight = 640;
+const padding = 0;
+const scale = Math.min((mapWidth - padding * 2) / (maxLng - minLng), (mapHeight - padding * 2) / (maxLat - minLat));
+const project = ([lng, lat]: Point): Point => [
+  padding + (lng - minLng) * scale,
+  mapHeight - padding - (lat - minLat) * scale,
+];
+
+const geometryPath = (geometry: Geometry) => polygons(geometry).map((polygon) => polygon.map((ring) =>
+  ring.map((point, index) => `${index ? 'L' : 'M'}${project(point).map((value) => value.toFixed(1)).join(',')}`).join(' ') + ' Z'
+).join(' ')).join(' ');
+
+const landFeatures = features.map((feature) => ({ name: feature.properties.name, path: geometryPath(feature.geometry) }));
+
+const shoreMarkers = Object.values(mapPlaces).map((place) => ({ name: place.name, point: project([place.lng, place.lat]) }));
+
+const levelClass: Record<DiveSite['level'], string> = {
+  Beginner: 'level-beginner',
+  'All levels': 'level-all',
+  Advanced: 'level-advanced',
+};
+
+const sites = diveSites.map((site, index) => ({
+  ...site,
+  number: index + 1,
+  point: project([site.lng, site.lat]),
+  href: iNaturalistUrl(site),
+}));
+---
+
+<BaseLayout
+  title="Moalboal Dive Map — Sites and species on iNaturalist"
+  description="A map of Moalboal's dive sites — Pescador Island, the Panagsama house reef, the Airplane Wreck and more — each linked to species observations on iNaturalist.org."
+>
+  <section class="dive-hero section">
+    <div>
+      <p class="eyebrow">Explore the reef</p>
+      <h1>Moalboal,<br /><em>site by site.</em></h1>
+    </div>
+    <div class="hero-note">
+      <p>Click any dive site — on the map or in the list below — to open community wildlife sightings for that spot on iNaturalist.org, a global citizen-science platform for recording species observations.</p>
+      <a class="button secondary" href={moalboalINaturalistUrl} target="_blank" rel="noreferrer">All Moalboal observations on iNaturalist ↗</a>
+    </div>
+  </section>
+
+  <section class="map-section section" aria-labelledby="dive-map-heading">
+    <div class="section-heading">
+      <div><p class="eyebrow">Pick a site</p><h2 id="dive-map-heading">Dive sites around Moalboal</h2></div>
+      <div class="legend" aria-label="Dive site difficulty">
+        <span><i class="legend-beginner"></i>Beginner</span>
+        <span><i class="legend-all"></i>All levels</span>
+        <span><i class="legend-advanced"></i>Advanced</span>
+      </div>
+    </div>
+
+    <div class="map-layout">
+      <div class="map-wrap">
+        <svg class="dive-map" viewBox={`0 0 ${mapWidth} ${mapHeight}`} role="img" aria-labelledby="svg-title svg-description">
+          <title id="svg-title">Map of Moalboal’s dive sites</title>
+          <desc id="svg-description">Each pin marks an approximate dive site location off the Moalboal coastline. Select one to open its species observations on iNaturalist.</desc>
+          <rect x="0" y="0" width={mapWidth} height={mapHeight} class="sea-backdrop" />
+          <g class="land-shapes" aria-hidden="true">
+            {landFeatures.map((feature) => <path d={feature.path} data-barangay={feature.name} />)}
+          </g>
+          <g class="shore-markers" aria-hidden="true">
+            {shoreMarkers.map((marker) => (
+              <g transform={`translate(${marker.point[0]} ${marker.point[1]})`}>
+                <circle r="4"></circle>
+                <text x="7" y="3">{marker.name}</text>
+              </g>
+            ))}
+          </g>
+          <g class="dive-pins">
+            {sites.map((site) => (
+              <a href={site.href} target="_blank" rel="noreferrer" aria-label={`Open ${site.name} species observations on iNaturalist`}>
+                <g transform={`translate(${site.point[0]} ${site.point[1]})`} class={`dive-pin ${levelClass[site.level]}`} data-site={site.slug}>
+                  <title>{site.name}</title>
+                  <circle r="13" class="pin-halo"></circle>
+                  <circle r="9" class="pin-dot"></circle>
+                  <text class="pin-number" y="4" text-anchor="middle">{site.number}</text>
+                </g>
+              </a>
+            ))}
+          </g>
+        </svg>
+        <p class="map-caption">Site locations are approximate reference points for orientation, not GPS entry points for diving or boating. Each pin opens a bounding-box species search on iNaturalist.org centred on that site.</p>
+      </div>
+
+      <aside class="dive-list" aria-label="Dive site list">
+        {sites.map((site) => (
+          <a class={`dive-card ${levelClass[site.level]}`} href={site.href} target="_blank" rel="noreferrer" data-site={site.slug}>
+            <div class="dive-card-head">
+              <span class="dive-card-number">{site.number}</span>
+              <div>
+                <h3>{site.name}</h3>
+                <span class="dive-card-meta">{site.depthMetres} · {site.level}</span>
+              </div>
+            </div>
+            <p>{site.summary}</p>
+            <strong>View species on iNaturalist ↗</strong>
+          </a>
+        ))}
+      </aside>
+    </div>
+  </section>
+
+  <section class="sources-section section">
+    <div><p class="eyebrow">About this map</p><h2>Community data,<br />not a dive briefing.</h2></div>
+    <div>
+      <p>Species links open iNaturalist.org, a global citizen-science project where anyone can log and identify wildlife observations. Coverage depends on what divers, snorkellers and researchers have logged and geotagged near each site, so it is a useful starting point rather than a complete species list.</p>
+      <p>For dive planning, conditions and marine sanctuary rules, talk to a local <a href={`${base}/directory?category=dive`}>dive centre in the directory</a> or read the <a href={`${base}/explore/diving-in-moalboal`}>diving guide</a>.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .dive-hero { min-height: 420px; display: grid; grid-template-columns: 1.1fr .9fr; gap: 5vw; align-items: end; background: linear-gradient(135deg, var(--cream) 55%, rgba(8,127,120,.16)); }
+  .dive-hero h1 { max-width: 12ch; font-size: clamp(3rem, 6.5vw, 5.6rem); }
+  .dive-hero h1 em { color: var(--sea); font-weight: inherit; }
+  .hero-note { max-width: 34rem; padding-bottom: .5rem; }
+  .hero-note > p { font-size: 1.05rem; color: #47635d; margin: 0 0 1.4rem; }
+  .map-section { background: var(--paper); }
+  .legend { display: flex; flex-wrap: wrap; gap: .65rem 1rem; font-size: .78rem; color: #526b65; }
+  .legend span { display: flex; gap: .4rem; align-items: center; }
+  .legend i { width: .85rem; height: .85rem; border-radius: 50%; }
+  .legend-beginner { background: var(--sun); } .legend-all { background: var(--sea); } .legend-advanced { background: var(--coral); }
+  .map-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, .85fr); gap: clamp(1.25rem, 4vw, 4rem); align-items: start; }
+  .map-wrap { min-width: 0; }
+  .dive-map { display: block; width: 100%; max-height: 720px; overflow: hidden; border-radius: 24px; border: 1px solid var(--line); }
+  .sea-backdrop { fill: #cfe8e4; }
+  .land-shapes path { fill: var(--cream); stroke: var(--paper); stroke-width: 2; }
+  .shore-markers circle { fill: var(--ink); opacity: .55; }
+  .shore-markers text { fill: var(--ink); opacity: .68; font-family: 'DM Sans', sans-serif; font-size: 9px; font-weight: 700; }
+  .dive-pins a { cursor: pointer; }
+  .pin-halo { fill: rgba(8,127,120,.14); transition: r .15s ease, fill .15s ease; }
+  .pin-dot { stroke: var(--paper); stroke-width: 2.5; transition: transform .15s ease; }
+  .level-beginner .pin-dot { fill: var(--sun); }
+  .level-all .pin-dot { fill: var(--sea); }
+  .level-advanced .pin-dot { fill: var(--coral); }
+  .pin-number { fill: #fff; font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 800; text-anchor: middle; pointer-events: none; }
+  .dive-pins a:hover .pin-halo, .dive-pins a:focus .pin-halo { r: 17; fill: rgba(8,127,120,.28); }
+  .dive-pins a:focus { outline: none; }
+  .map-caption { max-width: 52rem; margin: .8rem 0 0; color: #60766f; font-size: .78rem; }
+  .dive-list { display: flex; flex-direction: column; gap: .85rem; }
+  .dive-card { display: block; padding: 1.15rem 1.25rem; border: 1px solid var(--line); border-radius: 18px; color: inherit; text-decoration: none; background: var(--cream); transition: border-color .15s ease, transform .15s ease; }
+  .dive-card:hover, .dive-card:focus { border-color: var(--sea); transform: translateY(-2px); }
+  .dive-card-head { display: flex; gap: .75rem; align-items: flex-start; }
+  .dive-card-number { display: flex; align-items: center; justify-content: center; flex: none; width: 1.8rem; height: 1.8rem; border-radius: 50%; font-size: .78rem; font-weight: 800; color: #fff; }
+  .level-beginner .dive-card-number, .dive-card.level-beginner .dive-card-number { background: var(--sun); color: var(--ink); }
+  .dive-card.level-all .dive-card-number { background: var(--sea); }
+  .dive-card.level-advanced .dive-card-number { background: var(--coral); }
+  .dive-card h3 { margin: 0; font-size: 1.15rem; }
+  .dive-card-meta { display: block; margin-top: .15rem; font-size: .74rem; color: #60766f; text-transform: uppercase; letter-spacing: .06em; }
+  .dive-card p { margin: .65rem 0; font-size: .88rem; color: #47635d; }
+  .dive-card strong { font-size: .78rem; color: var(--sea); }
+  .sources-section { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; background: var(--sea); color: #fff; }
+  .sources-section p { max-width: 36rem; color: #d7edeb; }
+  .sources-section a { color: var(--sun); font-weight: 700; }
+  @media (max-width: 900px) {
+    .dive-hero, .map-layout, .sources-section { grid-template-columns: 1fr; }
+    .dive-hero { min-height: 0; align-items: start; }
+  }
+  @media (max-width: 620px) {
+    .map-wrap { margin-inline: -4vw; }
+    .dive-map { border-radius: 0; }
+    .map-caption { margin-inline: 4vw; }
+  }
+</style>

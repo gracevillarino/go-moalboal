@@ -81,5 +81,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/aj-street-thai-food-moalboal/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "AJ Street Thai Food Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/111207606886940024550"
+      }
+    },
+    {
+      "path": "/photos/aj-street-thai-food-moalboal/2.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "AJ Street Thai Food Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/111207606886940024550"
+      }
+    },
+    {
+      "path": "/photos/aj-street-thai-food-moalboal/3.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Tony Skat",
+        "uri": "https://maps.google.com/maps/contrib/100306576501250051551"
+      }
+    },
+    {
+      "path": "/photos/aj-street-thai-food-moalboal/4.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "AJ Street Thai Food Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/111207606886940024550"
+      }
+    },
+    {
+      "path": "/photos/aj-street-thai-food-moalboal/5.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "AJ Street Thai Food Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/111207606886940024550"
+      }
+    }
+  ]
 }

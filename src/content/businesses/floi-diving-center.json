@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/floi-diving-center/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Valleeox",
+        "uri": "https://maps.google.com/maps/contrib/100600340081738753023"
+      }
+    },
+    {
+      "path": "/photos/floi-diving-center/2.jpg",
+      "width": 1960,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Biby Lala",
+        "uri": "https://maps.google.com/maps/contrib/116322487327154446606"
+      }
+    },
+    {
+      "path": "/photos/floi-diving-center/3.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "varun kallur",
+        "uri": "https://maps.google.com/maps/contrib/104154851005750331505"
+      }
+    },
+    {
+      "path": "/photos/floi-diving-center/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Kamil Osiecki",
+        "uri": "https://maps.google.com/maps/contrib/109764387045904068988"
+      }
+    },
+    {
+      "path": "/photos/floi-diving-center/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "FLOI DIVING CENTER",
+        "uri": "https://maps.google.com/maps/contrib/115503745542247244189"
+      }
+    }
+  ]
 }

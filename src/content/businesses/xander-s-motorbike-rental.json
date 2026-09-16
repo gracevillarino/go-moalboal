@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/xander-s-motorbike-rental/1.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Lelet Libato",
+        "uri": "https://maps.google.com/maps/contrib/113431578491787941161"
+      }
+    },
+    {
+      "path": "/photos/xander-s-motorbike-rental/2.jpg",
+      "width": 4160,
+      "height": 3120,
+      "attribution": {
+        "displayName": "Lelet Libato",
+        "uri": "https://maps.google.com/maps/contrib/108198662391063161163"
+      }
+    },
+    {
+      "path": "/photos/xander-s-motorbike-rental/3.jpg",
+      "width": 1920,
+      "height": 1080,
+      "attribution": {
+        "displayName": "Lelet Libato",
+        "uri": "https://maps.google.com/maps/contrib/108198662391063161163"
+      }
+    },
+    {
+      "path": "/photos/xander-s-motorbike-rental/4.jpg",
+      "width": 2296,
+      "height": 4080,
+      "attribution": {
+        "displayName": "XANDER'S MOTORBIKE RENTAL",
+        "uri": "https://maps.google.com/maps/contrib/104302289514810985542"
+      }
+    },
+    {
+      "path": "/photos/xander-s-motorbike-rental/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "달리라고마",
+        "uri": "https://maps.google.com/maps/contrib/101827429003699488311"
+      }
+    }
+  ]
 }

@@ -1,0 +1,88 @@
+{
+  "name": "Okeanos Bistro",
+  "slug": "okeanos-bistro",
+  "summary": "Food and drink in Panagsama. Rated 4.6 from 295 Google reviews.",
+  "description": "Okeanos Bistro is listed at Bantayan, 1 Panagsama Beach, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Panagsama",
+  "address": "Bantayan, 1 Panagsama Beach, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9491051,
+    "lng": 123.3693103
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "contactSources": [],
+  "sources": [
+    {
+      "title": "Okeanos Bistro on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=5146410731892818555"
+    }
+  ],
+  "googleMapsUri": "https://maps.google.com/?cid=5146410731892818555",
+  "googlePlaceId": "ChIJ71cJR0PpqzMRe8K6Nku5a0c",
+  "rating": 4.6,
+  "ratingCount": 295,
+  "tags": [
+    "eat",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/okeanos-bistro/1.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Okeanos Bistro",
+        "uri": "https://maps.google.com/maps/contrib/109890725758498236845"
+      }
+    },
+    {
+      "path": "/photos/okeanos-bistro/2.jpg",
+      "width": 4240,
+      "height": 2832,
+      "attribution": {
+        "displayName": "Okeanos Bistro",
+        "uri": "https://maps.google.com/maps/contrib/109890725758498236845"
+      }
+    },
+    {
+      "path": "/photos/okeanos-bistro/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Mohamed Ashif",
+        "uri": "https://maps.google.com/maps/contrib/112511247061883661975"
+      }
+    },
+    {
+      "path": "/photos/okeanos-bistro/4.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Jesse Townsend",
+        "uri": "https://maps.google.com/maps/contrib/110612437168185677275"
+      }
+    },
+    {
+      "path": "/photos/okeanos-bistro/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Rodriguez, Abby Claire R.",
+        "uri": "https://maps.google.com/maps/contrib/113657835823978104809"
+      }
+    }
+  ]
+}

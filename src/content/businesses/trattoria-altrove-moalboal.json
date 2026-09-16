@@ -82,5 +82,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/trattoria-altrove-moalboal/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Byungchul Cha (Peter Cha)",
+        "uri": "https://maps.google.com/maps/contrib/104653279794349694589"
+      }
+    },
+    {
+      "path": "/photos/trattoria-altrove-moalboal/2.jpg",
+      "width": 4608,
+      "height": 3456,
+      "attribution": {
+        "displayName": "Heita Motomura",
+        "uri": "https://maps.google.com/maps/contrib/116382167033151946045"
+      }
+    },
+    {
+      "path": "/photos/trattoria-altrove-moalboal/3.jpg",
+      "width": 3060,
+      "height": 3060,
+      "attribution": {
+        "displayName": "Kristel Marie Belandres",
+        "uri": "https://maps.google.com/maps/contrib/116972221757416585800"
+      }
+    },
+    {
+      "path": "/photos/trattoria-altrove-moalboal/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "saggeo",
+        "uri": "https://maps.google.com/maps/contrib/101876006042406374793"
+      }
+    },
+    {
+      "path": "/photos/trattoria-altrove-moalboal/5.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Errol",
+        "uri": "https://maps.google.com/maps/contrib/108421310125547201328"
+      }
+    }
+  ]
 }

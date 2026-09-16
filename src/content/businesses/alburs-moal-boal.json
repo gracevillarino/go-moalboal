@@ -76,5 +76,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/alburs-moal-boal/1.jpg",
+      "width": 4000,
+      "height": 2252,
+      "attribution": {
+        "displayName": "YoungKyung Choi",
+        "uri": "https://maps.google.com/maps/contrib/115714000085343490729"
+      }
+    },
+    {
+      "path": "/photos/alburs-moal-boal/2.jpg",
+      "width": 4276,
+      "height": 2116,
+      "attribution": {
+        "displayName": "Tal Hamburger",
+        "uri": "https://maps.google.com/maps/contrib/112808096994106735407"
+      }
+    },
+    {
+      "path": "/photos/alburs-moal-boal/3.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "eric iu",
+        "uri": "https://maps.google.com/maps/contrib/103001955320179971605"
+      }
+    },
+    {
+      "path": "/photos/alburs-moal-boal/4.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "eric iu",
+        "uri": "https://maps.google.com/maps/contrib/103001955320179971605"
+      }
+    },
+    {
+      "path": "/photos/alburs-moal-boal/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "새로미",
+        "uri": "https://maps.google.com/maps/contrib/113826003608635459497"
+      }
+    }
+  ]
 }

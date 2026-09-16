@@ -130,5 +130,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/pescadores-suites-moalboal/1.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Pescadores Suites Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/106296815754195677938"
+      }
+    },
+    {
+      "path": "/photos/pescadores-suites-moalboal/2.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Pescadores Suites Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/106296815754195677938"
+      }
+    },
+    {
+      "path": "/photos/pescadores-suites-moalboal/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "HYUN WOO KIM",
+        "uri": "https://maps.google.com/maps/contrib/115788465632177060534"
+      }
+    },
+    {
+      "path": "/photos/pescadores-suites-moalboal/4.jpg",
+      "width": 1448,
+      "height": 1086,
+      "attribution": {
+        "displayName": "Pescadores Suites Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/106296815754195677938"
+      }
+    },
+    {
+      "path": "/photos/pescadores-suites-moalboal/5.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Pescadores Suites Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/106296815754195677938"
+      }
+    }
+  ]
 }

@@ -76,5 +76,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/marz-in-moalboal-guest-house/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Sonia",
+        "uri": "https://maps.google.com/maps/contrib/106793826844220721219"
+      }
+    },
+    {
+      "path": "/photos/marz-in-moalboal-guest-house/2.jpg",
+      "width": 1280,
+      "height": 720,
+      "attribution": {
+        "displayName": "MARZ IN MOALBOAL GUEST HOUSE",
+        "uri": "https://maps.google.com/maps/contrib/115082793863700957527"
+      }
+    },
+    {
+      "path": "/photos/marz-in-moalboal-guest-house/3.jpg",
+      "width": 4160,
+      "height": 3120,
+      "attribution": {
+        "displayName": "MARZ IN MOALBOAL GUEST HOUSE",
+        "uri": "https://maps.google.com/maps/contrib/115082793863700957527"
+      }
+    },
+    {
+      "path": "/photos/marz-in-moalboal-guest-house/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Spi ilya",
+        "uri": "https://maps.google.com/maps/contrib/103360390405049090490"
+      }
+    },
+    {
+      "path": "/photos/marz-in-moalboal-guest-house/5.jpg",
+      "width": 2448,
+      "height": 3264,
+      "attribution": {
+        "displayName": "Kiara Marielle Camasura",
+        "uri": "https://maps.google.com/maps/contrib/109787288907052897842"
+      }
+    }
+  ]
 }

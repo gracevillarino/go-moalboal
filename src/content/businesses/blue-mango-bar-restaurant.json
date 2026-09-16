@@ -57,5 +57,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/blue-mango-bar-restaurant/1.jpg",
+      "width": 3024,
+      "height": 3024,
+      "attribution": {
+        "displayName": "배현희",
+        "uri": "https://maps.google.com/maps/contrib/100416407919180907864"
+      }
+    },
+    {
+      "path": "/photos/blue-mango-bar-restaurant/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "TAN, Queenie Aira E.",
+        "uri": "https://maps.google.com/maps/contrib/115039542848637843442"
+      }
+    },
+    {
+      "path": "/photos/blue-mango-bar-restaurant/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Mark Lawrenz Pastrana",
+        "uri": "https://maps.google.com/maps/contrib/110607278754026049225"
+      }
+    },
+    {
+      "path": "/photos/blue-mango-bar-restaurant/4.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Maygrace Jumola",
+        "uri": "https://maps.google.com/maps/contrib/100590413861807229961"
+      }
+    },
+    {
+      "path": "/photos/blue-mango-bar-restaurant/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Howard Zhang",
+        "uri": "https://maps.google.com/maps/contrib/117228037063424729231"
+      }
+    }
+  ]
 }

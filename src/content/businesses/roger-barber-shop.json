@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/roger-barber-shop/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Lola Marchand",
+        "uri": "https://maps.google.com/maps/contrib/118195589985530048120"
+      }
+    },
+    {
+      "path": "/photos/roger-barber-shop/2.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Yama Sama",
+        "uri": "https://maps.google.com/maps/contrib/106816558198200537806"
+      }
+    },
+    {
+      "path": "/photos/roger-barber-shop/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Gabriel Aguirre",
+        "uri": "https://maps.google.com/maps/contrib/117301179459713172939"
+      }
+    },
+    {
+      "path": "/photos/roger-barber-shop/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Lola Marchand",
+        "uri": "https://maps.google.com/maps/contrib/118195589985530048120"
+      }
+    },
+    {
+      "path": "/photos/roger-barber-shop/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Chris Sto. Domingo",
+        "uri": "https://maps.google.com/maps/contrib/118095678284465277120"
+      }
+    }
+  ]
 }

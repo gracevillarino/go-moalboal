@@ -77,5 +77,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/nomad-restobar/1.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Nomad Restobar",
+        "uri": "https://maps.google.com/maps/contrib/114166497053841798741"
+      }
+    },
+    {
+      "path": "/photos/nomad-restobar/2.jpg",
+      "width": 4800,
+      "height": 3071,
+      "attribution": {
+        "displayName": "Nomad Restobar",
+        "uri": "https://maps.google.com/maps/contrib/114166497053841798741"
+      }
+    },
+    {
+      "path": "/photos/nomad-restobar/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Sergio Cavero Díaz",
+        "uri": "https://maps.google.com/maps/contrib/102705163664813867541"
+      }
+    },
+    {
+      "path": "/photos/nomad-restobar/4.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Nomad Restobar",
+        "uri": "https://maps.google.com/maps/contrib/114166497053841798741"
+      }
+    },
+    {
+      "path": "/photos/nomad-restobar/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Vee",
+        "uri": "https://maps.google.com/maps/contrib/117386192382052099559"
+      }
+    }
+  ]
 }

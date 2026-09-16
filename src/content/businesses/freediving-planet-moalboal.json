@@ -69,5 +69,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/freediving-planet-moalboal/1.jpg",
+      "width": 960,
+      "height": 720,
+      "attribution": {
+        "displayName": "Freediving Planet Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/102524364674530472633"
+      }
+    },
+    {
+      "path": "/photos/freediving-planet-moalboal/2.jpg",
+      "width": 2736,
+      "height": 3648,
+      "attribution": {
+        "displayName": "Hanlo",
+        "uri": "https://maps.google.com/maps/contrib/103509436765190253478"
+      }
+    },
+    {
+      "path": "/photos/freediving-planet-moalboal/3.jpg",
+      "width": 2100,
+      "height": 1575,
+      "attribution": {
+        "displayName": "Freediving Planet Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/102524364674530472633"
+      }
+    },
+    {
+      "path": "/photos/freediving-planet-moalboal/4.jpg",
+      "width": 3599,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Olaia Salgueiro",
+        "uri": "https://maps.google.com/maps/contrib/102401515794617535510"
+      }
+    },
+    {
+      "path": "/photos/freediving-planet-moalboal/5.jpg",
+      "width": 2100,
+      "height": 1575,
+      "attribution": {
+        "displayName": "Freediving Planet Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/102524364674530472633"
+      }
+    }
+  ]
 }

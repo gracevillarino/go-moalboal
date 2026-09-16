@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/allba-s-homestay/1.jpg",
+      "width": 4096,
+      "height": 1937,
+      "attribution": {
+        "displayName": "Allba's Homestay",
+        "uri": "https://maps.google.com/maps/contrib/102198995916250558284"
+      }
+    },
+    {
+      "path": "/photos/allba-s-homestay/2.jpg",
+      "width": 4608,
+      "height": 3456,
+      "attribution": {
+        "displayName": "Duane Allyson Pancho",
+        "uri": "https://maps.google.com/maps/contrib/110772434756609467425"
+      }
+    },
+    {
+      "path": "/photos/allba-s-homestay/3.jpg",
+      "width": 3456,
+      "height": 2304,
+      "attribution": {
+        "displayName": "吳彥欽",
+        "uri": "https://maps.google.com/maps/contrib/110290202495940337261"
+      }
+    },
+    {
+      "path": "/photos/allba-s-homestay/4.jpg",
+      "width": 1937,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Allba's Homestay",
+        "uri": "https://maps.google.com/maps/contrib/102198995916250558284"
+      }
+    },
+    {
+      "path": "/photos/allba-s-homestay/5.jpg",
+      "width": 4096,
+      "height": 1937,
+      "attribution": {
+        "displayName": "Allba's Homestay",
+        "uri": "https://maps.google.com/maps/contrib/102198995916250558284"
+      }
+    }
+  ]
 }

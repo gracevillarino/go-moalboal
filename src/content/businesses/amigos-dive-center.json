@@ -57,5 +57,52 @@
   "featured": true,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/amigos-dive-center/1.jpg",
+      "width": 4000,
+      "height": 2250,
+      "attribution": {
+        "displayName": "Amigos Dive Center",
+        "uri": "https://maps.google.com/maps/contrib/116763190887820380973"
+      }
+    },
+    {
+      "path": "/photos/amigos-dive-center/2.jpg",
+      "width": 4800,
+      "height": 4200,
+      "attribution": {
+        "displayName": "Zach Henson",
+        "uri": "https://maps.google.com/maps/contrib/111560340661735720784"
+      }
+    },
+    {
+      "path": "/photos/amigos-dive-center/3.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Amigos Dive Center",
+        "uri": "https://maps.google.com/maps/contrib/116763190887820380973"
+      }
+    },
+    {
+      "path": "/photos/amigos-dive-center/4.jpg",
+      "width": 4160,
+      "height": 3640,
+      "attribution": {
+        "displayName": "Colette Bilodeau",
+        "uri": "https://maps.google.com/maps/contrib/108784670406925892810"
+      }
+    },
+    {
+      "path": "/photos/amigos-dive-center/5.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Jaehong Min",
+        "uri": "https://maps.google.com/maps/contrib/118170605110425998442"
+      }
+    }
+  ]
 }

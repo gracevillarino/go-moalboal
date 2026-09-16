@@ -96,5 +96,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/haze-bar/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Mag B",
+        "uri": "https://maps.google.com/maps/contrib/110153682398476526089"
+      }
+    },
+    {
+      "path": "/photos/haze-bar/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Hannah Jane Barco",
+        "uri": "https://maps.google.com/maps/contrib/103622217466171062838"
+      }
+    },
+    {
+      "path": "/photos/haze-bar/3.jpg",
+      "width": 680,
+      "height": 510,
+      "attribution": {
+        "displayName": "Haze Bar",
+        "uri": "https://maps.google.com/maps/contrib/101013288061348697260"
+      }
+    },
+    {
+      "path": "/photos/haze-bar/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Regina",
+        "uri": "https://maps.google.com/maps/contrib/106560993883695148358"
+      }
+    },
+    {
+      "path": "/photos/haze-bar/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "벡헴",
+        "uri": "https://maps.google.com/maps/contrib/106814847535181678220"
+      }
+    }
+  ]
 }

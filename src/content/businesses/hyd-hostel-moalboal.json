@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/hyd-hostel-moalboal/1.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Jaidel Barrios",
+        "uri": "https://maps.google.com/maps/contrib/104591861936267817025"
+      }
+    },
+    {
+      "path": "/photos/hyd-hostel-moalboal/2.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "HYD Hostel Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/111630190305670742503"
+      }
+    },
+    {
+      "path": "/photos/hyd-hostel-moalboal/3.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Jaidel Barrios",
+        "uri": "https://maps.google.com/maps/contrib/104591861936267817025"
+      }
+    },
+    {
+      "path": "/photos/hyd-hostel-moalboal/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Francesco",
+        "uri": "https://maps.google.com/maps/contrib/115770841804069231506"
+      }
+    },
+    {
+      "path": "/photos/hyd-hostel-moalboal/5.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Jaidel Barrios",
+        "uri": "https://maps.google.com/maps/contrib/104591861936267817025"
+      }
+    }
+  ]
 }

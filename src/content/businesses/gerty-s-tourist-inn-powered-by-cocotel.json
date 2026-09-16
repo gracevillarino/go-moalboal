@@ -93,5 +93,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/gerty-s-tourist-inn-powered-by-cocotel/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Gerty's Tourist Inn powered by Cocotel",
+        "uri": "https://maps.google.com/maps/contrib/110896592199740281308"
+      }
+    },
+    {
+      "path": "/photos/gerty-s-tourist-inn-powered-by-cocotel/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Gerty's Tourist Inn powered by Cocotel",
+        "uri": "https://maps.google.com/maps/contrib/110896592199740281308"
+      }
+    },
+    {
+      "path": "/photos/gerty-s-tourist-inn-powered-by-cocotel/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Gerty's Tourist Inn powered by Cocotel",
+        "uri": "https://maps.google.com/maps/contrib/110896592199740281308"
+      }
+    },
+    {
+      "path": "/photos/gerty-s-tourist-inn-powered-by-cocotel/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Gerty's Tourist Inn powered by Cocotel",
+        "uri": "https://maps.google.com/maps/contrib/110896592199740281308"
+      }
+    },
+    {
+      "path": "/photos/gerty-s-tourist-inn-powered-by-cocotel/5.jpg",
+      "width": 3120,
+      "height": 3120,
+      "attribution": {
+        "displayName": "Gerty's Tourist Inn powered by Cocotel",
+        "uri": "https://maps.google.com/maps/contrib/110896592199740281308"
+      }
+    }
+  ]
 }

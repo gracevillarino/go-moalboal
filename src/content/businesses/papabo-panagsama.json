@@ -99,5 +99,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/papabo-panagsama/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Jonamie Cortez",
+        "uri": "https://maps.google.com/maps/contrib/114754567756649020289"
+      }
+    },
+    {
+      "path": "/photos/papabo-panagsama/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "김맹찌",
+        "uri": "https://maps.google.com/maps/contrib/108889538388497984224"
+      }
+    },
+    {
+      "path": "/photos/papabo-panagsama/3.jpg",
+      "width": 4800,
+      "height": 3393,
+      "attribution": {
+        "displayName": "PAPABO Panagsama",
+        "uri": "https://maps.google.com/maps/contrib/112418631071768661249"
+      }
+    },
+    {
+      "path": "/photos/papabo-panagsama/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "고냥이3마리",
+        "uri": "https://maps.google.com/maps/contrib/111734366767107319082"
+      }
+    },
+    {
+      "path": "/photos/papabo-panagsama/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "JPerpetualKid",
+        "uri": "https://maps.google.com/maps/contrib/101301370892018634283"
+      }
+    }
+  ]
 }

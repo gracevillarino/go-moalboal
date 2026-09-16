@@ -76,5 +76,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/oonihostel-moalboal/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "유동형",
+        "uri": "https://maps.google.com/maps/contrib/115757623365110387094"
+      }
+    },
+    {
+      "path": "/photos/oonihostel-moalboal/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Abigail Corpuz",
+        "uri": "https://maps.google.com/maps/contrib/113365911727398987040"
+      }
+    },
+    {
+      "path": "/photos/oonihostel-moalboal/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Jen De la cruz",
+        "uri": "https://maps.google.com/maps/contrib/113362221658567990051"
+      }
+    },
+    {
+      "path": "/photos/oonihostel-moalboal/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Adrienne Cherie Ricker",
+        "uri": "https://maps.google.com/maps/contrib/100266734206924164630"
+      }
+    },
+    {
+      "path": "/photos/oonihostel-moalboal/5.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Anubhuti Purohit",
+        "uri": "https://maps.google.com/maps/contrib/118075267635941078257"
+      }
+    }
+  ]
 }

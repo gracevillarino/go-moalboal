@@ -40,5 +40,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/loy-s-motorbike-rental/1.jpg",
+      "width": 3968,
+      "height": 2976,
+      "attribution": {
+        "displayName": "LOY'S MOTORBIKE RENTAL",
+        "uri": "https://maps.google.com/maps/contrib/111649796691157235834"
+      }
+    },
+    {
+      "path": "/photos/loy-s-motorbike-rental/2.jpg",
+      "width": 1280,
+      "height": 961,
+      "attribution": {
+        "displayName": "js o",
+        "uri": "https://maps.google.com/maps/contrib/118169415295105667893"
+      }
+    },
+    {
+      "path": "/photos/loy-s-motorbike-rental/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Sales Dpt",
+        "uri": "https://maps.google.com/maps/contrib/117325306183808874280"
+      }
+    },
+    {
+      "path": "/photos/loy-s-motorbike-rental/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Soraya Ikni",
+        "uri": "https://maps.google.com/maps/contrib/115671658819996673434"
+      }
+    },
+    {
+      "path": "/photos/loy-s-motorbike-rental/5.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Ivan Kovbas",
+        "uri": "https://maps.google.com/maps/contrib/116188257720280615299"
+      }
+    }
+  ]
 }

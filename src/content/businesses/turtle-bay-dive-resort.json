@@ -135,5 +135,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/turtle-bay-dive-resort/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Turtle Bay Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/105821526252143390674"
+      }
+    },
+    {
+      "path": "/photos/turtle-bay-dive-resort/2.jpg",
+      "width": 4104,
+      "height": 2736,
+      "attribution": {
+        "displayName": "Turtle Bay Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/105821526252143390674"
+      }
+    },
+    {
+      "path": "/photos/turtle-bay-dive-resort/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Marisol",
+        "uri": "https://maps.google.com/maps/contrib/100433997392518954776"
+      }
+    },
+    {
+      "path": "/photos/turtle-bay-dive-resort/4.jpg",
+      "width": 3968,
+      "height": 2976,
+      "attribution": {
+        "displayName": "Turtle Bay Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/105821526252143390674"
+      }
+    },
+    {
+      "path": "/photos/turtle-bay-dive-resort/5.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Turtle Bay Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/105821526252143390674"
+      }
+    }
+  ]
 }

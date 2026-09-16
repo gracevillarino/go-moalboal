@@ -40,5 +40,25 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/mahinay-family-medical-clinic/1.jpg",
+      "width": 3456,
+      "height": 4608,
+      "attribution": {
+        "displayName": "Miss vinyan",
+        "uri": "https://maps.google.com/maps/contrib/113082601785047154572"
+      }
+    },
+    {
+      "path": "/photos/mahinay-family-medical-clinic/2.jpg",
+      "width": 1050,
+      "height": 1050,
+      "attribution": {
+        "displayName": "Mahinay Family Medical Clinic",
+        "uri": "https://maps.google.com/maps/contrib/104121222444715347382"
+      }
+    }
+  ]
 }

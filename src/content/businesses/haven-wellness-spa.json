@@ -46,5 +46,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/haven-wellness-spa/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Haven Wellness Spa",
+        "uri": "https://maps.google.com/maps/contrib/114589949624577248720"
+      }
+    },
+    {
+      "path": "/photos/haven-wellness-spa/2.jpg",
+      "width": 3024,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Haven Wellness Spa",
+        "uri": "https://maps.google.com/maps/contrib/114589949624577248720"
+      }
+    },
+    {
+      "path": "/photos/haven-wellness-spa/3.jpg",
+      "width": 1080,
+      "height": 1440,
+      "attribution": {
+        "displayName": "Jonjonyew",
+        "uri": "https://maps.google.com/maps/contrib/110700442703184939738"
+      }
+    },
+    {
+      "path": "/photos/haven-wellness-spa/4.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "NSA",
+        "uri": "https://maps.google.com/maps/contrib/100593805677606358122"
+      }
+    },
+    {
+      "path": "/photos/haven-wellness-spa/5.jpg",
+      "width": 1414,
+      "height": 2000,
+      "attribution": {
+        "displayName": "Haven Wellness Spa",
+        "uri": "https://maps.google.com/maps/contrib/114589949624577248720"
+      }
+    }
+  ]
 }

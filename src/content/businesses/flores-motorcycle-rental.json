@@ -40,5 +40,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/flores-motorcycle-rental/1.jpg",
+      "width": 2865,
+      "height": 3384,
+      "attribution": {
+        "displayName": "Flores Motorcycle Rental",
+        "uri": "https://maps.google.com/maps/contrib/114872056938838318136"
+      }
+    },
+    {
+      "path": "/photos/flores-motorcycle-rental/2.jpg",
+      "width": 3060,
+      "height": 3402,
+      "attribution": {
+        "displayName": "Flores Motorcycle Rental",
+        "uri": "https://maps.google.com/maps/contrib/114872056938838318136"
+      }
+    },
+    {
+      "path": "/photos/flores-motorcycle-rental/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Mustafa Özmen",
+        "uri": "https://maps.google.com/maps/contrib/116886555474557167355"
+      }
+    },
+    {
+      "path": "/photos/flores-motorcycle-rental/4.jpg",
+      "width": 4096,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Family Miri Travels",
+        "uri": "https://maps.google.com/maps/contrib/107250587149113622132"
+      }
+    },
+    {
+      "path": "/photos/flores-motorcycle-rental/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Mustafa Özmen",
+        "uri": "https://maps.google.com/maps/contrib/116886555474557167355"
+      }
+    }
+  ]
 }

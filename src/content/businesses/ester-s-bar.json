@@ -75,5 +75,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ester-s-bar/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Chilly",
+        "uri": "https://maps.google.com/maps/contrib/101332154619106897951"
+      }
+    },
+    {
+      "path": "/photos/ester-s-bar/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Anita Gouveia",
+        "uri": "https://maps.google.com/maps/contrib/111862967116648920565"
+      }
+    },
+    {
+      "path": "/photos/ester-s-bar/3.jpg",
+      "width": 3072,
+      "height": 4080,
+      "attribution": {
+        "displayName": "S H",
+        "uri": "https://maps.google.com/maps/contrib/102360240529000869706"
+      }
+    },
+    {
+      "path": "/photos/ester-s-bar/4.jpg",
+      "width": 3614,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Aidan & Marybeth",
+        "uri": "https://maps.google.com/maps/contrib/109691536482508780692"
+      }
+    },
+    {
+      "path": "/photos/ester-s-bar/5.jpg",
+      "width": 1204,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Aidan & Marybeth",
+        "uri": "https://maps.google.com/maps/contrib/109691536482508780692"
+      }
+    }
+  ]
 }

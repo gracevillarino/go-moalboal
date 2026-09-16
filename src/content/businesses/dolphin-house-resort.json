@@ -69,5 +69,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/dolphin-house-resort/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Robert Easterwood",
+        "uri": "https://maps.google.com/maps/contrib/100110347805065931178"
+      }
+    },
+    {
+      "path": "/photos/dolphin-house-resort/2.jpg",
+      "width": 1280,
+      "height": 792,
+      "attribution": {
+        "displayName": "Shahzad “S” Ghafoor",
+        "uri": "https://maps.google.com/maps/contrib/103180262263895543738"
+      }
+    },
+    {
+      "path": "/photos/dolphin-house-resort/3.jpg",
+      "width": 4624,
+      "height": 3472,
+      "attribution": {
+        "displayName": "Pancho Devilla",
+        "uri": "https://maps.google.com/maps/contrib/102666366335787880315"
+      }
+    },
+    {
+      "path": "/photos/dolphin-house-resort/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Jason Williams",
+        "uri": "https://maps.google.com/maps/contrib/109193433784695443461"
+      }
+    },
+    {
+      "path": "/photos/dolphin-house-resort/5.jpg",
+      "width": 1280,
+      "height": 851,
+      "attribution": {
+        "displayName": "Shahzad “S” Ghafoor",
+        "uri": "https://maps.google.com/maps/contrib/103180262263895543738"
+      }
+    }
+  ]
 }

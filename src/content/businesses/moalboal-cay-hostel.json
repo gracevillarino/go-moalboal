@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moalboal-cay-hostel/1.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Moalboal Cay Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105037826418207484311"
+      }
+    },
+    {
+      "path": "/photos/moalboal-cay-hostel/2.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Moalboal Cay Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105037826418207484311"
+      }
+    },
+    {
+      "path": "/photos/moalboal-cay-hostel/3.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Moalboal Cay Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105037826418207484311"
+      }
+    },
+    {
+      "path": "/photos/moalboal-cay-hostel/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Moalboal Cay Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105037826418207484311"
+      }
+    },
+    {
+      "path": "/photos/moalboal-cay-hostel/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Moalboal Cay Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105037826418207484311"
+      }
+    }
+  ]
 }

@@ -68,5 +68,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/island-tea-co-ceylon-coffee-club/1.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Tyoma Timofeev",
+        "uri": "https://maps.google.com/maps/contrib/101890123837376009302"
+      }
+    },
+    {
+      "path": "/photos/island-tea-co-ceylon-coffee-club/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Mo",
+        "uri": "https://maps.google.com/maps/contrib/105926275883891325604"
+      }
+    },
+    {
+      "path": "/photos/island-tea-co-ceylon-coffee-club/3.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Cenon Oliver",
+        "uri": "https://maps.google.com/maps/contrib/111837361288227037357"
+      }
+    },
+    {
+      "path": "/photos/island-tea-co-ceylon-coffee-club/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Émilie Martel",
+        "uri": "https://maps.google.com/maps/contrib/106105545583770688037"
+      }
+    },
+    {
+      "path": "/photos/island-tea-co-ceylon-coffee-club/5.jpg",
+      "width": 3456,
+      "height": 4608,
+      "attribution": {
+        "displayName": "Cris Estephan Paguntalan",
+        "uri": "https://maps.google.com/maps/contrib/105379678963540270359"
+      }
+    }
+  ]
 }

@@ -76,5 +76,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/purple-heart-guest-house/1.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Joan Agosto",
+        "uri": "https://maps.google.com/maps/contrib/102720519396825813384"
+      }
+    },
+    {
+      "path": "/photos/purple-heart-guest-house/2.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Yiğit Ali Demir",
+        "uri": "https://maps.google.com/maps/contrib/109926466777395627021"
+      }
+    },
+    {
+      "path": "/photos/purple-heart-guest-house/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "김유리",
+        "uri": "https://maps.google.com/maps/contrib/117750268570576927331"
+      }
+    },
+    {
+      "path": "/photos/purple-heart-guest-house/4.jpg",
+      "width": 1125,
+      "height": 1500,
+      "attribution": {
+        "displayName": "Joan Agosto",
+        "uri": "https://maps.google.com/maps/contrib/102720519396825813384"
+      }
+    },
+    {
+      "path": "/photos/purple-heart-guest-house/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Fiona B",
+        "uri": "https://maps.google.com/maps/contrib/102595131989239067867"
+      }
+    }
+  ]
 }

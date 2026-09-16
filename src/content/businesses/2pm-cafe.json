@@ -78,5 +78,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/2pm-cafe/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "2PM CAFE",
+        "uri": "https://maps.google.com/maps/contrib/116901522542350380470"
+      }
+    },
+    {
+      "path": "/photos/2pm-cafe/2.jpg",
+      "width": 2177,
+      "height": 2177,
+      "attribution": {
+        "displayName": "2PM CAFE",
+        "uri": "https://maps.google.com/maps/contrib/116901522542350380470"
+      }
+    },
+    {
+      "path": "/photos/2pm-cafe/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Yury",
+        "uri": "https://maps.google.com/maps/contrib/118415659626112397191"
+      }
+    },
+    {
+      "path": "/photos/2pm-cafe/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "2PM CAFE",
+        "uri": "https://maps.google.com/maps/contrib/116901522542350380470"
+      }
+    },
+    {
+      "path": "/photos/2pm-cafe/5.jpg",
+      "width": 1608,
+      "height": 1206,
+      "attribution": {
+        "displayName": "Gela Rogador",
+        "uri": "https://maps.google.com/maps/contrib/116501892354428657885"
+      }
+    }
+  ]
 }

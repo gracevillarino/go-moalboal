@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/d-t-hostel/1.jpg",
+      "width": 1080,
+      "height": 1440,
+      "attribution": {
+        "displayName": "Adam Cebulski",
+        "uri": "https://maps.google.com/maps/contrib/117423564773632374693"
+      }
+    },
+    {
+      "path": "/photos/d-t-hostel/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "D&T Hostel",
+        "uri": "https://maps.google.com/maps/contrib/113584457901273422528"
+      }
+    },
+    {
+      "path": "/photos/d-t-hostel/3.jpg",
+      "width": 1576,
+      "height": 2100,
+      "attribution": {
+        "displayName": "trishia aquino",
+        "uri": "https://maps.google.com/maps/contrib/115477320810243873037"
+      }
+    },
+    {
+      "path": "/photos/d-t-hostel/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "D&T Hostel",
+        "uri": "https://maps.google.com/maps/contrib/106906003134006780532"
+      }
+    },
+    {
+      "path": "/photos/d-t-hostel/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "trishia aquino",
+        "uri": "https://maps.google.com/maps/contrib/115477320810243873037"
+      }
+    }
+  ]
 }

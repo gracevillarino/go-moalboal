@@ -65,6 +65,7 @@ function toBusiness(record, used, existing = {}, overrides = {}) {
     reviewInsights: existing.reviewInsights,
     googleMapsUri: record.googleMapsUri,
     googlePlaceId: record.googlePlaceId,
+    photos: existing.photos ?? [],
     rating: record.rating,
     ratingCount: record.reviewCount,
     tags,

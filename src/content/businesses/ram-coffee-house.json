@@ -88,5 +88,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ram-coffee-house/1.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Ram Coffee House",
+        "uri": "https://maps.google.com/maps/contrib/114194160765780322552"
+      }
+    },
+    {
+      "path": "/photos/ram-coffee-house/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Ram Coffee House",
+        "uri": "https://maps.google.com/maps/contrib/114194160765780322552"
+      }
+    },
+    {
+      "path": "/photos/ram-coffee-house/3.jpg",
+      "width": 1448,
+      "height": 1086,
+      "attribution": {
+        "displayName": "Ram Coffee House",
+        "uri": "https://maps.google.com/maps/contrib/114194160765780322552"
+      }
+    },
+    {
+      "path": "/photos/ram-coffee-house/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Kishan Patel",
+        "uri": "https://maps.google.com/maps/contrib/115035596067212562849"
+      }
+    },
+    {
+      "path": "/photos/ram-coffee-house/5.jpg",
+      "width": 1448,
+      "height": 1086,
+      "attribution": {
+        "displayName": "Ram Coffee House",
+        "uri": "https://maps.google.com/maps/contrib/114194160765780322552"
+      }
+    }
+  ]
 }

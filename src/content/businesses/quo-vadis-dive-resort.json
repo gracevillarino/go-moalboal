@@ -125,5 +125,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/quo-vadis-dive-resort/1.jpg",
+      "width": 4000,
+      "height": 2216,
+      "attribution": {
+        "displayName": "Quo Vadis Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/103930565783688445406"
+      }
+    },
+    {
+      "path": "/photos/quo-vadis-dive-resort/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Kelly Kim",
+        "uri": "https://maps.google.com/maps/contrib/103292688211008256406"
+      }
+    },
+    {
+      "path": "/photos/quo-vadis-dive-resort/3.jpg",
+      "width": 3872,
+      "height": 2592,
+      "attribution": {
+        "displayName": "Quo Vadis Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/103930565783688445406"
+      }
+    },
+    {
+      "path": "/photos/quo-vadis-dive-resort/4.jpg",
+      "width": 4000,
+      "height": 2252,
+      "attribution": {
+        "displayName": "Michel De Lara",
+        "uri": "https://maps.google.com/maps/contrib/100620619615478690657"
+      }
+    },
+    {
+      "path": "/photos/quo-vadis-dive-resort/5.jpg",
+      "width": 1613,
+      "height": 1080,
+      "attribution": {
+        "displayName": "Quo Vadis Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/103930565783688445406"
+      }
+    }
+  ]
 }

@@ -124,5 +124,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moalboal-tropics/1.jpg",
+      "width": 960,
+      "height": 720,
+      "attribution": {
+        "displayName": "Moalboal Tropics",
+        "uri": "https://maps.google.com/maps/contrib/114894293590464411071"
+      }
+    },
+    {
+      "path": "/photos/moalboal-tropics/2.jpg",
+      "width": 4272,
+      "height": 2848,
+      "attribution": {
+        "displayName": "Moalboal Tropics",
+        "uri": "https://maps.google.com/maps/contrib/114894293590464411071"
+      }
+    },
+    {
+      "path": "/photos/moalboal-tropics/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Michael Brückner",
+        "uri": "https://maps.google.com/maps/contrib/104474353985889864042"
+      }
+    },
+    {
+      "path": "/photos/moalboal-tropics/4.jpg",
+      "width": 704,
+      "height": 960,
+      "attribution": {
+        "displayName": "Moalboal Tropics",
+        "uri": "https://maps.google.com/maps/contrib/114894293590464411071"
+      }
+    },
+    {
+      "path": "/photos/moalboal-tropics/5.jpg",
+      "width": 3264,
+      "height": 2448,
+      "attribution": {
+        "displayName": "Moalboal Tropics",
+        "uri": "https://maps.google.com/maps/contrib/114894293590464411071"
+      }
+    }
+  ]
 }

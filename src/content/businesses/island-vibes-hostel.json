@@ -86,5 +86,43 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/island-vibes-hostel/1.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Artur Pytel",
+        "uri": "https://maps.google.com/maps/contrib/107884564643869858229"
+      }
+    },
+    {
+      "path": "/photos/island-vibes-hostel/2.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Artur Pytel",
+        "uri": "https://maps.google.com/maps/contrib/107884564643869858229"
+      }
+    },
+    {
+      "path": "/photos/island-vibes-hostel/3.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Artur Pytel",
+        "uri": "https://maps.google.com/maps/contrib/107884564643869858229"
+      }
+    },
+    {
+      "path": "/photos/island-vibes-hostel/4.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Artur Pytel",
+        "uri": "https://maps.google.com/maps/contrib/107884564643869858229"
+      }
+    }
+  ]
 }

@@ -40,5 +40,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/majona-s-motorbike-hire/1.jpg",
+      "width": 1960,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Majona’s Motorbike Hire",
+        "uri": "https://maps.google.com/maps/contrib/100473832020628684525"
+      }
+    },
+    {
+      "path": "/photos/majona-s-motorbike-hire/2.jpg",
+      "width": 2576,
+      "height": 1932,
+      "attribution": {
+        "displayName": "Majona’s Motorbike Hire",
+        "uri": "https://maps.google.com/maps/contrib/100473832020628684525"
+      }
+    },
+    {
+      "path": "/photos/majona-s-motorbike-hire/3.jpg",
+      "width": 4032,
+      "height": 1960,
+      "attribution": {
+        "displayName": "Majona’s Motorbike Hire",
+        "uri": "https://maps.google.com/maps/contrib/100473832020628684525"
+      }
+    },
+    {
+      "path": "/photos/majona-s-motorbike-hire/4.jpg",
+      "width": 4032,
+      "height": 1960,
+      "attribution": {
+        "displayName": "Majona’s Motorbike Hire",
+        "uri": "https://maps.google.com/maps/contrib/100473832020628684525"
+      }
+    },
+    {
+      "path": "/photos/majona-s-motorbike-hire/5.jpg",
+      "width": 4000,
+      "height": 2252,
+      "attribution": {
+        "displayName": "YI CHIEH CHANG (光頭)",
+        "uri": "https://maps.google.com/maps/contrib/116683112840952364726"
+      }
+    }
+  ]
 }

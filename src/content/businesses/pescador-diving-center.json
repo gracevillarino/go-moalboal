@@ -63,5 +63,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/pescador-diving-center/1.jpg",
+      "width": 1536,
+      "height": 864,
+      "attribution": {
+        "displayName": "Pescador Diving Center",
+        "uri": "https://maps.google.com/maps/contrib/113996181186035680486"
+      }
+    },
+    {
+      "path": "/photos/pescador-diving-center/2.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "박시영",
+        "uri": "https://maps.google.com/maps/contrib/100569837758648673315"
+      }
+    },
+    {
+      "path": "/photos/pescador-diving-center/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Pescador Diving Center",
+        "uri": "https://maps.google.com/maps/contrib/113996181186035680486"
+      }
+    },
+    {
+      "path": "/photos/pescador-diving-center/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Concepcion Tuba",
+        "uri": "https://maps.google.com/maps/contrib/106561587152773274905"
+      }
+    },
+    {
+      "path": "/photos/pescador-diving-center/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Pescador Diving Center",
+        "uri": "https://maps.google.com/maps/contrib/113996181186035680486"
+      }
+    }
+  ]
 }

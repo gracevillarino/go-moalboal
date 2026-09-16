@@ -97,5 +97,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/lamika-moalboal-cafe-and-restaurant/1.jpg",
+      "width": 4800,
+      "height": 3199,
+      "attribution": {
+        "displayName": "Lamika Moalboal Café and Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/102582618976526568396"
+      }
+    },
+    {
+      "path": "/photos/lamika-moalboal-cafe-and-restaurant/2.jpg",
+      "width": 4800,
+      "height": 3599,
+      "attribution": {
+        "displayName": "Webber Huang",
+        "uri": "https://maps.google.com/maps/contrib/110654290509931117018"
+      }
+    },
+    {
+      "path": "/photos/lamika-moalboal-cafe-and-restaurant/3.jpg",
+      "width": 4800,
+      "height": 3201,
+      "attribution": {
+        "displayName": "Lamika Moalboal Café and Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/102582618976526568396"
+      }
+    },
+    {
+      "path": "/photos/lamika-moalboal-cafe-and-restaurant/4.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Kimberly Morales",
+        "uri": "https://maps.google.com/maps/contrib/105965632006697502943"
+      }
+    },
+    {
+      "path": "/photos/lamika-moalboal-cafe-and-restaurant/5.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Mira",
+        "uri": "https://maps.google.com/maps/contrib/114458931191249917774"
+      }
+    }
+  ]
 }

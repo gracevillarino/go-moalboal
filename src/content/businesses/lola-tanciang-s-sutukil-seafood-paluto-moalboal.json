@@ -102,5 +102,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/lola-tanciang-s-sutukil-seafood-paluto-moalboal/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "so good so far",
+        "uri": "https://maps.google.com/maps/contrib/112354686513312878873"
+      }
+    },
+    {
+      "path": "/photos/lola-tanciang-s-sutukil-seafood-paluto-moalboal/2.jpg",
+      "width": 960,
+      "height": 720,
+      "attribution": {
+        "displayName": "Lola Tanciang's Sutukil Seafood Paluto - Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/112764520298057785886"
+      }
+    },
+    {
+      "path": "/photos/lola-tanciang-s-sutukil-seafood-paluto-moalboal/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Marivic Alvarado",
+        "uri": "https://maps.google.com/maps/contrib/101644038362706386133"
+      }
+    },
+    {
+      "path": "/photos/lola-tanciang-s-sutukil-seafood-paluto-moalboal/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Юлия Никонова",
+        "uri": "https://maps.google.com/maps/contrib/109217511403200517566"
+      }
+    },
+    {
+      "path": "/photos/lola-tanciang-s-sutukil-seafood-paluto-moalboal/5.jpg",
+      "width": 4800,
+      "height": 3614,
+      "attribution": {
+        "displayName": "ADJ Hotspot",
+        "uri": "https://maps.google.com/maps/contrib/113520723008524898406"
+      }
+    }
+  ]
 }

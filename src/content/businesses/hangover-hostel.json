@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/hangover-hostel/1.jpg",
+      "width": 1280,
+      "height": 720,
+      "attribution": {
+        "displayName": "Hangover Hostel",
+        "uri": "https://maps.google.com/maps/contrib/112846719537259105828"
+      }
+    },
+    {
+      "path": "/photos/hangover-hostel/2.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Michael Eng",
+        "uri": "https://maps.google.com/maps/contrib/110956173591376884940"
+      }
+    },
+    {
+      "path": "/photos/hangover-hostel/3.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Hangover Hostel",
+        "uri": "https://maps.google.com/maps/contrib/112846719537259105828"
+      }
+    },
+    {
+      "path": "/photos/hangover-hostel/4.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Hangover Hostel",
+        "uri": "https://maps.google.com/maps/contrib/112846719537259105828"
+      }
+    },
+    {
+      "path": "/photos/hangover-hostel/5.jpg",
+      "width": 1600,
+      "height": 1200,
+      "attribution": {
+        "displayName": "Hangover Hostel",
+        "uri": "https://maps.google.com/maps/contrib/112846719537259105828"
+      }
+    }
+  ]
 }

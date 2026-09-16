@@ -27,6 +27,47 @@ sources:
   - title: Central Visayas tourism industry logs 80% recovery rate
     publisher: Philippine Information Agency
     url: https://pia.gov.ph/news/visayas/cv-visayas/central-visayas-tourism-industry-logs-80-recovery-rate/
+photos:
+  - path: "/photos/stories/when-odette-crossed-the-coast/1.jpg"
+    width: 1350
+    height: 860
+    attribution:
+      displayName: "ALFRED FRIAS / PRESIDENTIAL PHOTO"
+      uri: "https://commons.wikimedia.org/wiki/File:Photo_of_Typhoon_Odette-battered_areas_in_Tisa,_Cebu_City_01.jpg"
+    license: "Public domain"
+    source: "https://commons.wikimedia.org/wiki/File:Photo_of_Typhoon_Odette-battered_areas_in_Tisa,_Cebu_City_01.jpg"
+  - path: "/photos/stories/when-odette-crossed-the-coast/2.jpg"
+    width: 1350
+    height: 901
+    attribution:
+      displayName: "ALFRED FRIAS / PRESIDENTIAL PHOTO"
+      uri: "https://commons.wikimedia.org/wiki/File:Photo_of_Typhoon_Odette-battered_areas_in_Tisa,_Cebu_City_02.jpg"
+    license: "Public domain"
+    source: "https://commons.wikimedia.org/wiki/File:Photo_of_Typhoon_Odette-battered_areas_in_Tisa,_Cebu_City_02.jpg"
+  - path: "/photos/stories/when-odette-crossed-the-coast/3.jpg"
+    width: 4000
+    height: 3000
+    attribution:
+      displayName: "Martin Michlmayr"
+      uri: "https://commons.wikimedia.org/wiki/File:Destruction_from_Typhoon_Rai_in_Cebu_City_2021_12_092.jpg"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Destruction_from_Typhoon_Rai_in_Cebu_City_2021_12_092.jpg"
+  - path: "/photos/stories/when-odette-crossed-the-coast/4.jpg"
+    width: 4000
+    height: 3000
+    attribution:
+      displayName: "Martin Michlmayr"
+      uri: "https://commons.wikimedia.org/wiki/File:Aftermath_of_Typhoon_Rai_in_Cebu_City_2021_12_022.jpg"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Aftermath_of_Typhoon_Rai_in_Cebu_City_2021_12_022.jpg"
+  - path: "/photos/stories/when-odette-crossed-the-coast/5.jpg"
+    width: 4000
+    height: 3000
+    attribution:
+      displayName: "Martin Michlmayr"
+      uri: "https://commons.wikimedia.org/wiki/File:Destruction_from_Typhoon_Rai_in_Cebu_City_2021_12_027.jpg"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Destruction_from_Typhoon_Rai_in_Cebu_City_2021_12_027.jpg"
 ---
 
 Typhoon Rai—known in the Philippines as Odette—crossed the country in December 2021. National reports record the event at the scale of regions, families, damaged houses and disrupted infrastructure. In Moalboal, the storm also has a more specific geography: a municipal pier, homes behind it, boats, businesses and reefs exposed to wind and waves.

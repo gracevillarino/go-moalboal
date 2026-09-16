@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/gina-store/1.jpg",
+      "width": 4032,
+      "height": 1908,
+      "attribution": {
+        "displayName": "servet durgun",
+        "uri": "https://maps.google.com/maps/contrib/101424156446275435083"
+      }
+    },
+    {
+      "path": "/photos/gina-store/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Kam",
+        "uri": "https://maps.google.com/maps/contrib/107950282066186921781"
+      }
+    },
+    {
+      "path": "/photos/gina-store/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Kam",
+        "uri": "https://maps.google.com/maps/contrib/107950282066186921781"
+      }
+    },
+    {
+      "path": "/photos/gina-store/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Timon ter Braak",
+        "uri": "https://maps.google.com/maps/contrib/117265725887144566756"
+      }
+    },
+    {
+      "path": "/photos/gina-store/5.jpg",
+      "width": 2976,
+      "height": 3968,
+      "attribution": {
+        "displayName": "Mike Sag",
+        "uri": "https://maps.google.com/maps/contrib/101986341375757424963"
+      }
+    }
+  ]
 }

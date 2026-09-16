@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/yahay-massage-moalboal/1.jpg",
+      "width": 1166,
+      "height": 646,
+      "attribution": {
+        "displayName": "Yahay Massage Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/100574408879997952129"
+      }
+    },
+    {
+      "path": "/photos/yahay-massage-moalboal/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "yunny k",
+        "uri": "https://maps.google.com/maps/contrib/101878356908201873938"
+      }
+    },
+    {
+      "path": "/photos/yahay-massage-moalboal/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Yahay Massage Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/100574408879997952129"
+      }
+    },
+    {
+      "path": "/photos/yahay-massage-moalboal/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Ally",
+        "uri": "https://maps.google.com/maps/contrib/102769503337985736674"
+      }
+    },
+    {
+      "path": "/photos/yahay-massage-moalboal/5.jpg",
+      "width": 2710,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Yahay Massage Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/100574408879997952129"
+      }
+    }
+  ]
 }

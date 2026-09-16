@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/shaka/1.jpg",
+      "width": 2048,
+      "height": 1365,
+      "attribution": {
+        "displayName": "SHAKA - Moalboal Cebu",
+        "uri": "https://maps.google.com/maps/contrib/111730574025023949349"
+      }
+    },
+    {
+      "path": "/photos/shaka/2.jpg",
+      "width": 3200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "SHAKA - Moalboal Cebu",
+        "uri": "https://maps.google.com/maps/contrib/111730574025023949349"
+      }
+    },
+    {
+      "path": "/photos/shaka/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Aljhon Mark Gasal",
+        "uri": "https://maps.google.com/maps/contrib/115378163511853593767"
+      }
+    },
+    {
+      "path": "/photos/shaka/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Deena Bhoyroo",
+        "uri": "https://maps.google.com/maps/contrib/117523868405093545264"
+      }
+    },
+    {
+      "path": "/photos/shaka/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Angelica",
+        "uri": "https://maps.google.com/maps/contrib/111530771381180298403"
+      }
+    }
+  ]
 }

@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/petron/1.jpg",
+      "width": 3280,
+      "height": 1848,
+      "attribution": {
+        "displayName": "ram dee dee",
+        "uri": "https://maps.google.com/maps/contrib/117906158515499503335"
+      }
+    },
+    {
+      "path": "/photos/petron/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Raymond C",
+        "uri": "https://maps.google.com/maps/contrib/116203064379340627042"
+      }
+    },
+    {
+      "path": "/photos/petron/3.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Jon Ida",
+        "uri": "https://maps.google.com/maps/contrib/107427340029360573120"
+      }
+    },
+    {
+      "path": "/photos/petron/4.jpg",
+      "width": 984,
+      "height": 1752,
+      "attribution": {
+        "displayName": "Jon Ida",
+        "uri": "https://maps.google.com/maps/contrib/107427340029360573120"
+      }
+    },
+    {
+      "path": "/photos/petron/5.jpg",
+      "width": 4128,
+      "height": 3096,
+      "attribution": {
+        "displayName": "Bernardo Garcia",
+        "uri": "https://maps.google.com/maps/contrib/101098737355561180842"
+      }
+    }
+  ]
 }

@@ -91,5 +91,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/herbs-guest-house/1.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Kawamura Kenichi",
+        "uri": "https://maps.google.com/maps/contrib/108969873180065578115"
+      }
+    },
+    {
+      "path": "/photos/herbs-guest-house/2.jpg",
+      "width": 4096,
+      "height": 1920,
+      "attribution": {
+        "displayName": "Klara Klärchen",
+        "uri": "https://maps.google.com/maps/contrib/108535476795552056657"
+      }
+    },
+    {
+      "path": "/photos/herbs-guest-house/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Pavel Knobloch",
+        "uri": "https://maps.google.com/maps/contrib/100770893366213213831"
+      }
+    },
+    {
+      "path": "/photos/herbs-guest-house/4.jpg",
+      "width": 3982,
+      "height": 2867,
+      "attribution": {
+        "displayName": "Thoa Nguyen",
+        "uri": "https://maps.google.com/maps/contrib/103205926736241153584"
+      }
+    },
+    {
+      "path": "/photos/herbs-guest-house/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Pavel Knobloch",
+        "uri": "https://maps.google.com/maps/contrib/100770893366213213831"
+      }
+    }
+  ]
 }

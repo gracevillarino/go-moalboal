@@ -75,5 +75,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/homestay-california/1.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Delbert 27",
+        "uri": "https://maps.google.com/maps/contrib/114391139346471150751"
+      }
+    },
+    {
+      "path": "/photos/homestay-california/2.jpg",
+      "width": 4080,
+      "height": 3060,
+      "attribution": {
+        "displayName": "Lee Munich",
+        "uri": "https://maps.google.com/maps/contrib/111645872952157877688"
+      }
+    },
+    {
+      "path": "/photos/homestay-california/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Yvan Boulet",
+        "uri": "https://maps.google.com/maps/contrib/117594101523808956581"
+      }
+    },
+    {
+      "path": "/photos/homestay-california/4.jpg",
+      "width": 2268,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Charles Kolas",
+        "uri": "https://maps.google.com/maps/contrib/100051044287269587322"
+      }
+    },
+    {
+      "path": "/photos/homestay-california/5.jpg",
+      "width": 2998,
+      "height": 3998,
+      "attribution": {
+        "displayName": "cristine mahinay",
+        "uri": "https://maps.google.com/maps/contrib/112038297182529325759"
+      }
+    }
+  ]
 }

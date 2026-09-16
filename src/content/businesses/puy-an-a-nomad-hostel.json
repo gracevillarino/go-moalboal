@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/puy-an-a-nomad-hostel/1.jpg",
+      "width": 2268,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Puy-an, A Nomad Hostel",
+        "uri": "https://maps.google.com/maps/contrib/112286747246997339783"
+      }
+    },
+    {
+      "path": "/photos/puy-an-a-nomad-hostel/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Rowel Guerrero",
+        "uri": "https://maps.google.com/maps/contrib/109828859294181546809"
+      }
+    },
+    {
+      "path": "/photos/puy-an-a-nomad-hostel/3.jpg",
+      "width": 2268,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Puy-an, A Nomad Hostel",
+        "uri": "https://maps.google.com/maps/contrib/112286747246997339783"
+      }
+    },
+    {
+      "path": "/photos/puy-an-a-nomad-hostel/4.jpg",
+      "width": 2268,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Puy-an, A Nomad Hostel",
+        "uri": "https://maps.google.com/maps/contrib/112286747246997339783"
+      }
+    },
+    {
+      "path": "/photos/puy-an-a-nomad-hostel/5.jpg",
+      "width": 2268,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Puy-an, A Nomad Hostel",
+        "uri": "https://maps.google.com/maps/contrib/112286747246997339783"
+      }
+    }
+  ]
 }

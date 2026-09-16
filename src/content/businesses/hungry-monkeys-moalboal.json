@@ -114,5 +114,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/hungry-monkeys-moalboal/1.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Hungry Monkeys Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/105358461526583834099"
+      }
+    },
+    {
+      "path": "/photos/hungry-monkeys-moalboal/2.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Hungry Monkeys Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/105358461526583834099"
+      }
+    },
+    {
+      "path": "/photos/hungry-monkeys-moalboal/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Ralph Schmiedlechner",
+        "uri": "https://maps.google.com/maps/contrib/107507930838435814272"
+      }
+    },
+    {
+      "path": "/photos/hungry-monkeys-moalboal/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Hungry Monkeys Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/105358461526583834099"
+      }
+    },
+    {
+      "path": "/photos/hungry-monkeys-moalboal/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Patrick Biene",
+        "uri": "https://maps.google.com/maps/contrib/101812433544662091662"
+      }
+    }
+  ]
 }

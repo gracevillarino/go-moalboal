@@ -53,5 +53,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/last-filling-station-restaurant/1.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "LAST FILLING STATION Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/117522609611335562848"
+      }
+    },
+    {
+      "path": "/photos/last-filling-station-restaurant/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "뭉몽시",
+        "uri": "https://maps.google.com/maps/contrib/100726597936298427767"
+      }
+    },
+    {
+      "path": "/photos/last-filling-station-restaurant/3.jpg",
+      "width": 1047,
+      "height": 1396,
+      "attribution": {
+        "displayName": "뭉몽시",
+        "uri": "https://maps.google.com/maps/contrib/100726597936298427767"
+      }
+    },
+    {
+      "path": "/photos/last-filling-station-restaurant/4.jpg",
+      "width": 2992,
+      "height": 2992,
+      "attribution": {
+        "displayName": "혁이TV",
+        "uri": "https://maps.google.com/maps/contrib/112242524146781700076"
+      }
+    },
+    {
+      "path": "/photos/last-filling-station-restaurant/5.jpg",
+      "width": 2992,
+      "height": 2992,
+      "attribution": {
+        "displayName": "혁이TV",
+        "uri": "https://maps.google.com/maps/contrib/112242524146781700076"
+      }
+    }
+  ]
 }

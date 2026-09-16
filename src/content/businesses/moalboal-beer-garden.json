@@ -73,5 +73,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moalboal-beer-garden/1.jpg",
+      "width": 4080,
+      "height": 2296,
+      "attribution": {
+        "displayName": "Danny S",
+        "uri": "https://maps.google.com/maps/contrib/108755081202057577551"
+      }
+    },
+    {
+      "path": "/photos/moalboal-beer-garden/2.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Kay Saha",
+        "uri": "https://maps.google.com/maps/contrib/114314620533393490101"
+      }
+    },
+    {
+      "path": "/photos/moalboal-beer-garden/3.jpg",
+      "width": 2048,
+      "height": 1542,
+      "attribution": {
+        "displayName": "Moalboal Beer Garden",
+        "uri": "https://maps.google.com/maps/contrib/107491024555083046827"
+      }
+    },
+    {
+      "path": "/photos/moalboal-beer-garden/4.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "E H",
+        "uri": "https://maps.google.com/maps/contrib/109871668214317836454"
+      }
+    },
+    {
+      "path": "/photos/moalboal-beer-garden/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "James Degollacion",
+        "uri": "https://maps.google.com/maps/contrib/112678347621264680570"
+      }
+    }
+  ]
 }

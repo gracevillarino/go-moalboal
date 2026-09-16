@@ -83,5 +83,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/le-cafe-francais/1.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "cwade2009",
+        "uri": "https://maps.google.com/maps/contrib/103736349359525159558"
+      }
+    },
+    {
+      "path": "/photos/le-cafe-francais/2.jpg",
+      "width": 2887,
+      "height": 1530,
+      "attribution": {
+        "displayName": "Le café Français",
+        "uri": "https://maps.google.com/maps/contrib/113700438243626848943"
+      }
+    },
+    {
+      "path": "/photos/le-cafe-francais/3.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "훈스기",
+        "uri": "https://maps.google.com/maps/contrib/112265405602873509506"
+      }
+    },
+    {
+      "path": "/photos/le-cafe-francais/4.jpg",
+      "width": 3072,
+      "height": 4096,
+      "attribution": {
+        "displayName": "One Vono",
+        "uri": "https://maps.google.com/maps/contrib/115330679416073917105"
+      }
+    },
+    {
+      "path": "/photos/le-cafe-francais/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "강하윤",
+        "uri": "https://maps.google.com/maps/contrib/117326747697201957740"
+      }
+    }
+  ]
 }

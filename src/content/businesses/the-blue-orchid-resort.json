@@ -121,5 +121,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/the-blue-orchid-resort/1.jpg",
+      "width": 1024,
+      "height": 683,
+      "attribution": {
+        "displayName": "The Blue Orchid Resort",
+        "uri": "https://maps.google.com/maps/contrib/113658870026566605501"
+      }
+    },
+    {
+      "path": "/photos/the-blue-orchid-resort/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Falko H.",
+        "uri": "https://maps.google.com/maps/contrib/104712595137798674053"
+      }
+    },
+    {
+      "path": "/photos/the-blue-orchid-resort/3.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Ronny Cheung",
+        "uri": "https://maps.google.com/maps/contrib/104528444230444582591"
+      }
+    },
+    {
+      "path": "/photos/the-blue-orchid-resort/4.jpg",
+      "width": 4800,
+      "height": 3189,
+      "attribution": {
+        "displayName": "The Blue Orchid Resort",
+        "uri": "https://maps.google.com/maps/contrib/113658870026566605501"
+      }
+    },
+    {
+      "path": "/photos/the-blue-orchid-resort/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "The Blue Orchid Resort",
+        "uri": "https://maps.google.com/maps/contrib/113658870026566605501"
+      }
+    }
+  ]
 }

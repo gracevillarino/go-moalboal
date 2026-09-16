@@ -137,5 +137,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/cebu-seaview-dive-resort/1.jpg",
+      "width": 4800,
+      "height": 3197,
+      "attribution": {
+        "displayName": "Cebu Seaview Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/114882894431710108543"
+      }
+    },
+    {
+      "path": "/photos/cebu-seaview-dive-resort/2.jpg",
+      "width": 3072,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Cebu Seaview Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/114882894431710108543"
+      }
+    },
+    {
+      "path": "/photos/cebu-seaview-dive-resort/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Thomas Heßling",
+        "uri": "https://maps.google.com/maps/contrib/105703844489938708540"
+      }
+    },
+    {
+      "path": "/photos/cebu-seaview-dive-resort/4.jpg",
+      "width": 4279,
+      "height": 2721,
+      "attribution": {
+        "displayName": "Cebu Seaview Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/114882894431710108543"
+      }
+    },
+    {
+      "path": "/photos/cebu-seaview-dive-resort/5.jpg",
+      "width": 3072,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Cebu Seaview Dive Resort",
+        "uri": "https://maps.google.com/maps/contrib/114882894431710108543"
+      }
+    }
+  ]
 }

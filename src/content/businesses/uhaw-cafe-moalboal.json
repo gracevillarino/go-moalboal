@@ -78,5 +78,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/uhaw-cafe-moalboal/1.jpg",
+      "width": 1290,
+      "height": 1705,
+      "attribution": {
+        "displayName": "UHAW Cafe Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103513221801202696326"
+      }
+    },
+    {
+      "path": "/photos/uhaw-cafe-moalboal/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Jessebel Ocol",
+        "uri": "https://maps.google.com/maps/contrib/111997478628637521230"
+      }
+    },
+    {
+      "path": "/photos/uhaw-cafe-moalboal/3.jpg",
+      "width": 1290,
+      "height": 1714,
+      "attribution": {
+        "displayName": "UHAW Cafe Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103513221801202696326"
+      }
+    },
+    {
+      "path": "/photos/uhaw-cafe-moalboal/4.jpg",
+      "width": 4800,
+      "height": 2700,
+      "attribution": {
+        "displayName": "Thai T",
+        "uri": "https://maps.google.com/maps/contrib/103628669684594686963"
+      }
+    },
+    {
+      "path": "/photos/uhaw-cafe-moalboal/5.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "UHAW Cafe Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103513221801202696326"
+      }
+    }
+  ]
 }

@@ -81,5 +81,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/east-holiday-resort/1.jpg",
+      "width": 3614,
+      "height": 4800,
+      "attribution": {
+        "displayName": "East Holiday Resort",
+        "uri": "https://maps.google.com/maps/contrib/105166514252008641039"
+      }
+    },
+    {
+      "path": "/photos/east-holiday-resort/2.jpg",
+      "width": 576,
+      "height": 768,
+      "attribution": {
+        "displayName": "East Holiday Resort",
+        "uri": "https://maps.google.com/maps/contrib/105166514252008641039"
+      }
+    },
+    {
+      "path": "/photos/east-holiday-resort/3.jpg",
+      "width": 576,
+      "height": 768,
+      "attribution": {
+        "displayName": "East Holiday Resort",
+        "uri": "https://maps.google.com/maps/contrib/105166514252008641039"
+      }
+    },
+    {
+      "path": "/photos/east-holiday-resort/4.jpg",
+      "width": 576,
+      "height": 768,
+      "attribution": {
+        "displayName": "East Holiday Resort",
+        "uri": "https://maps.google.com/maps/contrib/105166514252008641039"
+      }
+    },
+    {
+      "path": "/photos/east-holiday-resort/5.jpg",
+      "width": 1024,
+      "height": 768,
+      "attribution": {
+        "displayName": "East Holiday Resort",
+        "uri": "https://maps.google.com/maps/contrib/105166514252008641039"
+      }
+    }
+  ]
 }

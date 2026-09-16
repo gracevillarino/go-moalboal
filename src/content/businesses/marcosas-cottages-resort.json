@@ -120,5 +120,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/marcosas-cottages-resort/1.jpg",
+      "width": 3183,
+      "height": 988,
+      "attribution": {
+        "displayName": "Marcosas Cottages Resort",
+        "uri": "https://maps.google.com/maps/contrib/108094859409312984438"
+      }
+    },
+    {
+      "path": "/photos/marcosas-cottages-resort/2.jpg",
+      "width": 4800,
+      "height": 3105,
+      "attribution": {
+        "displayName": "Marcosas Cottages Resort",
+        "uri": "https://maps.google.com/maps/contrib/108094859409312984438"
+      }
+    },
+    {
+      "path": "/photos/marcosas-cottages-resort/3.jpg",
+      "width": 3648,
+      "height": 2736,
+      "attribution": {
+        "displayName": "Klaus Heidinger",
+        "uri": "https://maps.google.com/maps/contrib/115891277988539315035"
+      }
+    },
+    {
+      "path": "/photos/marcosas-cottages-resort/4.jpg",
+      "width": 3264,
+      "height": 2448,
+      "attribution": {
+        "displayName": "Marcosas Cottages Resort",
+        "uri": "https://maps.google.com/maps/contrib/108094859409312984438"
+      }
+    },
+    {
+      "path": "/photos/marcosas-cottages-resort/5.jpg",
+      "width": 2048,
+      "height": 1365,
+      "attribution": {
+        "displayName": "Reed Zhang",
+        "uri": "https://maps.google.com/maps/contrib/106119137272909181662"
+      }
+    }
+  ]
 }

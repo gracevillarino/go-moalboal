@@ -88,5 +88,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/dolce-vita-resort/1.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Dolce Vita Resort",
+        "uri": "https://maps.google.com/maps/contrib/106320249966459304818"
+      }
+    },
+    {
+      "path": "/photos/dolce-vita-resort/2.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Dolce Vita Resort",
+        "uri": "https://maps.google.com/maps/contrib/106320249966459304818"
+      }
+    },
+    {
+      "path": "/photos/dolce-vita-resort/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Dolce Vita Resort",
+        "uri": "https://maps.google.com/maps/contrib/106320249966459304818"
+      }
+    },
+    {
+      "path": "/photos/dolce-vita-resort/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Dolce Vita Resort",
+        "uri": "https://maps.google.com/maps/contrib/106320249966459304818"
+      }
+    },
+    {
+      "path": "/photos/dolce-vita-resort/5.jpg",
+      "width": 3852,
+      "height": 2892,
+      "attribution": {
+        "displayName": "Dolce Vita Resort",
+        "uri": "https://maps.google.com/maps/contrib/106320249966459304818"
+      }
+    }
+  ]
 }

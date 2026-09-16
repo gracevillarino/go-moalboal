@@ -39,19 +39,21 @@ const { googlePlaceId, googleMapsUri, tripadvisorLocationId = '', tripadvisorUrl
     <p class="provider-attributions" data-provider-attributions></p>
   </section>
 
-  <section class="provider-carousel tripadvisor-carousel" data-review-provider="tripadvisor" aria-labelledby="tripadvisor-reviews-title">
-    <header>
-      <h3 id="tripadvisor-reviews-title">Tripadvisor reviews</h3>
-      {tripadvisorUrl && <a href={tripadvisorUrl} rel="noreferrer" target="_blank">View all on Tripadvisor ↗</a>}
-    </header>
-    <p class="review-status" data-review-status aria-live="polite">Loading live reviews…</p>
-    <div class="review-track" data-review-track tabindex="0" aria-label="Tripadvisor review carousel"></div>
-    <div class="carousel-controls" data-carousel-controls hidden>
-      <button type="button" data-direction="-1" aria-label="Previous Tripadvisor review">←</button>
-      <button type="button" data-direction="1" aria-label="Next Tripadvisor review">→</button>
-    </div>
-    <p class="provider-notice" data-provider-notice></p>
-  </section>
+  {tripadvisorLocationId && (
+    <section class="provider-carousel tripadvisor-carousel" data-review-provider="tripadvisor" aria-labelledby="tripadvisor-reviews-title">
+      <header>
+        <h3 id="tripadvisor-reviews-title">Tripadvisor reviews</h3>
+        {tripadvisorUrl && <a href={tripadvisorUrl} rel="noreferrer" target="_blank">View all on Tripadvisor ↗</a>}
+      </header>
+      <p class="review-status" data-review-status aria-live="polite">Loading live reviews…</p>
+      <div class="review-track" data-review-track tabindex="0" aria-label="Tripadvisor review carousel"></div>
+      <div class="carousel-controls" data-carousel-controls hidden>
+        <button type="button" data-direction="-1" aria-label="Previous Tripadvisor review">←</button>
+        <button type="button" data-direction="1" aria-label="Next Tripadvisor review">→</button>
+      </div>
+      <p class="provider-notice" data-provider-notice></p>
+    </section>
+  )}
 </section>
 
 <script>
@@ -156,12 +158,14 @@ const { googlePlaceId, googleMapsUri, tripadvisorLocationId = '', tripadvisorUrl
     track.replaceChildren();
     const reviews = payload?.reviews ?? [];
     if (!reviews.length) {
+      if (provider === 'tripadvisor') panel.hidden = true;
       status.textContent = payload?.available === false
         ? 'Live reviews are not available for this listing yet.'
         : 'No qualifying 5-star reviews were returned for this listing.';
       notice.textContent = '';
       return;
     }
+    panel.hidden = false;
     status.hidden = true;
     for (const review of reviews) track.append(reviewCard(review, provider));
     notice.textContent = payload.notice ?? '';

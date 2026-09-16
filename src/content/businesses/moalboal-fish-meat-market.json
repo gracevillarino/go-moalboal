@@ -40,5 +40,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/moalboal-fish-meat-market/1.jpg",
+      "width": 3968,
+      "height": 2976,
+      "attribution": {
+        "displayName": "Carlos cjnasc",
+        "uri": "https://maps.google.com/maps/contrib/103418496540668332404"
+      }
+    },
+    {
+      "path": "/photos/moalboal-fish-meat-market/2.jpg",
+      "width": 1024,
+      "height": 768,
+      "attribution": {
+        "displayName": "mel sn",
+        "uri": "https://maps.google.com/maps/contrib/103810983601164535314"
+      }
+    },
+    {
+      "path": "/photos/moalboal-fish-meat-market/3.jpg",
+      "width": 3968,
+      "height": 2976,
+      "attribution": {
+        "displayName": "Carlos cjnasc",
+        "uri": "https://maps.google.com/maps/contrib/103418496540668332404"
+      }
+    },
+    {
+      "path": "/photos/moalboal-fish-meat-market/4.jpg",
+      "width": 4608,
+      "height": 2592,
+      "attribution": {
+        "displayName": "Ed Norcal diver",
+        "uri": "https://maps.google.com/maps/contrib/116133039081192823574"
+      }
+    },
+    {
+      "path": "/photos/moalboal-fish-meat-market/5.jpg",
+      "width": 3648,
+      "height": 2245,
+      "attribution": {
+        "displayName": "Klaus Heidinger",
+        "uri": "https://maps.google.com/maps/contrib/115891277988539315035"
+      }
+    }
+  ]
 }

@@ -90,5 +90,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/wild-monkeys-hostel/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Wild Monkeys Hostel",
+        "uri": "https://maps.google.com/maps/contrib/111470068052344434195"
+      }
+    },
+    {
+      "path": "/photos/wild-monkeys-hostel/2.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Lucia Rebollo",
+        "uri": "https://maps.google.com/maps/contrib/114922053014842561291"
+      }
+    },
+    {
+      "path": "/photos/wild-monkeys-hostel/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Wild Monkeys Hostel",
+        "uri": "https://maps.google.com/maps/contrib/111470068052344434195"
+      }
+    },
+    {
+      "path": "/photos/wild-monkeys-hostel/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Wild Monkeys Hostel",
+        "uri": "https://maps.google.com/maps/contrib/111470068052344434195"
+      }
+    },
+    {
+      "path": "/photos/wild-monkeys-hostel/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Wild Monkeys Hostel",
+        "uri": "https://maps.google.com/maps/contrib/111470068052344434195"
+      }
+    }
+  ]
 }

@@ -97,5 +97,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/le-bistro-moalboal/1.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Le Bistro Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107038621713148833067"
+      }
+    },
+    {
+      "path": "/photos/le-bistro-moalboal/2.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Le Bistro Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107038621713148833067"
+      }
+    },
+    {
+      "path": "/photos/le-bistro-moalboal/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Romagean Alexandra Pada",
+        "uri": "https://maps.google.com/maps/contrib/107054434230207692528"
+      }
+    },
+    {
+      "path": "/photos/le-bistro-moalboal/4.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Steph",
+        "uri": "https://maps.google.com/maps/contrib/105580240134969360548"
+      }
+    },
+    {
+      "path": "/photos/le-bistro-moalboal/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Romagean Alexandra Pada",
+        "uri": "https://maps.google.com/maps/contrib/107054434230207692528"
+      }
+    }
+  ]
 }

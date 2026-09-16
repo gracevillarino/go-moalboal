@@ -28,6 +28,47 @@ sources:
   - title: Friendly Diving and Snorkeling Guidelines
     publisher: Green Fins
     url: https://greenfins.net/material/gf_all_eng_cocguidelinesall_a4/
+photos:
+  - path: "/photos/stories/the-shoal-beside-the-town/1.jpg"
+    width: 2182
+    height: 1242
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sardine_run_over_seafloor_in_Moalboal_01.jpg"
+  - path: "/photos/stories/the-shoal-beside-the-town/2.jpg"
+    width: 2180
+    height: 1242
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sardine_run_over_seafloor_in_Moalboal_02.jpg"
+  - path: "/photos/stories/the-shoal-beside-the-town/3.jpg"
+    width: 2184
+    height: 1242
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sardine_run_over_seafloor_in_Moalboal_03.jpg"
+  - path: "/photos/stories/the-shoal-beside-the-town/4.jpg"
+    width: 2200
+    height: 1242
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sardine_run_over_seafloor_in_Moalboal_04.jpg"
+  - path: "/photos/stories/the-shoal-beside-the-town/5.jpg"
+    width: 2184
+    height: 1242
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sardine_run_over_seafloor_in_Moalboal_05.jpg"
 ---
 
 At Panagsama, one of Moalboal’s most famous wildlife encounters begins unusually close to shore. A vast aggregation of small pelagic fish can fold, split and re-form in the water, turning the space above the reef into a moving architecture of silver.

@@ -52,5 +52,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/laundry-made-easy/1.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Laundry Made Easy",
+        "uri": "https://maps.google.com/maps/contrib/113636526203038274053"
+      }
+    },
+    {
+      "path": "/photos/laundry-made-easy/2.jpg",
+      "width": 1280,
+      "height": 960,
+      "attribution": {
+        "displayName": "Laundry Made Easy",
+        "uri": "https://maps.google.com/maps/contrib/113636526203038274053"
+      }
+    },
+    {
+      "path": "/photos/laundry-made-easy/3.jpg",
+      "width": 3072,
+      "height": 4080,
+      "attribution": {
+        "displayName": "Cameron Pentz",
+        "uri": "https://maps.google.com/maps/contrib/102351521263265974260"
+      }
+    },
+    {
+      "path": "/photos/laundry-made-easy/4.jpg",
+      "width": 3072,
+      "height": 4080,
+      "attribution": {
+        "displayName": "Hello April",
+        "uri": "https://maps.google.com/maps/contrib/108683397455753437901"
+      }
+    },
+    {
+      "path": "/photos/laundry-made-easy/5.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "솔직리뷰",
+        "uri": "https://maps.google.com/maps/contrib/101716778622423927508"
+      }
+    }
+  ]
 }

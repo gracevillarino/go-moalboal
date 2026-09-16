@@ -99,5 +99,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/isla-bar/1.jpg",
+      "width": 800,
+      "height": 500,
+      "attribution": {
+        "displayName": "ISLA BAR",
+        "uri": "https://maps.google.com/maps/contrib/110936583108333377199"
+      }
+    },
+    {
+      "path": "/photos/isla-bar/2.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "ISLA BAR",
+        "uri": "https://maps.google.com/maps/contrib/110936583108333377199"
+      }
+    },
+    {
+      "path": "/photos/isla-bar/3.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "ISLA BAR",
+        "uri": "https://maps.google.com/maps/contrib/110936583108333377199"
+      }
+    },
+    {
+      "path": "/photos/isla-bar/4.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Hageun Hwang",
+        "uri": "https://maps.google.com/maps/contrib/104850274875310403760"
+      }
+    },
+    {
+      "path": "/photos/isla-bar/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Ma e",
+        "uri": "https://maps.google.com/maps/contrib/104455083913684820048"
+      }
+    }
+  ]
 }

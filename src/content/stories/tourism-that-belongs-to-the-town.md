@@ -27,6 +27,47 @@ sources:
   - title: Moalboal pushes for unified coastal boundaries
     publisher: Municipality of Moalboal
     url: https://moalboalcebu.gov.ph/moalboal-pushes-for-unified-coastal-boundariees-to-strengthen-governance-and-marine-protection/
+photos:
+  - path: "/photos/stories/tourism-that-belongs-to-the-town/1.jpg"
+    width: 3840
+    height: 2160
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sea_floor_in_Panagsama_Beach,_Moalboal_01.jpg"
+  - path: "/photos/stories/tourism-that-belongs-to-the-town/2.jpg"
+    width: 3840
+    height: 2160
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sea_floor_in_Panagsama_Beach,_Moalboal_02.jpg"
+  - path: "/photos/stories/tourism-that-belongs-to-the-town/3.jpg"
+    width: 3840
+    height: 2160
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sea_floor_in_Panagsama_Beach,_Moalboal_03.jpg"
+  - path: "/photos/stories/tourism-that-belongs-to-the-town/4.jpg"
+    width: 3840
+    height: 2160
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sea_floor_in_Panagsama_Beach,_Moalboal_04.jpg"
+  - path: "/photos/stories/tourism-that-belongs-to-the-town/5.jpg"
+    width: 3840
+    height: 2160
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sea_floor_in_Panagsama_Beach,_Moalboal_05.jpg"
 ---
 
 Tourism is visible in Moalboal: dive equipment drying in the sun, tricycles moving between the highway and the coast, restaurant menus, rooms for rent and boats preparing for the morning. Its less visible systems include water, waste, land prices, working conditions, fisheries, coastal zoning and the distribution of income.

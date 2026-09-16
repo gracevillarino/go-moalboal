@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/crystofrans-dental-clinic/1.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Mekka Ynot",
+        "uri": "https://maps.google.com/maps/contrib/111029326086306303669"
+      }
+    },
+    {
+      "path": "/photos/crystofrans-dental-clinic/2.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Mekka Ynot",
+        "uri": "https://maps.google.com/maps/contrib/111029326086306303669"
+      }
+    },
+    {
+      "path": "/photos/crystofrans-dental-clinic/3.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Mekka Ynot",
+        "uri": "https://maps.google.com/maps/contrib/111029326086306303669"
+      }
+    },
+    {
+      "path": "/photos/crystofrans-dental-clinic/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Mekka Ynot",
+        "uri": "https://maps.google.com/maps/contrib/111029326086306303669"
+      }
+    },
+    {
+      "path": "/photos/crystofrans-dental-clinic/5.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Mekka Ynot",
+        "uri": "https://maps.google.com/maps/contrib/111029326086306303669"
+      }
+    }
+  ]
 }

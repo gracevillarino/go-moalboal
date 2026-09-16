@@ -89,5 +89,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ffg-eden-resort/1.jpg",
+      "width": 640,
+      "height": 427,
+      "attribution": {
+        "displayName": "FFG EDEN Resort Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/116405928382564672538"
+      }
+    },
+    {
+      "path": "/photos/ffg-eden-resort/2.jpg",
+      "width": 2250,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Kenn Gumonan",
+        "uri": "https://maps.google.com/maps/contrib/110278846009364657951"
+      }
+    },
+    {
+      "path": "/photos/ffg-eden-resort/3.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Karisse Bernadette Canono",
+        "uri": "https://maps.google.com/maps/contrib/109827480477561808677"
+      }
+    },
+    {
+      "path": "/photos/ffg-eden-resort/4.jpg",
+      "width": 640,
+      "height": 480,
+      "attribution": {
+        "displayName": "FFG EDEN Resort Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/116405928382564672538"
+      }
+    },
+    {
+      "path": "/photos/ffg-eden-resort/5.jpg",
+      "width": 640,
+      "height": 480,
+      "attribution": {
+        "displayName": "FFG EDEN Resort Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/116405928382564672538"
+      }
+    }
+  ]
 }

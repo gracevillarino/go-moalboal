@@ -45,5 +45,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/yamz-cebu-tourist-transport/1.jpg",
+      "width": 720,
+      "height": 960,
+      "attribution": {
+        "displayName": "Yamz Cebu Tourist Transport",
+        "uri": "https://maps.google.com/maps/contrib/107415002333084142444"
+      }
+    },
+    {
+      "path": "/photos/yamz-cebu-tourist-transport/2.jpg",
+      "width": 3472,
+      "height": 4624,
+      "attribution": {
+        "displayName": "Yamz Cebu Tourist Transport",
+        "uri": "https://maps.google.com/maps/contrib/107415002333084142444"
+      }
+    },
+    {
+      "path": "/photos/yamz-cebu-tourist-transport/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Yamz Cebu Tourist Transport",
+        "uri": "https://maps.google.com/maps/contrib/107415002333084142444"
+      }
+    },
+    {
+      "path": "/photos/yamz-cebu-tourist-transport/4.jpg",
+      "width": 3472,
+      "height": 4624,
+      "attribution": {
+        "displayName": "Yamz Cebu Tourist Transport",
+        "uri": "https://maps.google.com/maps/contrib/107415002333084142444"
+      }
+    },
+    {
+      "path": "/photos/yamz-cebu-tourist-transport/5.jpg",
+      "width": 3472,
+      "height": 4624,
+      "attribution": {
+        "displayName": "Yamz Cebu Tourist Transport",
+        "uri": "https://maps.google.com/maps/contrib/107415002333084142444"
+      }
+    }
+  ]
 }

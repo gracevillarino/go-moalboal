@@ -91,5 +91,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/fire-ice-burgers-and-sizzlers/1.jpg",
+      "width": 4000,
+      "height": 1848,
+      "attribution": {
+        "displayName": "Jonathan James",
+        "uri": "https://maps.google.com/maps/contrib/113435846138224656199"
+      }
+    },
+    {
+      "path": "/photos/fire-ice-burgers-and-sizzlers/2.jpg",
+      "width": 4160,
+      "height": 3120,
+      "attribution": {
+        "displayName": "Jastenlou Tampon",
+        "uri": "https://maps.google.com/maps/contrib/114719246183903217768"
+      }
+    },
+    {
+      "path": "/photos/fire-ice-burgers-and-sizzlers/3.jpg",
+      "width": 2160,
+      "height": 2880,
+      "attribution": {
+        "displayName": "SHESLIVING OMBOS",
+        "uri": "https://maps.google.com/maps/contrib/108549066666694063337"
+      }
+    },
+    {
+      "path": "/photos/fire-ice-burgers-and-sizzlers/4.jpg",
+      "width": 4160,
+      "height": 3120,
+      "attribution": {
+        "displayName": "Jastenlou Tampon",
+        "uri": "https://maps.google.com/maps/contrib/114719246183903217768"
+      }
+    },
+    {
+      "path": "/photos/fire-ice-burgers-and-sizzlers/5.jpg",
+      "width": 4160,
+      "height": 3120,
+      "attribution": {
+        "displayName": "Jastenlou Tampon",
+        "uri": "https://maps.google.com/maps/contrib/114719246183903217768"
+      }
+    }
+  ]
 }

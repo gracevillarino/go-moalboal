@@ -92,5 +92,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/sunset-paradise-hostel-moalboal/1.jpg",
+      "width": 2880,
+      "height": 2992,
+      "attribution": {
+        "displayName": "MuchoTV 무초TV",
+        "uri": "https://maps.google.com/maps/contrib/116752496812394962538"
+      }
+    },
+    {
+      "path": "/photos/sunset-paradise-hostel-moalboal/2.jpg",
+      "width": 1600,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Sunset Paradise Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/104332648155404921930"
+      }
+    },
+    {
+      "path": "/photos/sunset-paradise-hostel-moalboal/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Mary Angeline Bayaona",
+        "uri": "https://maps.google.com/maps/contrib/115473705055540558379"
+      }
+    },
+    {
+      "path": "/photos/sunset-paradise-hostel-moalboal/4.jpg",
+      "width": 2268,
+      "height": 4032,
+      "attribution": {
+        "displayName": "s gim",
+        "uri": "https://maps.google.com/maps/contrib/104660526201568161148"
+      }
+    },
+    {
+      "path": "/photos/sunset-paradise-hostel-moalboal/5.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Sunset Paradise Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/104332648155404921930"
+      }
+    }
+  ]
 }

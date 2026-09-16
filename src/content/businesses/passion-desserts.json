@@ -78,5 +78,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/passion-desserts/1.jpg",
+      "width": 1634,
+      "height": 919,
+      "attribution": {
+        "displayName": "Passion Desserts",
+        "uri": "https://maps.google.com/maps/contrib/108990561517560363650"
+      }
+    },
+    {
+      "path": "/photos/passion-desserts/2.jpg",
+      "width": 4160,
+      "height": 2340,
+      "attribution": {
+        "displayName": "Passion Desserts",
+        "uri": "https://maps.google.com/maps/contrib/108990561517560363650"
+      }
+    },
+    {
+      "path": "/photos/passion-desserts/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "OC Domer",
+        "uri": "https://maps.google.com/maps/contrib/112589342045056016270"
+      }
+    },
+    {
+      "path": "/photos/passion-desserts/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Lara K",
+        "uri": "https://maps.google.com/maps/contrib/107385481005309932311"
+      }
+    },
+    {
+      "path": "/photos/passion-desserts/5.jpg",
+      "width": 2700,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Claudio Nunes",
+        "uri": "https://maps.google.com/maps/contrib/106268530949466106979"
+      }
+    }
+  ]
 }

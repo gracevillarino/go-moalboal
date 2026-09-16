@@ -40,5 +40,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/elite-scooter-rentals-cebu/1.jpg",
+      "width": 1200,
+      "height": 1026,
+      "attribution": {
+        "displayName": "darin torres",
+        "uri": "https://maps.google.com/maps/contrib/114120338888614829399"
+      }
+    },
+    {
+      "path": "/photos/elite-scooter-rentals-cebu/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Dignetie D",
+        "uri": "https://maps.google.com/maps/contrib/106963598984818726761"
+      }
+    },
+    {
+      "path": "/photos/elite-scooter-rentals-cebu/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Dignetie D",
+        "uri": "https://maps.google.com/maps/contrib/106963598984818726761"
+      }
+    },
+    {
+      "path": "/photos/elite-scooter-rentals-cebu/4.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "darin torres",
+        "uri": "https://maps.google.com/maps/contrib/114120338888614829399"
+      }
+    },
+    {
+      "path": "/photos/elite-scooter-rentals-cebu/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "darin torres",
+        "uri": "https://maps.google.com/maps/contrib/114120338888614829399"
+      }
+    }
+  ]
 }

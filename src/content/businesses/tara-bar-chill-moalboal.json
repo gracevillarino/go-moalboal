@@ -80,5 +80,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/tara-bar-chill-moalboal/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Charisse Pableo",
+        "uri": "https://maps.google.com/maps/contrib/116270446419662077944"
+      }
+    },
+    {
+      "path": "/photos/tara-bar-chill-moalboal/2.jpg",
+      "width": 1408,
+      "height": 1898,
+      "attribution": {
+        "displayName": "Mary Fate Apostadero",
+        "uri": "https://maps.google.com/maps/contrib/101182161108925963240"
+      }
+    },
+    {
+      "path": "/photos/tara-bar-chill-moalboal/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Филипп Димиденко",
+        "uri": "https://maps.google.com/maps/contrib/101408914217605091082"
+      }
+    },
+    {
+      "path": "/photos/tara-bar-chill-moalboal/4.jpg",
+      "width": 2842,
+      "height": 4029,
+      "attribution": {
+        "displayName": "Charisse Pableo",
+        "uri": "https://maps.google.com/maps/contrib/116270446419662077944"
+      }
+    },
+    {
+      "path": "/photos/tara-bar-chill-moalboal/5.jpg",
+      "width": 3024,
+      "height": 3363,
+      "attribution": {
+        "displayName": "Krisna Kaye Abenido",
+        "uri": "https://maps.google.com/maps/contrib/107300064103867812433"
+      }
+    }
+  ]
 }

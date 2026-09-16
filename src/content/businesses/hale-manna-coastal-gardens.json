@@ -120,5 +120,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/hale-manna-coastal-gardens/1.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Hale Manna Coastal Gardens",
+        "uri": "https://maps.google.com/maps/contrib/115939955330017496653"
+      }
+    },
+    {
+      "path": "/photos/hale-manna-coastal-gardens/2.jpg",
+      "width": 4800,
+      "height": 2324,
+      "attribution": {
+        "displayName": "Sahb Gomez",
+        "uri": "https://maps.google.com/maps/contrib/118409971439214350600"
+      }
+    },
+    {
+      "path": "/photos/hale-manna-coastal-gardens/3.jpg",
+      "width": 4624,
+      "height": 3472,
+      "attribution": {
+        "displayName": "晃嘉",
+        "uri": "https://maps.google.com/maps/contrib/112895367530300779294"
+      }
+    },
+    {
+      "path": "/photos/hale-manna-coastal-gardens/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "미완성 김라미",
+        "uri": "https://maps.google.com/maps/contrib/104240486211828725228"
+      }
+    },
+    {
+      "path": "/photos/hale-manna-coastal-gardens/5.jpg",
+      "width": 696,
+      "height": 495,
+      "attribution": {
+        "displayName": "Hale Manna Coastal Gardens",
+        "uri": "https://maps.google.com/maps/contrib/115939955330017496653"
+      }
+    }
+  ]
 }

@@ -76,5 +76,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/mashiso-restaurant/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Eagle Eye Up High",
+        "uri": "https://maps.google.com/maps/contrib/107926888376312898348"
+      }
+    },
+    {
+      "path": "/photos/mashiso-restaurant/2.jpg",
+      "width": 3024,
+      "height": 3095,
+      "attribution": {
+        "displayName": "Eagle Eye Up High",
+        "uri": "https://maps.google.com/maps/contrib/107926888376312898348"
+      }
+    },
+    {
+      "path": "/photos/mashiso-restaurant/3.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Eagle Eye Up High",
+        "uri": "https://maps.google.com/maps/contrib/107926888376312898348"
+      }
+    },
+    {
+      "path": "/photos/mashiso-restaurant/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "최문희",
+        "uri": "https://maps.google.com/maps/contrib/101339801720853989389"
+      }
+    },
+    {
+      "path": "/photos/mashiso-restaurant/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Eagle Eye Up High",
+        "uri": "https://maps.google.com/maps/contrib/107926888376312898348"
+      }
+    }
+  ]
 }

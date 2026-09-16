@@ -109,5 +109,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/cocofi/1.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Romagean Alexandra Pada",
+        "uri": "https://maps.google.com/maps/contrib/107054434230207692528"
+      }
+    },
+    {
+      "path": "/photos/cocofi/2.jpg",
+      "width": 3200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "COCOFI",
+        "uri": "https://maps.google.com/maps/contrib/103197451359268273154"
+      }
+    },
+    {
+      "path": "/photos/cocofi/3.jpg",
+      "width": 3084,
+      "height": 4626,
+      "attribution": {
+        "displayName": "COCOFI",
+        "uri": "https://maps.google.com/maps/contrib/103197451359268273154"
+      }
+    },
+    {
+      "path": "/photos/cocofi/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Vida Cielo Abueva",
+        "uri": "https://maps.google.com/maps/contrib/114733483373833411534"
+      }
+    },
+    {
+      "path": "/photos/cocofi/5.jpg",
+      "width": 2268,
+      "height": 4032,
+      "attribution": {
+        "displayName": "CLYDE CEDRICK PALOMA",
+        "uri": "https://maps.google.com/maps/contrib/103381821991415843837"
+      }
+    }
+  ]
 }

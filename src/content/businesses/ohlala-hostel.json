@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ohlala-hostel/1.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Ohlala Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105522404107325095471"
+      }
+    },
+    {
+      "path": "/photos/ohlala-hostel/2.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Ohlala Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105522404107325095471"
+      }
+    },
+    {
+      "path": "/photos/ohlala-hostel/3.jpg",
+      "width": 1080,
+      "height": 1080,
+      "attribution": {
+        "displayName": "Ohlala Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105522404107325095471"
+      }
+    },
+    {
+      "path": "/photos/ohlala-hostel/4.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Ohlala Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105522404107325095471"
+      }
+    },
+    {
+      "path": "/photos/ohlala-hostel/5.jpg",
+      "width": 2768,
+      "height": 1848,
+      "attribution": {
+        "displayName": "Ohlala Hostel",
+        "uri": "https://maps.google.com/maps/contrib/105522404107325095471"
+      }
+    }
+  ]
 }

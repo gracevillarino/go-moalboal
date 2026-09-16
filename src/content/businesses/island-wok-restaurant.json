@@ -103,5 +103,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/island-wok-restaurant/1.jpg",
+      "width": 4176,
+      "height": 2784,
+      "attribution": {
+        "displayName": "Island Wok Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/104249861416577856311"
+      }
+    },
+    {
+      "path": "/photos/island-wok-restaurant/2.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Island Wok Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/104249861416577856311"
+      }
+    },
+    {
+      "path": "/photos/island-wok-restaurant/3.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Yan Wong",
+        "uri": "https://maps.google.com/maps/contrib/108197022230741806013"
+      }
+    },
+    {
+      "path": "/photos/island-wok-restaurant/4.jpg",
+      "width": 4176,
+      "height": 2784,
+      "attribution": {
+        "displayName": "Island Wok Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/104249861416577856311"
+      }
+    },
+    {
+      "path": "/photos/island-wok-restaurant/5.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Thai T",
+        "uri": "https://maps.google.com/maps/contrib/103628669684594686963"
+      }
+    }
+  ]
 }

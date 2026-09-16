@@ -87,5 +87,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/rna-guesthouse/1.jpg",
+      "width": 640,
+      "height": 427,
+      "attribution": {
+        "displayName": "OYO 777 Rn Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/103818071864632236929"
+      }
+    },
+    {
+      "path": "/photos/rna-guesthouse/2.jpg",
+      "width": 640,
+      "height": 427,
+      "attribution": {
+        "displayName": "OYO 777 Rn Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/103818071864632236929"
+      }
+    },
+    {
+      "path": "/photos/rna-guesthouse/3.jpg",
+      "width": 640,
+      "height": 427,
+      "attribution": {
+        "displayName": "OYO 777 Rn Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/103818071864632236929"
+      }
+    },
+    {
+      "path": "/photos/rna-guesthouse/4.jpg",
+      "width": 640,
+      "height": 427,
+      "attribution": {
+        "displayName": "OYO 777 Rn Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/103818071864632236929"
+      }
+    },
+    {
+      "path": "/photos/rna-guesthouse/5.jpg",
+      "width": 640,
+      "height": 427,
+      "attribution": {
+        "displayName": "OYO 777 Rn Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/103818071864632236929"
+      }
+    }
+  ]
 }

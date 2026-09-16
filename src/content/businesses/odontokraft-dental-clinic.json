@@ -67,5 +67,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/odontokraft-dental-clinic/1.jpg",
+      "width": 1136,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Mark Augustine Lamosao",
+        "uri": "https://maps.google.com/maps/contrib/117198355514344118669"
+      }
+    },
+    {
+      "path": "/photos/odontokraft-dental-clinic/2.jpg",
+      "width": 864,
+      "height": 648,
+      "attribution": {
+        "displayName": "Mark Augustine Lamosao",
+        "uri": "https://maps.google.com/maps/contrib/117198355514344118669"
+      }
+    },
+    {
+      "path": "/photos/odontokraft-dental-clinic/3.jpg",
+      "width": 1080,
+      "height": 1075,
+      "attribution": {
+        "displayName": "Mark Augustine Lamosao",
+        "uri": "https://maps.google.com/maps/contrib/117198355514344118669"
+      }
+    },
+    {
+      "path": "/photos/odontokraft-dental-clinic/4.jpg",
+      "width": 4035,
+      "height": 2690,
+      "attribution": {
+        "displayName": "REAL, MERY JOY S.",
+        "uri": "https://maps.google.com/maps/contrib/110402660036303903667"
+      }
+    },
+    {
+      "path": "/photos/odontokraft-dental-clinic/5.jpg",
+      "width": 960,
+      "height": 720,
+      "attribution": {
+        "displayName": "Mark Augustine Lamosao",
+        "uri": "https://maps.google.com/maps/contrib/117198355514344118669"
+      }
+    }
+  ]
 }

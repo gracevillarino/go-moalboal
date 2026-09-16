@@ -76,5 +76,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/babu-backpacker-s-inn/1.jpg",
+      "width": 1136,
+      "height": 852,
+      "attribution": {
+        "displayName": "Socorro Fabor",
+        "uri": "https://maps.google.com/maps/contrib/104031405835359842459"
+      }
+    },
+    {
+      "path": "/photos/babu-backpacker-s-inn/2.jpg",
+      "width": 4128,
+      "height": 2322,
+      "attribution": {
+        "displayName": "Soraya Menchavez",
+        "uri": "https://maps.google.com/maps/contrib/105537167804975211831"
+      }
+    },
+    {
+      "path": "/photos/babu-backpacker-s-inn/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "aubrey",
+        "uri": "https://maps.google.com/maps/contrib/116022147778072589027"
+      }
+    },
+    {
+      "path": "/photos/babu-backpacker-s-inn/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Carlos Silva",
+        "uri": "https://maps.google.com/maps/contrib/105422306164189756917"
+      }
+    },
+    {
+      "path": "/photos/babu-backpacker-s-inn/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "aubrey",
+        "uri": "https://maps.google.com/maps/contrib/116022147778072589027"
+      }
+    }
+  ]
 }

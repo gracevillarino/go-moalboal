@@ -134,5 +134,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/crazy-bears-hostel/1.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Crazy Bears Hostel",
+        "uri": "https://maps.google.com/maps/contrib/102253358282938407992"
+      }
+    },
+    {
+      "path": "/photos/crazy-bears-hostel/2.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Crazy Bears Hostel",
+        "uri": "https://maps.google.com/maps/contrib/102253358282938407992"
+      }
+    },
+    {
+      "path": "/photos/crazy-bears-hostel/3.jpg",
+      "width": 3072,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Janica Bernardino",
+        "uri": "https://maps.google.com/maps/contrib/100108591170626853824"
+      }
+    },
+    {
+      "path": "/photos/crazy-bears-hostel/4.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Crazy Bears Hostel",
+        "uri": "https://maps.google.com/maps/contrib/102253358282938407992"
+      }
+    },
+    {
+      "path": "/photos/crazy-bears-hostel/5.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Crazy Bears Hostel",
+        "uri": "https://maps.google.com/maps/contrib/102253358282938407992"
+      }
+    }
+  ]
 }

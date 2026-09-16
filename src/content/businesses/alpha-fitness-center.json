@@ -49,5 +49,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/alpha-fitness-center/1.jpg",
+      "width": 2048,
+      "height": 922,
+      "attribution": {
+        "displayName": "Alpha Fitness Center",
+        "uri": "https://maps.google.com/maps/contrib/110251488754778720137"
+      }
+    },
+    {
+      "path": "/photos/alpha-fitness-center/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Marie GIRARD",
+        "uri": "https://maps.google.com/maps/contrib/113393798643779003298"
+      }
+    },
+    {
+      "path": "/photos/alpha-fitness-center/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "胡以恩",
+        "uri": "https://maps.google.com/maps/contrib/111986553149832590340"
+      }
+    },
+    {
+      "path": "/photos/alpha-fitness-center/4.jpg",
+      "width": 4096,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Cliff Abarquez",
+        "uri": "https://maps.google.com/maps/contrib/117544326645256282935"
+      }
+    },
+    {
+      "path": "/photos/alpha-fitness-center/5.jpg",
+      "width": 922,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Alpha Fitness Center",
+        "uri": "https://maps.google.com/maps/contrib/110251488754778720137"
+      }
+    }
+  ]
 }

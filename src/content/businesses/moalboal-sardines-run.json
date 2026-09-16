@@ -71,5 +71,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/moalboal-sardines-run/1.jpg",
+      "width": 1083,
+      "height": 1452,
+      "attribution": {
+        "displayName": "Kris Kyaw",
+        "uri": "https://maps.google.com/maps/contrib/106634180255116150883"
+      }
+    },
+    {
+      "path": "/photos/moalboal-sardines-run/2.jpg",
+      "width": 4800,
+      "height": 4200,
+      "attribution": {
+        "displayName": "Family Miri Travels",
+        "uri": "https://maps.google.com/maps/contrib/107250587149113622132"
+      }
+    },
+    {
+      "path": "/photos/moalboal-sardines-run/3.jpg",
+      "width": 4800,
+      "height": 4200,
+      "attribution": {
+        "displayName": "Family Miri Travels",
+        "uri": "https://maps.google.com/maps/contrib/107250587149113622132"
+      }
+    },
+    {
+      "path": "/photos/moalboal-sardines-run/4.jpg",
+      "width": 4800,
+      "height": 4200,
+      "attribution": {
+        "displayName": "NESTOR BUMATAY",
+        "uri": "https://maps.google.com/maps/contrib/107470697987902837856"
+      }
+    },
+    {
+      "path": "/photos/moalboal-sardines-run/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Ka Hang Christopher Hon",
+        "uri": "https://maps.google.com/maps/contrib/102852372410743280657"
+      }
+    }
+  ]
 }

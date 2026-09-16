@@ -58,5 +58,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/the-blue-abyss-dive-shop/1.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "The Blue Abyss Dive Shop",
+        "uri": "https://maps.google.com/maps/contrib/113342969106996393783"
+      }
+    },
+    {
+      "path": "/photos/the-blue-abyss-dive-shop/2.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "360 Tour Philippines",
+        "uri": "https://maps.google.com/maps/contrib/100043845963006242082"
+      }
+    },
+    {
+      "path": "/photos/the-blue-abyss-dive-shop/3.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "The Blue Abyss Dive Shop",
+        "uri": "https://maps.google.com/maps/contrib/113342969106996393783"
+      }
+    },
+    {
+      "path": "/photos/the-blue-abyss-dive-shop/4.jpg",
+      "width": 1184,
+      "height": 2560,
+      "attribution": {
+        "displayName": "The Blue Abyss Dive Shop",
+        "uri": "https://maps.google.com/maps/contrib/113342969106996393783"
+      }
+    },
+    {
+      "path": "/photos/the-blue-abyss-dive-shop/5.jpg",
+      "width": 1200,
+      "height": 900,
+      "attribution": {
+        "displayName": "Globe Trotter",
+        "uri": "https://maps.google.com/maps/contrib/116932748152577952082"
+      }
+    }
+  ]
 }

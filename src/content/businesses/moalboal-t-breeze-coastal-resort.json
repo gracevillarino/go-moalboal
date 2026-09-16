@@ -109,5 +109,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moalboal-t-breeze-coastal-resort/1.jpg",
+      "width": 3264,
+      "height": 2448,
+      "attribution": {
+        "displayName": "Moalboal T Breeze Coastal Resort",
+        "uri": "https://maps.google.com/maps/contrib/112431555355788893797"
+      }
+    },
+    {
+      "path": "/photos/moalboal-t-breeze-coastal-resort/2.jpg",
+      "width": 3232,
+      "height": 2424,
+      "attribution": {
+        "displayName": "Moalboal T Breeze Coastal Resort",
+        "uri": "https://maps.google.com/maps/contrib/112431555355788893797"
+      }
+    },
+    {
+      "path": "/photos/moalboal-t-breeze-coastal-resort/3.jpg",
+      "width": 3232,
+      "height": 2424,
+      "attribution": {
+        "displayName": "Moalboal T Breeze Coastal Resort",
+        "uri": "https://maps.google.com/maps/contrib/112431555355788893797"
+      }
+    },
+    {
+      "path": "/photos/moalboal-t-breeze-coastal-resort/4.jpg",
+      "width": 3999,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Moalboal T Breeze Coastal Resort",
+        "uri": "https://maps.google.com/maps/contrib/112431555355788893797"
+      }
+    },
+    {
+      "path": "/photos/moalboal-t-breeze-coastal-resort/5.jpg",
+      "width": 3264,
+      "height": 2448,
+      "attribution": {
+        "displayName": "Moalboal T Breeze Coastal Resort",
+        "uri": "https://maps.google.com/maps/contrib/112431555355788893797"
+      }
+    }
+  ]
 }

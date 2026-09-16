@@ -83,5 +83,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/jollibee-moalboal/1.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "정가군자",
+        "uri": "https://maps.google.com/maps/contrib/113184935011959833136"
+      }
+    },
+    {
+      "path": "/photos/jollibee-moalboal/2.jpg",
+      "width": 3072,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Thuy Anh Le",
+        "uri": "https://maps.google.com/maps/contrib/111395489773215006367"
+      }
+    },
+    {
+      "path": "/photos/jollibee-moalboal/3.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Joon",
+        "uri": "https://maps.google.com/maps/contrib/112431350597791094198"
+      }
+    },
+    {
+      "path": "/photos/jollibee-moalboal/4.jpg",
+      "width": 4000,
+      "height": 2252,
+      "attribution": {
+        "displayName": "HYEONG",
+        "uri": "https://maps.google.com/maps/contrib/101523165277589950532"
+      }
+    },
+    {
+      "path": "/photos/jollibee-moalboal/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Jill Travenner",
+        "uri": "https://maps.google.com/maps/contrib/100679430826735578550"
+      }
+    }
+  ]
 }

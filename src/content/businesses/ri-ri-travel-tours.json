@@ -44,5 +44,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/ri-ri-travel-tours/1.jpg",
+      "width": 950,
+      "height": 536,
+      "attribution": {
+        "displayName": "RI RI TRAVEL & TOURS",
+        "uri": "https://maps.google.com/maps/contrib/109484533958601281279"
+      }
+    },
+    {
+      "path": "/photos/ri-ri-travel-tours/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "이덕일",
+        "uri": "https://maps.google.com/maps/contrib/116179370567076307602"
+      }
+    },
+    {
+      "path": "/photos/ri-ri-travel-tours/3.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "RI RI TRAVEL & TOURS",
+        "uri": "https://maps.google.com/maps/contrib/109484533958601281279"
+      }
+    },
+    {
+      "path": "/photos/ri-ri-travel-tours/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "RI RI TRAVEL & TOURS",
+        "uri": "https://maps.google.com/maps/contrib/109484533958601281279"
+      }
+    },
+    {
+      "path": "/photos/ri-ri-travel-tours/5.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "RI RI TRAVEL & TOURS",
+        "uri": "https://maps.google.com/maps/contrib/109484533958601281279"
+      }
+    }
+  ]
 }

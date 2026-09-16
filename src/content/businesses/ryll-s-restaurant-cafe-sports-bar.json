@@ -83,5 +83,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ryll-s-restaurant-cafe-sports-bar/1.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Ryll's Restaurant • Café • Sports Bar",
+        "uri": "https://maps.google.com/maps/contrib/107568591418598078431"
+      }
+    },
+    {
+      "path": "/photos/ryll-s-restaurant-cafe-sports-bar/2.jpg",
+      "width": 855,
+      "height": 1280,
+      "attribution": {
+        "displayName": "Ryll's Restaurant • Café • Sports Bar",
+        "uri": "https://maps.google.com/maps/contrib/107568591418598078431"
+      }
+    },
+    {
+      "path": "/photos/ryll-s-restaurant-cafe-sports-bar/3.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "오운서",
+        "uri": "https://maps.google.com/maps/contrib/101884295164496243535"
+      }
+    },
+    {
+      "path": "/photos/ryll-s-restaurant-cafe-sports-bar/4.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Antonio Stark",
+        "uri": "https://maps.google.com/maps/contrib/108541258576048211901"
+      }
+    },
+    {
+      "path": "/photos/ryll-s-restaurant-cafe-sports-bar/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Tata Sadie",
+        "uri": "https://maps.google.com/maps/contrib/103663771344964201003"
+      }
+    }
+  ]
 }

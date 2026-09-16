@@ -73,5 +73,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/chicken-from-yura/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Chicken from Yura",
+        "uri": "https://maps.google.com/maps/contrib/107197757553768499820"
+      }
+    },
+    {
+      "path": "/photos/chicken-from-yura/2.jpg",
+      "width": 1840,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Chicken from Yura",
+        "uri": "https://maps.google.com/maps/contrib/107197757553768499820"
+      }
+    },
+    {
+      "path": "/photos/chicken-from-yura/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Chicken from Yura",
+        "uri": "https://maps.google.com/maps/contrib/107197757553768499820"
+      }
+    },
+    {
+      "path": "/photos/chicken-from-yura/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Chicken from Yura",
+        "uri": "https://maps.google.com/maps/contrib/107197757553768499820"
+      }
+    },
+    {
+      "path": "/photos/chicken-from-yura/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Zurab Latariya",
+        "uri": "https://maps.google.com/maps/contrib/110967238439128774132"
+      }
+    }
+  ]
 }

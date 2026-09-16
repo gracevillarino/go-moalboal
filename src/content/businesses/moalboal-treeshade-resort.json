@@ -95,5 +95,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moalboal-treeshade-resort/1.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Moalboal Treeshade Resort",
+        "uri": "https://maps.google.com/maps/contrib/110010484500043084636"
+      }
+    },
+    {
+      "path": "/photos/moalboal-treeshade-resort/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "SOOJIN OH (BELLA)",
+        "uri": "https://maps.google.com/maps/contrib/116010359193988492276"
+      }
+    },
+    {
+      "path": "/photos/moalboal-treeshade-resort/3.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Moalboal Treeshade Resort",
+        "uri": "https://maps.google.com/maps/contrib/110010484500043084636"
+      }
+    },
+    {
+      "path": "/photos/moalboal-treeshade-resort/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Moalboal Treeshade Resort",
+        "uri": "https://maps.google.com/maps/contrib/110010484500043084636"
+      }
+    },
+    {
+      "path": "/photos/moalboal-treeshade-resort/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Moalboal Treeshade Resort",
+        "uri": "https://maps.google.com/maps/contrib/110010484500043084636"
+      }
+    }
+  ]
 }

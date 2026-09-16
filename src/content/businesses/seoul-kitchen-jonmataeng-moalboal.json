@@ -72,5 +72,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/seoul-kitchen-jonmataeng-moalboal/1.jpg",
+      "width": 4000,
+      "height": 2252,
+      "attribution": {
+        "displayName": "서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal))",
+        "uri": "https://maps.google.com/maps/contrib/102907449196494029092"
+      }
+    },
+    {
+      "path": "/photos/seoul-kitchen-jonmataeng-moalboal/2.jpg",
+      "width": 3335,
+      "height": 2252,
+      "attribution": {
+        "displayName": "서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal))",
+        "uri": "https://maps.google.com/maps/contrib/102907449196494029092"
+      }
+    },
+    {
+      "path": "/photos/seoul-kitchen-jonmataeng-moalboal/3.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "선미최",
+        "uri": "https://maps.google.com/maps/contrib/106822795928698739355"
+      }
+    },
+    {
+      "path": "/photos/seoul-kitchen-jonmataeng-moalboal/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "이예은",
+        "uri": "https://maps.google.com/maps/contrib/113598946902332546042"
+      }
+    },
+    {
+      "path": "/photos/seoul-kitchen-jonmataeng-moalboal/5.jpg",
+      "width": 4000,
+      "height": 2252,
+      "attribution": {
+        "displayName": "서울키친 Seoul Kitchen(구,존맛탱(Jonmataeng moalboal))",
+        "uri": "https://maps.google.com/maps/contrib/102907449196494029092"
+      }
+    }
+  ]
 }

@@ -77,5 +77,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/panyang-bbq-pork-belly-and-chicken/1.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Carlos Rios",
+        "uri": "https://maps.google.com/maps/contrib/108961622222356067623"
+      }
+    },
+    {
+      "path": "/photos/panyang-bbq-pork-belly-and-chicken/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "hsieh登貴",
+        "uri": "https://maps.google.com/maps/contrib/117660035483796164060"
+      }
+    },
+    {
+      "path": "/photos/panyang-bbq-pork-belly-and-chicken/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Lil Shilova",
+        "uri": "https://maps.google.com/maps/contrib/118104150985184568260"
+      }
+    },
+    {
+      "path": "/photos/panyang-bbq-pork-belly-and-chicken/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Juan Cárdenas",
+        "uri": "https://maps.google.com/maps/contrib/116284493389020387189"
+      }
+    },
+    {
+      "path": "/photos/panyang-bbq-pork-belly-and-chicken/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "etsuko watanabe",
+        "uri": "https://maps.google.com/maps/contrib/116240898676385614667"
+      }
+    }
+  ]
 }

@@ -46,5 +46,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/sea-eagle-laundry-clothing-repair/1.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Jacel Yburan",
+        "uri": "https://maps.google.com/maps/contrib/115718161747877023626"
+      }
+    },
+    {
+      "path": "/photos/sea-eagle-laundry-clothing-repair/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Наталья Темникова",
+        "uri": "https://maps.google.com/maps/contrib/105265742225378982981"
+      }
+    },
+    {
+      "path": "/photos/sea-eagle-laundry-clothing-repair/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Наталья Темникова",
+        "uri": "https://maps.google.com/maps/contrib/105265742225378982981"
+      }
+    },
+    {
+      "path": "/photos/sea-eagle-laundry-clothing-repair/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "M Shin",
+        "uri": "https://maps.google.com/maps/contrib/114471229332692182306"
+      }
+    },
+    {
+      "path": "/photos/sea-eagle-laundry-clothing-repair/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Наталья Темникова",
+        "uri": "https://maps.google.com/maps/contrib/105265742225378982981"
+      }
+    }
+  ]
 }

@@ -59,5 +59,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/june-dive-resort/1.jpg",
+      "width": 2496,
+      "height": 1664,
+      "attribution": {
+        "displayName": "최정호",
+        "uri": "https://maps.google.com/maps/contrib/116766307716868592343"
+      }
+    },
+    {
+      "path": "/photos/june-dive-resort/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "박진영",
+        "uri": "https://maps.google.com/maps/contrib/112303264320169204055"
+      }
+    },
+    {
+      "path": "/photos/june-dive-resort/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Andrew Joe",
+        "uri": "https://maps.google.com/maps/contrib/101044968594735592883"
+      }
+    },
+    {
+      "path": "/photos/june-dive-resort/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Daniel Lim",
+        "uri": "https://maps.google.com/maps/contrib/104079836158857358325"
+      }
+    },
+    {
+      "path": "/photos/june-dive-resort/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "김 성희",
+        "uri": "https://maps.google.com/maps/contrib/102964894188542897659"
+      }
+    }
+  ]
 }

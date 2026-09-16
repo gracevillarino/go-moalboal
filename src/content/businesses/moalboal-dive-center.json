@@ -53,5 +53,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/moalboal-dive-center/1.jpg",
+      "width": 1440,
+      "height": 1920,
+      "attribution": {
+        "displayName": "gina galmenin",
+        "uri": "https://maps.google.com/maps/contrib/107831468098518720507"
+      }
+    },
+    {
+      "path": "/photos/moalboal-dive-center/2.jpg",
+      "width": 1536,
+      "height": 1024,
+      "attribution": {
+        "displayName": "Moalboal Dive Center",
+        "uri": "https://maps.google.com/maps/contrib/107236144439016347475"
+      }
+    },
+    {
+      "path": "/photos/moalboal-dive-center/3.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Richard Novelo",
+        "uri": "https://maps.google.com/maps/contrib/115543986508123014502"
+      }
+    },
+    {
+      "path": "/photos/moalboal-dive-center/4.jpg",
+      "width": 3190,
+      "height": 2392,
+      "attribution": {
+        "displayName": "Mai Raz",
+        "uri": "https://maps.google.com/maps/contrib/105634999931915660268"
+      }
+    },
+    {
+      "path": "/photos/moalboal-dive-center/5.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Richard Novelo",
+        "uri": "https://maps.google.com/maps/contrib/115543986508123014502"
+      }
+    }
+  ]
 }

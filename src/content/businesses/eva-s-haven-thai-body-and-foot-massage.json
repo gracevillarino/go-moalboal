@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/eva-s-haven-thai-body-and-foot-massage/1.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Eva's Haven Thai Body and Foot Massage",
+        "uri": "https://maps.google.com/maps/contrib/107390327220398677759"
+      }
+    },
+    {
+      "path": "/photos/eva-s-haven-thai-body-and-foot-massage/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Eva's Haven Thai Body and Foot Massage",
+        "uri": "https://maps.google.com/maps/contrib/107390327220398677759"
+      }
+    },
+    {
+      "path": "/photos/eva-s-haven-thai-body-and-foot-massage/3.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Eva's Haven Thai Body and Foot Massage",
+        "uri": "https://maps.google.com/maps/contrib/107390327220398677759"
+      }
+    },
+    {
+      "path": "/photos/eva-s-haven-thai-body-and-foot-massage/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Eva's Haven Thai Body and Foot Massage",
+        "uri": "https://maps.google.com/maps/contrib/107390327220398677759"
+      }
+    },
+    {
+      "path": "/photos/eva-s-haven-thai-body-and-foot-massage/5.jpg",
+      "width": 1408,
+      "height": 1877,
+      "attribution": {
+        "displayName": "Eva's Haven Thai Body and Foot Massage",
+        "uri": "https://maps.google.com/maps/contrib/107390327220398677759"
+      }
+    }
+  ]
 }

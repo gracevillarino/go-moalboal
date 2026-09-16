@@ -44,5 +44,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/johns-adventure-and-tours/1.jpg",
+      "width": 720,
+      "height": 406,
+      "attribution": {
+        "displayName": "Johns Adventure And Tours",
+        "uri": "https://maps.google.com/maps/contrib/102877034479813223114"
+      }
+    },
+    {
+      "path": "/photos/johns-adventure-and-tours/2.jpg",
+      "width": 960,
+      "height": 1280,
+      "attribution": {
+        "displayName": "John Marcelino",
+        "uri": "https://maps.google.com/maps/contrib/105689903606895700947"
+      }
+    },
+    {
+      "path": "/photos/johns-adventure-and-tours/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Zia Mohzani",
+        "uri": "https://maps.google.com/maps/contrib/115774451006290249885"
+      }
+    },
+    {
+      "path": "/photos/johns-adventure-and-tours/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "BANAN",
+        "uri": "https://maps.google.com/maps/contrib/100942878926581726338"
+      }
+    },
+    {
+      "path": "/photos/johns-adventure-and-tours/5.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "김지연",
+        "uri": "https://maps.google.com/maps/contrib/112529385044022068550"
+      }
+    }
+  ]
 }

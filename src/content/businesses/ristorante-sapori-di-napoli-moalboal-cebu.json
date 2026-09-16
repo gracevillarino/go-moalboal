@@ -114,5 +114,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ristorante-sapori-di-napoli-moalboal-cebu/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Ristorante Sapori Di Napoli - Moalboal Cebu",
+        "uri": "https://maps.google.com/maps/contrib/117796648513826076298"
+      }
+    },
+    {
+      "path": "/photos/ristorante-sapori-di-napoli-moalboal-cebu/2.jpg",
+      "width": 3590,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Ristorante Sapori Di Napoli - Moalboal Cebu",
+        "uri": "https://maps.google.com/maps/contrib/117796648513826076298"
+      }
+    },
+    {
+      "path": "/photos/ristorante-sapori-di-napoli-moalboal-cebu/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Ristorante Sapori Di Napoli - Moalboal Cebu",
+        "uri": "https://maps.google.com/maps/contrib/117796648513826076298"
+      }
+    },
+    {
+      "path": "/photos/ristorante-sapori-di-napoli-moalboal-cebu/4.jpg",
+      "width": 1206,
+      "height": 1104,
+      "attribution": {
+        "displayName": "Ristorante Sapori Di Napoli - Moalboal Cebu",
+        "uri": "https://maps.google.com/maps/contrib/117796648513826076298"
+      }
+    },
+    {
+      "path": "/photos/ristorante-sapori-di-napoli-moalboal-cebu/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Nazeem p",
+        "uri": "https://maps.google.com/maps/contrib/103175562910049534499"
+      }
+    }
+  ]
 }

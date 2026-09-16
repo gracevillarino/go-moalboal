@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/hyd-wellness-and-spa-moalboal/1.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "HYD Wellness and Spa moalboal",
+        "uri": "https://maps.google.com/maps/contrib/108375240080241842033"
+      }
+    },
+    {
+      "path": "/photos/hyd-wellness-and-spa-moalboal/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Наталья Казарина",
+        "uri": "https://maps.google.com/maps/contrib/100810319722625342576"
+      }
+    },
+    {
+      "path": "/photos/hyd-wellness-and-spa-moalboal/3.jpg",
+      "width": 1080,
+      "height": 1440,
+      "attribution": {
+        "displayName": "Freeke Beekers",
+        "uri": "https://maps.google.com/maps/contrib/116505944466221381387"
+      }
+    },
+    {
+      "path": "/photos/hyd-wellness-and-spa-moalboal/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "HYD Wellness and Spa moalboal",
+        "uri": "https://maps.google.com/maps/contrib/108375240080241842033"
+      }
+    },
+    {
+      "path": "/photos/hyd-wellness-and-spa-moalboal/5.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Ally",
+        "uri": "https://maps.google.com/maps/contrib/102769503337985736674"
+      }
+    }
+  ]
 }

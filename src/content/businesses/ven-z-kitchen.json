@@ -102,5 +102,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/ven-z-kitchen/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Vanny",
+        "uri": "https://maps.google.com/maps/contrib/101715332651012578175"
+      }
+    },
+    {
+      "path": "/photos/ven-z-kitchen/2.jpg",
+      "width": 1440,
+      "height": 810,
+      "attribution": {
+        "displayName": "Ven'z Kitchen",
+        "uri": "https://maps.google.com/maps/contrib/102137137654599907238"
+      }
+    },
+    {
+      "path": "/photos/ven-z-kitchen/3.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Smedley SYMPHOR",
+        "uri": "https://maps.google.com/maps/contrib/115281475490574797145"
+      }
+    },
+    {
+      "path": "/photos/ven-z-kitchen/4.jpg",
+      "width": 1280,
+      "height": 779,
+      "attribution": {
+        "displayName": "Ven'z Kitchen",
+        "uri": "https://maps.google.com/maps/contrib/102137137654599907238"
+      }
+    },
+    {
+      "path": "/photos/ven-z-kitchen/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Dennis Zuyderduyn",
+        "uri": "https://maps.google.com/maps/contrib/110133753911929008106"
+      }
+    }
+  ]
 }

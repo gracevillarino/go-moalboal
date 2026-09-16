@@ -117,5 +117,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/smooth-cafe-moalboal/1.jpg",
+      "width": 4000,
+      "height": 2252,
+      "attribution": {
+        "displayName": "윤땡스",
+        "uri": "https://maps.google.com/maps/contrib/105537025191403173368"
+      }
+    },
+    {
+      "path": "/photos/smooth-cafe-moalboal/2.jpg",
+      "width": 3708,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Smooth Cafe Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/113016283154463692030"
+      }
+    },
+    {
+      "path": "/photos/smooth-cafe-moalboal/3.jpg",
+      "width": 973,
+      "height": 676,
+      "attribution": {
+        "displayName": "Raine",
+        "uri": "https://maps.google.com/maps/contrib/101941602501375967410"
+      }
+    },
+    {
+      "path": "/photos/smooth-cafe-moalboal/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Jho-an Brizo",
+        "uri": "https://maps.google.com/maps/contrib/102878098149907155023"
+      }
+    },
+    {
+      "path": "/photos/smooth-cafe-moalboal/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Shimae Mendoza",
+        "uri": "https://maps.google.com/maps/contrib/106696710179164247473"
+      }
+    }
+  ]
 }

@@ -60,5 +60,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/m-b-ocean-blue-dive-center/1.jpg",
+      "width": 1030,
+      "height": 694,
+      "attribution": {
+        "displayName": "M.B. Ocean Blue Dive Center",
+        "uri": "https://maps.google.com/maps/contrib/100798865625519264573"
+      }
+    },
+    {
+      "path": "/photos/m-b-ocean-blue-dive-center/2.jpg",
+      "width": 4288,
+      "height": 2848,
+      "attribution": {
+        "displayName": "김용식Andrew Kim",
+        "uri": "https://maps.google.com/maps/contrib/101752005791114978054"
+      }
+    },
+    {
+      "path": "/photos/m-b-ocean-blue-dive-center/3.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "W J",
+        "uri": "https://maps.google.com/maps/contrib/104652690980260523040"
+      }
+    },
+    {
+      "path": "/photos/m-b-ocean-blue-dive-center/4.jpg",
+      "width": 1030,
+      "height": 673,
+      "attribution": {
+        "displayName": "M.B. Ocean Blue Dive Center",
+        "uri": "https://maps.google.com/maps/contrib/100798865625519264573"
+      }
+    },
+    {
+      "path": "/photos/m-b-ocean-blue-dive-center/5.jpg",
+      "width": 2400,
+      "height": 1800,
+      "attribution": {
+        "displayName": "Diver aanything",
+        "uri": "https://maps.google.com/maps/contrib/114453946766834561444"
+      }
+    }
+  ]
 }

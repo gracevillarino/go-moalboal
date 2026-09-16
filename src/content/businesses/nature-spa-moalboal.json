@@ -43,5 +43,52 @@
   "featured": true,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/nature-spa-moalboal/1.jpg",
+      "width": 2701,
+      "height": 2276,
+      "attribution": {
+        "displayName": "Nature Spa Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/108702108558142709880"
+      }
+    },
+    {
+      "path": "/photos/nature-spa-moalboal/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "BONG",
+        "uri": "https://maps.google.com/maps/contrib/114884706938950681659"
+      }
+    },
+    {
+      "path": "/photos/nature-spa-moalboal/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Ong Ting Yong",
+        "uri": "https://maps.google.com/maps/contrib/104798079804968052748"
+      }
+    },
+    {
+      "path": "/photos/nature-spa-moalboal/4.jpg",
+      "width": 1170,
+      "height": 1543,
+      "attribution": {
+        "displayName": "Nature Spa Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/108702108558142709880"
+      }
+    },
+    {
+      "path": "/photos/nature-spa-moalboal/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "소수점도자기ceramic_studio",
+        "uri": "https://maps.google.com/maps/contrib/116487597014775506339"
+      }
+    }
+  ]
 }

@@ -46,5 +46,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/dive-lab-cebu/1.jpg",
+      "width": 750,
+      "height": 422,
+      "attribution": {
+        "displayName": "Dive LAB Cebu",
+        "uri": "https://maps.google.com/maps/contrib/105758293305828059857"
+      }
+    },
+    {
+      "path": "/photos/dive-lab-cebu/2.jpg",
+      "width": 4800,
+      "height": 4200,
+      "attribution": {
+        "displayName": "Lim Yi Xian",
+        "uri": "https://maps.google.com/maps/contrib/118369333808498645979"
+      }
+    },
+    {
+      "path": "/photos/dive-lab-cebu/3.jpg",
+      "width": 1600,
+      "height": 2000,
+      "attribution": {
+        "displayName": "Dive LAB Cebu",
+        "uri": "https://maps.google.com/maps/contrib/105758293305828059857"
+      }
+    },
+    {
+      "path": "/photos/dive-lab-cebu/4.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Lee Peishan",
+        "uri": "https://maps.google.com/maps/contrib/113155206043315199885"
+      }
+    },
+    {
+      "path": "/photos/dive-lab-cebu/5.jpg",
+      "width": 4000,
+      "height": 2256,
+      "attribution": {
+        "displayName": "Dive LAB Cebu",
+        "uri": "https://maps.google.com/maps/contrib/105758293305828059857"
+      }
+    }
+  ]
 }

@@ -88,5 +88,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/sushi-lovers-moalboal/1.jpg",
+      "width": 2048,
+      "height": 1532,
+      "attribution": {
+        "displayName": "Sushi Lovers Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/117973994347005059975"
+      }
+    },
+    {
+      "path": "/photos/sushi-lovers-moalboal/2.jpg",
+      "width": 1510,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Sushi Lovers Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/117973994347005059975"
+      }
+    },
+    {
+      "path": "/photos/sushi-lovers-moalboal/3.jpg",
+      "width": 3853,
+      "height": 2774,
+      "attribution": {
+        "displayName": "Liam Lindemann",
+        "uri": "https://maps.google.com/maps/contrib/104106014053199433342"
+      }
+    },
+    {
+      "path": "/photos/sushi-lovers-moalboal/4.jpg",
+      "width": 1600,
+      "height": 977,
+      "attribution": {
+        "displayName": "Joachim Zintl",
+        "uri": "https://maps.google.com/maps/contrib/105300606778973303028"
+      }
+    },
+    {
+      "path": "/photos/sushi-lovers-moalboal/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Macarena Arriagada",
+        "uri": "https://maps.google.com/maps/contrib/118078937500288489662"
+      }
+    }
+  ]
 }

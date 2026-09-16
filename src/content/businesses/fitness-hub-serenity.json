@@ -59,5 +59,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/fitness-hub-serenity/1.jpg",
+      "width": 4800,
+      "height": 2700,
+      "attribution": {
+        "displayName": "Fitness Hub Serenity",
+        "uri": "https://maps.google.com/maps/contrib/118219680074032300275"
+      }
+    },
+    {
+      "path": "/photos/fitness-hub-serenity/2.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Fitness Hub Serenity",
+        "uri": "https://maps.google.com/maps/contrib/118219680074032300275"
+      }
+    },
+    {
+      "path": "/photos/fitness-hub-serenity/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Fitness Hub Serenity",
+        "uri": "https://maps.google.com/maps/contrib/118219680074032300275"
+      }
+    },
+    {
+      "path": "/photos/fitness-hub-serenity/4.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Fitness Hub Serenity",
+        "uri": "https://maps.google.com/maps/contrib/118219680074032300275"
+      }
+    },
+    {
+      "path": "/photos/fitness-hub-serenity/5.jpg",
+      "width": 3472,
+      "height": 4624,
+      "attribution": {
+        "displayName": "Lucio",
+        "uri": "https://maps.google.com/maps/contrib/106141478139270941007"
+      }
+    }
+  ]
 }

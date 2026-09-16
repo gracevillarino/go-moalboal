@@ -73,5 +73,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/spring-blossom-resto-bar/1.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Cebu Spring Blossom",
+        "uri": "https://maps.google.com/maps/contrib/113350717804467147367"
+      }
+    },
+    {
+      "path": "/photos/spring-blossom-resto-bar/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Rexa Doreen Aguaviva",
+        "uri": "https://maps.google.com/maps/contrib/106343344997073393375"
+      }
+    },
+    {
+      "path": "/photos/spring-blossom-resto-bar/3.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Cebu Spring Blossom",
+        "uri": "https://maps.google.com/maps/contrib/113350717804467147367"
+      }
+    },
+    {
+      "path": "/photos/spring-blossom-resto-bar/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Cebu Spring Blossom",
+        "uri": "https://maps.google.com/maps/contrib/113350717804467147367"
+      }
+    },
+    {
+      "path": "/photos/spring-blossom-resto-bar/5.jpg",
+      "width": 1280,
+      "height": 960,
+      "attribution": {
+        "displayName": "Cebu Spring Blossom",
+        "uri": "https://maps.google.com/maps/contrib/113350717804467147367"
+      }
+    }
+  ]
 }

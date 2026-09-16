@@ -61,5 +61,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/bombilland-grill-and-restaurant/1.jpg",
+      "width": 4800,
+      "height": 3614,
+      "attribution": {
+        "displayName": "aurelijus vaitkevicius",
+        "uri": "https://maps.google.com/maps/contrib/103804762010077877495"
+      }
+    },
+    {
+      "path": "/photos/bombilland-grill-and-restaurant/2.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "DJ Q_Dong",
+        "uri": "https://maps.google.com/maps/contrib/112261700154841276967"
+      }
+    },
+    {
+      "path": "/photos/bombilland-grill-and-restaurant/3.jpg",
+      "width": 3072,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Carlan Pacres",
+        "uri": "https://maps.google.com/maps/contrib/105038310213642552327"
+      }
+    },
+    {
+      "path": "/photos/bombilland-grill-and-restaurant/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "M Davis",
+        "uri": "https://maps.google.com/maps/contrib/108807645361677500672"
+      }
+    },
+    {
+      "path": "/photos/bombilland-grill-and-restaurant/5.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "SHESLIVING OMBOS",
+        "uri": "https://maps.google.com/maps/contrib/108549066666694063337"
+      }
+    }
+  ]
 }

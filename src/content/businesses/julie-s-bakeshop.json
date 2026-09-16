@@ -78,5 +78,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/julie-s-bakeshop/1.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "The Other Side",
+        "uri": "https://maps.google.com/maps/contrib/111594575667688278099"
+      }
+    },
+    {
+      "path": "/photos/julie-s-bakeshop/2.jpg",
+      "width": 3264,
+      "height": 2448,
+      "attribution": {
+        "displayName": "niño dennis bacus",
+        "uri": "https://maps.google.com/maps/contrib/114481751892701025934"
+      }
+    },
+    {
+      "path": "/photos/julie-s-bakeshop/3.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Mark Besaw",
+        "uri": "https://maps.google.com/maps/contrib/107332137596085337394"
+      }
+    },
+    {
+      "path": "/photos/julie-s-bakeshop/4.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Rick Hse",
+        "uri": "https://maps.google.com/maps/contrib/114462784661846507221"
+      }
+    },
+    {
+      "path": "/photos/julie-s-bakeshop/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Paweł Urbanke",
+        "uri": "https://maps.google.com/maps/contrib/116166294238863005569"
+      }
+    }
+  ]
 }

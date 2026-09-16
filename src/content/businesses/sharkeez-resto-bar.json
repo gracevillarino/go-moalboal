@@ -80,5 +80,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/sharkeez-resto-bar/1.jpg",
+      "width": 3840,
+      "height": 2160,
+      "attribution": {
+        "displayName": "Beauty and the Babe Peighton and KryzJames",
+        "uri": "https://maps.google.com/maps/contrib/111582465244302994265"
+      }
+    },
+    {
+      "path": "/photos/sharkeez-resto-bar/2.jpg",
+      "width": 1920,
+      "height": 952,
+      "attribution": {
+        "displayName": "Beauty and the Babe Peighton and KryzJames",
+        "uri": "https://maps.google.com/maps/contrib/111582465244302994265"
+      }
+    },
+    {
+      "path": "/photos/sharkeez-resto-bar/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Ally",
+        "uri": "https://maps.google.com/maps/contrib/102769503337985736674"
+      }
+    },
+    {
+      "path": "/photos/sharkeez-resto-bar/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Ally",
+        "uri": "https://maps.google.com/maps/contrib/102769503337985736674"
+      }
+    },
+    {
+      "path": "/photos/sharkeez-resto-bar/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Ally",
+        "uri": "https://maps.google.com/maps/contrib/102769503337985736674"
+      }
+    }
+  ]
 }

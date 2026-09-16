@@ -102,5 +102,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/kugita-seafood-charcoal-grill/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Kugita Seafood & Charcoal Grill",
+        "uri": "https://maps.google.com/maps/contrib/105461515034411588885"
+      }
+    },
+    {
+      "path": "/photos/kugita-seafood-charcoal-grill/2.jpg",
+      "width": 1080,
+      "height": 1080,
+      "attribution": {
+        "displayName": "Kugita Seafood & Charcoal Grill",
+        "uri": "https://maps.google.com/maps/contrib/105461515034411588885"
+      }
+    },
+    {
+      "path": "/photos/kugita-seafood-charcoal-grill/3.jpg",
+      "width": 2736,
+      "height": 3648,
+      "attribution": {
+        "displayName": "Kugita Seafood & Charcoal Grill",
+        "uri": "https://maps.google.com/maps/contrib/105461515034411588885"
+      }
+    },
+    {
+      "path": "/photos/kugita-seafood-charcoal-grill/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Yu Fang Chang",
+        "uri": "https://maps.google.com/maps/contrib/103489913137271215121"
+      }
+    },
+    {
+      "path": "/photos/kugita-seafood-charcoal-grill/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "BO LI",
+        "uri": "https://maps.google.com/maps/contrib/113202416063257770249"
+      }
+    }
+  ]
 }

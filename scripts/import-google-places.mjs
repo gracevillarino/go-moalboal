@@ -30,6 +30,9 @@ const CATEGORY_LIMITS = {
 
 const SEARCHES = [
   { query: 'restaurant', category: 'eat' },
+  // A direct query keeps this qualifying Panagsama bistro in the candidate set
+  // when generic restaurant results are capped by the Places API.
+  { query: 'Okeanos Bistro', category: 'eat' },
   { query: 'cafe', category: 'eat' },
   { query: 'bar', category: 'eat' },
   { query: 'bakery', category: 'eat' },
@@ -214,8 +217,13 @@ function selectBalanced(records) {
   const selected = [];
   const overflow = [];
   const counts = Object.fromEntries(Object.keys(CATEGORY_LIMITS).map((category) => [category, 0]));
+  const ranked = [...records].sort((a, b) =>
+    a.suggestedCategory.localeCompare(b.suggestedCategory)
+    || b.rating - a.rating
+    || b.reviewCount - a.reviewCount
+    || a.name.localeCompare(b.name));
 
-  for (const record of records) {
+  for (const record of ranked) {
     const category = record.suggestedCategory;
     if (counts[category] < CATEGORY_LIMITS[category]) {
       selected.push(record);
@@ -225,7 +233,8 @@ function selectBalanced(records) {
     }
   }
 
-  for (const record of overflow) {
+  for (const record of overflow.sort((a, b) =>
+    b.rating - a.rating || b.reviewCount - a.reviewCount || a.name.localeCompare(b.name))) {
     if (selected.length >= TARGET_MAX) break;
     selected.push(record);
     counts[record.suggestedCategory] += 1;
@@ -339,32 +348,10 @@ async function run() {
 
   const eligibleRecords = [...records.values()].filter(meetsQualityThreshold);
   const balanced = selectBalanced(eligibleRecords);
-  const approvedOverrides = new Map(
-    [...reviewOverrides].filter(([, review]) => review.reviewStatus === 'approved'),
-  );
-  const selectedRecords = approvedOverrides.size
-    ? balanced.records.filter((record) => approvedOverrides.has(record.googlePlaceId))
-    : [...balanced.records];
-
-  // Once a review has been completed, preserve the approved selection rather
-  // than allowing a later search-order change to swap in new pending records.
-  for (const [placeId, review] of approvedOverrides) {
-    if (selectedRecords.some((record) => record.googlePlaceId === placeId)) continue;
-    const place = await getPlace(placeId);
-    const category = review.suggestedCategory || 'services';
-    const record = toStagingRecord(place, { category, query: category });
-    if (!meetsQualityThreshold(record)) continue;
-    record.reviewStatus = 'approved';
-    record.matchedQueries = review.matchedQueries
-      ? review.matchedQueries.split(' | ').filter(Boolean)
-      : [category];
-    record.categories = review.categories
-      ? review.categories.split(' | ').filter(Boolean)
-      : [category];
-    record.alternateCategories = record.categories.filter((item) => item !== category);
-    record.notes = review.notes ?? '';
-    selectedRecords.push(record);
-  }
+  // Review CSV values remain metadata overrides, but they must not cause a
+  // refresh to exceed TARGET_MAX or prevent newly eligible Places results from
+  // being selected.
+  const selectedRecords = [...balanced.records];
 
   for (const manual of await loadManualPlaces()) {
     const place = await getPlace(manual.googlePlaceId);
@@ -378,9 +365,20 @@ async function run() {
     record.matchedQueries = manual.matchedQueries ?? categories;
     record.reviewStatus = manual.reviewStatus ?? 'approved';
     record.notes = manual.notes ?? 'Manually approved locality override.';
+    if (!meetsQualityThreshold(record)) continue;
     const existingIndex = selectedRecords.findIndex((item) => item.googlePlaceId === record.googlePlaceId);
     if (existingIndex >= 0) selectedRecords[existingIndex] = record;
-    else selectedRecords.push(record);
+    else if (selectedRecords.length < TARGET_MAX) selectedRecords.push(record);
+    else {
+      const lowestIndex = selectedRecords.reduce((lowest, candidate, index, records) => {
+        const current = records[lowest];
+        return candidate.rating < current.rating
+          || (candidate.rating === current.rating && candidate.reviewCount < current.reviewCount)
+          ? index
+          : lowest;
+      }, 0);
+      selectedRecords[lowestIndex] = record;
+    }
   }
 
   for (const record of selectedRecords) {

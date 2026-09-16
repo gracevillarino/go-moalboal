@@ -45,5 +45,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/bvl-beauty-salon/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Marlon Roma Official Channel",
+        "uri": "https://maps.google.com/maps/contrib/107341473201115925165"
+      }
+    },
+    {
+      "path": "/photos/bvl-beauty-salon/2.jpg",
+      "width": 3456,
+      "height": 4608,
+      "attribution": {
+        "displayName": "Raymund Li",
+        "uri": "https://maps.google.com/maps/contrib/112528276727952118302"
+      }
+    },
+    {
+      "path": "/photos/bvl-beauty-salon/3.jpg",
+      "width": 4608,
+      "height": 3456,
+      "attribution": {
+        "displayName": "Adivayan Awesome",
+        "uri": "https://maps.google.com/maps/contrib/109296415336202766732"
+      }
+    },
+    {
+      "path": "/photos/bvl-beauty-salon/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Abdullah Almzher (‫عبدالله المزهر‬‎)",
+        "uri": "https://maps.google.com/maps/contrib/101968754528794348554"
+      }
+    },
+    {
+      "path": "/photos/bvl-beauty-salon/5.jpg",
+      "width": 4608,
+      "height": 2128,
+      "attribution": {
+        "displayName": "Caryl Vanessa",
+        "uri": "https://maps.google.com/maps/contrib/100222025399892152682"
+      }
+    }
+  ]
 }

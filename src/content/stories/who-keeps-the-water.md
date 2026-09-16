@@ -27,6 +27,47 @@ sources:
   - title: Directory of Coastal Resource Management Learning Destinations
     publisher: Coastal Conservation and Education Foundation
     url: https://www.coast.ph/oneocean.org/download/db_files/directory_of_crm_learning_destinations.pdf
+photos:
+  - path: "/photos/stories/who-keeps-the-water/1.jpg"
+    width: 2354
+    height: 1482
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sea_Turtle_in_Moalboal_01.jpg"
+  - path: "/photos/stories/who-keeps-the-water/2.jpg"
+    width: 2929
+    height: 1922
+    attribution:
+      displayName: "Iampjanz"
+      uri: "https://commons.wikimedia.org/wiki/User:Iampjanz"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Sea_Turtle_in_Moalboal_02.jpg"
+  - path: "/photos/stories/who-keeps-the-water/3.jpg"
+    width: 2304
+    height: 1728
+    attribution:
+      displayName: "Hans Rippel, Senor"
+      uri: "https://commons.wikimedia.org/wiki/File:Lotilia_graciliosa_-_Philippines_Cebu_Moalboal_Ravenala.jpg"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Lotilia_graciliosa_-_Philippines_Cebu_Moalboal_Ravenala.jpg"
+  - path: "/photos/stories/who-keeps-the-water/4.jpg"
+    width: 4608
+    height: 3072
+    attribution:
+      displayName: "Hans Rippel, Senor"
+      uri: "https://commons.wikimedia.org/wiki/File:Lotilia_graciliosa_with_alpheus_rubromaculatus_-_Philippines_Cebu_Moalboal_Ravenala.jpg"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Lotilia_graciliosa_with_alpheus_rubromaculatus_-_Philippines_Cebu_Moalboal_Ravenala.jpg"
+  - path: "/photos/stories/who-keeps-the-water/5.jpg"
+    width: 1104
+    height: 615
+    attribution:
+      displayName: "Bermuda38"
+      uri: "https://commons.wikimedia.org/wiki/File:Pescadores_Turtles.jpg"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Pescadores_Turtles.jpg"
 ---
 
 A marine sanctuary can be drawn with coordinates and described in an ordinance. Neither act, by itself, keeps fish inside, visitors careful or illegal gear out. The boundary only begins to matter when people recognize it, patrol it, monitor it and believe the rules are worth following.

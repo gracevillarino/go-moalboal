@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryPhotoGallery from '../../components/StoryPhotoGallery.astro';
 
 export async function getStaticPaths() {
   const stories = await getCollection('stories', ({ data }) => data.status === 'published');
@@ -23,6 +24,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
     </header>
     <div class="research-note"><strong>Research draft</strong><span>This story needs local review. Sources support the factual frame; community memory should deepen it.</span></div>
+    <StoryPhotoGallery title={data.title} photos={data.photos} />
     <div class="story-layout section">
       <div class="prose"><Content /></div>
       <aside>

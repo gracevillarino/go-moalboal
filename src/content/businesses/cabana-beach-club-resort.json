@@ -119,5 +119,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/cabana-beach-club-resort/1.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Cabana Beach Club Resort",
+        "uri": "https://maps.google.com/maps/contrib/115283278740405844983"
+      }
+    },
+    {
+      "path": "/photos/cabana-beach-club-resort/2.jpg",
+      "width": 4800,
+      "height": 2591,
+      "attribution": {
+        "displayName": "Cabana Beach Club Resort",
+        "uri": "https://maps.google.com/maps/contrib/115283278740405844983"
+      }
+    },
+    {
+      "path": "/photos/cabana-beach-club-resort/3.jpg",
+      "width": 4800,
+      "height": 3200,
+      "attribution": {
+        "displayName": "Cabana Beach Club Resort",
+        "uri": "https://maps.google.com/maps/contrib/115283278740405844983"
+      }
+    },
+    {
+      "path": "/photos/cabana-beach-club-resort/4.jpg",
+      "width": 3120,
+      "height": 3456,
+      "attribution": {
+        "displayName": "Cabana Beach Club Resort",
+        "uri": "https://maps.google.com/maps/contrib/115283278740405844983"
+      }
+    },
+    {
+      "path": "/photos/cabana-beach-club-resort/5.jpg",
+      "width": 4800,
+      "height": 3199,
+      "attribution": {
+        "displayName": "Cabana Beach Club Resort",
+        "uri": "https://maps.google.com/maps/contrib/115283278740405844983"
+      }
+    }
+  ]
 }

@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/3-sisters-guest-house-2/1.jpg",
+      "width": 1080,
+      "height": 1920,
+      "attribution": {
+        "displayName": "3 Sisters Resto Bar",
+        "uri": "https://maps.google.com/maps/contrib/110699076327168340606"
+      }
+    },
+    {
+      "path": "/photos/3-sisters-guest-house-2/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Daniel",
+        "uri": "https://maps.google.com/maps/contrib/107174220376582854508"
+      }
+    },
+    {
+      "path": "/photos/3-sisters-guest-house-2/3.jpg",
+      "width": 2016,
+      "height": 1512,
+      "attribution": {
+        "displayName": "3 Sisters Resto Bar",
+        "uri": "https://maps.google.com/maps/contrib/110699076327168340606"
+      }
+    },
+    {
+      "path": "/photos/3-sisters-guest-house-2/4.jpg",
+      "width": 577,
+      "height": 433,
+      "attribution": {
+        "displayName": "3 Sisters Resto Bar",
+        "uri": "https://maps.google.com/maps/contrib/110699076327168340606"
+      }
+    },
+    {
+      "path": "/photos/3-sisters-guest-house-2/5.jpg",
+      "width": 2016,
+      "height": 1512,
+      "attribution": {
+        "displayName": "3 Sisters Resto Bar",
+        "uri": "https://maps.google.com/maps/contrib/110699076327168340606"
+      }
+    }
+  ]
 }

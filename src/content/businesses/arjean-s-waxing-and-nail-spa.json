@@ -48,5 +48,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/arjean-s-waxing-and-nail-spa/1.jpg",
+      "width": 1284,
+      "height": 2282,
+      "attribution": {
+        "displayName": "Arjean’s waxing and nail spa",
+        "uri": "https://maps.google.com/maps/contrib/103135436298982137160"
+      }
+    },
+    {
+      "path": "/photos/arjean-s-waxing-and-nail-spa/2.jpg",
+      "width": 3023,
+      "height": 4031,
+      "attribution": {
+        "displayName": "Arjean’s waxing and nail spa",
+        "uri": "https://maps.google.com/maps/contrib/103135436298982137160"
+      }
+    },
+    {
+      "path": "/photos/arjean-s-waxing-and-nail-spa/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Karla Rosholm Poulsen",
+        "uri": "https://maps.google.com/maps/contrib/113577496320087260773"
+      }
+    },
+    {
+      "path": "/photos/arjean-s-waxing-and-nail-spa/4.jpg",
+      "width": 960,
+      "height": 1280,
+      "attribution": {
+        "displayName": "E-T-L",
+        "uri": "https://maps.google.com/maps/contrib/111881272090978079752"
+      }
+    },
+    {
+      "path": "/photos/arjean-s-waxing-and-nail-spa/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Arjean’s waxing and nail spa",
+        "uri": "https://maps.google.com/maps/contrib/103135436298982137160"
+      }
+    }
+  ]
 }

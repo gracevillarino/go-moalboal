@@ -28,6 +28,47 @@ sources:
   - title: Republic Act No. 3613
     publisher: Senate of the Philippines Legislative Reference Bureau
     url: https://issuances-library.senate.gov.ph/legislative-issuance/republic-act-no-3613
+photos:
+  - path: "/photos/stories/a-town-written-in-water/1.jpg"
+    width: 2848
+    height: 2136
+    attribution:
+      displayName: "Per Edin"
+      uri: "https://www.flickr.com/people/21971729@N03"
+    license: "CC BY 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Moalboal_Cebu_2.jpg"
+  - path: "/photos/stories/a-town-written-in-water/2.jpg"
+    width: 2848
+    height: 2136
+    attribution:
+      displayName: "Per Edin"
+      uri: "https://www.flickr.com/people/21971729@N03"
+    license: "CC BY 2.0"
+    source: "https://commons.wikimedia.org/wiki/File:Moalboal_Cebu_3.jpg"
+  - path: "/photos/stories/a-town-written-in-water/3.jpg"
+    width: 2880
+    height: 1920
+    attribution:
+      displayName: "P199"
+      uri: "https://commons.wikimedia.org/wiki/User:P199"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Moalboal_Cebu_4.JPG"
+  - path: "/photos/stories/a-town-written-in-water/4.jpg"
+    width: 2880
+    height: 1920
+    attribution:
+      displayName: "P199"
+      uri: "https://commons.wikimedia.org/wiki/User:P199"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Moalboal_Cebu_5.JPG"
+  - path: "/photos/stories/a-town-written-in-water/5.jpg"
+    width: 2048
+    height: 1356
+    attribution:
+      displayName: "Lindstrm"
+      uri: "https://commons.wikimedia.org/wiki/File:White_Beach_Moalboal.JPG"
+    license: "CC BY-SA 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:White_Beach_Moalboal.JPG"
 ---
 
 There is no single uncontested origin story for the name *Moalboal*. The [municipality’s own historical note](https://moalboalcebu.gov.ph/brief-history-of-moalboal/) records two oral explanations, both built from sound and repetition. One connects the name to the bubbling of a spring in the town proper; another to a question and answer misunderstood across languages. The record also notes an earlier spelling, “Mualbual.”

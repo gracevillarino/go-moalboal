@@ -48,5 +48,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/sabanal-dive/1.jpg",
+      "width": 4800,
+      "height": 4200,
+      "attribution": {
+        "displayName": "Anna Palto",
+        "uri": "https://maps.google.com/maps/contrib/104206390254777230963"
+      }
+    },
+    {
+      "path": "/photos/sabanal-dive/2.jpg",
+      "width": 1179,
+      "height": 1679,
+      "attribution": {
+        "displayName": "Girolamo Di Martino",
+        "uri": "https://maps.google.com/maps/contrib/101196001330411345014"
+      }
+    },
+    {
+      "path": "/photos/sabanal-dive/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Aylin Cecile",
+        "uri": "https://maps.google.com/maps/contrib/103252828330553189561"
+      }
+    },
+    {
+      "path": "/photos/sabanal-dive/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Girolamo Di Martino",
+        "uri": "https://maps.google.com/maps/contrib/101196001330411345014"
+      }
+    },
+    {
+      "path": "/photos/sabanal-dive/5.jpg",
+      "width": 1080,
+      "height": 1892,
+      "attribution": {
+        "displayName": "Juliet Brooks",
+        "uri": "https://maps.google.com/maps/contrib/107541593935520261290"
+      }
+    }
+  ]
 }

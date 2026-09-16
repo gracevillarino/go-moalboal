@@ -40,5 +40,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/scuba-princess-moalboal/1.jpg",
+      "width": 1640,
+      "height": 924,
+      "attribution": {
+        "displayName": "Scuba Princess Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107614793322315920019"
+      }
+    },
+    {
+      "path": "/photos/scuba-princess-moalboal/2.jpg",
+      "width": 960,
+      "height": 1280,
+      "attribution": {
+        "displayName": "Francisco Sampedro Martínez",
+        "uri": "https://maps.google.com/maps/contrib/100755751350843714122"
+      }
+    },
+    {
+      "path": "/photos/scuba-princess-moalboal/3.jpg",
+      "width": 1440,
+      "height": 1079,
+      "attribution": {
+        "displayName": "Scuba Princess Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107614793322315920019"
+      }
+    },
+    {
+      "path": "/photos/scuba-princess-moalboal/4.jpg",
+      "width": 1078,
+      "height": 1349,
+      "attribution": {
+        "displayName": "Scuba Princess Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107614793322315920019"
+      }
+    },
+    {
+      "path": "/photos/scuba-princess-moalboal/5.jpg",
+      "width": 960,
+      "height": 804,
+      "attribution": {
+        "displayName": "Scuba Princess Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107614793322315920019"
+      }
+    }
+  ]
 }

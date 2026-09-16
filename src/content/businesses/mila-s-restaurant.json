@@ -76,5 +76,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/mila-s-restaurant/1.jpg",
+      "width": 4032,
+      "height": 1960,
+      "attribution": {
+        "displayName": "Zazzo",
+        "uri": "https://maps.google.com/maps/contrib/112002382513325936603"
+      }
+    },
+    {
+      "path": "/photos/mila-s-restaurant/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "김정은",
+        "uri": "https://maps.google.com/maps/contrib/108856493951446732943"
+      }
+    },
+    {
+      "path": "/photos/mila-s-restaurant/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Jaeyoon Sin",
+        "uri": "https://maps.google.com/maps/contrib/105063316103290554095"
+      }
+    },
+    {
+      "path": "/photos/mila-s-restaurant/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "밍쓰으으",
+        "uri": "https://maps.google.com/maps/contrib/117290017506202332142"
+      }
+    },
+    {
+      "path": "/photos/mila-s-restaurant/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "홍구",
+        "uri": "https://maps.google.com/maps/contrib/108117747946081600923"
+      }
+    }
+  ]
 }

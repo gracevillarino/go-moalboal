@@ -102,5 +102,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/three-bears-restaurant/1.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Three Bears Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/103923172607685474422"
+      }
+    },
+    {
+      "path": "/photos/three-bears-restaurant/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "김경식",
+        "uri": "https://maps.google.com/maps/contrib/117286029278014977608"
+      }
+    },
+    {
+      "path": "/photos/three-bears-restaurant/3.jpg",
+      "width": 2533,
+      "height": 1691,
+      "attribution": {
+        "displayName": "Three Bears Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/103923172607685474422"
+      }
+    },
+    {
+      "path": "/photos/three-bears-restaurant/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Alan Ryoo",
+        "uri": "https://maps.google.com/maps/contrib/101130524456942673993"
+      }
+    },
+    {
+      "path": "/photos/three-bears-restaurant/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "김경식",
+        "uri": "https://maps.google.com/maps/contrib/117286029278014977608"
+      }
+    }
+  ]
 }

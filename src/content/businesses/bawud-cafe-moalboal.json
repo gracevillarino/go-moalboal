@@ -116,5 +116,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/bawud-cafe-moalboal/1.jpg",
+      "width": 1735,
+      "height": 1078,
+      "attribution": {
+        "displayName": "Bawud Cafe Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103819874928249104791"
+      }
+    },
+    {
+      "path": "/photos/bawud-cafe-moalboal/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Bawud Cafe Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103819874928249104791"
+      }
+    },
+    {
+      "path": "/photos/bawud-cafe-moalboal/3.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "nafi durmuş",
+        "uri": "https://maps.google.com/maps/contrib/102958063718061466622"
+      }
+    },
+    {
+      "path": "/photos/bawud-cafe-moalboal/4.jpg",
+      "width": 2000,
+      "height": 1500,
+      "attribution": {
+        "displayName": "Mike R. - Bjelle",
+        "uri": "https://maps.google.com/maps/contrib/116179616355736672663"
+      }
+    },
+    {
+      "path": "/photos/bawud-cafe-moalboal/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Don Pepe",
+        "uri": "https://maps.google.com/maps/contrib/103066488527726207573"
+      }
+    }
+  ]
 }

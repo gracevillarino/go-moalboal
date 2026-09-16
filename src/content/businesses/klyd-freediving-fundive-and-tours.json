@@ -49,5 +49,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/klyd-freediving-fundive-and-tours/1.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Alizée Pennamen",
+        "uri": "https://maps.google.com/maps/contrib/116749741397771706694"
+      }
+    },
+    {
+      "path": "/photos/klyd-freediving-fundive-and-tours/2.jpg",
+      "width": 1024,
+      "height": 578,
+      "attribution": {
+        "displayName": "Klyd-Freediving/FunDive And Tours",
+        "uri": "https://maps.google.com/maps/contrib/116651565794896086793"
+      }
+    },
+    {
+      "path": "/photos/klyd-freediving-fundive-and-tours/3.jpg",
+      "width": 756,
+      "height": 756,
+      "attribution": {
+        "displayName": "Klyd-Freediving/FunDive And Tours",
+        "uri": "https://maps.google.com/maps/contrib/116651565794896086793"
+      }
+    },
+    {
+      "path": "/photos/klyd-freediving-fundive-and-tours/4.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Klyd-Freediving/FunDive And Tours",
+        "uri": "https://maps.google.com/maps/contrib/116651565794896086793"
+      }
+    },
+    {
+      "path": "/photos/klyd-freediving-fundive-and-tours/5.jpg",
+      "width": 1170,
+      "height": 2055,
+      "attribution": {
+        "displayName": "Kate P.",
+        "uri": "https://maps.google.com/maps/contrib/113080265969635911045"
+      }
+    }
+  ]
 }

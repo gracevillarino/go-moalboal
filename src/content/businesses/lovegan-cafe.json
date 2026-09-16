@@ -78,5 +78,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/lovegan-cafe/1.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Lovegan Cafe",
+        "uri": "https://maps.google.com/maps/contrib/101481561848293443121"
+      }
+    },
+    {
+      "path": "/photos/lovegan-cafe/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Lovegan Cafe",
+        "uri": "https://maps.google.com/maps/contrib/101481561848293443121"
+      }
+    },
+    {
+      "path": "/photos/lovegan-cafe/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Virgile Berenger",
+        "uri": "https://maps.google.com/maps/contrib/109704535340742586212"
+      }
+    },
+    {
+      "path": "/photos/lovegan-cafe/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Giulia Zanetti",
+        "uri": "https://maps.google.com/maps/contrib/103119693228360997373"
+      }
+    },
+    {
+      "path": "/photos/lovegan-cafe/5.jpg",
+      "width": 2733,
+      "height": 3644,
+      "attribution": {
+        "displayName": "Katie M",
+        "uri": "https://maps.google.com/maps/contrib/100697104781142938953"
+      }
+    }
+  ]
 }

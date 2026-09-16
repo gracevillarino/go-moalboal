@@ -112,5 +112,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/kumbira-restaurant-bar/1.jpg",
+      "width": 4080,
+      "height": 3060,
+      "attribution": {
+        "displayName": "푸르게하늘 (츄르릅)",
+        "uri": "https://maps.google.com/maps/contrib/109458569456766927601"
+      }
+    },
+    {
+      "path": "/photos/kumbira-restaurant-bar/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Niamh Clarke",
+        "uri": "https://maps.google.com/maps/contrib/116471513032271795091"
+      }
+    },
+    {
+      "path": "/photos/kumbira-restaurant-bar/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Alice Facques",
+        "uri": "https://maps.google.com/maps/contrib/104598952542583219128"
+      }
+    },
+    {
+      "path": "/photos/kumbira-restaurant-bar/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Dean Johnson",
+        "uri": "https://maps.google.com/maps/contrib/113901837126744867647"
+      }
+    },
+    {
+      "path": "/photos/kumbira-restaurant-bar/5.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Jesse Townsend",
+        "uri": "https://maps.google.com/maps/contrib/110612437168185677275"
+      }
+    }
+  ]
 }

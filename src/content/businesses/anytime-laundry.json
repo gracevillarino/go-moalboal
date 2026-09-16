@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/anytime-laundry/1.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Jon Carr",
+        "uri": "https://maps.google.com/maps/contrib/109030120041409391461"
+      }
+    },
+    {
+      "path": "/photos/anytime-laundry/2.jpg",
+      "width": 3072,
+      "height": 4080,
+      "attribution": {
+        "displayName": "Tommy Butcher",
+        "uri": "https://maps.google.com/maps/contrib/107221652378447944605"
+      }
+    },
+    {
+      "path": "/photos/anytime-laundry/3.jpg",
+      "width": 3456,
+      "height": 4608,
+      "attribution": {
+        "displayName": "Way Better Laundry",
+        "uri": "https://maps.google.com/maps/contrib/114142788167111653056"
+      }
+    },
+    {
+      "path": "/photos/anytime-laundry/4.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Gerwin N",
+        "uri": "https://maps.google.com/maps/contrib/108374831873606634703"
+      }
+    },
+    {
+      "path": "/photos/anytime-laundry/5.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Gerwin N",
+        "uri": "https://maps.google.com/maps/contrib/108374831873606634703"
+      }
+    }
+  ]
 }

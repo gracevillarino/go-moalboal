@@ -98,5 +98,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/the-hangout-bar-and-restaurant/1.jpg",
+      "width": 1080,
+      "height": 1350,
+      "attribution": {
+        "displayName": "The Hangout - Bar and Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/100383995814231961091"
+      }
+    },
+    {
+      "path": "/photos/the-hangout-bar-and-restaurant/2.jpg",
+      "width": 1080,
+      "height": 1350,
+      "attribution": {
+        "displayName": "The Hangout - Bar and Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/100383995814231961091"
+      }
+    },
+    {
+      "path": "/photos/the-hangout-bar-and-restaurant/3.jpg",
+      "width": 1080,
+      "height": 1350,
+      "attribution": {
+        "displayName": "The Hangout - Bar and Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/100383995814231961091"
+      }
+    },
+    {
+      "path": "/photos/the-hangout-bar-and-restaurant/4.jpg",
+      "width": 1080,
+      "height": 1350,
+      "attribution": {
+        "displayName": "The Hangout - Bar and Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/100383995814231961091"
+      }
+    },
+    {
+      "path": "/photos/the-hangout-bar-and-restaurant/5.jpg",
+      "width": 1080,
+      "height": 1350,
+      "attribution": {
+        "displayName": "The Hangout - Bar and Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/100383995814231961091"
+      }
+    }
+  ]
 }

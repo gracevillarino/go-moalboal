@@ -46,5 +46,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/islandhoppers-scooter-rental-and-taxi-service/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Ani Richwin",
+        "uri": "https://maps.google.com/maps/contrib/103961099052527486468"
+      }
+    },
+    {
+      "path": "/photos/islandhoppers-scooter-rental-and-taxi-service/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Ani Richwin",
+        "uri": "https://maps.google.com/maps/contrib/103961099052527486468"
+      }
+    },
+    {
+      "path": "/photos/islandhoppers-scooter-rental-and-taxi-service/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "IslandHoppers Scooter Rental and Taxi Service",
+        "uri": "https://maps.google.com/maps/contrib/106590331729680973319"
+      }
+    },
+    {
+      "path": "/photos/islandhoppers-scooter-rental-and-taxi-service/4.jpg",
+      "width": 2268,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Konstantin Miazin",
+        "uri": "https://maps.google.com/maps/contrib/114420003855194113751"
+      }
+    },
+    {
+      "path": "/photos/islandhoppers-scooter-rental-and-taxi-service/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Ivan Nikiforov",
+        "uri": "https://maps.google.com/maps/contrib/113146034828119833905"
+      }
+    }
+  ]
 }

@@ -87,5 +87,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moalboal-beach-resort/1.jpg",
+      "width": 1024,
+      "height": 681,
+      "attribution": {
+        "displayName": "Moalboal Beach Resort",
+        "uri": "https://maps.google.com/maps/contrib/109886792186329082977"
+      }
+    },
+    {
+      "path": "/photos/moalboal-beach-resort/2.jpg",
+      "width": 4160,
+      "height": 3120,
+      "attribution": {
+        "displayName": "Heidi Brunner",
+        "uri": "https://maps.google.com/maps/contrib/108929771660238995711"
+      }
+    },
+    {
+      "path": "/photos/moalboal-beach-resort/3.jpg",
+      "width": 2048,
+      "height": 1363,
+      "attribution": {
+        "displayName": "Moalboal Beach Resort",
+        "uri": "https://maps.google.com/maps/contrib/109886792186329082977"
+      }
+    },
+    {
+      "path": "/photos/moalboal-beach-resort/4.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Akshay Shah",
+        "uri": "https://maps.google.com/maps/contrib/104474452725264458761"
+      }
+    },
+    {
+      "path": "/photos/moalboal-beach-resort/5.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Moalboal Beach Resort",
+        "uri": "https://maps.google.com/maps/contrib/109886792186329082977"
+      }
+    }
+  ]
 }

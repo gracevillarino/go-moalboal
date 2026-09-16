@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/south-travel-adventures/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "South Travel Adventures",
+        "uri": "https://maps.google.com/maps/contrib/108779016394855971306"
+      }
+    },
+    {
+      "path": "/photos/south-travel-adventures/2.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "South Travel Adventures",
+        "uri": "https://maps.google.com/maps/contrib/108779016394855971306"
+      }
+    },
+    {
+      "path": "/photos/south-travel-adventures/3.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "South Travel Adventures",
+        "uri": "https://maps.google.com/maps/contrib/108779016394855971306"
+      }
+    },
+    {
+      "path": "/photos/south-travel-adventures/4.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "South Travel Adventures",
+        "uri": "https://maps.google.com/maps/contrib/108779016394855971306"
+      }
+    },
+    {
+      "path": "/photos/south-travel-adventures/5.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "South Travel Adventures",
+        "uri": "https://maps.google.com/maps/contrib/108779016394855971306"
+      }
+    }
+  ]
 }

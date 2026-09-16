@@ -83,5 +83,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/chief-mau-moalboal-hostel-cafe/1.jpg",
+      "width": 4000,
+      "height": 2252,
+      "attribution": {
+        "displayName": "챙기리",
+        "uri": "https://maps.google.com/maps/contrib/116390892238461741710"
+      }
+    },
+    {
+      "path": "/photos/chief-mau-moalboal-hostel-cafe/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "White Chen",
+        "uri": "https://maps.google.com/maps/contrib/101502279354629583849"
+      }
+    },
+    {
+      "path": "/photos/chief-mau-moalboal-hostel-cafe/3.jpg",
+      "width": 960,
+      "height": 540,
+      "attribution": {
+        "displayName": "Chief Mau Moalboal Hostel",
+        "uri": "https://maps.google.com/maps/contrib/101916326302978230579"
+      }
+    },
+    {
+      "path": "/photos/chief-mau-moalboal-hostel-cafe/4.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Krystian Tomaszewski",
+        "uri": "https://maps.google.com/maps/contrib/102116289561369974839"
+      }
+    },
+    {
+      "path": "/photos/chief-mau-moalboal-hostel-cafe/5.jpg",
+      "width": 3539,
+      "height": 3932,
+      "attribution": {
+        "displayName": "J K",
+        "uri": "https://maps.google.com/maps/contrib/104213858545822293710"
+      }
+    }
+  ]
 }

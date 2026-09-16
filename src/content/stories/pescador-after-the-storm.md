@@ -28,6 +28,47 @@ sources:
   - title: Status and Trends of East Asian Coral Reefs 1983–2019
     publisher: Global Coral Reef Monitoring Network
     url: https://www.env.go.jp/nature/biodic/coralreefs/pdf/international/gcrmn/GCRMN_East_Asia_Regional_Report_2020.pdf
+photos:
+  - path: "/photos/stories/pescador-after-the-storm/1.jpg"
+    width: 3000
+    height: 2000
+    attribution:
+      displayName: "P199"
+      uri: "https://commons.wikimedia.org/wiki/User:P199"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Pescador_Island.JPG"
+  - path: "/photos/stories/pescador-after-the-storm/2.jpg"
+    width: 427
+    height: 640
+    attribution:
+      displayName: "Lindstrm"
+      uri: "https://commons.wikimedia.org/wiki/File:View_of_Pescador_Island.jpg"
+    license: "CC BY-SA 3.0"
+    source: "https://commons.wikimedia.org/wiki/File:View_of_Pescador_Island.jpg"
+  - path: "/photos/stories/pescador-after-the-storm/3.jpg"
+    width: 3185
+    height: 1789
+    attribution:
+      displayName: "Ken Suarez"
+      uri: "https://unsplash.com/@kensuarez"
+    license: "CC0"
+    source: "https://commons.wikimedia.org/wiki/File:Pescador_Island_(Unsplash).jpg"
+  - path: "/photos/stories/pescador-after-the-storm/4.jpg"
+    width: 3992
+    height: 2242
+    attribution:
+      displayName: "Ken Suarez"
+      uri: "https://unsplash.com/@kensuarez"
+    license: "CC0"
+    source: "https://commons.wikimedia.org/wiki/File:A_view_from_the_top_of_Pescador_Island_(Unsplash).jpg"
+  - path: "/photos/stories/pescador-after-the-storm/5.jpg"
+    width: 4032
+    height: 2268
+    attribution:
+      displayName: "Martin Michlmayr"
+      uri: "https://commons.wikimedia.org/wiki/File:Moalboal_2025-07-05_014.jpg"
+    license: "CC BY-SA 4.0"
+    source: "https://commons.wikimedia.org/wiki/File:Moalboal_2025-07-05_014.jpg"
 ---
 
 Pescador Island is usually introduced through abundance: a reef wall, schools of fish, corals and open blue water. But one of its most instructive stories begins with damage.

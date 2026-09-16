@@ -75,5 +75,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/red-coco-bar/1.jpg",
+      "width": 1600,
+      "height": 1200,
+      "attribution": {
+        "displayName": "el mercado de moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103690165884978024991"
+      }
+    },
+    {
+      "path": "/photos/red-coco-bar/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Big E",
+        "uri": "https://maps.google.com/maps/contrib/114207113971616878250"
+      }
+    },
+    {
+      "path": "/photos/red-coco-bar/3.jpg",
+      "width": 2048,
+      "height": 1365,
+      "attribution": {
+        "displayName": "el mercado de moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103690165884978024991"
+      }
+    },
+    {
+      "path": "/photos/red-coco-bar/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Robbie Voegele",
+        "uri": "https://maps.google.com/maps/contrib/110819184498825708318"
+      }
+    },
+    {
+      "path": "/photos/red-coco-bar/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Harriet Bulmer",
+        "uri": "https://maps.google.com/maps/contrib/109126775103342639576"
+      }
+    }
+  ]
 }

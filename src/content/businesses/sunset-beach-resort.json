@@ -83,5 +83,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/sunset-beach-resort/1.jpg",
+      "width": 3820,
+      "height": 2865,
+      "attribution": {
+        "displayName": "Alex V",
+        "uri": "https://maps.google.com/maps/contrib/100030814353360632948"
+      }
+    },
+    {
+      "path": "/photos/sunset-beach-resort/2.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "EUNHUI HAN",
+        "uri": "https://maps.google.com/maps/contrib/117531324874055619109"
+      }
+    },
+    {
+      "path": "/photos/sunset-beach-resort/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Helga Hlawatschek",
+        "uri": "https://maps.google.com/maps/contrib/100493791215556286596"
+      }
+    },
+    {
+      "path": "/photos/sunset-beach-resort/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "EUNHUI HAN",
+        "uri": "https://maps.google.com/maps/contrib/117531324874055619109"
+      }
+    },
+    {
+      "path": "/photos/sunset-beach-resort/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "chris anderson",
+        "uri": "https://maps.google.com/maps/contrib/118445258385652949578"
+      }
+    }
+  ]
 }

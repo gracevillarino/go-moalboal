@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/peninsula-laundry-services/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Memihts Labial",
+        "uri": "https://maps.google.com/maps/contrib/105111904341417447296"
+      }
+    },
+    {
+      "path": "/photos/peninsula-laundry-services/2.jpg",
+      "width": 3072,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Rene",
+        "uri": "https://maps.google.com/maps/contrib/110529094133602621472"
+      }
+    },
+    {
+      "path": "/photos/peninsula-laundry-services/3.jpg",
+      "width": 2532,
+      "height": 2084,
+      "attribution": {
+        "displayName": "Joe Americano",
+        "uri": "https://maps.google.com/maps/contrib/102343936728441996453"
+      }
+    },
+    {
+      "path": "/photos/peninsula-laundry-services/4.jpg",
+      "width": 1785,
+      "height": 1403,
+      "attribution": {
+        "displayName": "Mihai C",
+        "uri": "https://maps.google.com/maps/contrib/116585560910626984529"
+      }
+    },
+    {
+      "path": "/photos/peninsula-laundry-services/5.jpg",
+      "width": 1512,
+      "height": 2688,
+      "attribution": {
+        "displayName": "Mihai C",
+        "uri": "https://maps.google.com/maps/contrib/116585560910626984529"
+      }
+    }
+  ]
 }

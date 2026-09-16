@@ -65,5 +65,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/cebu-fun-divers/1.jpg",
+      "width": 3273,
+      "height": 2766,
+      "attribution": {
+        "displayName": "Cebu Fun Divers",
+        "uri": "https://maps.google.com/maps/contrib/105577257288382290145"
+      }
+    },
+    {
+      "path": "/photos/cebu-fun-divers/2.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Chloe Choo",
+        "uri": "https://maps.google.com/maps/contrib/112537643205581176002"
+      }
+    },
+    {
+      "path": "/photos/cebu-fun-divers/3.jpg",
+      "width": 1171,
+      "height": 1560,
+      "attribution": {
+        "displayName": "India K",
+        "uri": "https://maps.google.com/maps/contrib/118368330375578500085"
+      }
+    },
+    {
+      "path": "/photos/cebu-fun-divers/4.jpg",
+      "width": 1080,
+      "height": 1722,
+      "attribution": {
+        "displayName": "Carlo Castellan",
+        "uri": "https://maps.google.com/maps/contrib/107446684169662093574"
+      }
+    },
+    {
+      "path": "/photos/cebu-fun-divers/5.jpg",
+      "width": 1000,
+      "height": 667,
+      "attribution": {
+        "displayName": "Cebu Fun Divers",
+        "uri": "https://maps.google.com/maps/contrib/105577257288382290145"
+      }
+    }
+  ]
 }

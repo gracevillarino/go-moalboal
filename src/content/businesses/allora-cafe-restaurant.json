@@ -1,0 +1,90 @@
+{
+  "name": "Allora Café & Restaurant",
+  "slug": "allora-cafe-restaurant",
+  "summary": "Food and drink in Poblacion West. Rated 4.9 from 269 Google reviews.",
+  "description": "Allora Café & Restaurant is listed at Allora Café & Restaurant, Allora Building, Pook, Poblacion West, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Poblacion West",
+  "address": "Allora Café & Restaurant, Allora Building, Pook, Poblacion West, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9417508,
+    "lng": 123.3870511
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "contactSources": [],
+  "sources": [
+    {
+      "title": "Allora Café & Restaurant on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=9647875662113173419"
+    }
+  ],
+  "googleMapsUri": "https://maps.google.com/?cid=9647875662113173419",
+  "googlePlaceId": "ChIJETYEJwDpqzMRq29kTcwj5IU",
+  "rating": 4.9,
+  "ratingCount": 269,
+  "tags": [
+    "eat",
+    "restaurant",
+    "salad-shop",
+    "pizza-restaurant",
+    "hamburger-restaurant"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/allora-cafe-restaurant/1.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Allora Café & Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/100760633752183076513"
+      }
+    },
+    {
+      "path": "/photos/allora-cafe-restaurant/2.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Rachel Ann Sibonga",
+        "uri": "https://maps.google.com/maps/contrib/117691023056469996108"
+      }
+    },
+    {
+      "path": "/photos/allora-cafe-restaurant/3.jpg",
+      "width": 1062,
+      "height": 1328,
+      "attribution": {
+        "displayName": "Allora Café & Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/100760633752183076513"
+      }
+    },
+    {
+      "path": "/photos/allora-cafe-restaurant/4.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Rachel Ann Sibonga",
+        "uri": "https://maps.google.com/maps/contrib/117691023056469996108"
+      }
+    },
+    {
+      "path": "/photos/allora-cafe-restaurant/5.jpg",
+      "width": 1430,
+      "height": 1098,
+      "attribution": {
+        "displayName": "Allora Café & Restaurant",
+        "uri": "https://maps.google.com/maps/contrib/100760633752183076513"
+      }
+    }
+  ]
+}

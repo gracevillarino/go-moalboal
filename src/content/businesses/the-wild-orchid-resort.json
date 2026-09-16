@@ -123,5 +123,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/the-wild-orchid-resort/1.jpg",
+      "width": 3264,
+      "height": 2448,
+      "attribution": {
+        "displayName": "The Wild Orchid Resort - Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/101402001225280767832"
+      }
+    },
+    {
+      "path": "/photos/the-wild-orchid-resort/2.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Bernelize Rudolph",
+        "uri": "https://maps.google.com/maps/contrib/102881492497747082278"
+      }
+    },
+    {
+      "path": "/photos/the-wild-orchid-resort/3.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "The Wild Orchid Resort - Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/101402001225280767832"
+      }
+    },
+    {
+      "path": "/photos/the-wild-orchid-resort/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "The Wild Orchid Resort - Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/101402001225280767832"
+      }
+    },
+    {
+      "path": "/photos/the-wild-orchid-resort/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "The Wild Orchid Resort - Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/101402001225280767832"
+      }
+    }
+  ]
 }

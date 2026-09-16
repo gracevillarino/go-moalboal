@@ -78,5 +78,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/coffee-spot-moalboal/1.jpg",
+      "width": 1079,
+      "height": 720,
+      "attribution": {
+        "displayName": "Coffee Spot Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/105132427651243047026"
+      }
+    },
+    {
+      "path": "/photos/coffee-spot-moalboal/2.jpg",
+      "width": 1080,
+      "height": 1080,
+      "attribution": {
+        "displayName": "Coffee Spot Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/105132427651243047026"
+      }
+    },
+    {
+      "path": "/photos/coffee-spot-moalboal/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Lior Herman",
+        "uri": "https://maps.google.com/maps/contrib/116034376193393847314"
+      }
+    },
+    {
+      "path": "/photos/coffee-spot-moalboal/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Swetha Dillibabu",
+        "uri": "https://maps.google.com/maps/contrib/102205824310893170640"
+      }
+    },
+    {
+      "path": "/photos/coffee-spot-moalboal/5.jpg",
+      "width": 2000,
+      "height": 1500,
+      "attribution": {
+        "displayName": "Coffee Spot Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/105132427651243047026"
+      }
+    }
+  ]
 }

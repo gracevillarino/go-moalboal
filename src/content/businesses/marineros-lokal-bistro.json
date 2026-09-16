@@ -1,0 +1,89 @@
+{
+  "name": "Marineros Lokal Bistro",
+  "slug": "marineros-lokal-bistro",
+  "summary": "Food and drink in Poblacion East. Rated 4.2 from 70 Google reviews.",
+  "description": "Marineros Lokal Bistro is listed at Gaisano Town Center, Poblacion East, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "eat",
+  "categories": [
+    "eat"
+  ],
+  "barangay": "Poblacion East",
+  "address": "Gaisano Town Center, Poblacion East, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9347938,
+    "lng": 123.3959747
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "contactSources": [],
+  "sources": [
+    {
+      "title": "Marineros Lokal Bistro on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=4829149329422522649"
+    }
+  ],
+  "googleMapsUri": "https://maps.google.com/?cid=4829149329422522649",
+  "googlePlaceId": "ChIJDU7fhizpqzMRGZmLq7qVBEM",
+  "rating": 4.2,
+  "ratingCount": 70,
+  "tags": [
+    "eat",
+    "family-restaurant",
+    "restaurant",
+    "food"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/marineros-lokal-bistro/1.jpg",
+      "width": 2048,
+      "height": 1365,
+      "attribution": {
+        "displayName": "Marineros Lokal Bistro",
+        "uri": "https://maps.google.com/maps/contrib/106251960547053626033"
+      }
+    },
+    {
+      "path": "/photos/marineros-lokal-bistro/2.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Marineros Lokal Bistro",
+        "uri": "https://maps.google.com/maps/contrib/106251960547053626033"
+      }
+    },
+    {
+      "path": "/photos/marineros-lokal-bistro/3.jpg",
+      "width": 2048,
+      "height": 1462,
+      "attribution": {
+        "displayName": "Marineros Lokal Bistro",
+        "uri": "https://maps.google.com/maps/contrib/106251960547053626033"
+      }
+    },
+    {
+      "path": "/photos/marineros-lokal-bistro/4.jpg",
+      "width": 3060,
+      "height": 4080,
+      "attribution": {
+        "displayName": "Marineros Lokal Bistro",
+        "uri": "https://maps.google.com/maps/contrib/106251960547053626033"
+      }
+    },
+    {
+      "path": "/photos/marineros-lokal-bistro/5.jpg",
+      "width": 2471,
+      "height": 3146,
+      "attribution": {
+        "displayName": "Marineros Lokal Bistro",
+        "uri": "https://maps.google.com/maps/contrib/106251960547053626033"
+      }
+    }
+  ]
+}

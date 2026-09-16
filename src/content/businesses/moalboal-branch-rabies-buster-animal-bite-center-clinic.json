@@ -47,5 +47,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/moalboal-branch-rabies-buster-animal-bite-center-clinic/1.jpg",
+      "width": 1080,
+      "height": 1080,
+      "attribution": {
+        "displayName": "Moalboal Branch - Rabies Buster Animal Bite Center/Clinic",
+        "uri": "https://maps.google.com/maps/contrib/116365383016099007564"
+      }
+    },
+    {
+      "path": "/photos/moalboal-branch-rabies-buster-animal-bite-center-clinic/2.jpg",
+      "width": 1080,
+      "height": 1080,
+      "attribution": {
+        "displayName": "Moalboal Branch - Rabies Buster Animal Bite Center/Clinic",
+        "uri": "https://maps.google.com/maps/contrib/116365383016099007564"
+      }
+    },
+    {
+      "path": "/photos/moalboal-branch-rabies-buster-animal-bite-center-clinic/3.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Moalboal Branch - Rabies Buster Animal Bite Center/Clinic",
+        "uri": "https://maps.google.com/maps/contrib/116365383016099007564"
+      }
+    },
+    {
+      "path": "/photos/moalboal-branch-rabies-buster-animal-bite-center-clinic/4.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Trixie Pulgo",
+        "uri": "https://maps.google.com/maps/contrib/106379833297503823443"
+      }
+    },
+    {
+      "path": "/photos/moalboal-branch-rabies-buster-animal-bite-center-clinic/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Trixie Pulgo",
+        "uri": "https://maps.google.com/maps/contrib/106379833297503823443"
+      }
+    }
+  ]
 }

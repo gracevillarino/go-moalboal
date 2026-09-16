@@ -86,5 +86,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/3-sisters-guest-house/1.jpg",
+      "width": 2016,
+      "height": 1512,
+      "attribution": {
+        "displayName": "3 SISTERS GUEST HOUSE",
+        "uri": "https://maps.google.com/maps/contrib/110962288755050837243"
+      }
+    },
+    {
+      "path": "/photos/3-sisters-guest-house/2.jpg",
+      "width": 1512,
+      "height": 2016,
+      "attribution": {
+        "displayName": "3 SISTERS GUEST HOUSE",
+        "uri": "https://maps.google.com/maps/contrib/110962288755050837243"
+      }
+    },
+    {
+      "path": "/photos/3-sisters-guest-house/3.jpg",
+      "width": 2016,
+      "height": 1512,
+      "attribution": {
+        "displayName": "3 SISTERS GUEST HOUSE",
+        "uri": "https://maps.google.com/maps/contrib/110962288755050837243"
+      }
+    },
+    {
+      "path": "/photos/3-sisters-guest-house/4.jpg",
+      "width": 2016,
+      "height": 1512,
+      "attribution": {
+        "displayName": "3 SISTERS GUEST HOUSE",
+        "uri": "https://maps.google.com/maps/contrib/110962288755050837243"
+      }
+    },
+    {
+      "path": "/photos/3-sisters-guest-house/5.jpg",
+      "width": 1512,
+      "height": 2016,
+      "attribution": {
+        "displayName": "3 SISTERS GUEST HOUSE",
+        "uri": "https://maps.google.com/maps/contrib/110962288755050837243"
+      }
+    }
+  ]
 }

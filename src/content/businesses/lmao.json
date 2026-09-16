@@ -81,5 +81,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/lmao/1.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Steeve",
+        "uri": "https://maps.google.com/maps/contrib/109254162046434149626"
+      }
+    },
+    {
+      "path": "/photos/lmao/2.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Lmao",
+        "uri": "https://maps.google.com/maps/contrib/117216242662649968094"
+      }
+    },
+    {
+      "path": "/photos/lmao/3.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Louis",
+        "uri": "https://maps.google.com/maps/contrib/111819033948993221774"
+      }
+    },
+    {
+      "path": "/photos/lmao/4.jpg",
+      "width": 4080,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Akio Iwabuchi",
+        "uri": "https://maps.google.com/maps/contrib/118367896885284914319"
+      }
+    },
+    {
+      "path": "/photos/lmao/5.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Kenneth Lee",
+        "uri": "https://maps.google.com/maps/contrib/103082353920124898029"
+      }
+    }
+  ]
 }

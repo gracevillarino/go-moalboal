@@ -40,5 +40,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/lady-n-coffee-and-souvenir-shop/1.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Ruslan Tursunov",
+        "uri": "https://maps.google.com/maps/contrib/101231830628497709005"
+      }
+    },
+    {
+      "path": "/photos/lady-n-coffee-and-souvenir-shop/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Pulgo Crispin I.",
+        "uri": "https://maps.google.com/maps/contrib/107804633556372134757"
+      }
+    },
+    {
+      "path": "/photos/lady-n-coffee-and-souvenir-shop/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Rachael Balbarino",
+        "uri": "https://maps.google.com/maps/contrib/102636201019298482623"
+      }
+    },
+    {
+      "path": "/photos/lady-n-coffee-and-souvenir-shop/4.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Яна Ломакина",
+        "uri": "https://maps.google.com/maps/contrib/116869663882181085539"
+      }
+    },
+    {
+      "path": "/photos/lady-n-coffee-and-souvenir-shop/5.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Lesifer",
+        "uri": "https://maps.google.com/maps/contrib/106702151849413225645"
+      }
+    }
+  ]
 }

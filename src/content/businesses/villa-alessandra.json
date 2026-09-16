@@ -94,5 +94,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/villa-alessandra/1.jpg",
+      "width": 1600,
+      "height": 1200,
+      "attribution": {
+        "displayName": "Villa Alessandra",
+        "uri": "https://maps.google.com/maps/contrib/106862101596890455380"
+      }
+    },
+    {
+      "path": "/photos/villa-alessandra/2.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Villa Alessandra",
+        "uri": "https://maps.google.com/maps/contrib/106862101596890455380"
+      }
+    },
+    {
+      "path": "/photos/villa-alessandra/3.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Villa Alessandra",
+        "uri": "https://maps.google.com/maps/contrib/106862101596890455380"
+      }
+    },
+    {
+      "path": "/photos/villa-alessandra/4.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Villa Alessandra",
+        "uri": "https://maps.google.com/maps/contrib/106862101596890455380"
+      }
+    },
+    {
+      "path": "/photos/villa-alessandra/5.jpg",
+      "width": 3456,
+      "height": 3456,
+      "attribution": {
+        "displayName": "Villa Alessandra",
+        "uri": "https://maps.google.com/maps/contrib/106862101596890455380"
+      }
+    }
+  ]
 }

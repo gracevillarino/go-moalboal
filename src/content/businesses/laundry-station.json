@@ -69,5 +69,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/laundry-station/1.jpg",
+      "width": 3614,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Rey Endona",
+        "uri": "https://maps.google.com/maps/contrib/113468359572449842273"
+      }
+    },
+    {
+      "path": "/photos/laundry-station/2.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Jeffrey Scott",
+        "uri": "https://maps.google.com/maps/contrib/111125857668557979991"
+      }
+    },
+    {
+      "path": "/photos/laundry-station/3.jpg",
+      "width": 2048,
+      "height": 1366,
+      "attribution": {
+        "displayName": "Laundry Station",
+        "uri": "https://maps.google.com/maps/contrib/117818064191762707119"
+      }
+    },
+    {
+      "path": "/photos/laundry-station/4.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Laundry Station",
+        "uri": "https://maps.google.com/maps/contrib/117818064191762707119"
+      }
+    },
+    {
+      "path": "/photos/laundry-station/5.jpg",
+      "width": 1132,
+      "height": 523,
+      "attribution": {
+        "displayName": "Laundry Station",
+        "uri": "https://maps.google.com/maps/contrib/117818064191762707119"
+      }
+    }
+  ]
 }

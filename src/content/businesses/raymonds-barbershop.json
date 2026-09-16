@@ -42,5 +42,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/raymonds-barbershop/1.jpg",
+      "width": 1600,
+      "height": 900,
+      "attribution": {
+        "displayName": "Mike Lehmann",
+        "uri": "https://maps.google.com/maps/contrib/104304423537130424351"
+      }
+    },
+    {
+      "path": "/photos/raymonds-barbershop/2.jpg",
+      "width": 900,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Mike Lehmann",
+        "uri": "https://maps.google.com/maps/contrib/104304423537130424351"
+      }
+    },
+    {
+      "path": "/photos/raymonds-barbershop/3.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Thomas de Visser",
+        "uri": "https://maps.google.com/maps/contrib/107565647832963029342"
+      }
+    },
+    {
+      "path": "/photos/raymonds-barbershop/4.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Jack Cronin",
+        "uri": "https://maps.google.com/maps/contrib/106806191447117092688"
+      }
+    },
+    {
+      "path": "/photos/raymonds-barbershop/5.jpg",
+      "width": 2700,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Marien Slabbekoorn",
+        "uri": "https://maps.google.com/maps/contrib/105078811182652855377"
+      }
+    }
+  ]
 }

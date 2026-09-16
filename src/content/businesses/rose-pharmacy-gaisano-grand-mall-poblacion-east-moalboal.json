@@ -53,5 +53,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/rose-pharmacy-gaisano-grand-mall-poblacion-east-moalboal/1.jpg",
+      "width": 3920,
+      "height": 2204,
+      "attribution": {
+        "displayName": "Ming",
+        "uri": "https://maps.google.com/maps/contrib/116984415774586331716"
+      }
+    },
+    {
+      "path": "/photos/rose-pharmacy-gaisano-grand-mall-poblacion-east-moalboal/2.jpg",
+      "width": 1920,
+      "height": 1080,
+      "attribution": {
+        "displayName": "Ming",
+        "uri": "https://maps.google.com/maps/contrib/116984415774586331716"
+      }
+    },
+    {
+      "path": "/photos/rose-pharmacy-gaisano-grand-mall-poblacion-east-moalboal/3.jpg",
+      "width": 3120,
+      "height": 4208,
+      "attribution": {
+        "displayName": "guglielmo ianne",
+        "uri": "https://maps.google.com/maps/contrib/111055882512534948914"
+      }
+    },
+    {
+      "path": "/photos/rose-pharmacy-gaisano-grand-mall-poblacion-east-moalboal/4.jpg",
+      "width": 3120,
+      "height": 4208,
+      "attribution": {
+        "displayName": "guglielmo ianne",
+        "uri": "https://maps.google.com/maps/contrib/111055882512534948914"
+      }
+    },
+    {
+      "path": "/photos/rose-pharmacy-gaisano-grand-mall-poblacion-east-moalboal/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Phil Floren Gallardo",
+        "uri": "https://maps.google.com/maps/contrib/104506402819557393029"
+      }
+    }
+  ]
 }

@@ -13,6 +13,7 @@
     "import:places": "node --env-file-if-exists=.env scripts/import-google-places.mjs",
     "enrich:places": "node --env-file-if-exists=.env scripts/enrich-approved-places.mjs",
     "enrich:emails": "node scripts/enrich-place-emails.mjs",
+    "enrich:photos": "node --env-file-if-exists=.env scripts/enrich-place-photos.mjs",
     "enrich:about": "node scripts/enrich-place-about.mjs",
     "enrich:reviews": "node --env-file-if-exists=.env scripts/enrich-place-review-themes.mjs",
     "clean:review-copy": "node scripts/remove-review-about-copy.mjs",

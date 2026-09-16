@@ -41,5 +41,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/fueltech-gas-station/1.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Colin Hill",
+        "uri": "https://maps.google.com/maps/contrib/107736536488526121494"
+      }
+    },
+    {
+      "path": "/photos/fueltech-gas-station/2.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Oneofthebrave Oneofthebrave",
+        "uri": "https://maps.google.com/maps/contrib/102128759287125044600"
+      }
+    },
+    {
+      "path": "/photos/fueltech-gas-station/3.jpg",
+      "width": 3648,
+      "height": 2736,
+      "attribution": {
+        "displayName": "TangVoyage",
+        "uri": "https://maps.google.com/maps/contrib/118213308828897373323"
+      }
+    },
+    {
+      "path": "/photos/fueltech-gas-station/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Oneofthebrave Oneofthebrave",
+        "uri": "https://maps.google.com/maps/contrib/102128759287125044600"
+      }
+    },
+    {
+      "path": "/photos/fueltech-gas-station/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Oneofthebrave Oneofthebrave",
+        "uri": "https://maps.google.com/maps/contrib/102128759287125044600"
+      }
+    }
+  ]
 }

@@ -94,5 +94,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/sunset-paradise-moalboal/1.jpg",
+      "width": 3072,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Sunset Paradise Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107115236798291174933"
+      }
+    },
+    {
+      "path": "/photos/sunset-paradise-moalboal/2.jpg",
+      "width": 3072,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Sunset Paradise Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107115236798291174933"
+      }
+    },
+    {
+      "path": "/photos/sunset-paradise-moalboal/3.jpg",
+      "width": 3072,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Sunset Paradise Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107115236798291174933"
+      }
+    },
+    {
+      "path": "/photos/sunset-paradise-moalboal/4.jpg",
+      "width": 3072,
+      "height": 4096,
+      "attribution": {
+        "displayName": "Sunset Paradise Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107115236798291174933"
+      }
+    },
+    {
+      "path": "/photos/sunset-paradise-moalboal/5.jpg",
+      "width": 1077,
+      "height": 1436,
+      "attribution": {
+        "displayName": "Sunset Paradise Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/107115236798291174933"
+      }
+    }
+  ]
 }

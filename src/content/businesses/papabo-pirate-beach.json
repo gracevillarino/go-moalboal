@@ -78,5 +78,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/papabo-pirate-beach/1.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Jon Peel",
+        "uri": "https://maps.google.com/maps/contrib/113060376765752693339"
+      }
+    },
+    {
+      "path": "/photos/papabo-pirate-beach/2.jpg",
+      "width": 1280,
+      "height": 960,
+      "attribution": {
+        "displayName": "Mathias",
+        "uri": "https://maps.google.com/maps/contrib/114491814853514873594"
+      }
+    },
+    {
+      "path": "/photos/papabo-pirate-beach/3.jpg",
+      "width": 1440,
+      "height": 811,
+      "attribution": {
+        "displayName": "Violet Crtz",
+        "uri": "https://maps.google.com/maps/contrib/103509983482939902436"
+      }
+    },
+    {
+      "path": "/photos/papabo-pirate-beach/4.jpg",
+      "width": 1280,
+      "height": 960,
+      "attribution": {
+        "displayName": "Mathias",
+        "uri": "https://maps.google.com/maps/contrib/114491814853514873594"
+      }
+    },
+    {
+      "path": "/photos/papabo-pirate-beach/5.jpg",
+      "width": 1280,
+      "height": 960,
+      "attribution": {
+        "displayName": "Mathias",
+        "uri": "https://maps.google.com/maps/contrib/114491814853514873594"
+      }
+    }
+  ]
 }

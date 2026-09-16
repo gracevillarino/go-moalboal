@@ -120,5 +120,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/kyro-cafe-coffee-breakfast-pastries-in-moalboal/1.jpg",
+      "width": 3784,
+      "height": 3605,
+      "attribution": {
+        "displayName": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103556117469704275574"
+      }
+    },
+    {
+      "path": "/photos/kyro-cafe-coffee-breakfast-pastries-in-moalboal/2.jpg",
+      "width": 1100,
+      "height": 1467,
+      "attribution": {
+        "displayName": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103556117469704275574"
+      }
+    },
+    {
+      "path": "/photos/kyro-cafe-coffee-breakfast-pastries-in-moalboal/3.jpg",
+      "width": 4800,
+      "height": 2700,
+      "attribution": {
+        "displayName": "Юлия Радченко",
+        "uri": "https://maps.google.com/maps/contrib/101303578512436761794"
+      }
+    },
+    {
+      "path": "/photos/kyro-cafe-coffee-breakfast-pastries-in-moalboal/4.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "KYRO Café – Coffee, Breakfast & Pastries in Moalboal",
+        "uri": "https://maps.google.com/maps/contrib/103556117469704275574"
+      }
+    },
+    {
+      "path": "/photos/kyro-cafe-coffee-breakfast-pastries-in-moalboal/5.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Jesus Amaro",
+        "uri": "https://maps.google.com/maps/contrib/111888735161972504318"
+      }
+    }
+  ]
 }

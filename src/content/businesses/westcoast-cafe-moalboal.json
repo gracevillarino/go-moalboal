@@ -76,5 +76,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/westcoast-cafe-moalboal/1.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "jjang jjang",
+        "uri": "https://maps.google.com/maps/contrib/113451193662334093971"
+      }
+    },
+    {
+      "path": "/photos/westcoast-cafe-moalboal/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Rodelyn Sapatalo",
+        "uri": "https://maps.google.com/maps/contrib/108956768118638030287"
+      }
+    },
+    {
+      "path": "/photos/westcoast-cafe-moalboal/3.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Singson Juliene Gazza",
+        "uri": "https://maps.google.com/maps/contrib/115254718308845381115"
+      }
+    },
+    {
+      "path": "/photos/westcoast-cafe-moalboal/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Rodelyn Sapatalo",
+        "uri": "https://maps.google.com/maps/contrib/108956768118638030287"
+      }
+    },
+    {
+      "path": "/photos/westcoast-cafe-moalboal/5.jpg",
+      "width": 1291,
+      "height": 1211,
+      "attribution": {
+        "displayName": "brew cold",
+        "uri": "https://maps.google.com/maps/contrib/114248005816771268465"
+      }
+    }
+  ]
 }

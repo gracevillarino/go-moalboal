@@ -65,5 +65,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/divestory-moalboal-scuba-diving-center/1.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "DIVESTORY MOALBOAL SCUBA DIVING CENTER",
+        "uri": "https://maps.google.com/maps/contrib/112581301582946292166"
+      }
+    },
+    {
+      "path": "/photos/divestory-moalboal-scuba-diving-center/2.jpg",
+      "width": 1169,
+      "height": 632,
+      "attribution": {
+        "displayName": "in gyo seo",
+        "uri": "https://maps.google.com/maps/contrib/105446486249059898018"
+      }
+    },
+    {
+      "path": "/photos/divestory-moalboal-scuba-diving-center/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "DIVESTORY MOALBOAL SCUBA DIVING CENTER",
+        "uri": "https://maps.google.com/maps/contrib/112581301582946292166"
+      }
+    },
+    {
+      "path": "/photos/divestory-moalboal-scuba-diving-center/4.jpg",
+      "width": 2014,
+      "height": 1170,
+      "attribution": {
+        "displayName": "María González",
+        "uri": "https://maps.google.com/maps/contrib/117557735221621906734"
+      }
+    },
+    {
+      "path": "/photos/divestory-moalboal-scuba-diving-center/5.jpg",
+      "width": 900,
+      "height": 1200,
+      "attribution": {
+        "displayName": "이지연",
+        "uri": "https://maps.google.com/maps/contrib/118111310112611705732"
+      }
+    }
+  ]
 }

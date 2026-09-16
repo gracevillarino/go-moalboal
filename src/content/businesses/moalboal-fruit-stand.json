@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/moalboal-fruit-stand/1.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Gerwin N",
+        "uri": "https://maps.google.com/maps/contrib/108374831873606634703"
+      }
+    },
+    {
+      "path": "/photos/moalboal-fruit-stand/2.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Gerwin N",
+        "uri": "https://maps.google.com/maps/contrib/108374831873606634703"
+      }
+    },
+    {
+      "path": "/photos/moalboal-fruit-stand/3.jpg",
+      "width": 2048,
+      "height": 1536,
+      "attribution": {
+        "displayName": "Gerwin N",
+        "uri": "https://maps.google.com/maps/contrib/108374831873606634703"
+      }
+    },
+    {
+      "path": "/photos/moalboal-fruit-stand/4.jpg",
+      "width": 1536,
+      "height": 2048,
+      "attribution": {
+        "displayName": "Gerwin N",
+        "uri": "https://maps.google.com/maps/contrib/108374831873606634703"
+      }
+    },
+    {
+      "path": "/photos/moalboal-fruit-stand/5.jpg",
+      "width": 3264,
+      "height": 1836,
+      "attribution": {
+        "displayName": "Caryl Vanessa",
+        "uri": "https://maps.google.com/maps/contrib/100222025399892152682"
+      }
+    }
+  ]
 }

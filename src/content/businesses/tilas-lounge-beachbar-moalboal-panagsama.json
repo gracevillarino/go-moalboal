@@ -98,5 +98,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/tilas-lounge-beachbar-moalboal-panagsama/1.jpg",
+      "width": 4800,
+      "height": 3466,
+      "attribution": {
+        "displayName": "Tilas Lounge Beachbar Moalboal Panagsama",
+        "uri": "https://maps.google.com/maps/contrib/106070200230197212321"
+      }
+    },
+    {
+      "path": "/photos/tilas-lounge-beachbar-moalboal-panagsama/2.jpg",
+      "width": 4096,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Julio Soriano Alfaro",
+        "uri": "https://maps.google.com/maps/contrib/107490985967650144969"
+      }
+    },
+    {
+      "path": "/photos/tilas-lounge-beachbar-moalboal-panagsama/3.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Jj M",
+        "uri": "https://maps.google.com/maps/contrib/108826912617833979250"
+      }
+    },
+    {
+      "path": "/photos/tilas-lounge-beachbar-moalboal-panagsama/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Ivy Kroy",
+        "uri": "https://maps.google.com/maps/contrib/105459193208089947709"
+      }
+    },
+    {
+      "path": "/photos/tilas-lounge-beachbar-moalboal-panagsama/5.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Philipp",
+        "uri": "https://maps.google.com/maps/contrib/117209796563195496868"
+      }
+    }
+  ]
 }

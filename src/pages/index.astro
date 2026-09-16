@@ -12,6 +12,51 @@ const businesses = allBusinesses
 const stories = (await getCollection('stories', ({ data }) => data.status === 'published'))
   .sort((a, b) => Number(b.data.featured) - Number(a.data.featured))
   .slice(0, 3);
+
+const governmentUpdates = [
+  {
+    title: 'Rosaroso, Gocotano nab Five golds in monthly dancesports tilt',
+    date: 'July 1, 2026',
+    url: 'https://moalboalcebu.gov.ph/rosaroso-gocotano-nab-five-golds-in-monthly-dancesports-tilt/',
+    photo: 'https://moalboalcebu.gov.ph/wp-content/uploads/2026/07/dancesports-team.jpg',
+    summary: 'Two Moalboal dancesport athletes swept five gold medals at a regional tilt in Naga City on June 27.',
+  },
+  {
+    title: 'Moalboal LGU shows commitment to drug-free workplace with surprise drug test',
+    date: 'June 30, 2026',
+    url: 'https://moalboalcebu.gov.ph/moalboal-lgu-shows-commitment-to-drug-free-workplace-with-surprise-drug-test-for-employees-and-officials/',
+    photo: 'https://moalboalcebu.gov.ph/wp-content/uploads/2026/06/Screenshot-2026-06-30-092639.png',
+    summary: 'The LGU ran an unannounced drug test for municipal staff and officials to mark Anti-Drug Abuse Day.',
+  },
+  {
+    title: 'Moalboal opens Agri-Fishery Trade Fair 2026',
+    date: 'May 8, 2026',
+    url: 'https://moalboalcebu.gov.ph/moalboal-opens-agri-fishery-trade-fair-2026/',
+    photo: 'https://moalboalcebu.gov.ph/wp-content/uploads/2026/05/11.jpg',
+    summary: 'The trade fair launched as a centerpiece of the 2026 Moalboal Town Fiesta celebration.',
+  },
+  {
+    title: 'Moalboal Grand Caravan – May 12, 2026',
+    date: 'May 8, 2026',
+    url: 'https://moalboalcebu.gov.ph/moalboal-grand-caravan-may-12-2026/',
+    photo: 'https://moalboalcebu.gov.ph/wp-content/uploads/2026/05/CARAVAN.jpg',
+    summary: 'A day of free public services and assistance for residents, held at the town plaza.',
+  },
+  {
+    title: 'Mental health consultation',
+    date: 'May 8, 2026',
+    url: 'https://moalboalcebu.gov.ph/mental-health-consultation/',
+    photo: 'https://moalboalcebu.gov.ph/wp-content/uploads/2026/05/MENTAL-HEALTH.jpg',
+    summary: 'Free monthly mental health consultations continue at the Senior Citizen Care Center behind the fire station.',
+  },
+  {
+    title: 'Meet the Kagasangan Festival queen candidates',
+    date: 'May 8, 2026',
+    url: 'https://moalboalcebu.gov.ph/meet-the-kagasangan-festival-queen-candidates/',
+    photo: 'https://moalboalcebu.gov.ph/wp-content/uploads/2026/05/KAGASANGAN.jpg',
+    summary: 'This year’s Kagasangan Festival queen candidates were introduced ahead of the town fiesta.',
+  },
+];
 ---
 
 <BaseLayout>
@@ -74,6 +119,12 @@ const stories = (await getCollection('stories', ({ data }) => data.status === 'p
     <div class="grid">
       {businesses.map(({ data }) => (
         <a class="card" href={path(`/directory/${data.slug}`)}>
+          {data.photos[0] && (
+            <span class="card-photo">
+              <img src={path(data.photos[0].path)} alt={data.name} loading="lazy" width={data.photos[0].width} height={data.photos[0].height} />
+              <em>Photo: {data.photos[0].attribution.displayName} · Google Maps</em>
+            </span>
+          )}
           <span class="pill">{data.categories.join(' · ')}</span><h3>{data.name}</h3><p>{data.summary}</p>
           {data.rating && <b class="home-rating">★ {data.rating.toFixed(1)} · {data.ratingCount.toLocaleString()} reviews</b>}
         </a>
@@ -89,10 +140,33 @@ const stories = (await getCollection('stories', ({ data }) => data.status === 'p
     <div class="grid">
       {stories.map(({ data }) => (
         <a class="card story-preview" href={path(`/stories/${data.slug}`)}>
+          {data.photos[0] && <span class="card-photo">
+            <img src={path(data.photos[0].path)} alt={data.title} loading="lazy" width={data.photos[0].width} height={data.photos[0].height} />
+            <em>Photo: {data.photos[0].attribution.displayName} · Wikimedia Commons</em>
+          </span>}
           <span class="pill">{data.type.replace('-', ' ')}</span>
           <h3>{data.title}</h3>
           <p>{data.summary}</p>
           <b>{data.readingMinutes} min read · {data.sources.length} sources</b>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section government-updates">
+    <div class="section-heading">
+      <div><p class="eyebrow">From the LGU</p><h2>Government Updates</h2></div>
+      <a href="https://moalboalcebu.gov.ph/category/updates/" target="_blank" rel="noreferrer">View all on moalboalcebu.gov.ph →</a>
+    </div>
+    <div class="grid">
+      {governmentUpdates.map((update) => (
+        <a class="card update-card" href={update.url} target="_blank" rel="noreferrer">
+          <span class="card-photo">
+            <img src={update.photo} alt={update.title} loading="lazy" />
+            <em>Source: moalboalcebu.gov.ph</em>
+          </span>
+          <span class="pill">{update.date}</span><h3>{update.title}</h3><p>{update.summary}</p>
+          <b>Read on moalboalcebu.gov.ph ↗</b>
         </a>
       ))}
     </div>
@@ -128,9 +202,15 @@ const stories = (await getCollection('stories', ({ data }) => data.status === 'p
   .living-topics { display: grid; grid-template-columns: auto 1fr; align-content: center; }
   .living-topics span, .living-topics p { padding: 1rem; margin: 0; border-bottom: 1px solid var(--line); }
   .living-topics span { color: var(--coral); font-weight: 700; }
+  .card-photo { display: block; margin: -1px -1px 1rem; position: relative; }
+  .card-photo img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 14px; }
+  .card-photo em { position: absolute; right: .6rem; bottom: .6rem; padding: .2rem .5rem; border-radius: 6px; background: rgba(0,0,0,.55); color: #fff; font-size: .62rem; font-style: normal; }
   .home-rating, .story-preview b { display: block; margin-top: 1rem; color: var(--sea); font-size: .82rem; }
   .home-stories { background: var(--cream); }
   .story-preview { background: var(--paper); }
+  .government-updates { background: var(--paper); }
+  .update-card { background: var(--cream); }
+  .update-card b { display: block; margin-top: 1rem; color: var(--sea); font-size: .82rem; }
   @media (max-width: 850px) {
     .hero, .help-section, .living-section { grid-template-columns: 1fr; }
     .hero { min-height: 0; } .town-note { min-height: 430px; }

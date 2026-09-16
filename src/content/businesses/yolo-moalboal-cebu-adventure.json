@@ -45,5 +45,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/yolo-moalboal-cebu-adventure/1.jpg",
+      "width": 2252,
+      "height": 4000,
+      "attribution": {
+        "displayName": "YOLO Moalboal Cebu Adventure",
+        "uri": "https://maps.google.com/maps/contrib/109595016369414846508"
+      }
+    },
+    {
+      "path": "/photos/yolo-moalboal-cebu-adventure/2.jpg",
+      "width": 914,
+      "height": 1600,
+      "attribution": {
+        "displayName": "YOLO Moalboal Cebu Adventure",
+        "uri": "https://maps.google.com/maps/contrib/109595016369414846508"
+      }
+    },
+    {
+      "path": "/photos/yolo-moalboal-cebu-adventure/3.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "YOLO Moalboal Cebu Adventure",
+        "uri": "https://maps.google.com/maps/contrib/109595016369414846508"
+      }
+    },
+    {
+      "path": "/photos/yolo-moalboal-cebu-adventure/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Yeonji Cho",
+        "uri": "https://maps.google.com/maps/contrib/114543138670687474669"
+      }
+    },
+    {
+      "path": "/photos/yolo-moalboal-cebu-adventure/5.jpg",
+      "width": 4200,
+      "height": 4800,
+      "attribution": {
+        "displayName": "YOLO Moalboal Cebu Adventure",
+        "uri": "https://maps.google.com/maps/contrib/109595016369414846508"
+      }
+    }
+  ]
 }

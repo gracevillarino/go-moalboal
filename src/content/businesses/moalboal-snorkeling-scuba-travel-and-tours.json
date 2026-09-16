@@ -45,5 +45,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/moalboal-snorkeling-scuba-travel-and-tours/1.jpg",
+      "width": 4320,
+      "height": 2344,
+      "attribution": {
+        "displayName": "Aline A.",
+        "uri": "https://maps.google.com/maps/contrib/108475553515225544874"
+      }
+    },
+    {
+      "path": "/photos/moalboal-snorkeling-scuba-travel-and-tours/2.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Aurelian Ovidiu Stasewicz",
+        "uri": "https://maps.google.com/maps/contrib/106190096669388878950"
+      }
+    },
+    {
+      "path": "/photos/moalboal-snorkeling-scuba-travel-and-tours/3.jpg",
+      "width": 2483,
+      "height": 1655,
+      "attribution": {
+        "displayName": "선물강사유정진 (gifted_yoo)",
+        "uri": "https://maps.google.com/maps/contrib/102113885061109328880"
+      }
+    },
+    {
+      "path": "/photos/moalboal-snorkeling-scuba-travel-and-tours/4.jpg",
+      "width": 4608,
+      "height": 3456,
+      "attribution": {
+        "displayName": "Carlos cjnasc",
+        "uri": "https://maps.google.com/maps/contrib/103418496540668332404"
+      }
+    },
+    {
+      "path": "/photos/moalboal-snorkeling-scuba-travel-and-tours/5.jpg",
+      "width": 1080,
+      "height": 1920,
+      "attribution": {
+        "displayName": "아니솜탱",
+        "uri": "https://maps.google.com/maps/contrib/117851718529736540612"
+      }
+    }
+  ]
 }

@@ -57,5 +57,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/nelson-s-dive-center/1.jpg",
+      "width": 1479,
+      "height": 1109,
+      "attribution": {
+        "displayName": "Pei Yun Chang",
+        "uri": "https://maps.google.com/maps/contrib/118014626406590220940"
+      }
+    },
+    {
+      "path": "/photos/nelson-s-dive-center/2.jpg",
+      "width": 1920,
+      "height": 1080,
+      "attribution": {
+        "displayName": "MOONBAE PARK",
+        "uri": "https://maps.google.com/maps/contrib/110560923927046802910"
+      }
+    },
+    {
+      "path": "/photos/nelson-s-dive-center/3.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "oeoeoeooeo Yu",
+        "uri": "https://maps.google.com/maps/contrib/114144674151112170021"
+      }
+    },
+    {
+      "path": "/photos/nelson-s-dive-center/4.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution": {
+        "displayName": "Jeremy Swartz",
+        "uri": "https://maps.google.com/maps/contrib/108726837382383580383"
+      }
+    },
+    {
+      "path": "/photos/nelson-s-dive-center/5.jpg",
+      "width": 4800,
+      "height": 4200,
+      "attribution": {
+        "displayName": "로뽕",
+        "uri": "https://maps.google.com/maps/contrib/111644293344774819357"
+      }
+    }
+  ]
 }

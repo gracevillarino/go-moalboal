@@ -107,5 +107,52 @@
       ]
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/betsy-s-grill-and-restobar-moalboal/1.jpg",
+      "width": 3264,
+      "height": 1836,
+      "attribution": {
+        "displayName": "Betsy’s Grill and Restobar(Moalboal)",
+        "uri": "https://maps.google.com/maps/contrib/114590920485583776601"
+      }
+    },
+    {
+      "path": "/photos/betsy-s-grill-and-restobar-moalboal/2.jpg",
+      "width": 4096,
+      "height": 2730,
+      "attribution": {
+        "displayName": "Betsy’s Grill and Restobar(Moalboal)",
+        "uri": "https://maps.google.com/maps/contrib/114590920485583776601"
+      }
+    },
+    {
+      "path": "/photos/betsy-s-grill-and-restobar-moalboal/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "st.78 Rainbow",
+        "uri": "https://maps.google.com/maps/contrib/106781095650711866217"
+      }
+    },
+    {
+      "path": "/photos/betsy-s-grill-and-restobar-moalboal/4.jpg",
+      "width": 750,
+      "height": 422,
+      "attribution": {
+        "displayName": "Betsy’s Grill and Restobar(Moalboal)",
+        "uri": "https://maps.google.com/maps/contrib/114590920485583776601"
+      }
+    },
+    {
+      "path": "/photos/betsy-s-grill-and-restobar-moalboal/5.jpg",
+      "width": 1477,
+      "height": 1108,
+      "attribution": {
+        "displayName": "ひつじ",
+        "uri": "https://maps.google.com/maps/contrib/102639521094217412872"
+      }
+    }
+  ]
 }

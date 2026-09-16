@@ -92,5 +92,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/home-sweetie-homestay-bunkbeds/1.jpg",
+      "width": 2016,
+      "height": 908,
+      "attribution": {
+        "displayName": "Home Sweetie Homestay & Bunkbeds",
+        "uri": "https://maps.google.com/maps/contrib/116855950413815667808"
+      }
+    },
+    {
+      "path": "/photos/home-sweetie-homestay-bunkbeds/2.jpg",
+      "width": 2992,
+      "height": 2992,
+      "attribution": {
+        "displayName": "Home Sweetie Homestay & Bunkbeds",
+        "uri": "https://maps.google.com/maps/contrib/116855950413815667808"
+      }
+    },
+    {
+      "path": "/photos/home-sweetie-homestay-bunkbeds/3.jpg",
+      "width": 1134,
+      "height": 2016,
+      "attribution": {
+        "displayName": "Home Sweetie Homestay & Bunkbeds",
+        "uri": "https://maps.google.com/maps/contrib/116855950413815667808"
+      }
+    },
+    {
+      "path": "/photos/home-sweetie-homestay-bunkbeds/4.jpg",
+      "width": 1600,
+      "height": 900,
+      "attribution": {
+        "displayName": "Home Sweetie Homestay & Bunkbeds",
+        "uri": "https://maps.google.com/maps/contrib/116855950413815667808"
+      }
+    },
+    {
+      "path": "/photos/home-sweetie-homestay-bunkbeds/5.jpg",
+      "width": 1200,
+      "height": 1600,
+      "attribution": {
+        "displayName": "Home Sweetie Homestay & Bunkbeds",
+        "uri": "https://maps.google.com/maps/contrib/116855950413815667808"
+      }
+    }
+  ]
 }

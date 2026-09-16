@@ -80,5 +80,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/grace-bar/1.jpg",
+      "width": 1290,
+      "height": 726,
+      "attribution": {
+        "displayName": "Grace Bar",
+        "uri": "https://maps.google.com/maps/contrib/100837934732872777269"
+      }
+    },
+    {
+      "path": "/photos/grace-bar/2.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Janwin Trevs Madrona",
+        "uri": "https://maps.google.com/maps/contrib/114677539623580605886"
+      }
+    },
+    {
+      "path": "/photos/grace-bar/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Janwin Trevs Madrona",
+        "uri": "https://maps.google.com/maps/contrib/114677539623580605886"
+      }
+    },
+    {
+      "path": "/photos/grace-bar/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "벡헴",
+        "uri": "https://maps.google.com/maps/contrib/106814847535181678220"
+      }
+    },
+    {
+      "path": "/photos/grace-bar/5.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Jonalyn Quilistino",
+        "uri": "https://maps.google.com/maps/contrib/106895693470312335200"
+      }
+    }
+  ]
 }

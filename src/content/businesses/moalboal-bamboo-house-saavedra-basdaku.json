@@ -84,5 +84,52 @@
     },
     "tripadvisor": null,
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/moalboal-bamboo-house-saavedra-basdaku/1.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Moalboal Bamboo House Saavedra Basdaku",
+        "uri": "https://maps.google.com/maps/contrib/113528735127635860893"
+      }
+    },
+    {
+      "path": "/photos/moalboal-bamboo-house-saavedra-basdaku/2.jpg",
+      "width": 1080,
+      "height": 1440,
+      "attribution": {
+        "displayName": "Moalboal Bamboo House Saavedra Basdaku",
+        "uri": "https://maps.google.com/maps/contrib/113528735127635860893"
+      }
+    },
+    {
+      "path": "/photos/moalboal-bamboo-house-saavedra-basdaku/3.jpg",
+      "width": 2240,
+      "height": 2304,
+      "attribution": {
+        "displayName": "Markie",
+        "uri": "https://maps.google.com/maps/contrib/108082337820594383851"
+      }
+    },
+    {
+      "path": "/photos/moalboal-bamboo-house-saavedra-basdaku/4.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "Moalboal Bamboo House Saavedra Basdaku",
+        "uri": "https://maps.google.com/maps/contrib/113528735127635860893"
+      }
+    },
+    {
+      "path": "/photos/moalboal-bamboo-house-saavedra-basdaku/5.jpg",
+      "width": 3264,
+      "height": 1836,
+      "attribution": {
+        "displayName": "Moalboal Bamboo House Saavedra Basdaku",
+        "uri": "https://maps.google.com/maps/contrib/113528735127635860893"
+      }
+    }
+  ]
 }

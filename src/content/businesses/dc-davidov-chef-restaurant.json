@@ -92,5 +92,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/dc-davidov-chef-restaurant/1.jpg",
+      "width": 4000,
+      "height": 3000,
+      "attribution": {
+        "displayName": "PASTA BAR | БЛИНЫ",
+        "uri": "https://maps.google.com/maps/contrib/113119739064375308415"
+      }
+    },
+    {
+      "path": "/photos/dc-davidov-chef-restaurant/2.jpg",
+      "width": 1414,
+      "height": 2000,
+      "attribution": {
+        "displayName": "PASTA BAR | БЛИНЫ",
+        "uri": "https://maps.google.com/maps/contrib/113119739064375308415"
+      }
+    },
+    {
+      "path": "/photos/dc-davidov-chef-restaurant/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Annette Lacroix",
+        "uri": "https://maps.google.com/maps/contrib/115726048862039048399"
+      }
+    },
+    {
+      "path": "/photos/dc-davidov-chef-restaurant/4.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Olsen Rae Coronado",
+        "uri": "https://maps.google.com/maps/contrib/111025939032795504231"
+      }
+    },
+    {
+      "path": "/photos/dc-davidov-chef-restaurant/5.jpg",
+      "width": 1440,
+      "height": 1440,
+      "attribution": {
+        "displayName": "Vân Giang Nguyễn",
+        "uri": "https://maps.google.com/maps/contrib/115347117891881451766"
+      }
+    }
+  ]
 }

@@ -92,5 +92,52 @@
       "topTerms": []
     },
     "notice": "Google sample: up to five reviews ordered by relevance. Tripadvisor sample: up to five most recent reviews. Themes do not represent every review."
-  }
+  },
+  "photos": [
+    {
+      "path": "/photos/roos-guesthouse/1.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution": {
+        "displayName": "Roos Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/100279407721342028828"
+      }
+    },
+    {
+      "path": "/photos/roos-guesthouse/2.jpg",
+      "width": 4800,
+      "height": 3534,
+      "attribution": {
+        "displayName": "Roos Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/100279407721342028828"
+      }
+    },
+    {
+      "path": "/photos/roos-guesthouse/3.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution": {
+        "displayName": "Trystan Dafydd",
+        "uri": "https://maps.google.com/maps/contrib/107692309944137093714"
+      }
+    },
+    {
+      "path": "/photos/roos-guesthouse/4.jpg",
+      "width": 3536,
+      "height": 3952,
+      "attribution": {
+        "displayName": "Roos Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/100279407721342028828"
+      }
+    },
+    {
+      "path": "/photos/roos-guesthouse/5.jpg",
+      "width": 1080,
+      "height": 648,
+      "attribution": {
+        "displayName": "Roos Guesthouse",
+        "uri": "https://maps.google.com/maps/contrib/100279407721342028828"
+      }
+    }
+  ]
 }

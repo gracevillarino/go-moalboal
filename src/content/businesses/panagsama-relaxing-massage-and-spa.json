@@ -43,5 +43,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/panagsama-relaxing-massage-and-spa/1.jpg",
+      "width": 2992,
+      "height": 2992,
+      "attribution": {
+        "displayName": "Minwoo Nam",
+        "uri": "https://maps.google.com/maps/contrib/104607902362701518445"
+      }
+    },
+    {
+      "path": "/photos/panagsama-relaxing-massage-and-spa/2.jpg",
+      "width": 2448,
+      "height": 3264,
+      "attribution": {
+        "displayName": "Charlene Grace Rubin",
+        "uri": "https://maps.google.com/maps/contrib/116205006124935542016"
+      }
+    },
+    {
+      "path": "/photos/panagsama-relaxing-massage-and-spa/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "겨우르",
+        "uri": "https://maps.google.com/maps/contrib/112675673649665682296"
+      }
+    },
+    {
+      "path": "/photos/panagsama-relaxing-massage-and-spa/4.jpg",
+      "width": 3060,
+      "height": 4080,
+      "attribution": {
+        "displayName": "Joseph Indino",
+        "uri": "https://maps.google.com/maps/contrib/101241767709932220710"
+      }
+    },
+    {
+      "path": "/photos/panagsama-relaxing-massage-and-spa/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Gia Scott",
+        "uri": "https://maps.google.com/maps/contrib/115097655139143265523"
+      }
+    }
+  ]
 }

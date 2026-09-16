@@ -62,5 +62,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/asian-home-appliance-center-moalboal/1.jpg",
+      "width": 4032,
+      "height": 1908,
+      "attribution": {
+        "displayName": "Asian Home Appliance",
+        "uri": "https://maps.google.com/maps/contrib/115188709923558564505"
+      }
+    },
+    {
+      "path": "/photos/asian-home-appliance-center-moalboal/2.jpg",
+      "width": 3456,
+      "height": 4608,
+      "attribution": {
+        "displayName": "charity mae buaya",
+        "uri": "https://maps.google.com/maps/contrib/103812837686405265073"
+      }
+    },
+    {
+      "path": "/photos/asian-home-appliance-center-moalboal/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "matet Buenaventura",
+        "uri": "https://maps.google.com/maps/contrib/106836760403838676972"
+      }
+    },
+    {
+      "path": "/photos/asian-home-appliance-center-moalboal/4.jpg",
+      "width": 4800,
+      "height": 2701,
+      "attribution": {
+        "displayName": "Asian Home Appliance",
+        "uri": "https://maps.google.com/maps/contrib/115188709923558564505"
+      }
+    },
+    {
+      "path": "/photos/asian-home-appliance-center-moalboal/5.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Cara Mia",
+        "uri": "https://maps.google.com/maps/contrib/100500240591326489287"
+      }
+    }
+  ]
 }
