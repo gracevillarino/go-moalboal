@@ -89,8 +89,9 @@ export const iNaturalistUrl = (site: DiveSite) => {
     swlat: String(site.lat - radius),
     swlng: String(site.lng - radius),
     subview: 'map',
+    view: 'species',
   });
   return `https://www.inaturalist.org/observations?${params.toString()}`;
 };
 
-export const moalboalINaturalistUrl = 'https://www.inaturalist.org/observations?place_id=26245&subview=map';
+export const moalboalINaturalistUrl = 'https://www.inaturalist.org/observations?place_id=26245&subview=map&view=species';
