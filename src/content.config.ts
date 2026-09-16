@@ -66,7 +66,7 @@ const guides = defineCollection({
   schema: z.object({
     title: z.string(),
     summary: z.string(),
-    category: z.enum(['food', 'diving', 'beaches', 'day-trips', 'first-visit', 'snorkelling']),
+    category: z.enum(['food', 'diving', 'beaches', 'day-trips', 'first-visit', 'snorkelling', 'biodiversity']),
     barangay: barangay.optional(),
     relatedBusinesses: z.array(z.string()).default([]),
     readingMinutes: z.number().int().min(1),
