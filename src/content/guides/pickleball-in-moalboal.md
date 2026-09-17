@@ -3,6 +3,7 @@ title: Pickleball in Moalboal
 summary: Where to play, what a session costs and how a niche expat game turned into one of Cebu's fastest-growing courts scenes.
 category: recreation
 barangay: Basdiot
+relatedBusinesses: [beyond-island-resort, kenny-dink-moalboal, tropical-pickleball-moalboal]
 readingMinutes: 5
 reviewStatus: local-review-draft
 publishedAt: 2026-09-16

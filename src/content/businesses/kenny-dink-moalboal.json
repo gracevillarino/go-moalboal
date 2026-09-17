@@ -1,0 +1,46 @@
+{
+  "name": "Kenny Dink - Moalboal",
+  "slug": "kenny-dink-moalboal",
+  "summary": "Booked-court pickleball venue in Upper Tunga with an online scheduling system.",
+  "description": "Kenny Dink - Moalboal is a pickleball venue in Upper Tunga, Moalboal, run through an online court-booking portal rather than casual walk-in play.\n\nCheck the booking site directly for current court count, open session times and rates before planning a visit, since availability is managed entirely through the online schedule.",
+  "category": "recreation",
+  "categories": [
+    "recreation"
+  ],
+  "barangay": "Tunga",
+  "address": "Upper Tunga, Moalboal, 6032 Cebu",
+  "coordinates": null,
+  "phone": "",
+  "email": "",
+  "website": "https://kennydinkmoalboalcebu.com/",
+  "facebook": "",
+  "contactSources": [
+    "https://kennydinkmoalboalcebu.com/"
+  ],
+  "sources": [
+    {
+      "title": "Kenny Dink — Moalboal",
+      "publisher": "Kenny Dink",
+      "url": "https://kennydinkmoalboalcebu.com/"
+    },
+    {
+      "title": "Pages: Pickleball in Cebu",
+      "publisher": "SunStar Cebu",
+      "url": "https://www.sunstar.com.ph/cebu/pages-pickleball-in-cebu"
+    }
+  ],
+  "googleMapsUri": "",
+  "googlePlaceId": "",
+  "photos": [],
+  "rating": null,
+  "ratingCount": 0,
+  "tags": [
+    "pickleball",
+    "recreation",
+    "court-booking"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

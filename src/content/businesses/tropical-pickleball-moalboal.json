@@ -1,0 +1,46 @@
+{
+  "name": "Tropical Pickleball - Moalboal",
+  "slug": "tropical-pickleball-moalboal",
+  "summary": "Pickleball court on Tuble Road, listed on court-finder sites and active on Facebook and Instagram.",
+  "description": "Tropical Pickleball - Moalboal is a court on Tuble Road, promoted mainly through its Facebook and Instagram pages rather than a standalone website.\n\nCourt-finder listings for this venue are incomplete at the time of writing (surface, hours and fees are not confirmed), so check its social pages directly before visiting to play.",
+  "category": "recreation",
+  "categories": [
+    "recreation"
+  ],
+  "barangay": "Tuble",
+  "address": "Tuble Road, Moalboal, 6032 Cebu",
+  "coordinates": null,
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "https://www.facebook.com/p/Tropical-Pickleball-Moalboal-61552240372430/",
+  "contactSources": [
+    "https://www.facebook.com/p/Tropical-Pickleball-Moalboal-61552240372430/",
+    "https://www.pickleball-courts.net/ph/courts/cebu/moalboal/tropical-pickleball-moalboal"
+  ],
+  "sources": [
+    {
+      "title": "Tropical Pickleball Moalboal Pickleball Court",
+      "publisher": "Pickleball Courts Finder",
+      "url": "https://www.pickleball-courts.net/ph/courts/cebu/moalboal/tropical-pickleball-moalboal"
+    },
+    {
+      "title": "Pickleball Courts in the Visayas",
+      "publisher": "PickleMap.ph",
+      "url": "https://picklemap.ph/visayas/"
+    }
+  ],
+  "googleMapsUri": "",
+  "googlePlaceId": "",
+  "photos": [],
+  "rating": null,
+  "ratingCount": 0,
+  "tags": [
+    "pickleball",
+    "recreation"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Beyond Island Resort",
+  "slug": "beyond-island-resort",
+  "summary": "Small Basdiot inn with an infinity pool and Moalboal's first dedicated outdoor pickleball court.",
+  "description": "Beyond Island Resort is a small inn on Bantayan Road in Basdiot, a five-minute walk from Basdiot Beach, with an infinity pool, on-site restaurant and rooms with private balconies.\n\nIt is also known locally as the site of Cebu's first dedicated outdoor pickleball court, built by owner Massimo Corti. The hard court is open daily from around 9am to 9pm on a donation basis rather than a fixed fee. Confirm current availability and any changes to the arrangement directly with the resort before visiting to play.",
+  "category": "stay",
+  "categories": [
+    "stay",
+    "recreation"
+  ],
+  "barangay": "Basdiot",
+  "address": "Bantayan Road, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": null,
+  "phone": "",
+  "email": "",
+  "website": "https://beyond-island.cebuphilippineshotels.com/en/",
+  "facebook": "",
+  "contactSources": [
+    "https://beyond-island.cebuphilippineshotels.com/en/",
+    "https://www.pickleheads.com/courts/ph/gitnang-kabisayaan/moalboal/beyond-island-resort"
+  ],
+  "sources": [
+    {
+      "title": "Beyond Island Resort — Court Information",
+      "publisher": "Pickleheads",
+      "url": "https://www.pickleheads.com/courts/ph/gitnang-kabisayaan/moalboal/beyond-island-resort"
+    },
+    {
+      "title": "Pages: Pickleball in Cebu",
+      "publisher": "SunStar Cebu",
+      "url": "https://www.sunstar.com.ph/cebu/pages-pickleball-in-cebu"
+    },
+    {
+      "title": "Beyond Island Resort, Moalboal",
+      "publisher": "cebuphilippineshotels.com",
+      "url": "https://beyond-island.cebuphilippineshotels.com/en/"
+    }
+  ],
+  "googleMapsUri": "",
+  "googlePlaceId": "",
+  "photos": [],
+  "rating": null,
+  "ratingCount": 0,
+  "tags": [
+    "pickleball",
+    "recreation",
+    "stay",
+    "resort"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

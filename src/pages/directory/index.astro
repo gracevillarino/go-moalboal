@@ -8,7 +8,7 @@ const path = (value: string) => `${base}${value}`;
 
 const businesses = await getCollection('businesses', ({ data }) =>
   data.status === 'published' && data.rating !== null && data.rating >= 4 && data.ratingCount >= 20);
-const categories = ['all', 'eat', 'stay', 'dive', 'shop', 'transport', 'health', 'services'];
+const categories = ['all', 'eat', 'stay', 'dive', 'shop', 'transport', 'health', 'services', 'recreation'];
 const contentDate = (data: (typeof businesses)[number]['data']) =>
   new Date(data.aboutGeneratedAt ?? data.contactCheckedAt ?? 0).valueOf();
 const sortedBusinesses = businesses.map((entry) => ({ entry, geography: getPlaceGeography(entry.data) })).sort((a, b) =>
