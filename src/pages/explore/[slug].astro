@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryPhotoGallery from '../../components/StoryPhotoGallery.astro';
 
 export async function getStaticPaths() {
   const guides = await getCollection('guides', ({ data }) => data.status === 'published');
@@ -28,6 +29,7 @@ const relatedBusinesses = data.relatedBusinesses.length
       <p class="dek">{data.summary}</p>
       <div class="guide-meta"><span>{data.readingMinutes} min read</span><span>{label}</span><span>Updated {data.publishedAt.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}</span></div>
     </header>
+    <StoryPhotoGallery title={data.title} photos={data.photos} />
     <div class="guide-body"><Content /></div>
     {relatedBusinesses.length > 0 && (
       <section class="related-places" aria-labelledby="related-places-heading">

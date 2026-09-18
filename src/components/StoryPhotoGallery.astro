@@ -6,6 +6,7 @@ interface Photo {
   attribution: { displayName: string; uri: string };
   license: string;
   source: string;
+  note?: string;
 }
 interface Props { title: string; photos: Photo[] }
 
@@ -17,9 +18,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <div class="photo-grid">
     {photos.map((photo) => <figure>
       <a href={photo.source} rel="noreferrer" target="_blank">
-        <img src={`${base}${photo.path}`} alt={title} loading="lazy" width={photo.width} height={photo.height} />
+        <img src={`${base}${photo.path}`} alt={photo.note || title} loading="lazy" width={photo.width} height={photo.height} />
       </a>
       <figcaption>
+        {photo.note && <span class="photo-note">{photo.note}</span>}
         Photo: {photo.attribution.uri
           ? <a href={photo.attribution.uri} rel="noreferrer" target="_blank">{photo.attribution.displayName}</a>
           : photo.attribution.displayName} · {photo.license} via <a href={photo.source} rel="noreferrer" target="_blank">Wikimedia Commons</a>
@@ -35,4 +37,5 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .photo-grid img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 16px; }
   .photo-grid figcaption { margin-top: .4rem; font-size: .72rem; color: #657b76; }
   .photo-grid figcaption a { color: var(--sea); }
+  .photo-note { display: block; margin-bottom: .2rem; font-weight: 700; color: #47635d; }
 </style>

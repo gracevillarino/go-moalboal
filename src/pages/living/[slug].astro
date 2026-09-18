@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryPhotoGallery from '../../components/StoryPhotoGallery.astro';
 export async function getStaticPaths() {
   const articles = await getCollection('living', ({ data }) => data.status === 'published');
   return articles.map((article) => ({ params: { slug: article.id }, props: { article } }));
@@ -13,6 +14,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 <BaseLayout title={`${data.title} — Go Moalboal`} description={data.summary}>
   <article>
     <header class="article-hero"><a href={`${base}/living/`}>← Living here</a><p class="eyebrow">Practical guide</p><h1>{data.title}</h1><p class="dek">{data.summary}</p><div class="meta"><span>{data.readingMinutes} min read</span><span>{data.reviewStatus === 'locally-reviewed' ? 'Locally reviewed' : 'Local review draft'}</span><span>Checked {data.updatedAt.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}</span></div></header>
+    <StoryPhotoGallery title={data.title} photos={data.photos} />
     <div class="article-body"><Content /></div>
     <aside class="sources"><p class="eyebrow">Sources checked</p><ul>{data.sources.map((source) => <li><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a><span>{source.publisher}</span></li>)}</ul><p>Information here is general and may change. Confirm contracts, immigration, medical and financial decisions with the relevant professional or government office.</p></aside>
   </article>
