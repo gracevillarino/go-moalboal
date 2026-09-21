@@ -37,5 +37,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/bambusa-private-resort/1.jpg",
+      "width": 4800,
+      "height": 3194,
+      "attribution": {
+        "displayName": "Christine Schink",
+        "uri": "https://maps.google.com/maps/contrib/103995407591643869974"
+      }
+    },
+    {
+      "path": "/photos/bambusa-private-resort/2.jpg",
+      "width": 4800,
+      "height": 3556,
+      "attribution": {
+        "displayName": "Christine Schink",
+        "uri": "https://maps.google.com/maps/contrib/103995407591643869974"
+      }
+    },
+    {
+      "path": "/photos/bambusa-private-resort/3.jpg",
+      "width": 3024,
+      "height": 4032,
+      "attribution": {
+        "displayName": "Anhelina Kozinska",
+        "uri": "https://maps.google.com/maps/contrib/104943855067011999180"
+      }
+    },
+    {
+      "path": "/photos/bambusa-private-resort/4.jpg",
+      "width": 3000,
+      "height": 4000,
+      "attribution": {
+        "displayName": "Jan manok",
+        "uri": "https://maps.google.com/maps/contrib/107324073569497158383"
+      }
+    },
+    {
+      "path": "/photos/bambusa-private-resort/5.jpg",
+      "width": 3600,
+      "height": 4800,
+      "attribution": {
+        "displayName": "Jomus Sarria",
+        "uri": "https://maps.google.com/maps/contrib/105965057976887103397"
+      }
+    }
+  ]
 }

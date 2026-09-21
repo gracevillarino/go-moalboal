@@ -38,5 +38,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/moalboal-eco-lodge/1.jpg",
+      "width": 4608,
+      "height": 2592,
+      "attribution": {
+        "displayName": "Moalboal Eco Lodge",
+        "uri": "https://maps.google.com/maps/contrib/112829332974909392051"
+      }
+    },
+    {
+      "path": "/photos/moalboal-eco-lodge/2.jpg",
+      "width": 3072,
+      "height": 1728,
+      "attribution": {
+        "displayName": "Moalboal Eco Lodge",
+        "uri": "https://maps.google.com/maps/contrib/112829332974909392051"
+      }
+    },
+    {
+      "path": "/photos/moalboal-eco-lodge/3.jpg",
+      "width": 4608,
+      "height": 3456,
+      "attribution": {
+        "displayName": "D B",
+        "uri": "https://maps.google.com/maps/contrib/116113731180281585970"
+      }
+    },
+    {
+      "path": "/photos/moalboal-eco-lodge/4.jpg",
+      "width": 4160,
+      "height": 3120,
+      "attribution": {
+        "displayName": "Moalboal Eco Lodge",
+        "uri": "https://maps.google.com/maps/contrib/112829332974909392051"
+      }
+    },
+    {
+      "path": "/photos/moalboal-eco-lodge/5.jpg",
+      "width": 4160,
+      "height": 3120,
+      "attribution": {
+        "displayName": "Moalboal Eco Lodge",
+        "uri": "https://maps.google.com/maps/contrib/112829332974909392051"
+      }
+    }
+  ]
 }

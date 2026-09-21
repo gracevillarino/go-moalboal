@@ -37,5 +37,52 @@
   "featured": false,
   "verified": false,
   "status": "published",
-  "sample": false
+  "sample": false,
+  "photos": [
+    {
+      "path": "/photos/tongo-hill-cottages/1.jpg",
+      "width": 2000,
+      "height": 1333,
+      "attribution": {
+        "displayName": "Tongo Hill Cottages",
+        "uri": "https://maps.google.com/maps/contrib/107392994692299854463"
+      }
+    },
+    {
+      "path": "/photos/tongo-hill-cottages/2.jpg",
+      "width": 4800,
+      "height": 3199,
+      "attribution": {
+        "displayName": "Tongo Hill Cottages",
+        "uri": "https://maps.google.com/maps/contrib/107392994692299854463"
+      }
+    },
+    {
+      "path": "/photos/tongo-hill-cottages/3.jpg",
+      "width": 1024,
+      "height": 768,
+      "attribution": {
+        "displayName": "Tongo Hill Cottages",
+        "uri": "https://maps.google.com/maps/contrib/107392994692299854463"
+      }
+    },
+    {
+      "path": "/photos/tongo-hill-cottages/4.jpg",
+      "width": 4608,
+      "height": 3072,
+      "attribution": {
+        "displayName": "Tongo Hill Cottages",
+        "uri": "https://maps.google.com/maps/contrib/107392994692299854463"
+      }
+    },
+    {
+      "path": "/photos/tongo-hill-cottages/5.jpg",
+      "width": 826,
+      "height": 826,
+      "attribution": {
+        "displayName": "Tongo Hill Cottages",
+        "uri": "https://maps.google.com/maps/contrib/107392994692299854463"
+      }
+    }
+  ]
 }
