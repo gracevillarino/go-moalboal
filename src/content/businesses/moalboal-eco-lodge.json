@@ -1,0 +1,42 @@
+{
+  "name": "Moalboal Eco Lodge",
+  "slug": "moalboal-eco-lodge",
+  "summary": "Accommodation in Moalboal. Rated 4.8 from 58 Google reviews.",
+  "description": "Moalboal Eco Lodge is listed at Cocoland, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Moalboal",
+  "address": "Cocoland, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.953207,
+    "lng": 123.3752247
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "contactSources": [],
+  "sources": [
+    {
+      "title": "Moalboal Eco Lodge on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=15501678761310161589"
+    }
+  ],
+  "googleMapsUri": "https://maps.google.com/?cid=15501678761310161589",
+  "googlePlaceId": "ChIJy-wzRs3pqzMRtQoctrMGIdc",
+  "rating": 4.8,
+  "ratingCount": 58,
+  "tags": [
+    "stay",
+    "bed-and-breakfast",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Tongo Hill Cottages",
+  "slug": "tongo-hill-cottages",
+  "summary": "Accommodation in Basdiot. Rated 4.9 from 138 Google reviews.",
+  "description": "Tongo Hill Cottages is listed at Tongo Hill Cottages - Double Room with Private Bathroom, Basdiot, Moalboal, 6032 Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Basdiot",
+  "address": "Tongo Hill Cottages - Double Room with Private Bathroom, Basdiot, Moalboal, 6032 Cebu",
+  "coordinates": {
+    "lat": 9.9395604,
+    "lng": 123.379714
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "contactSources": [],
+  "sources": [
+    {
+      "title": "Tongo Hill Cottages on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=17975153167826842057"
+    }
+  ],
+  "googleMapsUri": "https://maps.google.com/?cid=17975153167826842057",
+  "googlePlaceId": "ChIJV5863ojpqzMRyXGO15GSdPk",
+  "rating": 4.9,
+  "ratingCount": 138,
+  "tags": [
+    "stay",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}

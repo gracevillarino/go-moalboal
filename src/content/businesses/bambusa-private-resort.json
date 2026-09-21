@@ -1,0 +1,41 @@
+{
+  "name": "Bambusa Private Resort",
+  "slug": "bambusa-private-resort",
+  "summary": "Accommodation in Moalboal. Rated 4.9 from 38 Google reviews.",
+  "description": "Bambusa Private Resort is listed at X98J+482, Moalboal, Cebu. This community-reviewed entry meets Go Moalboal’s publication threshold of at least 20 Google reviews and a 4.0 average rating. Follow the Google Maps link for current directions and place details.",
+  "category": "stay",
+  "categories": [
+    "stay"
+  ],
+  "barangay": "Moalboal",
+  "address": "X98J+482, Moalboal, Cebu",
+  "coordinates": {
+    "lat": 9.9652771,
+    "lng": 123.3810304
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "facebook": "",
+  "contactSources": [],
+  "sources": [
+    {
+      "title": "Bambusa Private Resort on Google Maps",
+      "publisher": "Google Maps",
+      "url": "https://maps.google.com/?cid=151844461540862136"
+    }
+  ],
+  "googleMapsUri": "https://maps.google.com/?cid=151844461540862136",
+  "googlePlaceId": "ChIJkQje-L_pqzMRuOhAt7t1GwI",
+  "rating": 4.9,
+  "ratingCount": 38,
+  "tags": [
+    "stay",
+    "hotel",
+    "lodging"
+  ],
+  "featured": false,
+  "verified": false,
+  "status": "published",
+  "sample": false
+}
