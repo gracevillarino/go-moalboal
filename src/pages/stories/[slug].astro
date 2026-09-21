@@ -23,7 +23,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <div><p>{data.summary}</p><span>{data.readingMinutes} minute read · {data.sources.length} sources</span></div>
       </div>
     </header>
-    <div class="research-note"><strong>Research draft</strong><span>This story needs local review. Sources support the factual frame; community memory should deepen it.</span></div>
+    <div class="research-note"><strong>Research draft</strong><span>We do our best to gather facts from publicly available sources. If you spot something inaccurate, please <a href={`${base}/contact`}>contact us</a> so we can fix it.</span></div>
     <StoryPhotoGallery title={data.title} photos={data.photos} />
     <div class="story-layout section">
       <div class="prose"><Content /></div>
